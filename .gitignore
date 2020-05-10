@@ -1,0 +1,7 @@
+__sapper__
+\.*\.swp
+\.*\.swo
+node_modules
+cypress
+cypress.json
+push.sh
