@@ -154,4 +154,4 @@ exporte le site en entier sous forme statique.
 
 ## Des sources
 
-Voilà pour les grandes lignes. Quelques détails ont été omis, alors les sources sont ici : TODO
+Voilà pour les grandes lignes. Quelques détails ont été omis, alors les sources sont [ici](https://github.com/kreako/kreako.fr).
