@@ -46,7 +46,7 @@
       <p class="my-2">
         En termes de coûts, beaucoup de fonctionnalités, c'est synonyme d'un coût de développement élevé,
         d'un coût de maintenance élevé et souvent d'un coût d'opérations élevé.
-        En termes de satisfaction de l'utilisateur, beaucoup de fonctionnalités,
+        Quant à la satisfaction de l'utilisateur, beaucoup de fonctionnalités,
         c'est potentiellement plus de problèmes.
         Et c'est encore un coût plus élevé en support utilisateur.
       </p>
