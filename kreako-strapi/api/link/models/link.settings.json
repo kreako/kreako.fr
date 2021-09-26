@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "links",
+  "info": {
+    "name": "link",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "tags": {
+      "via": "links",
+      "collection": "tag",
+      "dominant": true
+    },
+    "publish_on_social": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
