@@ -1,0 +1,4 @@
+kreako-strapi/.cache
+kreako-strapi/.tmp
+kreako-strapi/build
+kreako-strapi/node_modules
