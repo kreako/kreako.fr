@@ -1,6 +1,8 @@
-FROM strapi/base
+FROM node
 
 WORKDIR /srv/app
+
+RUN yarn global add strapi
 
 COPY ./package.json ./
 COPY ./yarn.lock ./
