@@ -2,19 +2,18 @@ FROM node
 
 WORKDIR /srv/app
 
-RUN yarn global add strapi
+RUN npm install --global strapi
 
 COPY ./package.json ./
-COPY ./yarn.lock ./
 
-RUN yarn install
+RUN npm install
 
 COPY . .
 
 ENV NODE_ENV production
 
-RUN yarn build
+RUN npm run build
 
 EXPOSE 1337
 
-CMD ["yarn", "start"]
+CMD ["npm", "run", "start"]
