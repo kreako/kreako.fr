@@ -1,8 +1,6 @@
-FROM node:14
+FROM strapi/base
 
 WORKDIR /srv/app
-
-RUN npm install --global strapi
 
 COPY ./package.json ./
 
