@@ -1,0 +1,5 @@
+- name: Build strapi image
+  containers.podman.podman_image:
+    name: kreako-strapi
+    path: "{{ kreako_co_dir }}/kreako-strapi"
+    force: yes
