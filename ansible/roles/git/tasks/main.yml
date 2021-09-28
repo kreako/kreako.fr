@@ -1,0 +1,4 @@
+- name: git checkout/pull
+  ansible.builtin.git:
+    repo: "https://github.com/kreako/kreako.fr"
+    dest: "{{ kreako_co_dir }}"
