@@ -1,0 +1,65 @@
+- name: Install vim editor
+  dnf:
+    name: vim-enhanced
+    state: latest
+  become: yes
+
+- name: Install python
+  dnf:
+    name: python39
+    state: latest
+  become: yes
+
+- name: Install gcc
+  dnf:
+    name: gcc
+    state: latest
+  become: yes
+
+- name: Install python devel
+  dnf:
+    name: python39-devel
+    state: latest
+  become: yes
+
+- name: Install postgresql client headers
+  dnf:
+    name: libpq-devel
+    state: latest
+  become: yes
+
+- name: Install lsof
+  dnf:
+    name: lsof
+    state: latest
+  become: yes
+
+- name: Install extra package repo
+  dnf:
+    name: epel-release
+    state: latest
+  become: yes
+
+- name: Install htop
+  dnf:
+    name: htop
+    state: latest
+  become: yes
+
+- name: Install git
+  dnf:
+    name: git
+    state: latest
+  become: yes
+
+- name: Install podman
+  dnf:
+    name: podman
+    state: latest
+  become: yes
+
+- name: Install firewalld
+  dnf:
+    name: firewalld
+    state: latest
+  become: yes
