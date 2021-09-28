@@ -1,0 +1,7 @@
+---
+- hosts: all
+  roles:
+    - config
+    - git
+    - strapi_image
+    - strapi

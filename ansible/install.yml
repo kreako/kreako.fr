@@ -1,0 +1,14 @@
+---
+- hosts: all
+  roles:
+    - config
+    - swap
+    - tools
+    - firewall
+    - git
+    - podman
+    - db
+    - strapi_image
+    - strapi
+    - nginx_install
+    - certbot_install
