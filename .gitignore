@@ -1,3 +1,4 @@
+ansible/inventory
 kreako-strapi/.cache
 kreako-strapi/.tmp
 kreako-strapi/build
