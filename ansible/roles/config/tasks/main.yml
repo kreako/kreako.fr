@@ -1,0 +1,11 @@
+- name: Create a checkout directory variable
+  set_fact:
+    kreako_co_dir: "{{ ansible_user_dir }}/kreako.fr"
+
+- name: Set a variable for logs directory
+  set_fact:
+    podman_logs_dir: "{{ ansible_user_dir }}/logs"
+
+- name: Set a variable for uploads directory
+  set_fact:
+    uploads_dir: "{{ ansible_user_dir }}/uploads"
