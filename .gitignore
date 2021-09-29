@@ -4,3 +4,5 @@ kreako-strapi/.tmp
 kreako-strapi/build
 kreako-strapi/node_modules
 kreako-strapi/.strapi-updater.json
+webhook/env
+webhook/src/__pycache__
