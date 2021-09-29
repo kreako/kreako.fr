@@ -4,6 +4,7 @@
     state: created
     ports:
       - 1337:1337 # strapi end point port
+      - 1338:1338 # webhook end point port
       - 5432:5432 # postgresql port
 
 - name: logs directory
