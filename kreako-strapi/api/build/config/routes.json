@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/build",
+      "handler": "build.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/build",
+      "handler": "build.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/build",
+      "handler": "build.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

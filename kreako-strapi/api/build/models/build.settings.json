@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "builds",
+  "info": {
+    "name": "build"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "trig": {
+      "type": "boolean"
+    }
+  }
+}
