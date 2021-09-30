@@ -1,0 +1,9 @@
+- name: Create a webhook worker container
+  containers.podman.podman_container:
+    name: kreako-webhook-worker
+    image: kreako-webhook-worker
+    restart_policy: always
+    pod: kreako
+    log_opt: path={{podman_logs_dir}}/webhook-worker.json max_size=100mb
+    state: started
+    restart: yes
