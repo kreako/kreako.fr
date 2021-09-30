@@ -1,0 +1,9 @@
+- name: Create a webhook container
+  containers.podman.podman_container:
+    name: kreako-webhook
+    image: kreako-webhook
+    restart_policy: always
+    pod: kreako
+    log_opt: path={{podman_logs_dir}}/webhook.json max_size=100mb
+    state: started
+    restart: yes
