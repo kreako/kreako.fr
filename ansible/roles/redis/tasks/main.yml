@@ -1,0 +1,8 @@
+- name: Create a redis container
+  containers.podman.podman_container:
+    name: kreako-redis
+    image: redis
+    restart_policy: always
+    pod: kreako
+    log_opt: path={{podman_logs_dir}}/redis.json max_size=100mb
+    state: started
