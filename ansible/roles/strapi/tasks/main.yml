@@ -24,3 +24,4 @@
       DATABASE_PASSWORD: "{{ postgres_password }}"
     log_opt: path={{podman_logs_dir}}/strapi.json max_size=100mb
     state: started
+    restart: yes
