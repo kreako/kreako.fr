@@ -6,6 +6,7 @@ COPY ./package.json ./
 
 RUN npm install
 
+RUN rm -rf api build config extensions public
 COPY . .
 
 ENV NODE_ENV production
