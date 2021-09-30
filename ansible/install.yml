@@ -10,5 +10,10 @@
     - db
     - strapi_image
     - strapi
+    - redis
+    - webhook_image
+    - webhook
+    - webhook_worker_image
+    - webhook_worker
     - nginx_install
     - certbot_install
