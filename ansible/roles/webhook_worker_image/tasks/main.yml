@@ -1,0 +1,7 @@
+- name: Build kreako webhook worker image
+  containers.podman.podman_image:
+    name: kreako-webhook-worker
+    path: "{{ kreako_co_dir }}/webhook"
+    force: yes
+    build:
+      extra_args: -f "{{ kreako_co_dir }}/webhook/Dockerfile.worker"
