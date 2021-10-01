@@ -1,3 +1,4 @@
+.*.swp
 ansible/inventory
 kreako-strapi/.cache
 kreako-strapi/.tmp
