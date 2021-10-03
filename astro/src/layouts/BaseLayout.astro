@@ -3,13 +3,37 @@ const {title} = Astro.props;
 ---
 <html>
   <head>
-    <title>KreaKo - {title}</title>
+    <title>kreako - {title}</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
     <link rel="stylesheet" type="text/css" href={Astro.resolve("../styles/global.css")}>
   </head>
   <body>
+    <header class="flex flex-row bg-purple-600 items-center space-x-6">
+      <div class="ml-2 my-2">
+        <a href="/">
+          <img src="/assets/avatar.png" class="rounded-full w-12 h-12 bg-white">
+        </a>
+      </div>
+      <div class="text-white uppercase tracking-wide text-xs font-semibold">
+        <a href="/freelance">
+          Freelance
+        </a>
+      </div>
+      <div class="text-white uppercase tracking-wide text-xs font-semibold">
+        <a href="/ressources">
+          Ressources
+        </a>
+      </div>
+      <div class="text-white uppercase tracking-wide text-xs font-semibold">
+        <a href="/contact" class="mr-2">
+          Contact
+        </a>
+      </div>
+    </header>
+
     <slot />
+
   </body>
 </html>
