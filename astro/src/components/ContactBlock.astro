@@ -1,0 +1,29 @@
+---
+import IconPhone from '../components/IconPhone.astro';
+import IconMail from '../components/IconMail.astro';
+---
+<div class="flex flex-col bg-purple-600 px-2 py-12">
+    <div class="uppercase tracking-wider font-bold text-white text-sm">Contact</div>
+    <div class="grid grid-cols-1 gap-y-2 mt-6">
+      <div>
+        <div class="flex items-center space-x-2">
+          <IconPhone/>
+          <p class="text-lg md:text-xl text-white">
+            <a class="font-bold text-teal-500" href="tel:+33698990069">
+              +33 6 98 99 00 69
+            </a>
+          </p>
+        </div>
+      </div>
+      <div>
+        <div class="flex items-center space-x-2">
+          <IconMail/>
+          <p class="text-lg md:text-xl text-white">
+            <a class="font-bold text-teal-500" href="mailto:olivier@kreako.fr">
+              olivier@kreako.fr
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
