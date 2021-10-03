@@ -2,9 +2,9 @@
 const {img, url, github, name} = Astro.props;
 import IconGithub from '../components/IconGithub.astro';
 ---
-<div class="grid grid-cols-1 mt-8 bg-purple-600 rounded-md p-2">
-  <a href="{url}">
-    <img src="{img}" class="object-cover rounded-md"/>
+<div class="grid grid-cols-1 items-center mt-8 bg-purple-600 rounded-md p-2">
+  <a href="{url}" class="grid justify-center">
+    <img src="{img}" class="object-cover rounded-md w-80"/>
   </a>
   <div class="flex flex-row space-x-4 items-center mt-4">
     <a href="{url}" class="font-bold text-white uppercase tracking-wide text-sm">
