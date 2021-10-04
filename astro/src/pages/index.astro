@@ -22,73 +22,75 @@ import ContactBlock from '../components/ContactBlock.astro';
   </section>
   <section class="flex flex-col px-2 py-6 mt-12">
     <div class="uppercase tracking-wider font-bold text-purple-600 text-sm">Projects</div>
-    <ProjectCard
-      img="/projects/soklaki.png"
-      url="https://soklaki.fr"
-      name="soklaki"
-      github="https://github.com/kreako/soklaki"
-    >
-      <div>
-        A SaaS for french schools to help them to comply with regulations. 
-      </div>
-      <div class="mt-4 text-sm">
-        <p>
-          Frontend with 
-          <span class="font-bold">
-            #vue
-          </span>
-          and
-          <span class="font-bold">
-            #tailwindcss
-          </span>
-        </p>
-        <p>
-          Backend with 
-          <span class="font-bold">
-            #rust
-          </span>
-          ,
-          <span class="font-bold">
-            #python
-          </span>
-          ,
-          <span class="font-bold">
-            #hasura
-          </span>
-          and
-          <span class="font-bold">
-            #postgresql 
-          </span>
-        </p>
-      </div>
-    </ProjectCard>
-    <ProjectCard
-      img="/projects/tailwind.png"
-      url="https://github.com/kreako/inkscape-gimp-tailwindcss-palette"
-      name="Tailwindcss palette"
-      github="https://github.com/kreako/inkscape-gimp-tailwindcss-palette"
-    >
-      <div>
-        Tailwindcss palette for inkscape or gimp. 
-      </div>
-      <div class="mt-4 text-sm">
-        <p>
-          <span class="font-bold">
-            #javascript
-          </span>
-        </p>
-      </div>
-    </ProjectCard>
-    <ProjectCard
-      img="/projects/music.png"
-      url="#"
-      name="Coming soon"
-      github="#"
-    >
-      <div>
-        Coming soon. 
-      </div>
-    </ProjectCard>
+    <div class="grid justify-between grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:max-w-screen-md lg:max-w-screen-xl">
+      <ProjectCard
+        img="/projects/soklaki.png"
+        url="https://soklaki.fr"
+        name="soklaki"
+        github="https://github.com/kreako/soklaki"
+      >
+        <div>
+          A SaaS for french schools to help them to comply with regulations. 
+        </div>
+        <div class="mt-4 text-sm">
+          <p>
+            Frontend with 
+            <span class="font-bold">
+              #vue
+            </span>
+            and
+            <span class="font-bold">
+              #tailwindcss
+            </span>
+          </p>
+          <p>
+            Backend with 
+            <span class="font-bold">
+              #rust
+            </span>
+            ,
+            <span class="font-bold">
+              #python
+            </span>
+            ,
+            <span class="font-bold">
+              #hasura
+            </span>
+            and
+            <span class="font-bold">
+              #postgresql 
+            </span>
+          </p>
+        </div>
+      </ProjectCard>
+      <ProjectCard
+        img="/projects/tailwind.png"
+        url="https://github.com/kreako/inkscape-gimp-tailwindcss-palette"
+        name="Tailwindcss palette"
+        github="https://github.com/kreako/inkscape-gimp-tailwindcss-palette"
+      >
+        <div>
+          Tailwindcss palette for inkscape or gimp. 
+        </div>
+        <div class="mt-4 text-sm">
+          <p>
+            <span class="font-bold">
+              #javascript
+            </span>
+          </p>
+        </div>
+      </ProjectCard>
+      <ProjectCard
+        img="/projects/music.png"
+        url="#"
+        name="Coming soon"
+        github="#"
+      >
+        <div>
+          Coming soon. 
+        </div>
+      </ProjectCard>
+    </div>
   </section>
   <section class="mt-12">
     <ContactBlock/>
