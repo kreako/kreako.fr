@@ -27,6 +27,10 @@
     "publish_on_social": {
       "type": "boolean",
       "default": false
+    },
+    "private": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
