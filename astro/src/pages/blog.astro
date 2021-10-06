@@ -23,17 +23,7 @@ const links = data[0];
 const notes = data[1];
 
 const contents = links.concat(notes)
-contents.sort((x, y) => {
-  const xDt = new Date(x.created_at)
-  const yDt = new Date(y.created_at)
-  if (xDt < yDt) {
-    return 1
-  }
-  if (xDt > yDt) {
-    return -1
-  }
-  return 0
-})
+contents.sort((x, y) => new Date(y.created_at) - new Date(x.created_at))
 const firsts = contents.slice(0, 5)
 for (const c of firsts) {
   const {content} = await renderMarkdown(c.description)
