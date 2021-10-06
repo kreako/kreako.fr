@@ -39,6 +39,8 @@ function DocumentIcon(props) {
 }
 
 export default function Ressource({ content }) {
+  const dt = new Date(content.created_at);
+  const dtStr = `${dt.getFullYear()}-${dt.getMonth() + 1}-${dt.getDate()}`;
   if ("url" in content) {
     return (
       <div>
@@ -46,8 +48,9 @@ export default function Ressource({ content }) {
           href={content.url}
           class="flex flex-row items-center space-x-4 text-purple-600 hover:text-purple-800"
         >
-          <div class="font-bold">{content.url}</div>
+          <div class="font-bold flex-grow-0">{content.url}</div>
           <LinkIcon />
+          <div class="text-right flex-grow text-xs">{dtStr}</div>
         </a>
         <div
           dangerouslySetInnerHTML={content.description_md}
@@ -60,8 +63,9 @@ export default function Ressource({ content }) {
     return (
       <div>
         <div class="flex flex-row items-center space-x-4 text-purple-600">
-          <div class="font-bold">{content.title}</div>
+          <div class="font-bold flex-grow-0">{content.title}</div>
           <DocumentIcon />
+          <div class="text-right flex-grow text-xs">{dtStr}</div>
         </div>
         <div dangerouslySetInnerHTML={content.description_md} class="prose" />
         <div class="my-8 w-full h-px bg-gradient-to-br from-purple-500 to-purple-600 " />
