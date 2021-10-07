@@ -32,6 +32,7 @@ for (const c of firsts) {
 const nextDt = new Date(contents[5].created_at)
 const nextYear = nextDt.getFullYear()
 const nextMonth = nextDt.getMonth() + 1
+const nextUrl = `/blog-${nextYear}-${nextMonth}`
 ---
 <BaseLayout title="Blog">
   <section class="px-2 mt-8 max-w-screen-md">
@@ -41,7 +42,11 @@ const nextMonth = nextDt.getMonth() + 1
       </div>
     ))}
   </section>
-  <section class="px-2 mt-8 max-w-screen-md">
-    {nextYear}-{nextMonth}
+  <section class="px-2 my-8 max-w-screen-md">
+    <div class="flex flex-row justify-center">
+      <a href={nextUrl} class="font-bold uppercase tracking-wider text-purple-600">
+        More
+      </a>
+    </div>
   </section>
 </BaseLayout>
