@@ -1,0 +1,87 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Ressource from '../components/Ressource.jsx'
+import { fetchContent, addMarkdown } from '../components/content.mjs'
+
+export async function getStaticPaths({rss}) {
+  const contents = await addMarkdown(await fetchContent())
+  let params = contents.map(x => {
+    const dt = new Date(x.created_at)
+    return {year: String(dt.getFullYear()), month: String(dt.getMonth() + 1).padStart(2, "0"), ressource: x}
+  })
+  // Filter duplicate values and groups ressources by year/month
+  const uniq = []
+  const previous = {year: null, month: null}
+  let p = null
+  for (const param of params) {
+    if (param.year !== previous.year || param.month !== previous.month) {
+      if (p != null) {
+        p.nextUrl = `/blog-${param.year}-${param.month}`
+        uniq.push(p)
+      }
+      const prevUrl = previous.year == null ? null : `/blog-${previous.year}-${previous.month}`
+      p = {year: param.year, month: param.month, ressources: [param.ressource], prevUrl : prevUrl, nextUrl: null}
+      previous.year = param.year
+      previous.month = param.month
+    } else {
+      p.ressources.push(param.ressource)
+    }
+  }
+  if (p != null) {
+    uniq.push(p)
+  }
+  console.log("uniq", uniq);
+  return uniq.map(x => {
+    return {
+      "params": {year: x.year, month: x.month},
+      props: {
+        ressources: x.ressources,
+        prevUrl: x.prevUrl,
+        nextUrl: x.nextUrl,
+      }
+    }
+  });
+}
+
+const {year, month} = Astro.request.params;
+const { ressources, prevUrl, nextUrl } = Astro.props;
+
+function Previous() {
+  let previous = <div></div>;
+  if (prevUrl != null) {
+    previous = (
+      <a href={prevUrl} class="font-bold uppercase tracking-wider text-purple-600">
+        Previous
+      </a>
+    )
+  }
+  return previous
+}
+
+function Next() {
+  let next = <div></div>;
+  if (nextUrl != null) {
+    next = (
+      <a href={nextUrl} class="font-bold uppercase tracking-wider text-purple-600">
+        Next
+      </a>
+    )
+  }
+  return next
+}
+---
+<BaseLayout title={`Blog ${year}-${month}`}>
+  <section class="px-2 mt-8 max-w-screen-md">
+    {ressources.map(c => (
+      <div class="">
+        <Ressource content={c}/>
+      </div>
+    ))}
+  </section>
+  <section class="px-2 my-8 max-w-screen-md">
+    <div class="flex flex-row justify-center space-x-4">
+      <Previous/>
+      <Next/>
+    </div>
+  </section>
+</BaseLayout>
