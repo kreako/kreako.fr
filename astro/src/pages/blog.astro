@@ -1,37 +1,15 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Ressource from '../components/Ressource.jsx'
-import { renderMarkdown } from "@astrojs/markdown-support";
+import { fetchContent, addMarkdown } from '../components/content.mjs'
 
+const contents = await fetchContent()
+const firsts = await addMarkdown(contents.slice(0, 5))
 
-const {SNOWPACK_PUBLIC_FASTAPI_URL} = __SNOWPACK_ENV__;
-
-const fetchLinks = async () => {
-  const response = await fetch(`${SNOWPACK_PUBLIC_FASTAPI_URL}/links?_sort=created_at:DESC&_limit=5`)
-  const links = await response.json()
-  return links
-}
-
-const fetchNotes = async () => {
-  const response = await fetch(`${SNOWPACK_PUBLIC_FASTAPI_URL}/notes?_sort=created_at:DESC&_limit=5`)
-  const links = await response.json()
-  return links
-}
-
-const data = await Promise.all([fetchLinks(), fetchNotes()]);
-const links = data[0];
-const notes = data[1];
-
-const contents = links.concat(notes)
-contents.sort((x, y) => new Date(y.created_at) - new Date(x.created_at))
-const firsts = contents.slice(0, 5)
-for (const c of firsts) {
-  const {content} = await renderMarkdown(c.description)
-  c.description_md = { __html : content }
-}
+// next url
 const nextDt = new Date(contents[5].created_at)
-const nextYear = nextDt.getFullYear()
-const nextMonth = nextDt.getMonth() + 1
+const nextYear = String(nextDt.getFullYear())
+const nextMonth = String(nextDt.getMonth() + 1).padStart(2, "0")
 const nextUrl = `/blog-${nextYear}-${nextMonth}`
 ---
 <BaseLayout title="Blog">
