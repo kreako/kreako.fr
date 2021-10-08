@@ -30,7 +30,6 @@ export async function getStaticPaths({rss}) {
   if (p != null) {
     uniq.push(p)
   }
-  console.log("uniq", uniq);
   return uniq.map(x => {
     return {
       "params": {year: x.year, month: x.month},
