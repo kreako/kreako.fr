@@ -16,11 +16,11 @@ export async function getStaticPaths({rss}) {
   for (const param of params) {
     if (param.year !== previous.year || param.month !== previous.month) {
       if (p != null) {
-        p.nextUrl = `/blog-${param.year}-${param.month}`
+        p.olderUrl = `/blog-${param.year}-${param.month}`
         uniq.push(p)
       }
-      const prevUrl = previous.year == null ? null : `/blog-${previous.year}-${previous.month}`
-      p = {year: param.year, month: param.month, ressources: [param.ressource], prevUrl : prevUrl, nextUrl: null}
+      const newerUrl = previous.year == null ? null : `/blog-${previous.year}-${previous.month}`
+      p = {year: param.year, month: param.month, ressources: [param.ressource], newerUrl : newerUrl, olderUrl: null}
       previous.year = param.year
       previous.month = param.month
     } else {
@@ -35,34 +35,33 @@ export async function getStaticPaths({rss}) {
       "params": {year: x.year, month: x.month},
       props: {
         ressources: x.ressources,
-        prevUrl: x.prevUrl,
-        nextUrl: x.nextUrl,
+        newerUrl: x.newerUrl,
+        olderUrl: x.olderUrl,
       }
     }
   });
 }
 
 const {year, month} = Astro.request.params;
-const { ressources, prevUrl, nextUrl } = Astro.props;
-
-function Previous() {
+const { ressources, newerUrl, olderUrl } = Astro.props;
+function Newer() {
   let previous = <div></div>;
-  if (prevUrl != null) {
+  if (newerUrl != null) {
     previous = (
-      <a href={prevUrl} class="font-bold uppercase tracking-wider text-purple-600">
-        Previous
+      <a href={newerUrl} class="font-bold uppercase tracking-wider text-purple-600">
+        Newer
       </a>
     )
   }
   return previous
 }
 
-function Next() {
+function Older() {
   let next = <div></div>;
-  if (nextUrl != null) {
+  if (olderUrl != null) {
     next = (
-      <a href={nextUrl} class="font-bold uppercase tracking-wider text-purple-600">
-        Next
+      <a href={olderUrl} class="font-bold uppercase tracking-wider text-purple-600">
+        Older
       </a>
     )
   }
@@ -79,8 +78,8 @@ function Next() {
   </section>
   <section class="px-2 my-8 max-w-screen-md">
     <div class="flex flex-row justify-center space-x-4">
-      <Previous/>
-      <Next/>
+      <Older/>
+      <Newer/>
     </div>
   </section>
 </BaseLayout>
