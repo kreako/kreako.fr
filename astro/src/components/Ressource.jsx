@@ -38,6 +38,15 @@ function DocumentIcon(props) {
   );
 }
 
+export function Tags({ content }) {
+  const tagsList = content.tags.map((tag) => <div>#{tag.title}</div>);
+  return (
+    <div class="flex flex-row space-x-2 justify-end text-sm text-purple-600">
+      {tagsList}
+    </div>
+  );
+}
+
 export default function Ressource({ content }) {
   const dt = new Date(content.created_at);
   const dtStr = `${dt.getFullYear()}-${dt.getMonth() + 1}-${dt.getDate()}`;
@@ -56,6 +65,7 @@ export default function Ressource({ content }) {
           dangerouslySetInnerHTML={content.description_md}
           class="prose mt-2"
         />
+        <Tags content={content} />
         <div class="my-8 w-full h-px bg-gradient-to-br from-purple-500 to-purple-600 " />
       </div>
     );
@@ -68,6 +78,7 @@ export default function Ressource({ content }) {
           <div class="text-right flex-grow text-xs">{dtStr}</div>
         </div>
         <div dangerouslySetInnerHTML={content.description_md} class="prose" />
+        <Tags content={content} />
         <div class="my-8 w-full h-px bg-gradient-to-br from-purple-500 to-purple-600 " />
       </div>
     );
