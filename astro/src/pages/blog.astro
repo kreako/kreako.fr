@@ -1,20 +1,23 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Ressource from '../components/Ressource.jsx'
-import { fetchContent, addMarkdown } from '../components/content.mjs'
+import { Contents } from '../components/content.mjs'
 
-const contents = await fetchContent()
-const firsts = await addMarkdown(contents.slice(0, 5))
+const contents = await Contents.fetch()
 
 // next url
-const nextDt = new Date(contents[5].created_at)
+const nextDt = contents.datas[5].dt_created_at
 const nextYear = String(nextDt.getFullYear())
 const nextMonth = String(nextDt.getMonth() + 1).padStart(2, "0")
 const nextUrl = `/blog-${nextYear}-${nextMonth}`
+
+// Trim to the first 5 entries
+contents.firsts(5)
+await contents.addMarkdownDescription()
 ---
 <BaseLayout title="Blog">
   <section class="px-2 mt-8 max-w-screen-md">
-    {firsts.map(c => (
+    {contents.datas.map(c => (
       <div class="">
         <Ressource content={c}/>
       </div>
