@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { Tags } from '../components/content.mjs'
+
+const tags = await Tags.fetch()
+---
+<BaseLayout title="Tags">
+  <section class="px-2 mt-8 max-w-screen-md">
+    {tags.datas.map(tag => (
+      <div class="mt-2">
+        <a
+          href={`/tag-${tag.slug}`}
+          class="flex flex-row items-center space-x-4 text-purple-600 hover:text-purple-800"
+        >
+          #{tag.data.title}
+        </a>
+      </div>
+    ))}
+  </section>
+</BaseLayout>
