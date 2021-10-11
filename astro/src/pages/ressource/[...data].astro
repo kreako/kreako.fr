@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Contents } from '../../components/content.mjs'
+import Ressource from '../../components/Ressource.jsx'
+
+export async function getStaticPaths() {
+  const contents = await Contents.fetch()
+  await contents.addMarkdownDescription()
+  return contents.datas.map(ressource => {
+    return {
+      params: {
+        data: ressource.url_data,
+      },
+      props: { ressource: ressource },
+    }
+  })
+}
+
+const { data } = Astro.request.params;
+const { ressource } = Astro.props;
+
+const title = ressource.isLink() ? ressource.data.url : ressource.data.title
+---
+<BaseLayout title={title}>
+  <section class="px-2 mt-8 max-w-screen-md">
+    <div class="">
+      <Ressource content={ressource}/>
+    </div>
+  </section>
+</BaseLayout>
