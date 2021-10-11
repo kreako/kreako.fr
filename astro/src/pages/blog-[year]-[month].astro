@@ -1,12 +1,14 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Ressource from '../components/Ressource.jsx'
-import { fetchContent, addMarkdown } from '../components/content.mjs'
+import { Contents } from '../components/content.mjs'
 
-export async function getStaticPaths({rss}) {
-  const contents = await addMarkdown(await fetchContent())
-  let params = contents.map(x => {
-    const dt = new Date(x.created_at)
+export async function getStaticPaths() {
+  const contents = await Contents.fetch()
+  await contents.addMarkdownDescription()
+
+  let params = contents.datas.map(x => {
+    const dt = x.dt_created_at
     return {year: String(dt.getFullYear()), month: String(dt.getMonth() + 1).padStart(2, "0"), ressource: x}
   })
   // Filter duplicate values and groups ressources by year/month
@@ -44,6 +46,7 @@ export async function getStaticPaths({rss}) {
 
 const {year, month} = Astro.request.params;
 const { ressources, newerUrl, olderUrl } = Astro.props;
+
 function Newer() {
   let previous = <div></div>;
   if (newerUrl != null) {
