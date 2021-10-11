@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { Tags, Contents } from '../components/content.mjs'
+import RessourceUrl from '../components/RessourceUrl.jsx'
+
+export async function getStaticPaths() {
+  const tags = await Tags.fetch()
+  return tags.datas.map(tag => {
+    return {
+      params: { slug: tag.slug },
+      props: { tag: tag },
+    }
+  })
+}
+
+const { slug } = Astro.request.params;
+const { tag } = Astro.props;
+---
+<BaseLayout title={`Tag ${tag.data.title}`}>
+  <section class="px-2 mt-8 max-w-screen-md">
+    {tag.contents.datas.map(c => (
+      <div class="">
+        <RessourceUrl content={c}/>
+      </div>
+    ))}
+  </section>
+  <section class="px-2 my-16 max-w-screen-md">
+    <div class="flex flex-row justify-center">
+      <a href="/tags" class="font-bold uppercase tracking-wider text-purple-600">All tags</a>
+    </div>
+  </section>
+</BaseLayout>
