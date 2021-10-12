@@ -104,6 +104,9 @@ export class Link extends Content {
   get url() {
     return `/ressource/${this.url_data}`;
   }
+  get title() {
+    return this.data.url;
+  }
 }
 
 export class Note extends Content {
@@ -119,6 +122,9 @@ export class Note extends Content {
   }
   get url() {
     return `/ressource/${this.url_data}`;
+  }
+  get title() {
+    return this.data.title;
   }
 }
 
