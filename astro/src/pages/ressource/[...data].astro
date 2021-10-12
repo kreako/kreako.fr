@@ -3,9 +3,24 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Contents } from '../../components/content.mjs'
 import Ressource from '../../components/Ressource.jsx'
 
-export async function getStaticPaths() {
+export async function getStaticPaths({rss}) {
   const contents = await Contents.fetch()
   await contents.addMarkdownDescription()
+
+  // rss generation
+  rss({
+    title: 'Kreako’s Blog',
+    description: 'Ressources, links and notes',
+    customData: `<language>en-us</language>`,
+    items: contents.datas.map(item => ({
+      title: item.title,
+      description: item.description,
+      link: item.url,
+      pubDate: item.dt_created_at,
+    })),
+    dest: "/rss.xml",
+  });
+
   return contents.datas.map(ressource => {
     return {
       params: {
@@ -18,10 +33,8 @@ export async function getStaticPaths() {
 
 const { data } = Astro.request.params;
 const { ressource } = Astro.props;
-
-const title = ressource.isLink() ? ressource.data.url : ressource.data.title
 ---
-<BaseLayout title={title}>
+<BaseLayout title={ressource.title}>
   <section class="px-2 mt-8 max-w-screen-md">
     <div class="">
       <Ressource content={ressource}/>
