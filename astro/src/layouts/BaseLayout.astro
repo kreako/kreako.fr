@@ -8,6 +8,8 @@ const {title} = Astro.props;
     <meta name="viewport" content="width=device-width">
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
     <link rel="stylesheet" type="text/css" href={Astro.resolve("../styles/global.css")}>
+    <link rel="sitemap" href="/sitemap.xml">
+    <link rel="alternate" type="application/rss+xml" href="/rss.xml">
   </head>
   <body>
     <header class="flex flex-row bg-gradient-to-br from-purple-500 to-purple-600 items-center space-x-6">
