@@ -6,7 +6,7 @@ from path import Path
 KREAKO_CO_DIR = Path("/kreako.fr")
 ASTRO_DIR = KREAKO_CO_DIR / "astro"
 ASTRO_DIST_DIR = ASTRO_DIR / "dist"
-NGINX_DIR = "/nginx"
+NGINX_DIR = Path("/nginx")
 
 
 def build(body):
