@@ -6,5 +6,7 @@ kreako-strapi/build
 kreako-strapi/node_modules
 kreako-strapi/public/uploads/
 kreako-strapi/.strapi-updater.json
+static-watcher/env
+static-watcher/.env
 webhook/env
 webhook/src/__pycache__
