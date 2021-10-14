@@ -16,8 +16,9 @@ class MyEventHandler(FileSystemEventHandler):
         p = Path(event.src_path)
         if p.name == "done":
             d = p.dirname()
-            print("Copy", d)
-            d.copytree(OUTPUT_DIR)
+            print("Move", d)
+            for f in d.listdir():
+                f.move(OUTPUT_DIR)
             d.rmtree(OUTPUT_DIR)
 
 
