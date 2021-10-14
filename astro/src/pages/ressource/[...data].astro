@@ -14,7 +14,7 @@ export async function getStaticPaths({rss}) {
     customData: `<language>en-us</language>`,
     items: contents.datas.map(item => ({
       title: item.title,
-      description: item.description,
+      description: item.data.description,
       link: item.url,
       pubDate: item.dt_created_at,
     })),
