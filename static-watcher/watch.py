@@ -14,7 +14,7 @@ OUTPUT_DIR = Path(os.getenv("OUTPUT_DIR", "/usr/share/nginx/html/root"))
 class MyEventHandler(FileSystemEventHandler):
     def on_closed(self, event):
         p = Path(event.src_path)
-        if p.basename == "done":
+        if p.name == "done":
             print("done !", p)
 
 
