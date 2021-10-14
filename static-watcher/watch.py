@@ -1,5 +1,5 @@
 import os
-from sh import mv, rm
+from sh import cp, rm
 from path import Path
 from dotenv import load_dotenv
 from watchdog.observers import Observer
@@ -18,7 +18,8 @@ class MyEventHandler(FileSystemEventHandler):
         if p.name == "done":
             d = p.dirname()
             print("Move", d)
-            mv(f"{d}/*", OUTPUT_DIR)
+            for f in d.listdir():
+                cp("-rf", f, OUTPUT_DIR)
             rm("-rf", d)
 
 
