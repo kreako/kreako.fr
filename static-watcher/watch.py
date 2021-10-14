@@ -15,7 +15,10 @@ class MyEventHandler(FileSystemEventHandler):
     def on_closed(self, event):
         p = Path(event.src_path)
         if p.name == "done":
-            print("done !", p)
+            d = p.dirname()
+            print("Copy", d)
+            d.copytree(OUTPUT_DIR)
+            d.rmtree(OUTPUT_DIR)
 
 
 def main():
