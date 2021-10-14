@@ -9,3 +9,7 @@
 - name: Set a variable for uploads directory
   set_fact:
     uploads_dir: "{{ ansible_user_dir }}/uploads"
+
+- name: Create a nginx directory variable to copy static files to
+  set_fact:
+    nginx_root_dir: "{{ ansible_user_dir }}/nginx"
