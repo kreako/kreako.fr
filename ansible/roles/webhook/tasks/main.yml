@@ -1,3 +1,9 @@
+- name: Remove webhook container
+  containers.podman.podman_container:
+    name: kreako-webhook
+    image: kreako-webhook
+    state: absent
+
 - name: Create a webhook container
   containers.podman.podman_container:
     name: kreako-webhook
