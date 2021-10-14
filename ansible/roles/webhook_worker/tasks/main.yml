@@ -1,3 +1,17 @@
+- name: kreako_co_dir directory permissions
+  ansible.builtin.file:
+    path: "{{ kreako_co_dir }}"
+    state: directory
+    mode: 0777
+  become: yes
+
+- name: nginx_root_dir directory permissions
+  ansible.builtin.file:
+    path: "{{ nginx_root_dir }}"
+    state: directory
+    mode: 0777
+  become: yes
+
 - name: Remove webhook worker container
   containers.podman.podman_container:
     name: kreako-webhook-worker
@@ -13,3 +27,6 @@
     log_opt: path={{podman_logs_dir}}/webhook-worker.json max_size=100mb
     state: started
     restart: yes
+    volume:
+      - "{{kreako_co_dir}}:/kreako.fr:z"
+      - "{{nginx_root_dir}}:/nginx:z"
