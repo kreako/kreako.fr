@@ -10,18 +10,20 @@ NGINX_DIR = Path("/nginx")
 
 
 def build(body):
-  # Remove The current dist folder
-  ASTRO_DIST_DIR.rmtree_p()
+    now = datetime.now().isoformat()
 
-  # Build
-  npm("run", "build", _cwd=ASTRO_DIR)
+    # Remove The current dist folder
+    ASTRO_DIST_DIR.rmtree_p()
 
-  # Create the output dir
-  output = NGINX_DIR / datetime.now().isoformat()
+    # Build
+    npm("run", "build", _cwd=ASTRO_DIR)
 
-  # Copy from dist to output
-  ASTRO_DIST_DIR.copytree(output)
+    # Create the output dir
+    output = NGINX_DIR / now
 
-  # Create the semaphore file to signal a complete build
-  with open(output / "done", "w") as f:
-    f.write("ok")
+    # Copy from dist to output
+    ASTRO_DIST_DIR.copytree(output)
+
+    # Create the semaphore file to signal a complete build
+    with open(output / "done", "w") as f:
+        f.write(now)
