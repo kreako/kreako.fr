@@ -1,0 +1,18 @@
+- name: Install static watcher unit file
+  ansible.builtin.copy:
+    src: "{{ role_path }}/files/static-watcher.service"
+    dest: /etc/systemd/system/
+    mode: 0644
+  become: yes
+
+- name: Just force systemd to reread configs
+  ansible.builtin.systemd:
+    daemon_reload: yes
+  become: yes
+
+- name: Enable and start static-watcher unit
+  ansible.builtin.systemd:
+    name: static-watcher
+    state: started
+    enabled: yes
+  become: yes

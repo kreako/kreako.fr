@@ -1,0 +1,13 @@
+[Unit]
+Description=Run static watcher service
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=noumir
+Group=noumir
+ExecStart=/home/noumir/kreako.fr/static-watcher/env/bin/python /home/noumir/kreako.fr/static-watcher/watch.py
+Restart=always
+
+[Install]
+WantedBy=default.target
