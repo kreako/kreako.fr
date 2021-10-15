@@ -64,7 +64,12 @@ export class Content {
 
   async addMarkdownDescription() {
     const { content } = await renderMarkdown(this.data.description);
-    this.data.description_md = { __html: content };
+    // I'm not sure why but astro replace '{' with this token ASTRO_ESCAPED_LEFT_CURLY_BRACKET
+    // Probably to use the astro parser { variable }
+    // So we need to replace it back
+    this.data.description_md = {
+      __html: content.replace(/ASTRO_ESCAPED_LEFT_CURLY_BRACKET\0/g, "{"),
+    };
   }
 
   get dt_str() {
