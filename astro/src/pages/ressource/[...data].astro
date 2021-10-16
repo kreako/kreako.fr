@@ -5,6 +5,7 @@ import Ressource from '../../components/Ressource.jsx'
 
 export async function getStaticPaths({rss}) {
   const contents = await Contents.fetch()
+  contents.filterPrivate()
   await contents.addMarkdownDescription()
 
   // rss generation

@@ -5,6 +5,7 @@ import { Contents } from '../components/content.mjs'
 
 export async function getStaticPaths() {
   const contents = await Contents.fetch()
+  contents.filterPrivate()
   await contents.addMarkdownDescription()
 
   let params = contents.datas.map(x => {

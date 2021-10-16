@@ -30,6 +30,10 @@ export class Contents {
   firsts(nb) {
     this.datas = this.datas.slice(0, nb);
   }
+
+  filterPrivate() {
+    this.datas = this.datas.filter((x) => x.data.private != true);
+  }
 }
 
 export class Links {

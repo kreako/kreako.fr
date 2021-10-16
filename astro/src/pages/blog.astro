@@ -4,6 +4,7 @@ import Ressource from '../components/Ressource.jsx'
 import { Contents } from '../components/content.mjs'
 
 const contents = await Contents.fetch()
+contents.filterPrivate()
 
 // next url
 const nextDt = contents.datas[5].dt_created_at
