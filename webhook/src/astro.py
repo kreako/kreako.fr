@@ -43,13 +43,9 @@ def build(body):
     # Copy from dist to output
     ASTRO_DIST_DIR.copytree(output)
 
-    # Create the semaphore file to signal a complete build
-    with open(output / "done", "w") as f:
-        f.write(now)
-
     # Generate data
     generate_data(KREAKO_DATA / "data.json")
 
-    # git commit and push
-    git("commit", "-m", "Update data", DATA_FNAME, _cwd=KREAKO_CO_DIR, _ok_code=(0, 1))
-    git("push", _cwd=KREAKO_CO_DIR)
+    # Create the semaphore file to signal a complete build
+    with open(output / "done", "w") as f:
+        f.write(now)
