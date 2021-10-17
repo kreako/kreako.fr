@@ -1,5 +1,5 @@
 import os
-from sh import cp, rm
+from sh import cp, rm, git
 from path import Path
 from dotenv import load_dotenv
 from watchdog.observers import Observer
@@ -10,17 +10,31 @@ load_dotenv()
 
 INPUT_DIR = Path(os.getenv("INPUT_DIR", "~/nginx")).expanduser()
 OUTPUT_DIR = Path(os.getenv("OUTPUT_DIR", "/usr/share/nginx/html/root"))
+KREAKO_CO_DIR = Path("~/kreako.fr").expanduser()
+KREAKO_DATA = KREAKO_CO_DIR / "data"
+DATA_FNAME = KREAKO_DATA / "data.json"
 
 
 class MyEventHandler(FileSystemEventHandler):
     def on_closed(self, event):
         p = Path(event.src_path)
         if p.name == "done":
+            # Copy build to nginx root
             d = p.dirname()
             print("Move", d)
             for f in d.listdir():
                 cp("-rf", f, OUTPUT_DIR)
             rm("-rf", d)
+            # git commit and push
+            git(
+                "commit",
+                "-m",
+                "Update data",
+                DATA_FNAME,
+                _cwd=KREAKO_CO_DIR,
+                _ok_code=(0, 1),
+            )
+            git("push", _cwd=KREAKO_CO_DIR)
 
 
 def main():
