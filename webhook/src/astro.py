@@ -25,7 +25,7 @@ def generate_data(fname):
     links = requests.get(endpoint("links")).json()
     tags = requests.get(endpoint("tags")).json()
     with open(fname, "w") as f:
-        json.dump(f, {"notes": notes, "links": links, "tags": tags})
+        json.dump({"notes": notes, "links": links, "tags": tags}, f)
 
 
 def build(body):
