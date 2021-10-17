@@ -51,5 +51,5 @@ def build(body):
     generate_data(KREAKO_DATA / "data.json")
 
     # git commit and push
-    git("commit", "-m", "Update data", DATA_FNAME, _cwd=KREAKO_CO_DIR)
-    git("push")
+    git("commit", "-m", "Update data", DATA_FNAME, _cwd=KREAKO_CO_DIR, _ok_code=(0, 1))
+    git("push", _cwd=KREAKO_CO_DIR)
