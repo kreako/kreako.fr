@@ -6,19 +6,33 @@ import { Contents } from '../components/content.mjs'
 const contents = await Contents.fetch()
 contents.filterPrivate()
 
-// next url
-const nextDt = contents.datas[5].dt_created_at
-const nextYear = String(nextDt.getFullYear())
-const nextMonth = String(nextDt.getMonth() + 1).padStart(2, "0")
-const nextUrl = `/blog-${nextYear}-${nextMonth}`
+const currentDt = contents.datas[0].dt_created_at
+const currentYear = currentDt.getFullYear()
+const currentMonth = currentDt.getMonth()
 
-// Trim to the first 5 entries
-contents.firsts(5)
-await contents.addMarkdownDescription()
+const currents = []
+let nextYear = null
+let nextMonth = null
+
+// Select only the current month entries
+for (const data of contents.datas) {
+  const dt = data.dt_created_at
+  if (dt.getFullYear() === currentYear && dt.getMonth() === currentMonth) {
+    await data.addMarkdownDescription()
+    currents.push(data)
+  } else {
+    nextYear = String(dt.getFullYear())
+    nextMonth = String(dt.getMonth() + 1).padStart(2, "0")
+    // next month so stop here
+    break
+  }
+}
+
+const nextUrl = `/blog-${nextYear}-${nextMonth}`
 ---
 <BaseLayout title="Blog">
   <section class="px-2 mt-8 max-w-screen-md">
-    {contents.datas.map(c => (
+    {currents.map(c => (
       <div class="">
         <Ressource content={c}/>
       </div>
@@ -27,7 +41,7 @@ await contents.addMarkdownDescription()
   <section class="px-2 my-8 max-w-screen-md">
     <div class="flex flex-row justify-center">
       <a href={nextUrl} class="font-bold uppercase tracking-wider text-purple-600">
-        More
+        Older
       </a>
     </div>
   </section>
