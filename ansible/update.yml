@@ -5,3 +5,8 @@
     - git
     - strapi_image
     - strapi
+    - webhook_image
+    - webhook
+    - webhook_worker_image
+    - webhook_worker
+    - static_watcher

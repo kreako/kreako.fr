@@ -15,5 +15,6 @@
     - webhook
     - webhook_worker_image
     - webhook_worker
+    - static_watcher
     - nginx_install
     - certbot_install
