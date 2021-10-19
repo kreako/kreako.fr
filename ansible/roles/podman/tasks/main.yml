@@ -7,6 +7,7 @@
       - 1338:1338 # webhook end point port
       - 6379:6379 # redis port
       - 5432:5432 # postgresql port
+      - 7700:7700 # meilisearch port
 
 - name: logs directory
   ansible.builtin.file:
