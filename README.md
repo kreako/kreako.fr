@@ -35,6 +35,12 @@ cd src
 rq worker --with-scheduler
 ```
 
+Meilisearch :
+
+```
+podman run -it --rm -p 7700:7700 -v ./meilisearch/:/data.ms:z --name kreako-meilisearch getmeili/meilisearch
+```
+
 Strapi :
 
 ```
