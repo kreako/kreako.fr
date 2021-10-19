@@ -1,5 +1,5 @@
 from datetime import datetime
-from sh import npm, git
+import sh
 from path import Path
 import requests
 import json
@@ -35,7 +35,7 @@ def build(body):
     ASTRO_DIST_DIR.rmtree_p()
 
     # Build
-    npm("run", "build", _cwd=ASTRO_DIR)
+    sh.npm("run", "build", _cwd=ASTRO_DIR)
 
     # Create the output dir
     output = NGINX_DIR / now
