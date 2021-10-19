@@ -10,6 +10,10 @@
   set_fact:
     uploads_dir: "{{ ansible_user_dir }}/uploads"
 
-- name: Create a nginx directory variable to copy static files to
+- name: Set a nginx directory variable to copy static files to
   set_fact:
     nginx_root_dir: "{{ ansible_user_dir }}/nginx"
+
+- name: Set a variable for meilisearch directory storage
+  set_fact:
+    meilisearch_dir: "{{ ansible_user_dir }}/meilisearch"
