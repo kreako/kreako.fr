@@ -8,6 +8,8 @@ User=noumir
 Group=noumir
 ExecStart=/home/noumir/kreako.fr/static-watcher/env/bin/python /home/noumir/kreako.fr/static-watcher/watch.py
 Restart=always
+StandardOutput=syslog+console
+StandardError=syslog+console
 
 [Install]
 WantedBy=default.target
