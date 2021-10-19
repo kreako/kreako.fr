@@ -1,0 +1,29 @@
+- name: meilisearch directory permissions
+  ansible.builtin.file:
+    path: "{{ meilisearch_dir }}"
+    state: directory
+    mode: 0777
+    owner: "{{ ansible_user }}"
+  become: yes
+
+- name: Remove meilisearch container
+  containers.podman.podman_container:
+    name: kreako-meilisearch
+    image: getmeili/meilisearch
+    state: absent
+
+- name: Create a meilisearch container
+  containers.podman.podman_container:
+    name: kreako-meilisearch
+    image: getmeili/meilisearch
+    restart_policy: always
+    pod: kreako
+    volume:
+      - "{{meilisearch_dir}}/:/data.ms:z"
+    env:
+      MEILI_NO_ANALYTICS: true
+      MEILI_MASTER_KEY: "{{ meili_master_key }}"
+      MEILI_ENV: production
+    log_opt: path={{podman_logs_dir}}/meilisearch.json max_size=100mb
+    state: started
+    restart: yes
