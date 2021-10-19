@@ -5,12 +5,17 @@
     mode: 0777
   become: yes
 
+- name: Remove strapi container
+  containers.podman.podman_container:
+    name: kreako-strapi
+    image: kreako-strapi
+    state: absent
+
 - name: Create a strapi container
   containers.podman.podman_container:
     name: kreako-strapi
     image: kreako-strapi
     restart_policy: always
-    force_restart: yes
     pod: kreako
     volume:
       - "{{uploads_dir}}:/srv/app/public/uploads:z"
@@ -24,4 +29,3 @@
       DATABASE_PASSWORD: "{{ postgres_password }}"
     log_opt: path={{podman_logs_dir}}/strapi.json max_size=100mb
     state: started
-    restart: yes
