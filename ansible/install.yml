@@ -10,6 +10,7 @@
     - db
     - strapi_image
     - strapi
+    - meilisearch
     - redis
     - webhook_image
     - webhook
