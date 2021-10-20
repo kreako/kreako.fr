@@ -6,6 +6,7 @@ kreako-strapi/build
 kreako-strapi/node_modules
 kreako-strapi/public/uploads/
 kreako-strapi/.strapi-updater.json
+/meilisearch/
 static-watcher/env
 static-watcher/.env
 webhook/env
