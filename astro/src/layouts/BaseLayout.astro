@@ -13,14 +13,9 @@ const {title} = Astro.props;
   </head>
   <body>
     <header class="flex flex-row bg-gradient-to-br from-purple-500 to-purple-600 items-center space-x-6">
-      <div class="ml-2 my-2">
+      <div class="ml-2 my-2 flex-none">
         <a href="/">
           <img src="/assets/avatar.png" class="rounded-full w-12 h-12 bg-white">
-        </a>
-      </div>
-      <div class="text-white uppercase tracking-wide text-xs font-semibold">
-        <a href="/freelance">
-          Freelance
         </a>
       </div>
       <div class="text-white uppercase tracking-wide text-xs font-semibold">
@@ -29,8 +24,18 @@ const {title} = Astro.props;
         </a>
       </div>
       <div class="text-white uppercase tracking-wide text-xs font-semibold">
-        <a href="/contact" class="mr-2">
+        <a href="/contact">
           Contact
+        </a>
+      </div>
+      <div>
+        <a href="/search">
+          <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+            class="text-gray-200 hover:text-white transition-colors duration-150">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z">
+            </path>
+          </svg>
         </a>
       </div>
     </header>
