@@ -26,7 +26,8 @@
     pod: kreako
     log_opt: path={{podman_logs_dir}}/webhook-worker.json max_size=100mb
     state: started
-    restart: yes
+    env:
+      MEILI_PRIVATE_KEY: "{{ meili_private_key }}"
     volume:
       - "{{kreako_co_dir}}:/kreako.fr:z"
       - "{{nginx_root_dir}}:/nginx:z"
