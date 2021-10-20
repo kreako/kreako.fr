@@ -37,7 +37,7 @@ def get_data():
 
 def generate_data(data, fname):
     with open(fname, "w") as f:
-        json.dump(data, f)
+        json.dump(data, f, indent=2)
 
 
 def index_data(data):
