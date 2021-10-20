@@ -1,4 +1,5 @@
 from datetime import datetime
+import os
 import sh
 from path import Path
 import requests
