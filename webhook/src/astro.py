@@ -44,8 +44,10 @@ def index_data(data):
     client = meilisearch.Client("http://127.0.0.1:7700", apiKey=MEILI_PRIVATE_KEY)
     index = client.index("ressource")
     for note in data["notes"]:
+        note["id"] = f"note-{note['id']}"
         note["kind"] = "note"
     for link in data["links"]:
+        link["id"] = f"link-{link['id']}"
         link["kind"] = "link"
     index.add_documents(data["notes"])
     index.add_documents(data["links"])
