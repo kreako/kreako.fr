@@ -866,6 +866,33 @@
       "kind": "link"
     },
     {
+      "id": "link-30",
+      "url": "https://github.com/vizzuhq/vizzu-lib",
+      "description": "Vizzu - Library for animated data visualizations and data stories.\n\nVizzu is a free, open-source Javascript/C++ library utilizing a generic dataviz engine that generates many types of charts and seamlessly animates between them. It can be used to create static charts but more importantly it is designed for building animated data stories and interactive explorers as Vizzu enables showing different perspectives of the data that the viewers can easily follow due to the animation.\n\nMain features:\n\n- Designed with animation in focus;\n- Defaults based on data visualization guidelines;\n- Automatic data aggregation & data filtering;\n- HTML5 canvas rendering;\n- Written in C++ compiled to WebAssembly;\n- Dependency-free.\n",
+      "publish_on_social": false,
+      "published_at": "2021-10-21T18:40:08.509Z",
+      "created_at": "2021-10-21T18:39:06.991Z",
+      "updated_at": "2021-10-21T18:40:08.530Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 1,
+          "title": "javascript",
+          "published_at": "2021-09-29T21:01:51.147Z",
+          "created_at": "2021-09-29T21:01:48.486Z",
+          "updated_at": "2021-09-29T21:01:51.167Z"
+        }
+      ],
+      "kind": "link"
+    },
+    {
       "id": "link-28",
       "url": "https://github.com/codenotary/immudb",
       "description": "immudb - world\u2019s fastest immutable database, built on a zero trust model\n\nimmudb is a database with built-in cryptographic proof and verification. It tracks changes in sensitive data and the integrity of the history will be protected by the clients, without the need to trust the server. It can operate as a key-value store or as relational database (SQL).\n\nTraditional database transactions and logs are hard to scale and are mutable, so there is no way to know for sure if your data has been compromised. immudb is immutable. You can add new versions of existing records, but never change or delete records. This lets you store critical data without fear of it being tampered.\n\nData stored in immudb is cryptographically coherent and verifiable, just like with blockchains, but without all the complexity. Unlike blockchains, immudb can handle millions of transactions per second, and can be used both as a lightweight service or embedded in your application as a library. immudb runs everywhere, on an IoT device, your notebook, a server, on-premise or in the cloud.\n\nimmudb is already used by hundreds of projects to store tamper-proof data and to keep the data change history immutable. immudb can be used as a key-value store or relational data structure and supports both transactions and blobs, so there are no limits to the use cases.\n\nCompanies use immudb to secure and tamper-evident log data, sensor data, sensitive data, transactions, software build recipes, rule-base data, even artifacts or even video streams.",
@@ -1019,6 +1046,16 @@
           "published_at": "2021-10-13T11:04:39.587Z",
           "created_at": "2021-10-13T11:04:37.111Z",
           "updated_at": "2021-10-13T11:04:39.615Z",
+          "private": false
+        },
+        {
+          "id": 30,
+          "url": "https://github.com/vizzuhq/vizzu-lib",
+          "description": "Vizzu - Library for animated data visualizations and data stories.\n\nVizzu is a free, open-source Javascript/C++ library utilizing a generic dataviz engine that generates many types of charts and seamlessly animates between them. It can be used to create static charts but more importantly it is designed for building animated data stories and interactive explorers as Vizzu enables showing different perspectives of the data that the viewers can easily follow due to the animation.\n\nMain features:\n\n- Designed with animation in focus;\n- Defaults based on data visualization guidelines;\n- Automatic data aggregation & data filtering;\n- HTML5 canvas rendering;\n- Written in C++ compiled to WebAssembly;\n- Dependency-free.\n",
+          "publish_on_social": false,
+          "published_at": "2021-10-21T18:40:08.509Z",
+          "created_at": "2021-10-21T18:39:06.991Z",
+          "updated_at": "2021-10-21T18:40:08.530Z",
           "private": false
         },
         {
@@ -1422,6 +1459,16 @@
           "created_at": "2021-10-03T21:32:51.476Z",
           "updated_at": "2021-10-03T21:32:57.018Z",
           "private": null
+        },
+        {
+          "id": 30,
+          "url": "https://github.com/vizzuhq/vizzu-lib",
+          "description": "Vizzu - Library for animated data visualizations and data stories.\n\nVizzu is a free, open-source Javascript/C++ library utilizing a generic dataviz engine that generates many types of charts and seamlessly animates between them. It can be used to create static charts but more importantly it is designed for building animated data stories and interactive explorers as Vizzu enables showing different perspectives of the data that the viewers can easily follow due to the animation.\n\nMain features:\n\n- Designed with animation in focus;\n- Defaults based on data visualization guidelines;\n- Automatic data aggregation & data filtering;\n- HTML5 canvas rendering;\n- Written in C++ compiled to WebAssembly;\n- Dependency-free.\n",
+          "publish_on_social": false,
+          "published_at": "2021-10-21T18:40:08.509Z",
+          "created_at": "2021-10-21T18:39:06.991Z",
+          "updated_at": "2021-10-21T18:40:08.530Z",
+          "private": false
         },
         {
           "id": 5,
