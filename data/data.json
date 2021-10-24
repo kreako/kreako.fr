@@ -11,11 +11,11 @@
       "private": null,
       "tags": [
         {
-          "id": 1,
-          "title": "javascript",
-          "published_at": "2021-09-29T21:01:51.147Z",
-          "created_at": "2021-09-29T21:01:48.486Z",
-          "updated_at": "2021-09-29T21:01:51.167Z"
+          "id": 8,
+          "title": "react",
+          "published_at": "2021-10-02T10:15:01.395Z",
+          "created_at": "2021-10-02T10:14:59.290Z",
+          "updated_at": "2021-10-02T10:15:01.410Z"
         },
         {
           "id": 7,
@@ -25,11 +25,11 @@
           "updated_at": "2021-10-02T09:53:27.345Z"
         },
         {
-          "id": 8,
-          "title": "react",
-          "published_at": "2021-10-02T10:15:01.395Z",
-          "created_at": "2021-10-02T10:14:59.290Z",
-          "updated_at": "2021-10-02T10:15:01.410Z"
+          "id": 1,
+          "title": "javascript",
+          "published_at": "2021-09-29T21:01:51.147Z",
+          "created_at": "2021-09-29T21:01:48.486Z",
+          "updated_at": "2021-09-29T21:01:51.167Z"
         }
       ],
       "kind": "note"
@@ -75,6 +75,40 @@
       "kind": "note"
     },
     {
+      "id": "note-6",
+      "title": "Fidgeting - self-evidencing",
+      "description": "Fidgeting thus conforms with a form of self-evidencing, and helps the agent confirm its own existence in situations where evidence for its self-model might be waning.\n\nLa bougeotte serait une fa\u00e7on de prouver son existence \u00e0 soi-m\u00eame et aide la personne \u00e0 confirmer sa propre pr\u00e9sence lorsqu'il ou elle est dans une situation o\u00f9 on image de soi est diminu\u00e9e.",
+      "publish_on_social": false,
+      "published_at": "2021-10-24T10:14:26.347Z",
+      "created_at": "2021-10-24T10:14:04.233Z",
+      "updated_at": "2021-10-24T10:14:26.369Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 14,
+          "title": "life",
+          "published_at": "2021-10-24T10:14:13.859Z",
+          "created_at": "2021-10-24T10:14:11.951Z",
+          "updated_at": "2021-10-24T10:14:13.921Z"
+        },
+        {
+          "id": 3,
+          "title": "fran\u00e7ais",
+          "published_at": "2021-09-29T21:20:34.168Z",
+          "created_at": "2021-09-29T21:20:31.920Z",
+          "updated_at": "2021-09-29T21:20:34.198Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "note"
+    },
+    {
       "id": "note-5",
       "title": "Options for Password Revealing Inputs",
       "description": "```javascript\nconst input = document.querySelector(\".password-input\");\n\n// When an input is checked, or whatever...\nif (input.getAttribute(\"type\") === \"password\") {\n  input.setAttribute(\"type\", \"text\");\n} else {\n  input.setAttribute(\"type\", \"password\");\n}\n```",
@@ -85,18 +119,18 @@
       "private": false,
       "tags": [
         {
-          "id": 1,
-          "title": "javascript",
-          "published_at": "2021-09-29T21:01:51.147Z",
-          "created_at": "2021-09-29T21:01:48.486Z",
-          "updated_at": "2021-09-29T21:01:51.167Z"
-        },
-        {
           "id": 5,
           "title": "english",
           "published_at": "2021-09-29T21:22:59.595Z",
           "created_at": "2021-09-29T21:22:41.440Z",
           "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 1,
+          "title": "javascript",
+          "published_at": "2021-09-29T21:01:51.147Z",
+          "created_at": "2021-09-29T21:01:48.486Z",
+          "updated_at": "2021-09-29T21:01:51.167Z"
         }
       ],
       "kind": "note"
@@ -1320,6 +1354,16 @@
       ],
       "notes": [
         {
+          "id": 6,
+          "title": "Fidgeting - self-evidencing",
+          "description": "Fidgeting thus conforms with a form of self-evidencing, and helps the agent confirm its own existence in situations where evidence for its self-model might be waning.\n\nLa bougeotte serait une fa\u00e7on de prouver son existence \u00e0 soi-m\u00eame et aide la personne \u00e0 confirmer sa propre pr\u00e9sence lorsqu'il ou elle est dans une situation o\u00f9 on image de soi est diminu\u00e9e.",
+          "publish_on_social": false,
+          "published_at": "2021-10-24T10:14:26.347Z",
+          "created_at": "2021-10-24T10:14:04.233Z",
+          "updated_at": "2021-10-24T10:14:26.369Z",
+          "private": false
+        },
+        {
           "id": 1,
           "title": "Num\u00e9ros de t\u00e9l\u00e9phone pour le cin\u00e9ma",
           "description": "tous les numeros d\u00e9butants par :\n- 01 99 00\n- 02 61 91\n- 03 53 01\n- 04 65 71\n- 05 36 49\n- 06 39 98\nN'appartiennent \u00e0 personne et sont juste r\u00e9serv\u00e9s exclusivement \u00e0 l'utilisation dans les \u0153uvres audiovisuelle",
@@ -1719,6 +1763,16 @@
           "created_at": "2021-10-04T15:00:13.490Z",
           "updated_at": "2021-10-15T12:32:35.779Z",
           "private": null
+        },
+        {
+          "id": 6,
+          "title": "Fidgeting - self-evidencing",
+          "description": "Fidgeting thus conforms with a form of self-evidencing, and helps the agent confirm its own existence in situations where evidence for its self-model might be waning.\n\nLa bougeotte serait une fa\u00e7on de prouver son existence \u00e0 soi-m\u00eame et aide la personne \u00e0 confirmer sa propre pr\u00e9sence lorsqu'il ou elle est dans une situation o\u00f9 on image de soi est diminu\u00e9e.",
+          "publish_on_social": false,
+          "published_at": "2021-10-24T10:14:26.347Z",
+          "created_at": "2021-10-24T10:14:04.233Z",
+          "updated_at": "2021-10-24T10:14:26.369Z",
+          "private": false
         }
       ]
     },
@@ -1961,7 +2015,18 @@
       "created_at": "2021-10-24T10:14:11.951Z",
       "updated_at": "2021-10-24T10:14:13.921Z",
       "links": [],
-      "notes": []
+      "notes": [
+        {
+          "id": 6,
+          "title": "Fidgeting - self-evidencing",
+          "description": "Fidgeting thus conforms with a form of self-evidencing, and helps the agent confirm its own existence in situations where evidence for its self-model might be waning.\n\nLa bougeotte serait une fa\u00e7on de prouver son existence \u00e0 soi-m\u00eame et aide la personne \u00e0 confirmer sa propre pr\u00e9sence lorsqu'il ou elle est dans une situation o\u00f9 on image de soi est diminu\u00e9e.",
+          "publish_on_social": false,
+          "published_at": "2021-10-24T10:14:26.347Z",
+          "created_at": "2021-10-24T10:14:04.233Z",
+          "updated_at": "2021-10-24T10:14:26.369Z",
+          "private": false
+        }
+      ]
     }
   ]
 }
