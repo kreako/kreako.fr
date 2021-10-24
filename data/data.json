@@ -77,11 +77,11 @@
     {
       "id": "note-6",
       "title": "Fidgeting - self-evidencing",
-      "description": "Fidgeting thus conforms with a form of self-evidencing, and helps the agent confirm its own existence in situations where evidence for its self-model might be waning.\n\nLa bougeotte serait une fa\u00e7on de prouver son existence \u00e0 soi-m\u00eame et aide la personne \u00e0 confirmer sa propre pr\u00e9sence lorsqu'il ou elle est dans une situation o\u00f9 on image de soi est diminu\u00e9e.",
+      "description": "Fidgeting thus conforms with a form of self-evidencing, and helps the agent confirm its own existence in situations where evidence for its self-model might be waning.\n\nLa bougeotte serait une fa\u00e7on de prouver son existence \u00e0 soi-m\u00eame et aide la personne \u00e0 confirmer sa propre pr\u00e9sence lorsqu'il ou elle est dans une situation o\u00f9 son image de soi est diminu\u00e9e.",
       "publish_on_social": false,
       "published_at": "2021-10-24T10:14:26.347Z",
       "created_at": "2021-10-24T10:14:04.233Z",
-      "updated_at": "2021-10-24T10:14:26.369Z",
+      "updated_at": "2021-10-24T10:14:45.426Z",
       "private": false,
       "tags": [
         {
@@ -1356,11 +1356,11 @@
         {
           "id": 6,
           "title": "Fidgeting - self-evidencing",
-          "description": "Fidgeting thus conforms with a form of self-evidencing, and helps the agent confirm its own existence in situations where evidence for its self-model might be waning.\n\nLa bougeotte serait une fa\u00e7on de prouver son existence \u00e0 soi-m\u00eame et aide la personne \u00e0 confirmer sa propre pr\u00e9sence lorsqu'il ou elle est dans une situation o\u00f9 on image de soi est diminu\u00e9e.",
+          "description": "Fidgeting thus conforms with a form of self-evidencing, and helps the agent confirm its own existence in situations where evidence for its self-model might be waning.\n\nLa bougeotte serait une fa\u00e7on de prouver son existence \u00e0 soi-m\u00eame et aide la personne \u00e0 confirmer sa propre pr\u00e9sence lorsqu'il ou elle est dans une situation o\u00f9 son image de soi est diminu\u00e9e.",
           "publish_on_social": false,
           "published_at": "2021-10-24T10:14:26.347Z",
           "created_at": "2021-10-24T10:14:04.233Z",
-          "updated_at": "2021-10-24T10:14:26.369Z",
+          "updated_at": "2021-10-24T10:14:45.426Z",
           "private": false
         },
         {
@@ -1755,6 +1755,16 @@
           "private": false
         },
         {
+          "id": 6,
+          "title": "Fidgeting - self-evidencing",
+          "description": "Fidgeting thus conforms with a form of self-evidencing, and helps the agent confirm its own existence in situations where evidence for its self-model might be waning.\n\nLa bougeotte serait une fa\u00e7on de prouver son existence \u00e0 soi-m\u00eame et aide la personne \u00e0 confirmer sa propre pr\u00e9sence lorsqu'il ou elle est dans une situation o\u00f9 son image de soi est diminu\u00e9e.",
+          "publish_on_social": false,
+          "published_at": "2021-10-24T10:14:26.347Z",
+          "created_at": "2021-10-24T10:14:04.233Z",
+          "updated_at": "2021-10-24T10:14:45.426Z",
+          "private": false
+        },
+        {
           "id": 4,
           "title": "Speed up video and audio with ffmpeg",
           "description": "Speed up by a 2x factor :\n\n```\nffmpeg -i input.mkv -filter_complex \"[0:v]setpts=0.5*PTS[v];[0:a]atempo=2.0[a]\" -map \"[v]\" -map \"[a]\" output.mkv\n```\n\nOr a *x* factor :\n\n```\nffmpeg -i input.mkv -filter_complex \"[0:v]setpts=<1/x>*PTS[v];[0:a]atempo=<x>[a]\" -map \"[v]\" -map \"[a]\" output.mkv\n```",
@@ -1763,16 +1773,6 @@
           "created_at": "2021-10-04T15:00:13.490Z",
           "updated_at": "2021-10-15T12:32:35.779Z",
           "private": null
-        },
-        {
-          "id": 6,
-          "title": "Fidgeting - self-evidencing",
-          "description": "Fidgeting thus conforms with a form of self-evidencing, and helps the agent confirm its own existence in situations where evidence for its self-model might be waning.\n\nLa bougeotte serait une fa\u00e7on de prouver son existence \u00e0 soi-m\u00eame et aide la personne \u00e0 confirmer sa propre pr\u00e9sence lorsqu'il ou elle est dans une situation o\u00f9 on image de soi est diminu\u00e9e.",
-          "publish_on_social": false,
-          "published_at": "2021-10-24T10:14:26.347Z",
-          "created_at": "2021-10-24T10:14:04.233Z",
-          "updated_at": "2021-10-24T10:14:26.369Z",
-          "private": false
         }
       ]
     },
@@ -2019,11 +2019,11 @@
         {
           "id": 6,
           "title": "Fidgeting - self-evidencing",
-          "description": "Fidgeting thus conforms with a form of self-evidencing, and helps the agent confirm its own existence in situations where evidence for its self-model might be waning.\n\nLa bougeotte serait une fa\u00e7on de prouver son existence \u00e0 soi-m\u00eame et aide la personne \u00e0 confirmer sa propre pr\u00e9sence lorsqu'il ou elle est dans une situation o\u00f9 on image de soi est diminu\u00e9e.",
+          "description": "Fidgeting thus conforms with a form of self-evidencing, and helps the agent confirm its own existence in situations where evidence for its self-model might be waning.\n\nLa bougeotte serait une fa\u00e7on de prouver son existence \u00e0 soi-m\u00eame et aide la personne \u00e0 confirmer sa propre pr\u00e9sence lorsqu'il ou elle est dans une situation o\u00f9 son image de soi est diminu\u00e9e.",
           "publish_on_social": false,
           "published_at": "2021-10-24T10:14:26.347Z",
           "created_at": "2021-10-24T10:14:04.233Z",
-          "updated_at": "2021-10-24T10:14:26.369Z",
+          "updated_at": "2021-10-24T10:14:45.426Z",
           "private": false
         }
       ]
