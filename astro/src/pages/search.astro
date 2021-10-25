@@ -1,0 +1,9 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Search from '../components/Search.jsx';
+---
+<BaseLayout title="Search">
+  <section class="px-2 mt-8">
+    <Search client:only="react"/>
+  </section>
+</BaseLayout>
