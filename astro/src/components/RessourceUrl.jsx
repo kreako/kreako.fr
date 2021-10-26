@@ -13,14 +13,14 @@ export default function RessourceUrl({ content }) {
     icon = <DocumentIcon />;
   }
   return (
-    <div class="my-4">
+    <div className="my-4">
       <a
         href={content.url}
-        class="flex flex-row items-center space-x-4 text-purple-600 hover:text-purple-800"
+        className="flex flex-row items-center space-x-4 text-purple-600 hover:text-purple-800"
       >
-        <div class="font-bold flex-grow-0">{display}</div>
+        <div className="font-bold flex-grow-0">{display}</div>
         {icon}
-        <div class="text-right flex-grow text-xs">{content.dt_str}</div>
+        <div className="text-right flex-grow text-xs">{content.dt_str}</div>
       </a>
     </div>
   );
