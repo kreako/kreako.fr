@@ -1082,6 +1082,18 @@
       "kind": "link"
     },
     {
+      "id": "link-39",
+      "url": "https://py-rates.fr/",
+      "description": "Learn python with game/puzzle",
+      "publish_on_social": false,
+      "published_at": "2021-10-27T20:37:11.319Z",
+      "created_at": "2021-10-27T20:37:09.105Z",
+      "updated_at": "2021-10-27T20:37:11.352Z",
+      "private": false,
+      "tags": [],
+      "kind": "link"
+    },
+    {
       "id": "link-34",
       "url": "https://quilljs.com/",
       "description": "Quill is a free, open source WYSIWYG editor built for the modern web. With its modular architecture and expressive API, it is completely customizable to fit any need.",
