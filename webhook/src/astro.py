@@ -66,7 +66,7 @@ def build(body):
     ASTRO_DIST_DIR.rmtree_p()
 
     # Install
-    sh.npm("run", "install", _cwd=ASTRO_DIR)
+    sh.npm("install", _cwd=ASTRO_DIR)
 
     # Build
     sh.npm("run", "build", _cwd=ASTRO_DIR)
