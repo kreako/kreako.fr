@@ -65,6 +65,9 @@ def build(body):
     # Remove The current dist folder
     ASTRO_DIST_DIR.rmtree_p()
 
+    # Install
+    sh.npm("run", "install", _cwd=ASTRO_DIR)
+
     # Build
     sh.npm("run", "build", _cwd=ASTRO_DIR)
 
