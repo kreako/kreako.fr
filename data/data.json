@@ -1229,6 +1229,33 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-40",
+      "url": "https://github.com/MichaelMure/git-bug",
+      "description": " Distributed, offline-first bug tracker embedded in git, with bridges\n\ngit-bug is a bug tracker that:\n\n- is fully embedded in git: you only need your git repository to have a bug tracker\n- is distributed: use your normal git remote to collaborate, push and pull your bugs!\n- works offline: in a plane or under the sea? Keep reading and writing bugs!\n- prevents vendor lock-in: your usual service is down or went bad? You already have a full backup.\n- is fast: listing bugs or opening them is a matter of milliseconds\n- doesn't pollute your project: no files are added in your project\n- integrates with your tooling: use the UI you like (CLI, terminal, web) or integrate with your existing tools through the CLI or the GraphQL API\n- bridges to other bug trackers: use bridges to import and export to other trackers.\n\nThis is now more than a proof of concept, but still not fully stable. Expect dragons and unfinished business.",
+      "publish_on_social": false,
+      "published_at": "2021-10-28T11:32:42.296Z",
+      "created_at": "2021-10-28T11:32:39.719Z",
+      "updated_at": "2021-10-28T11:32:42.330Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 10,
+          "title": "cli",
+          "published_at": "2021-10-04T15:00:32.782Z",
+          "created_at": "2021-10-04T15:00:30.614Z",
+          "updated_at": "2021-10-04T15:00:32.804Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -1659,6 +1686,16 @@
           "published_at": "2021-10-27T14:02:59.608Z",
           "created_at": "2021-10-27T14:02:56.664Z",
           "updated_at": "2021-10-27T14:02:59.632Z",
+          "private": false
+        },
+        {
+          "id": 40,
+          "url": "https://github.com/MichaelMure/git-bug",
+          "description": " Distributed, offline-first bug tracker embedded in git, with bridges\n\ngit-bug is a bug tracker that:\n\n- is fully embedded in git: you only need your git repository to have a bug tracker\n- is distributed: use your normal git remote to collaborate, push and pull your bugs!\n- works offline: in a plane or under the sea? Keep reading and writing bugs!\n- prevents vendor lock-in: your usual service is down or went bad? You already have a full backup.\n- is fast: listing bugs or opening them is a matter of milliseconds\n- doesn't pollute your project: no files are added in your project\n- integrates with your tooling: use the UI you like (CLI, terminal, web) or integrate with your existing tools through the CLI or the GraphQL API\n- bridges to other bug trackers: use bridges to import and export to other trackers.\n\nThis is now more than a proof of concept, but still not fully stable. Expect dragons and unfinished business.",
+          "publish_on_social": false,
+          "published_at": "2021-10-28T11:32:42.296Z",
+          "created_at": "2021-10-28T11:32:39.719Z",
+          "updated_at": "2021-10-28T11:32:42.330Z",
           "private": false
         },
         {
@@ -2183,7 +2220,18 @@
       "published_at": "2021-10-04T15:00:32.782Z",
       "created_at": "2021-10-04T15:00:30.614Z",
       "updated_at": "2021-10-04T15:00:32.804Z",
-      "links": [],
+      "links": [
+        {
+          "id": 40,
+          "url": "https://github.com/MichaelMure/git-bug",
+          "description": " Distributed, offline-first bug tracker embedded in git, with bridges\n\ngit-bug is a bug tracker that:\n\n- is fully embedded in git: you only need your git repository to have a bug tracker\n- is distributed: use your normal git remote to collaborate, push and pull your bugs!\n- works offline: in a plane or under the sea? Keep reading and writing bugs!\n- prevents vendor lock-in: your usual service is down or went bad? You already have a full backup.\n- is fast: listing bugs or opening them is a matter of milliseconds\n- doesn't pollute your project: no files are added in your project\n- integrates with your tooling: use the UI you like (CLI, terminal, web) or integrate with your existing tools through the CLI or the GraphQL API\n- bridges to other bug trackers: use bridges to import and export to other trackers.\n\nThis is now more than a proof of concept, but still not fully stable. Expect dragons and unfinished business.",
+          "publish_on_social": false,
+          "published_at": "2021-10-28T11:32:42.296Z",
+          "created_at": "2021-10-28T11:32:39.719Z",
+          "updated_at": "2021-10-28T11:32:42.330Z",
+          "private": false
+        }
+      ],
       "notes": [
         {
           "id": 4,
