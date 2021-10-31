@@ -1290,6 +1290,33 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-42",
+      "url": "https://cooklang.org/docs/spec/",
+      "description": "The .cook Recipe Specification\n\nthe specification for defining a recipe in CookLang.",
+      "publish_on_social": false,
+      "published_at": "2021-10-31T10:00:40.158Z",
+      "created_at": "2021-10-31T10:00:00.961Z",
+      "updated_at": "2021-10-31T10:00:40.198Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 15,
+          "title": "cooking",
+          "published_at": "2021-10-31T10:00:21.899Z",
+          "created_at": "2021-10-31T10:00:12.896Z",
+          "updated_at": "2021-10-31T10:00:21.943Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -1973,6 +2000,16 @@
           "private": false
         },
         {
+          "id": 42,
+          "url": "https://cooklang.org/docs/spec/",
+          "description": "The .cook Recipe Specification\n\nthe specification for defining a recipe in CookLang.",
+          "publish_on_social": false,
+          "published_at": "2021-10-31T10:00:40.158Z",
+          "created_at": "2021-10-31T10:00:00.961Z",
+          "updated_at": "2021-10-31T10:00:40.198Z",
+          "private": false
+        },
+        {
           "id": 16,
           "url": "https://github.com/handtracking-io/yoha",
           "description": "YoHa is a hand tracking engine that is built with the goal of being a versatile solution in practical scenarios where hand tracking is employed to add value to an application. While ultimately the goal is to be a general purpose hand tracking engine supporting any hand pose, the engine evolves around specific hand poses that users/developers find useful. These poses are detected by the engine which allows to build applications with meaningful interactions. See the demo for an example.",
@@ -2415,7 +2452,18 @@
       "published_at": "2021-10-31T10:00:21.899Z",
       "created_at": "2021-10-31T10:00:12.896Z",
       "updated_at": "2021-10-31T10:00:21.943Z",
-      "links": [],
+      "links": [
+        {
+          "id": 42,
+          "url": "https://cooklang.org/docs/spec/",
+          "description": "The .cook Recipe Specification\n\nthe specification for defining a recipe in CookLang.",
+          "publish_on_social": false,
+          "published_at": "2021-10-31T10:00:40.158Z",
+          "created_at": "2021-10-31T10:00:00.961Z",
+          "updated_at": "2021-10-31T10:00:40.198Z",
+          "private": false
+        }
+      ],
       "notes": []
     }
   ]
