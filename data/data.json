@@ -1466,6 +1466,33 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-47",
+      "url": "https://github.com/stargateaudio/stargate",
+      "description": "daw :  digital audio workstation, instrument and effect plugins, wave editor, Stargate is a holistic audio production solution, everything you need to make music on a computer.",
+      "publish_on_social": false,
+      "published_at": "2021-11-03T18:46:23.166Z",
+      "created_at": "2021-11-03T18:46:20.907Z",
+      "updated_at": "2021-11-03T18:46:23.187Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 16,
+          "title": "music",
+          "published_at": "2021-11-03T18:45:33.854Z",
+          "created_at": "2021-11-03T18:45:31.679Z",
+          "updated_at": "2021-11-03T18:45:33.880Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -2120,6 +2147,16 @@
           "private": false
         },
         {
+          "id": 47,
+          "url": "https://github.com/stargateaudio/stargate",
+          "description": "daw :  digital audio workstation, instrument and effect plugins, wave editor, Stargate is a holistic audio production solution, everything you need to make music on a computer.",
+          "publish_on_social": false,
+          "published_at": "2021-11-03T18:46:23.166Z",
+          "created_at": "2021-11-03T18:46:20.907Z",
+          "updated_at": "2021-11-03T18:46:23.187Z",
+          "private": false
+        },
+        {
           "id": 14,
           "url": "https://github.com/fabiospampinato/cash",
           "description": "Cash is an absurdly small jQuery alternative for modern browsers (IE11+) that provides jQuery-style syntax for manipulating the DOM. Utilizing modern browser features to minimize the codebase, developers can use the familiar chainable methods at a fraction of the file size. 100% feature parity with jQuery isn't a goal, but Cash comes helpfully close, covering most day to day use cases.",
@@ -2742,7 +2779,18 @@
       "published_at": "2021-11-03T18:45:33.854Z",
       "created_at": "2021-11-03T18:45:31.679Z",
       "updated_at": "2021-11-03T18:45:33.880Z",
-      "links": [],
+      "links": [
+        {
+          "id": 47,
+          "url": "https://github.com/stargateaudio/stargate",
+          "description": "daw :  digital audio workstation, instrument and effect plugins, wave editor, Stargate is a holistic audio production solution, everything you need to make music on a computer.",
+          "publish_on_social": false,
+          "published_at": "2021-11-03T18:46:23.166Z",
+          "created_at": "2021-11-03T18:46:20.907Z",
+          "updated_at": "2021-11-03T18:46:23.187Z",
+          "private": false
+        }
+      ],
       "notes": []
     }
   ]
