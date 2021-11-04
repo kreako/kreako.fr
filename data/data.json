@@ -1905,26 +1905,6 @@
       ],
       "notes": [
         {
-          "id": 8,
-          "title": "M\u00e9moire, groupe et refrain",
-          "description": "> \"Ce qui compte dans la m\u00e9moire du groupe, c'est le refrain\".\n\nAlice Zeniter",
-          "publish_on_social": false,
-          "published_at": "2021-11-03T20:17:32.242Z",
-          "created_at": "2021-11-03T20:17:22.409Z",
-          "updated_at": "2021-11-03T20:17:32.268Z",
-          "private": false
-        },
-        {
-          "id": 6,
-          "title": "Fidgeting - self-evidencing",
-          "description": "Fidgeting thus conforms with a form of self-evidencing, and helps the agent confirm its own existence in situations where evidence for its self-model might be waning.\n\nLa bougeotte serait une fa\u00e7on de prouver son existence \u00e0 soi-m\u00eame et aide la personne \u00e0 confirmer sa propre pr\u00e9sence lorsqu'il ou elle est dans une situation o\u00f9 son image de soi est diminu\u00e9e.",
-          "publish_on_social": false,
-          "published_at": "2021-10-24T10:14:26.347Z",
-          "created_at": "2021-10-24T10:14:04.233Z",
-          "updated_at": "2021-10-24T10:14:45.426Z",
-          "private": false
-        },
-        {
           "id": 1,
           "title": "Num\u00e9ros de t\u00e9l\u00e9phone pour le cin\u00e9ma",
           "description": "tous les numeros d\u00e9butants par :\n- 01 99 00\n- 02 61 91\n- 03 53 01\n- 04 65 71\n- 05 36 49\n- 06 39 98\nN'appartiennent \u00e0 personne et sont juste r\u00e9serv\u00e9s exclusivement \u00e0 l'utilisation dans les \u0153uvres audiovisuelle",
@@ -1943,6 +1923,26 @@
           "created_at": "2021-09-29T21:39:44.574Z",
           "updated_at": "2021-11-04T00:47:46.709Z",
           "private": null
+        },
+        {
+          "id": 6,
+          "title": "Fidgeting - self-evidencing",
+          "description": "Fidgeting thus conforms with a form of self-evidencing, and helps the agent confirm its own existence in situations where evidence for its self-model might be waning.\n\nLa bougeotte serait une fa\u00e7on de prouver son existence \u00e0 soi-m\u00eame et aide la personne \u00e0 confirmer sa propre pr\u00e9sence lorsqu'il ou elle est dans une situation o\u00f9 son image de soi est diminu\u00e9e.",
+          "publish_on_social": false,
+          "published_at": "2021-10-24T10:14:26.347Z",
+          "created_at": "2021-10-24T10:14:04.233Z",
+          "updated_at": "2021-10-24T10:14:45.426Z",
+          "private": false
+        },
+        {
+          "id": 8,
+          "title": "M\u00e9moire, groupe et refrain",
+          "description": "> \"Ce qui compte dans la m\u00e9moire du groupe, c'est le refrain\".\n\nAlice Zeniter",
+          "publish_on_social": false,
+          "published_at": "2021-11-03T20:17:32.242Z",
+          "created_at": "2021-11-03T20:17:22.409Z",
+          "updated_at": "2021-11-03T20:17:32.268Z",
+          "private": false
         },
         {
           "id": 9,
@@ -2467,6 +2467,16 @@
       ],
       "notes": [
         {
+          "id": 4,
+          "title": "Speed up video and audio with ffmpeg",
+          "description": "Speed up by a 2x factor :\n\n```\nffmpeg -i input.mkv -filter_complex \"[0:v]setpts=0.5*PTS[v];[0:a]atempo=2.0[a]\" -map \"[v]\" -map \"[a]\" output.mkv\n```\n\nOr a *x* factor :\n\n```\nffmpeg -i input.mkv -filter_complex \"[0:v]setpts=<1/x>*PTS[v];[0:a]atempo=<x>[a]\" -map \"[v]\" -map \"[a]\" output.mkv\n```",
+          "publish_on_social": false,
+          "published_at": "2021-10-04T15:00:16.114Z",
+          "created_at": "2021-10-04T15:00:13.490Z",
+          "updated_at": "2021-10-15T12:32:35.779Z",
+          "private": null
+        },
+        {
           "id": 5,
           "title": "Options for Password Revealing Inputs",
           "description": "```javascript\nconst input = document.querySelector(\".password-input\");\n\n// When an input is checked, or whatever...\nif (input.getAttribute(\"type\") === \"password\") {\n  input.setAttribute(\"type\", \"text\");\n} else {\n  input.setAttribute(\"type\", \"password\");\n}\n```",
@@ -2474,16 +2484,6 @@
           "published_at": "2021-10-07T14:20:20.869Z",
           "created_at": "2021-10-07T14:20:04.524Z",
           "updated_at": "2021-10-15T12:28:25.444Z",
-          "private": false
-        },
-        {
-          "id": 7,
-          "title": "Design - checklist",
-          "description": "- Whitespace\n\n  - breath\n  - more outside than inside\n\n- Alignment\n- Hierarchy - What is important here ?\n- Contrast ratio\n- typography\n\n  - readability : Il1 test\n  - text size - line height",
-          "publish_on_social": false,
-          "published_at": "2021-11-03T18:45:09.657Z",
-          "created_at": "2021-11-03T18:45:05.858Z",
-          "updated_at": "2021-11-03T18:45:09.690Z",
           "private": false
         },
         {
@@ -2497,14 +2497,14 @@
           "private": false
         },
         {
-          "id": 4,
-          "title": "Speed up video and audio with ffmpeg",
-          "description": "Speed up by a 2x factor :\n\n```\nffmpeg -i input.mkv -filter_complex \"[0:v]setpts=0.5*PTS[v];[0:a]atempo=2.0[a]\" -map \"[v]\" -map \"[a]\" output.mkv\n```\n\nOr a *x* factor :\n\n```\nffmpeg -i input.mkv -filter_complex \"[0:v]setpts=<1/x>*PTS[v];[0:a]atempo=<x>[a]\" -map \"[v]\" -map \"[a]\" output.mkv\n```",
+          "id": 7,
+          "title": "Design - checklist",
+          "description": "- Whitespace\n\n  - breath\n  - more outside than inside\n\n- Alignment\n- Hierarchy - What is important here ?\n- Contrast ratio\n- typography\n\n  - readability : Il1 test\n  - text size - line height",
           "publish_on_social": false,
-          "published_at": "2021-10-04T15:00:16.114Z",
-          "created_at": "2021-10-04T15:00:13.490Z",
-          "updated_at": "2021-10-15T12:32:35.779Z",
-          "private": null
+          "published_at": "2021-11-03T18:45:09.657Z",
+          "created_at": "2021-11-03T18:45:05.858Z",
+          "updated_at": "2021-11-03T18:45:09.690Z",
+          "private": false
         }
       ]
     },
@@ -2830,16 +2830,6 @@
           "private": null
         },
         {
-          "id": 8,
-          "title": "M\u00e9moire, groupe et refrain",
-          "description": "> \"Ce qui compte dans la m\u00e9moire du groupe, c'est le refrain\".\n\nAlice Zeniter",
-          "publish_on_social": false,
-          "published_at": "2021-11-03T20:17:32.242Z",
-          "created_at": "2021-11-03T20:17:22.409Z",
-          "updated_at": "2021-11-03T20:17:32.268Z",
-          "private": false
-        },
-        {
           "id": 6,
           "title": "Fidgeting - self-evidencing",
           "description": "Fidgeting thus conforms with a form of self-evidencing, and helps the agent confirm its own existence in situations where evidence for its self-model might be waning.\n\nLa bougeotte serait une fa\u00e7on de prouver son existence \u00e0 soi-m\u00eame et aide la personne \u00e0 confirmer sa propre pr\u00e9sence lorsqu'il ou elle est dans une situation o\u00f9 son image de soi est diminu\u00e9e.",
@@ -2847,6 +2837,16 @@
           "published_at": "2021-10-24T10:14:26.347Z",
           "created_at": "2021-10-24T10:14:04.233Z",
           "updated_at": "2021-10-24T10:14:45.426Z",
+          "private": false
+        },
+        {
+          "id": 8,
+          "title": "M\u00e9moire, groupe et refrain",
+          "description": "> \"Ce qui compte dans la m\u00e9moire du groupe, c'est le refrain\".\n\nAlice Zeniter",
+          "publish_on_social": false,
+          "published_at": "2021-11-03T20:17:32.242Z",
+          "created_at": "2021-11-03T20:17:22.409Z",
+          "updated_at": "2021-11-03T20:17:32.268Z",
           "private": false
         }
       ]
