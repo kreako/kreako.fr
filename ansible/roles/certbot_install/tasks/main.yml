@@ -40,6 +40,10 @@
     certbot_command: "{{ certbot_command }} --domains {{ item.server_name }}"
   loop: "{{domains}}"
 
+- name: Extra certbot domain
+  set_fact:
+    certbot_command: "{{ certbot_command }} --domains {{ extra_certbot_domain }}"
+
 - name: Certbot command variable echo
   debug:
     msg: "{{ certbot_command }}"
