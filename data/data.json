@@ -1326,6 +1326,54 @@
       "kind": "link"
     },
     {
+      "id": "link-61",
+      "url": "https://github.com/vechai/vechaiui",
+      "description": "A set of high-quality accessible React UI components with the built-in dark mode using Tailwind CSS. Pre-designed headless ui and radix-ui. \n\n",
+      "publish_on_social": false,
+      "published_at": "2021-11-11T20:12:03.488Z",
+      "created_at": "2021-11-11T20:12:00.963Z",
+      "updated_at": "2021-11-11T20:12:03.523Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 2,
+          "title": "css",
+          "published_at": "2021-09-29T21:14:59.916Z",
+          "created_at": "2021-09-29T21:14:57.152Z",
+          "updated_at": "2021-09-29T21:14:59.939Z"
+        },
+        {
+          "id": 1,
+          "title": "javascript",
+          "published_at": "2021-09-29T21:01:51.147Z",
+          "created_at": "2021-09-29T21:01:48.486Z",
+          "updated_at": "2021-09-29T21:01:51.167Z"
+        },
+        {
+          "id": 8,
+          "title": "react",
+          "published_at": "2021-10-02T10:15:01.395Z",
+          "created_at": "2021-10-02T10:14:59.290Z",
+          "updated_at": "2021-10-02T10:15:01.410Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 12,
+          "title": "tailwindcss",
+          "published_at": "2021-10-05T16:56:49.709Z",
+          "created_at": "2021-10-05T16:56:47.855Z",
+          "updated_at": "2021-10-05T16:56:49.731Z"
+        }
+      ],
+      "kind": "link"
+    },
+    {
       "id": "link-36",
       "url": "https://uiw.tf/minimap",
       "description": "Minimap For The Web\n\nInteract with the current page from a bird's eye view.\n\nIf you've ever played a video game, then you've most likely also used a minimap!\nA minimap is a heads up display that aids players in orienting themselves in the game world.\n\nCould a minimap help us navigate the web? Maybe...\n\nWe can use an experimental CSS property currently only available in Firefox to display a live image from an arbitrary HTML element.\n\nThis makes it trivial to create a minimap representation of the entire page.",
@@ -2149,6 +2197,16 @@
           "private": false
         },
         {
+          "id": 61,
+          "url": "https://github.com/vechai/vechaiui",
+          "description": "A set of high-quality accessible React UI components with the built-in dark mode using Tailwind CSS. Pre-designed headless ui and radix-ui. \n\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:12:03.488Z",
+          "created_at": "2021-11-11T20:12:00.963Z",
+          "updated_at": "2021-11-11T20:12:03.523Z",
+          "private": false
+        },
+        {
           "id": 15,
           "url": "https://github.com/sachinchoolur/replace-jquery",
           "description": "Automatically find jQuery methods from existing projects and generate vanilla js alternatives.",
@@ -2397,6 +2455,16 @@
           "published_at": "2021-11-11T10:01:16.232Z",
           "created_at": "2021-11-11T10:01:13.621Z",
           "updated_at": "2021-11-11T10:01:16.267Z",
+          "private": false
+        },
+        {
+          "id": 61,
+          "url": "https://github.com/vechai/vechaiui",
+          "description": "A set of high-quality accessible React UI components with the built-in dark mode using Tailwind CSS. Pre-designed headless ui and radix-ui. \n\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:12:03.488Z",
+          "created_at": "2021-11-11T20:12:00.963Z",
+          "updated_at": "2021-11-11T20:12:03.523Z",
           "private": false
         },
         {
@@ -2922,6 +2990,16 @@
           "private": false
         },
         {
+          "id": 61,
+          "url": "https://github.com/vechai/vechaiui",
+          "description": "A set of high-quality accessible React UI components with the built-in dark mode using Tailwind CSS. Pre-designed headless ui and radix-ui. \n\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:12:03.488Z",
+          "created_at": "2021-11-11T20:12:00.963Z",
+          "updated_at": "2021-11-11T20:12:03.523Z",
+          "private": false
+        },
+        {
           "id": 40,
           "url": "https://github.com/MichaelMure/git-bug",
           "description": " Distributed, offline-first bug tracker embedded in git, with bridges\n\ngit-bug is a bug tracker that:\n\n- is fully embedded in git: you only need your git repository to have a bug tracker\n- is distributed: use your normal git remote to collaborate, push and pull your bugs!\n- works offline: in a plane or under the sea? Keep reading and writing bugs!\n- prevents vendor lock-in: your usual service is down or went bad? You already have a full backup.\n- is fast: listing bugs or opening them is a matter of milliseconds\n- doesn't pollute your project: no files are added in your project\n- integrates with your tooling: use the UI you like (CLI, terminal, web) or integrate with your existing tools through the CLI or the GraphQL API\n- bridges to other bug trackers: use bridges to import and export to other trackers.\n\nThis is now more than a proof of concept, but still not fully stable. Expect dragons and unfinished business.",
@@ -3364,6 +3442,16 @@
           "private": false
         },
         {
+          "id": 61,
+          "url": "https://github.com/vechai/vechaiui",
+          "description": "A set of high-quality accessible React UI components with the built-in dark mode using Tailwind CSS. Pre-designed headless ui and radix-ui. \n\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:12:03.488Z",
+          "created_at": "2021-11-11T20:12:00.963Z",
+          "updated_at": "2021-11-11T20:12:03.523Z",
+          "private": false
+        },
+        {
           "id": 10,
           "url": "https://atroposjs.com",
           "description": "Atropos is a lightweight, free and open-source JavaScript library to create stunning touch-friendly 3D parallax hover effects.\n\nAvailable for JavaScript, React and Vue.js",
@@ -3535,6 +3623,16 @@
       "created_at": "2021-10-05T16:56:47.855Z",
       "updated_at": "2021-10-05T16:56:49.731Z",
       "links": [
+        {
+          "id": 61,
+          "url": "https://github.com/vechai/vechaiui",
+          "description": "A set of high-quality accessible React UI components with the built-in dark mode using Tailwind CSS. Pre-designed headless ui and radix-ui. \n\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:12:03.488Z",
+          "created_at": "2021-11-11T20:12:00.963Z",
+          "updated_at": "2021-11-11T20:12:03.523Z",
+          "private": false
+        },
         {
           "id": 11,
           "url": "https://tailwind-mobile.com/",
