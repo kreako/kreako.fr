@@ -1696,6 +1696,33 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-52",
+      "url": "https://www.brow.sh/",
+      "description": "Browsh is a fully-modern text-based browser renders on terminal.\n\nIt renders anything that a modern browser can; HTML5, CSS3, JS, video and even WebGL. Its main purpose is to be run on a remote server and accessed via SSH/Mosh or the in-browser HTML service in order to significantly reduce bandwidth and thus both increase browsing speeds and decrease bandwidth costs",
+      "publish_on_social": false,
+      "published_at": "2021-11-11T09:52:03.638Z",
+      "created_at": "2021-11-11T09:52:00.961Z",
+      "updated_at": "2021-11-11T09:52:03.669Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 10,
+          "title": "cli",
+          "published_at": "2021-10-04T15:00:32.782Z",
+          "created_at": "2021-10-04T15:00:30.614Z",
+          "updated_at": "2021-10-04T15:00:32.804Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -2220,6 +2247,16 @@
       "updated_at": "2021-09-29T21:22:59.637Z",
       "links": [
         {
+          "id": 21,
+          "url": "https://www.foldnfly.com",
+          "description": "A database of paper airplanes with easy to follow folding instructions, video tutorials and printable folding plans. Find the best paper airplanes that fly the furthest and stay aloft the longest.",
+          "publish_on_social": false,
+          "published_at": "2021-10-14T13:15:06.888Z",
+          "created_at": "2021-10-14T13:15:03.857Z",
+          "updated_at": "2021-10-14T13:15:06.911Z",
+          "private": false
+        },
+        {
           "id": 20,
           "url": "https://github.com/xtermjs/xterm.js",
           "description": "Xterm.js is a front-end component written in TypeScript that lets applications bring fully-featured terminals to their users in the browser. It's used by popular projects such as VS Code, Hyper and Theia.",
@@ -2580,6 +2617,16 @@
           "private": false
         },
         {
+          "id": 52,
+          "url": "https://www.brow.sh/",
+          "description": "Browsh is a fully-modern text-based browser renders on terminal.\n\nIt renders anything that a modern browser can; HTML5, CSS3, JS, video and even WebGL. Its main purpose is to be run on a remote server and accessed via SSH/Mosh or the in-browser HTML service in order to significantly reduce bandwidth and thus both increase browsing speeds and decrease bandwidth costs",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T09:52:03.638Z",
+          "created_at": "2021-11-11T09:52:00.961Z",
+          "updated_at": "2021-11-11T09:52:03.669Z",
+          "private": false
+        },
+        {
           "id": 50,
           "url": "https://github.com/lerna/lerna",
           "description": " A tool for managing JavaScript projects with multiple packages.\n\nSplitting up large codebases into separate independently versioned packages is extremely useful for code sharing. However, making changes across many repositories is messy and difficult to track, and testing across repositories becomes complicated very quickly.\n\nTo solve these (and many other) problems, some projects will organize their codebases into multi-package repositories (sometimes called monorepos). Projects like Babel, React, Angular, Ember, Meteor, Jest, and many others develop all of their packages within a single repository.\n\nLerna is a tool that optimizes the workflow around managing multi-package repositories with git and npm.\n\nLerna can also reduce the time and space requirements for numerous copies of packages in development and build environments - normally a downside of dividing a project into many separate NPM packages. See the hoist documentation for details.",
@@ -2678,16 +2725,6 @@
           "created_at": "2021-09-29T21:38:15.420Z",
           "updated_at": "2021-09-29T21:38:38.406Z",
           "private": null
-        },
-        {
-          "id": 21,
-          "url": "https://www.foldnfly.com",
-          "description": "A database of paper airplanes with easy to follow folding instructions, video tutorials and printable folding plans. Find the best paper airplanes that fly the furthest and stay aloft the longest.",
-          "publish_on_social": false,
-          "published_at": "2021-10-14T13:15:06.888Z",
-          "created_at": "2021-10-14T13:15:03.857Z",
-          "updated_at": "2021-10-14T13:15:06.911Z",
-          "private": false
         }
       ],
       "notes": [
@@ -2932,6 +2969,16 @@
       "created_at": "2021-10-04T15:00:30.614Z",
       "updated_at": "2021-10-04T15:00:32.804Z",
       "links": [
+        {
+          "id": 52,
+          "url": "https://www.brow.sh/",
+          "description": "Browsh is a fully-modern text-based browser renders on terminal.\n\nIt renders anything that a modern browser can; HTML5, CSS3, JS, video and even WebGL. Its main purpose is to be run on a remote server and accessed via SSH/Mosh or the in-browser HTML service in order to significantly reduce bandwidth and thus both increase browsing speeds and decrease bandwidth costs",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T09:52:03.638Z",
+          "created_at": "2021-11-11T09:52:00.961Z",
+          "updated_at": "2021-11-11T09:52:03.669Z",
+          "private": false
+        },
         {
           "id": 40,
           "url": "https://github.com/MichaelMure/git-bug",
