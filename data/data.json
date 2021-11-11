@@ -1414,6 +1414,40 @@
       "kind": "link"
     },
     {
+      "id": "link-59",
+      "url": "https://www.npmjs.com/package/clsx",
+      "description": "A tiny (228B) utility for constructing className strings conditionally from string, array, object...\n",
+      "publish_on_social": false,
+      "published_at": "2021-11-11T20:08:05.855Z",
+      "created_at": "2021-11-11T20:08:03.439Z",
+      "updated_at": "2021-11-11T20:08:05.891Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 1,
+          "title": "javascript",
+          "published_at": "2021-09-29T21:01:51.147Z",
+          "created_at": "2021-09-29T21:01:48.486Z",
+          "updated_at": "2021-09-29T21:01:51.167Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 8,
+          "title": "react",
+          "published_at": "2021-10-02T10:15:01.395Z",
+          "created_at": "2021-10-02T10:14:59.290Z",
+          "updated_at": "2021-10-02T10:15:01.410Z"
+        }
+      ],
+      "kind": "link"
+    },
+    {
       "id": "link-40",
       "url": "https://github.com/MichaelMure/git-bug",
       "description": " Distributed, offline-first bug tracker embedded in git, with bridges\n\ngit-bug is a bug tracker that:\n\n- is fully embedded in git: you only need your git repository to have a bug tracker\n- is distributed: use your normal git remote to collaborate, push and pull your bugs!\n- works offline: in a plane or under the sea? Keep reading and writing bugs!\n- prevents vendor lock-in: your usual service is down or went bad? You already have a full backup.\n- is fast: listing bugs or opening them is a matter of milliseconds\n- doesn't pollute your project: no files are added in your project\n- integrates with your tooling: use the UI you like (CLI, terminal, web) or integrate with your existing tools through the CLI or the GraphQL API\n- bridges to other bug trackers: use bridges to import and export to other trackers.\n\nThis is now more than a proof of concept, but still not fully stable. Expect dragons and unfinished business.",
@@ -2068,6 +2102,16 @@
           "published_at": "2021-10-28T22:44:21.676Z",
           "created_at": "2021-10-28T22:44:17.035Z",
           "updated_at": "2021-10-28T22:44:21.700Z",
+          "private": false
+        },
+        {
+          "id": 59,
+          "url": "https://www.npmjs.com/package/clsx",
+          "description": "A tiny (228B) utility for constructing className strings conditionally from string, array, object...\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:08:05.855Z",
+          "created_at": "2021-11-11T20:08:03.439Z",
+          "updated_at": "2021-11-11T20:08:05.891Z",
           "private": false
         },
         {
@@ -2964,6 +3008,16 @@
           "private": false
         },
         {
+          "id": 59,
+          "url": "https://www.npmjs.com/package/clsx",
+          "description": "A tiny (228B) utility for constructing className strings conditionally from string, array, object...\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:08:05.855Z",
+          "created_at": "2021-11-11T20:08:03.439Z",
+          "updated_at": "2021-11-11T20:08:05.891Z",
+          "private": false
+        },
+        {
           "id": 52,
           "url": "https://www.brow.sh/",
           "description": "Browsh is a fully-modern text-based browser renders on terminal.\n\nIt renders anything that a modern browser can; HTML5, CSS3, JS, video and even WebGL. Its main purpose is to be run on a remote server and accessed via SSH/Mosh or the in-browser HTML service in order to significantly reduce bandwidth and thus both increase browsing speeds and decrease bandwidth costs",
@@ -3193,6 +3247,16 @@
           "published_at": "2021-10-05T16:57:06.125Z",
           "created_at": "2021-10-05T16:56:36.968Z",
           "updated_at": "2021-10-05T16:57:06.140Z",
+          "private": false
+        },
+        {
+          "id": 59,
+          "url": "https://www.npmjs.com/package/clsx",
+          "description": "A tiny (228B) utility for constructing className strings conditionally from string, array, object...\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:08:05.855Z",
+          "created_at": "2021-11-11T20:08:03.439Z",
+          "updated_at": "2021-11-11T20:08:05.891Z",
           "private": false
         },
         {
