@@ -1750,6 +1750,26 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-54",
+      "url": "https://github.com/alajmo/mani",
+      "description": " CLI tool to help you manage multiple repositories \n\nmani is a CLI tool that helps you manage multiple repositories. It's useful when you are working with microservices, multi-project systems, many libraries or just a bunch of repositories and want a central place for pulling all repositories and running commands over them.\n\nYou specify repository and commands in a config file and then run the commands over all or a subset of the repositories.",
+      "publish_on_social": false,
+      "published_at": "2021-11-11T14:13:54.499Z",
+      "created_at": "2021-11-11T14:13:51.638Z",
+      "updated_at": "2021-11-11T14:13:54.549Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -2631,6 +2651,16 @@
           "published_at": "2021-10-19T11:00:19.641Z",
           "created_at": "2021-10-19T11:00:17.161Z",
           "updated_at": "2021-10-19T11:00:19.662Z",
+          "private": false
+        },
+        {
+          "id": 54,
+          "url": "https://github.com/alajmo/mani",
+          "description": " CLI tool to help you manage multiple repositories \n\nmani is a CLI tool that helps you manage multiple repositories. It's useful when you are working with microservices, multi-project systems, many libraries or just a bunch of repositories and want a central place for pulling all repositories and running commands over them.\n\nYou specify repository and commands in a config file and then run the commands over all or a subset of the repositories.",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T14:13:54.499Z",
+          "created_at": "2021-11-11T14:13:51.638Z",
+          "updated_at": "2021-11-11T14:13:54.549Z",
           "private": false
         },
         {
