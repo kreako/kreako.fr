@@ -1123,6 +1123,40 @@
       "kind": "link"
     },
     {
+      "id": "link-58",
+      "url": "https://www.framer.com/motion/",
+      "description": "A production-ready motion library for React.",
+      "publish_on_social": false,
+      "published_at": "2021-11-11T20:06:04.195Z",
+      "created_at": "2021-11-11T20:06:01.117Z",
+      "updated_at": "2021-11-11T20:06:04.207Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 8,
+          "title": "react",
+          "published_at": "2021-10-02T10:15:01.395Z",
+          "created_at": "2021-10-02T10:14:59.290Z",
+          "updated_at": "2021-10-02T10:15:01.410Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 1,
+          "title": "javascript",
+          "published_at": "2021-09-29T21:01:51.147Z",
+          "created_at": "2021-09-29T21:01:48.486Z",
+          "updated_at": "2021-09-29T21:01:51.167Z"
+        }
+      ],
+      "kind": "link"
+    },
+    {
       "id": "link-31",
       "url": "https://dev.to/masakudamatsu/favicon-nightmare-how-to-maintain-sanity-3al7",
       "description": "#  Definitive edition of \"How to Favicon in 2021\" \n\n## TL;DR\n\nIn the <head> element of your HTML document, insert\n\n```html\n<link rel=\"icon\" href=\"favicon.svg\" type=\"image/svg+xml\">\n<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\"/>\n<link rel=\"manifest\" href=\"/site.webmanifest\" />\n```\n\nwhere site.webmanifest is a JSON file with the content like this:\n\n```json\n{\n    \"name\": \"Your website name\",\n    \"short_name\": \"A shorter version of your website name\",\n    \"icons\": [\n        {\n            \"src\": \"/android-chrome-192x192.png\",\n            \"sizes\": \"192x192\",\n            \"type\": \"image/png\"\n        },\n        {\n            \"src\": \"/android-chrome-512x512.png\",\n            \"sizes\": \"512x512\",\n            \"type\": \"image/png\"\n        }\n    ],\n    \"theme_color\": \"#4a4a4a\",\n    \"background_color\": \"#4a4a4a\",\n    \"display\": \"standalone\"\n}\n```\n\nChange the values of \"theme_color\" and \"background_color\" to your favicon design specification\n\nThen create a favicon in the SVG format.\n\nConvert this SVG image into favicon.ico, apple-touch-icon.png, android-chrome-192x192.png, and android-chrome-512x512.png with RealFaviconGenerator.\n\nFinally, make sure that the favicon.ico file is named as it is (don't change it) and saved in the root directory. (Otherwise MacOS Safari and IE won't recognize the favicon.)\n\nThat's all! :-)",
@@ -2007,6 +2041,16 @@
           "private": false
         },
         {
+          "id": 58,
+          "url": "https://www.framer.com/motion/",
+          "description": "A production-ready motion library for React.",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:06:04.195Z",
+          "created_at": "2021-11-11T20:06:01.117Z",
+          "updated_at": "2021-11-11T20:06:04.207Z",
+          "private": false
+        },
+        {
           "id": 46,
           "url": "https://github.com/neon-bindings/neon",
           "description": " Rust bindings for writing safe and fast native Node.js modules. ",
@@ -2820,6 +2864,16 @@
           "private": false
         },
         {
+          "id": 58,
+          "url": "https://www.framer.com/motion/",
+          "description": "A production-ready motion library for React.",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:06:04.195Z",
+          "created_at": "2021-11-11T20:06:01.117Z",
+          "updated_at": "2021-11-11T20:06:04.207Z",
+          "private": false
+        },
+        {
           "id": 14,
           "url": "https://github.com/fabiospampinato/cash",
           "description": "Cash is an absurdly small jQuery alternative for modern browsers (IE11+) that provides jQuery-style syntax for manipulating the DOM. Utilizing modern browser features to minimize the codebase, developers can use the familiar chainable methods at a fraction of the file size. 100% feature parity with jQuery isn't a goal, but Cash comes helpfully close, covering most day to day use cases.",
@@ -3169,6 +3223,16 @@
           "published_at": "2021-11-11T14:17:01.610Z",
           "created_at": "2021-11-11T14:16:59.027Z",
           "updated_at": "2021-11-11T14:17:01.633Z",
+          "private": false
+        },
+        {
+          "id": 58,
+          "url": "https://www.framer.com/motion/",
+          "description": "A production-ready motion library for React.",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:06:04.195Z",
+          "created_at": "2021-11-11T20:06:01.117Z",
+          "updated_at": "2021-11-11T20:06:04.207Z",
           "private": false
         },
         {
