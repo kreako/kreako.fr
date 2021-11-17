@@ -1706,6 +1706,40 @@
       "kind": "link"
     },
     {
+      "id": "link-69",
+      "url": "https://oss.redis.com/redisearch/",
+      "description": "RediSearch - Redis Secondary Index & Query Engine\n\nRediSearch is a source available Secondary Index, Query Engine and Full-Text Search over Redis, developed by Redis . \n\n Redisearch implements a secondary index on top of Redis, but unlike other Redis indexing libraries, it does not use internal data structures such as sorted sets.\n\nThis also enables more advanced features, such as multi-field queries, aggregation, and full text search capabilites. These capabilities include exact phrase matching and numeric filtering for text queries, something that is neither possible or efficient with traditional Redis indexing approaches. \n",
+      "publish_on_social": false,
+      "published_at": "2021-11-17T19:51:32.686Z",
+      "created_at": "2021-11-17T19:51:30.444Z",
+      "updated_at": "2021-11-17T19:51:32.739Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 20,
+          "title": "db",
+          "published_at": "2021-11-17T19:11:54.501Z",
+          "created_at": "2021-11-17T19:11:52.440Z",
+          "updated_at": "2021-11-17T19:11:54.523Z"
+        },
+        {
+          "id": 6,
+          "title": "saas",
+          "published_at": "2021-09-29T21:38:25.062Z",
+          "created_at": "2021-09-29T21:38:22.908Z",
+          "updated_at": "2021-09-29T21:38:25.084Z"
+        }
+      ],
+      "kind": "link"
+    },
+    {
       "id": "link-64",
       "url": "https://tailblocks.cc/",
       "description": " Ready-to-use Tailwind CSS blocks. \n\n",
@@ -3421,6 +3455,16 @@
           "private": false
         },
         {
+          "id": 69,
+          "url": "https://oss.redis.com/redisearch/",
+          "description": "RediSearch - Redis Secondary Index & Query Engine\n\nRediSearch is a source available Secondary Index, Query Engine and Full-Text Search over Redis, developed by Redis . \n\n Redisearch implements a secondary index on top of Redis, but unlike other Redis indexing libraries, it does not use internal data structures such as sorted sets.\n\nThis also enables more advanced features, such as multi-field queries, aggregation, and full text search capabilites. These capabilities include exact phrase matching and numeric filtering for text queries, something that is neither possible or efficient with traditional Redis indexing approaches. \n",
+          "publish_on_social": false,
+          "published_at": "2021-11-17T19:51:32.686Z",
+          "created_at": "2021-11-17T19:51:30.444Z",
+          "updated_at": "2021-11-17T19:51:32.739Z",
+          "private": false
+        },
+        {
           "id": 13,
           "url": "https://www.webglstudio.org/",
           "description": "WebGLStudio (formerly known as WebGLStudio) is a platform to create interactive 3D scenes directly from the browser.\nIt allows to edit the scene visually, code your behaviours, edit the shaders, and all directly from within the app.",
@@ -3689,6 +3733,16 @@
           "published_at": "2021-10-31T10:37:53.083Z",
           "created_at": "2021-10-31T10:37:50.661Z",
           "updated_at": "2021-10-31T10:37:53.123Z",
+          "private": false
+        },
+        {
+          "id": 69,
+          "url": "https://oss.redis.com/redisearch/",
+          "description": "RediSearch - Redis Secondary Index & Query Engine\n\nRediSearch is a source available Secondary Index, Query Engine and Full-Text Search over Redis, developed by Redis . \n\n Redisearch implements a secondary index on top of Redis, but unlike other Redis indexing libraries, it does not use internal data structures such as sorted sets.\n\nThis also enables more advanced features, such as multi-field queries, aggregation, and full text search capabilites. These capabilities include exact phrase matching and numeric filtering for text queries, something that is neither possible or efficient with traditional Redis indexing approaches. \n",
+          "publish_on_social": false,
+          "published_at": "2021-11-17T19:51:32.686Z",
+          "created_at": "2021-11-17T19:51:30.444Z",
+          "updated_at": "2021-11-17T19:51:32.739Z",
           "private": false
         },
         {
@@ -4292,6 +4346,16 @@
           "published_at": "2021-11-17T19:12:09.069Z",
           "created_at": "2021-11-17T19:11:46.734Z",
           "updated_at": "2021-11-17T19:12:09.087Z",
+          "private": false
+        },
+        {
+          "id": 69,
+          "url": "https://oss.redis.com/redisearch/",
+          "description": "RediSearch - Redis Secondary Index & Query Engine\n\nRediSearch is a source available Secondary Index, Query Engine and Full-Text Search over Redis, developed by Redis . \n\n Redisearch implements a secondary index on top of Redis, but unlike other Redis indexing libraries, it does not use internal data structures such as sorted sets.\n\nThis also enables more advanced features, such as multi-field queries, aggregation, and full text search capabilites. These capabilities include exact phrase matching and numeric filtering for text queries, something that is neither possible or efficient with traditional Redis indexing approaches. \n",
+          "publish_on_social": false,
+          "published_at": "2021-11-17T19:51:32.686Z",
+          "created_at": "2021-11-17T19:51:30.444Z",
+          "updated_at": "2021-11-17T19:51:32.739Z",
           "private": false
         }
       ],
