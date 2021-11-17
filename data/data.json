@@ -1706,6 +1706,47 @@
       "kind": "link"
     },
     {
+      "id": "link-64",
+      "url": "https://tailblocks.cc/",
+      "description": " Ready-to-use Tailwind CSS blocks. \n\n",
+      "publish_on_social": false,
+      "published_at": "2021-11-17T19:12:19.335Z",
+      "created_at": "2021-11-11T20:14:49.523Z",
+      "updated_at": "2021-11-17T19:12:19.385Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 2,
+          "title": "css",
+          "published_at": "2021-09-29T21:14:59.916Z",
+          "created_at": "2021-09-29T21:14:57.152Z",
+          "updated_at": "2021-09-29T21:14:59.939Z"
+        },
+        {
+          "id": 12,
+          "title": "tailwindcss",
+          "published_at": "2021-10-05T16:56:49.709Z",
+          "created_at": "2021-10-05T16:56:47.855Z",
+          "updated_at": "2021-10-05T16:56:49.731Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 4,
+          "title": "design",
+          "published_at": "2021-09-29T21:22:29.557Z",
+          "created_at": "2021-09-29T21:22:27.099Z",
+          "updated_at": "2021-09-29T21:22:29.572Z"
+        }
+      ],
+      "kind": "link"
+    },
+    {
       "id": "link-65",
       "url": "https://github.com/pmndrs/zustand",
       "description": "A small, fast and scalable bearbones state-management solution using simplified flux principles. Has a comfy api based on hooks, isn't boilerplatey or opinionated.\n\nHomepage with a nice animation/effect : https://zustand.surge.sh/",
@@ -2688,6 +2729,16 @@
           "private": null
         },
         {
+          "id": 64,
+          "url": "https://tailblocks.cc/",
+          "description": " Ready-to-use Tailwind CSS blocks. \n\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-17T19:12:19.335Z",
+          "created_at": "2021-11-11T20:14:49.523Z",
+          "updated_at": "2021-11-17T19:12:19.385Z",
+          "private": false
+        },
+        {
           "id": 53,
           "url": "https://simplecss.org/",
           "description": "\nSimple.css is a classless CSS framework that allows you to make a good looking website really quickly.\n\nBy classless I mean that there are no CSS classes anywhere in the CSS or the HTML. So your website can look just like this using plain old vanilla HTML.\n\nCool, huh?",
@@ -2836,6 +2887,16 @@
           "published_at": "2021-10-27T14:02:59.608Z",
           "created_at": "2021-10-27T14:02:56.664Z",
           "updated_at": "2021-10-27T14:02:59.632Z",
+          "private": false
+        },
+        {
+          "id": 64,
+          "url": "https://tailblocks.cc/",
+          "description": " Ready-to-use Tailwind CSS blocks. \n\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-17T19:12:19.335Z",
+          "created_at": "2021-11-11T20:14:49.523Z",
+          "updated_at": "2021-11-17T19:12:19.385Z",
           "private": false
         },
         {
@@ -3147,6 +3208,16 @@
           "published_at": "2021-11-11T14:13:54.499Z",
           "created_at": "2021-11-11T14:13:51.638Z",
           "updated_at": "2021-11-11T14:13:54.549Z",
+          "private": false
+        },
+        {
+          "id": 64,
+          "url": "https://tailblocks.cc/",
+          "description": " Ready-to-use Tailwind CSS blocks. \n\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-17T19:12:19.335Z",
+          "created_at": "2021-11-11T20:14:49.523Z",
+          "updated_at": "2021-11-17T19:12:19.385Z",
           "private": false
         },
         {
@@ -3973,6 +4044,16 @@
       "created_at": "2021-10-05T16:56:47.855Z",
       "updated_at": "2021-10-05T16:56:49.731Z",
       "links": [
+        {
+          "id": 64,
+          "url": "https://tailblocks.cc/",
+          "description": " Ready-to-use Tailwind CSS blocks. \n\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-17T19:12:19.335Z",
+          "created_at": "2021-11-11T20:14:49.523Z",
+          "updated_at": "2021-11-17T19:12:19.385Z",
+          "private": false
+        },
         {
           "id": 63,
           "url": "https://tailwindcomponents.com/",
