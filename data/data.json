@@ -1340,6 +1340,33 @@
       "kind": "link"
     },
     {
+      "id": "link-70",
+      "url": "https://github.com/lark-parser/lark",
+      "description": " Lark is a parsing toolkit for Python, built with a focus on ergonomics, performance and modularity. \n\nLark can parse all context-free languages. To put it simply, it means that it is capable of parsing almost any programming language out there, and to some degree most natural languages too.",
+      "publish_on_social": false,
+      "published_at": "2021-11-21T10:09:17.834Z",
+      "created_at": "2021-11-21T10:09:13.970Z",
+      "updated_at": "2021-11-21T10:09:17.859Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 9,
+          "title": "python",
+          "published_at": "2021-10-03T11:53:54.883Z",
+          "created_at": "2021-10-03T11:53:53.267Z",
+          "updated_at": "2021-10-03T11:53:54.919Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
+    },
+    {
       "id": "link-31",
       "url": "https://dev.to/masakudamatsu/favicon-nightmare-how-to-maintain-sanity-3al7",
       "description": "#  Definitive edition of \"How to Favicon in 2021\" \n\n## TL;DR\n\nIn the <head> element of your HTML document, insert\n\n```html\n<link rel=\"icon\" href=\"favicon.svg\" type=\"image/svg+xml\">\n<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\"/>\n<link rel=\"manifest\" href=\"/site.webmanifest\" />\n```\n\nwhere site.webmanifest is a JSON file with the content like this:\n\n```json\n{\n    \"name\": \"Your website name\",\n    \"short_name\": \"A shorter version of your website name\",\n    \"icons\": [\n        {\n            \"src\": \"/android-chrome-192x192.png\",\n            \"sizes\": \"192x192\",\n            \"type\": \"image/png\"\n        },\n        {\n            \"src\": \"/android-chrome-512x512.png\",\n            \"sizes\": \"512x512\",\n            \"type\": \"image/png\"\n        }\n    ],\n    \"theme_color\": \"#4a4a4a\",\n    \"background_color\": \"#4a4a4a\",\n    \"display\": \"standalone\"\n}\n```\n\nChange the values of \"theme_color\" and \"background_color\" to your favicon design specification\n\nThen create a favicon in the SVG format.\n\nConvert this SVG image into favicon.ico, apple-touch-icon.png, android-chrome-192x192.png, and android-chrome-512x512.png with RealFaviconGenerator.\n\nFinally, make sure that the favicon.ico file is named as it is (don't change it) and saved in the root directory. (Otherwise MacOS Safari and IE won't recognize the favicon.)\n\nThat's all! :-)",
@@ -3175,6 +3202,16 @@
           "private": null
         },
         {
+          "id": 70,
+          "url": "https://github.com/lark-parser/lark",
+          "description": " Lark is a parsing toolkit for Python, built with a focus on ergonomics, performance and modularity. \n\nLark can parse all context-free languages. To put it simply, it means that it is capable of parsing almost any programming language out there, and to some degree most natural languages too.",
+          "publish_on_social": false,
+          "published_at": "2021-11-21T10:09:17.834Z",
+          "created_at": "2021-11-21T10:09:13.970Z",
+          "updated_at": "2021-11-21T10:09:17.859Z",
+          "private": false
+        },
+        {
           "id": 62,
           "url": "https://www.radix-ui.com/",
           "description": "Unstyled, accessible components for building high\u2011quality design systems and web apps in React.",
@@ -3976,6 +4013,16 @@
           "created_at": "2021-10-03T11:53:45.152Z",
           "updated_at": "2021-10-03T11:54:05.999Z",
           "private": null
+        },
+        {
+          "id": 70,
+          "url": "https://github.com/lark-parser/lark",
+          "description": " Lark is a parsing toolkit for Python, built with a focus on ergonomics, performance and modularity. \n\nLark can parse all context-free languages. To put it simply, it means that it is capable of parsing almost any programming language out there, and to some degree most natural languages too.",
+          "publish_on_social": false,
+          "published_at": "2021-11-21T10:09:17.834Z",
+          "created_at": "2021-11-21T10:09:13.970Z",
+          "updated_at": "2021-11-21T10:09:17.859Z",
+          "private": false
         },
         {
           "id": 9,
