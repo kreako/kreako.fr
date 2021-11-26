@@ -2674,6 +2674,33 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-81",
+      "url": "https://github.com/redis/redis-om-node",
+      "description": " Object mapping, and more, for Redis and Node.js. Written in TypeScript. ",
+      "publish_on_social": false,
+      "published_at": "2021-11-26T12:40:43.526Z",
+      "created_at": "2021-11-26T12:40:11.150Z",
+      "updated_at": "2021-11-26T12:40:43.549Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 1,
+          "title": "javascript",
+          "published_at": "2021-09-29T21:01:51.147Z",
+          "created_at": "2021-09-29T21:01:48.486Z",
+          "updated_at": "2021-09-29T21:01:51.167Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -2782,6 +2809,16 @@
           "published_at": "2021-10-05T16:55:31.884Z",
           "created_at": "2021-10-05T16:55:29.388Z",
           "updated_at": "2021-10-05T16:55:52.330Z",
+          "private": false
+        },
+        {
+          "id": 81,
+          "url": "https://github.com/redis/redis-om-node",
+          "description": " Object mapping, and more, for Redis and Node.js. Written in TypeScript. ",
+          "publish_on_social": false,
+          "published_at": "2021-11-26T12:40:43.526Z",
+          "created_at": "2021-11-26T12:40:11.150Z",
+          "updated_at": "2021-11-26T12:40:43.549Z",
           "private": false
         },
         {
@@ -3845,6 +3882,16 @@
           "published_at": "2021-10-21T18:40:08.509Z",
           "created_at": "2021-10-21T18:39:06.991Z",
           "updated_at": "2021-10-21T18:40:08.530Z",
+          "private": false
+        },
+        {
+          "id": 81,
+          "url": "https://github.com/redis/redis-om-node",
+          "description": " Object mapping, and more, for Redis and Node.js. Written in TypeScript. ",
+          "publish_on_social": false,
+          "published_at": "2021-11-26T12:40:43.526Z",
+          "created_at": "2021-11-26T12:40:11.150Z",
+          "updated_at": "2021-11-26T12:40:43.549Z",
           "private": false
         },
         {
