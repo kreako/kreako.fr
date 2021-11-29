@@ -2762,6 +2762,33 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-84",
+      "url": "https://github.com/chalk/chalk",
+      "description": "Terminal string styling done right",
+      "publish_on_social": false,
+      "published_at": "2021-11-29T14:55:32.054Z",
+      "created_at": "2021-11-29T14:55:29.244Z",
+      "updated_at": "2021-11-29T14:55:32.091Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 1,
+          "title": "javascript",
+          "published_at": "2021-09-29T21:01:51.147Z",
+          "created_at": "2021-09-29T21:01:48.486Z",
+          "updated_at": "2021-09-29T21:01:51.167Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -3200,6 +3227,16 @@
           "published_at": "2021-11-11T20:11:01.938Z",
           "created_at": "2021-11-11T20:10:57.741Z",
           "updated_at": "2021-11-11T20:11:01.966Z",
+          "private": false
+        },
+        {
+          "id": 84,
+          "url": "https://github.com/chalk/chalk",
+          "description": "Terminal string styling done right",
+          "publish_on_social": false,
+          "published_at": "2021-11-29T14:55:32.054Z",
+          "created_at": "2021-11-29T14:55:29.244Z",
+          "updated_at": "2021-11-29T14:55:32.091Z",
           "private": false
         },
         {
@@ -4083,6 +4120,16 @@
           "published_at": "2021-10-26T11:35:24.258Z",
           "created_at": "2021-10-26T11:35:21.860Z",
           "updated_at": "2021-10-26T11:35:24.287Z",
+          "private": false
+        },
+        {
+          "id": 84,
+          "url": "https://github.com/chalk/chalk",
+          "description": "Terminal string styling done right",
+          "publish_on_social": false,
+          "published_at": "2021-11-29T14:55:32.054Z",
+          "created_at": "2021-11-29T14:55:29.244Z",
+          "updated_at": "2021-11-29T14:55:32.091Z",
           "private": false
         },
         {
