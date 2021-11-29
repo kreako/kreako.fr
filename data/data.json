@@ -2728,6 +2728,40 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-83",
+      "url": "https://github.com/tonaljs/tonal",
+      "description": "tonal is a music theory library. Contains functions to manipulate tonal elements of music (note, intervals, chords, scales, modes, keys). It deals with abstractions (not actual music or sound).\n\ntonal is implemented in Typescript and published as a collection of Javascript npm packages.\n\nIt uses a functional programing style: all functions are pure, there is no data mutation, and entities are represented by data structures instead of objects.",
+      "publish_on_social": false,
+      "published_at": "2021-11-29T14:43:24.974Z",
+      "created_at": "2021-11-29T14:43:22.698Z",
+      "updated_at": "2021-11-29T14:43:25.003Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 16,
+          "title": "music",
+          "published_at": "2021-11-03T18:45:33.854Z",
+          "created_at": "2021-11-03T18:45:31.679Z",
+          "updated_at": "2021-11-03T18:45:33.880Z"
+        },
+        {
+          "id": 1,
+          "title": "javascript",
+          "published_at": "2021-09-29T21:01:51.147Z",
+          "created_at": "2021-09-29T21:01:48.486Z",
+          "updated_at": "2021-09-29T21:01:51.167Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -2956,6 +2990,16 @@
           "published_at": "2021-11-11T20:12:03.488Z",
           "created_at": "2021-11-11T20:12:00.963Z",
           "updated_at": "2021-11-11T20:12:03.523Z",
+          "private": false
+        },
+        {
+          "id": 83,
+          "url": "https://github.com/tonaljs/tonal",
+          "description": "tonal is a music theory library. Contains functions to manipulate tonal elements of music (note, intervals, chords, scales, modes, keys). It deals with abstractions (not actual music or sound).\n\ntonal is implemented in Typescript and published as a collection of Javascript npm packages.\n\nIt uses a functional programing style: all functions are pure, there is no data mutation, and entities are represented by data structures instead of objects.",
+          "publish_on_social": false,
+          "published_at": "2021-11-29T14:43:24.974Z",
+          "created_at": "2021-11-29T14:43:22.698Z",
+          "updated_at": "2021-11-29T14:43:25.003Z",
           "private": false
         },
         {
@@ -4242,6 +4286,16 @@
           "private": false
         },
         {
+          "id": 83,
+          "url": "https://github.com/tonaljs/tonal",
+          "description": "tonal is a music theory library. Contains functions to manipulate tonal elements of music (note, intervals, chords, scales, modes, keys). It deals with abstractions (not actual music or sound).\n\ntonal is implemented in Typescript and published as a collection of Javascript npm packages.\n\nIt uses a functional programing style: all functions are pure, there is no data mutation, and entities are represented by data structures instead of objects.",
+          "publish_on_social": false,
+          "published_at": "2021-11-29T14:43:24.974Z",
+          "created_at": "2021-11-29T14:43:22.698Z",
+          "updated_at": "2021-11-29T14:43:25.003Z",
+          "private": false
+        },
+        {
           "id": 8,
           "url": "http://dlib.net/",
           "description": "Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems.\n\n- Machine Learning\n- Machine Learning\n- Graphical Model Inference\n- Image Processing (Face recognition...)\n",
@@ -5013,6 +5067,16 @@
           "published_at": "2021-11-03T18:46:23.166Z",
           "created_at": "2021-11-03T18:46:20.907Z",
           "updated_at": "2021-11-03T18:46:23.187Z",
+          "private": false
+        },
+        {
+          "id": 83,
+          "url": "https://github.com/tonaljs/tonal",
+          "description": "tonal is a music theory library. Contains functions to manipulate tonal elements of music (note, intervals, chords, scales, modes, keys). It deals with abstractions (not actual music or sound).\n\ntonal is implemented in Typescript and published as a collection of Javascript npm packages.\n\nIt uses a functional programing style: all functions are pure, there is no data mutation, and entities are represented by data structures instead of objects.",
+          "publish_on_social": false,
+          "published_at": "2021-11-29T14:43:24.974Z",
+          "created_at": "2021-11-29T14:43:22.698Z",
+          "updated_at": "2021-11-29T14:43:25.003Z",
           "private": false
         }
       ],
