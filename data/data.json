@@ -2843,6 +2843,47 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-87",
+      "url": "https://github.com/antfu/unplugin-icons",
+      "description": "Access thousands of icons as components on-demand universally.",
+      "publish_on_social": false,
+      "published_at": "2021-12-12T19:47:41.398Z",
+      "created_at": "2021-12-12T19:47:34.855Z",
+      "updated_at": "2021-12-12T19:47:41.428Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 11,
+          "title": "vue",
+          "published_at": "2021-10-05T16:55:44.484Z",
+          "created_at": "2021-10-05T16:55:42.438Z",
+          "updated_at": "2021-10-05T16:55:44.498Z"
+        },
+        {
+          "id": 8,
+          "title": "react",
+          "published_at": "2021-10-02T10:15:01.395Z",
+          "created_at": "2021-10-02T10:14:59.290Z",
+          "updated_at": "2021-10-02T10:15:01.410Z"
+        },
+        {
+          "id": 1,
+          "title": "javascript",
+          "published_at": "2021-09-29T21:01:51.147Z",
+          "created_at": "2021-09-29T21:01:48.486Z",
+          "updated_at": "2021-09-29T21:01:51.167Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -3091,6 +3132,16 @@
           "published_at": "2021-10-12T08:13:39.273Z",
           "created_at": "2021-10-12T08:13:36.939Z",
           "updated_at": "2021-10-12T08:13:39.286Z",
+          "private": false
+        },
+        {
+          "id": 87,
+          "url": "https://github.com/antfu/unplugin-icons",
+          "description": "Access thousands of icons as components on-demand universally.",
+          "publish_on_social": false,
+          "published_at": "2021-12-12T19:47:41.398Z",
+          "created_at": "2021-12-12T19:47:34.855Z",
+          "updated_at": "2021-12-12T19:47:41.428Z",
           "private": false
         },
         {
@@ -4267,6 +4318,16 @@
           "private": false
         },
         {
+          "id": 87,
+          "url": "https://github.com/antfu/unplugin-icons",
+          "description": "Access thousands of icons as components on-demand universally.",
+          "publish_on_social": false,
+          "published_at": "2021-12-12T19:47:41.398Z",
+          "created_at": "2021-12-12T19:47:34.855Z",
+          "updated_at": "2021-12-12T19:47:41.428Z",
+          "private": false
+        },
+        {
           "id": 69,
           "url": "https://oss.redis.com/redisearch/",
           "description": "RediSearch - Redis Secondary Index & Query Engine\n\nRediSearch is a source available Secondary Index, Query Engine and Full-Text Search over Redis, developed by Redis . \n\n Redisearch implements a secondary index on top of Redis, but unlike other Redis indexing libraries, it does not use internal data structures such as sorted sets.\n\nThis also enables more advanced features, such as multi-field queries, aggregation, and full text search capabilites. These capabilities include exact phrase matching and numeric filtering for text queries, something that is neither possible or efficient with traditional Redis indexing approaches. \n",
@@ -4829,6 +4890,16 @@
           "private": false
         },
         {
+          "id": 87,
+          "url": "https://github.com/antfu/unplugin-icons",
+          "description": "Access thousands of icons as components on-demand universally.",
+          "publish_on_social": false,
+          "published_at": "2021-12-12T19:47:41.398Z",
+          "created_at": "2021-12-12T19:47:34.855Z",
+          "updated_at": "2021-12-12T19:47:41.428Z",
+          "private": false
+        },
+        {
           "id": 61,
           "url": "https://github.com/vechai/vechaiui",
           "description": "A set of high-quality accessible React UI components with the built-in dark mode using Tailwind CSS. Pre-designed headless ui and radix-ui. \n\n",
@@ -5018,6 +5089,16 @@
           "published_at": "2021-10-27T18:30:44.076Z",
           "created_at": "2021-10-27T18:30:41.379Z",
           "updated_at": "2021-10-27T18:30:44.101Z",
+          "private": false
+        },
+        {
+          "id": 87,
+          "url": "https://github.com/antfu/unplugin-icons",
+          "description": "Access thousands of icons as components on-demand universally.",
+          "publish_on_social": false,
+          "published_at": "2021-12-12T19:47:41.398Z",
+          "created_at": "2021-12-12T19:47:34.855Z",
+          "updated_at": "2021-12-12T19:47:41.428Z",
           "private": false
         },
         {
