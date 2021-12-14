@@ -2884,6 +2884,33 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-88",
+      "url": "https://github.com/colinhacks/zod",
+      "description": "Zod is a TypeScript-first schema declaration and validation library. I'm using the term \"schema\" to broadly refer to any data type, from a simple string to a complex nested object.\n\nZod is designed to be as developer-friendly as possible. The goal is to eliminate duplicative type declarations. With Zod, you declare a validator once and Zod will automatically infer the static TypeScript type. It's easy to compose simpler types into complex data structures.",
+      "publish_on_social": false,
+      "published_at": "2021-12-14T14:42:02.267Z",
+      "created_at": "2021-12-14T14:41:51.042Z",
+      "updated_at": "2021-12-14T14:42:02.305Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 1,
+          "title": "javascript",
+          "published_at": "2021-09-29T21:01:51.147Z",
+          "created_at": "2021-09-29T21:01:48.486Z",
+          "updated_at": "2021-09-29T21:01:51.167Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -3352,6 +3379,16 @@
           "published_at": "2021-11-29T14:55:32.054Z",
           "created_at": "2021-11-29T14:55:29.244Z",
           "updated_at": "2021-11-29T14:55:32.091Z",
+          "private": false
+        },
+        {
+          "id": 88,
+          "url": "https://github.com/colinhacks/zod",
+          "description": "Zod is a TypeScript-first schema declaration and validation library. I'm using the term \"schema\" to broadly refer to any data type, from a simple string to a complex nested object.\n\nZod is designed to be as developer-friendly as possible. The goal is to eliminate duplicative type declarations. With Zod, you declare a validator once and Zod will automatically infer the static TypeScript type. It's easy to compose simpler types into complex data structures.",
+          "publish_on_social": false,
+          "published_at": "2021-12-14T14:42:02.267Z",
+          "created_at": "2021-12-14T14:41:51.042Z",
+          "updated_at": "2021-12-14T14:42:02.305Z",
           "private": false
         },
         {
@@ -4485,6 +4522,16 @@
           "published_at": "2021-11-29T14:43:24.974Z",
           "created_at": "2021-11-29T14:43:22.698Z",
           "updated_at": "2021-11-29T14:43:25.003Z",
+          "private": false
+        },
+        {
+          "id": 88,
+          "url": "https://github.com/colinhacks/zod",
+          "description": "Zod is a TypeScript-first schema declaration and validation library. I'm using the term \"schema\" to broadly refer to any data type, from a simple string to a complex nested object.\n\nZod is designed to be as developer-friendly as possible. The goal is to eliminate duplicative type declarations. With Zod, you declare a validator once and Zod will automatically infer the static TypeScript type. It's easy to compose simpler types into complex data structures.",
+          "publish_on_social": false,
+          "published_at": "2021-12-14T14:42:02.267Z",
+          "created_at": "2021-12-14T14:41:51.042Z",
+          "updated_at": "2021-12-14T14:42:02.305Z",
           "private": false
         },
         {
