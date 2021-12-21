@@ -3130,6 +3130,47 @@
       "kind": "link"
     },
     {
+      "id": "link-97",
+      "url": "https://www.patterns.dev/",
+      "description": "Improve how you architect webapps\n\nPatterns.dev is free book on design patterns and component patterns for building powerful web apps with vanilla JavaScript and React.",
+      "publish_on_social": false,
+      "published_at": "2021-12-21T18:43:10.745Z",
+      "created_at": "2021-12-21T18:43:08.440Z",
+      "updated_at": "2021-12-21T18:43:10.775Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 1,
+          "title": "javascript",
+          "published_at": "2021-09-29T21:01:51.147Z",
+          "created_at": "2021-09-29T21:01:48.486Z",
+          "updated_at": "2021-09-29T21:01:51.167Z"
+        },
+        {
+          "id": 8,
+          "title": "react",
+          "published_at": "2021-10-02T10:15:01.395Z",
+          "created_at": "2021-10-02T10:14:59.290Z",
+          "updated_at": "2021-10-02T10:15:01.410Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 4,
+          "title": "design",
+          "published_at": "2021-09-29T21:22:29.557Z",
+          "created_at": "2021-09-29T21:22:27.099Z",
+          "updated_at": "2021-09-29T21:22:29.572Z"
+        }
+      ],
+      "kind": "link"
+    },
+    {
       "id": "link-93",
       "url": "https://github.com/vvo/iron-session",
       "description": "Node.js stateless session utility using signed and encrypted cookies to store data. Works with Next.js, Express, NestJs, Fastify, and any Node.js HTTP framework. ",
@@ -3165,6 +3206,406 @@
       "created_at": "2021-09-29T21:01:48.486Z",
       "updated_at": "2021-09-29T21:01:51.167Z",
       "links": [
+        {
+          "id": 93,
+          "url": "https://github.com/vvo/iron-session",
+          "description": "Node.js stateless session utility using signed and encrypted cookies to store data. Works with Next.js, Express, NestJs, Fastify, and any Node.js HTTP framework. ",
+          "publish_on_social": false,
+          "published_at": "2021-12-20T12:43:49.470Z",
+          "created_at": "2021-12-20T12:43:47.406Z",
+          "updated_at": "2021-12-20T12:43:49.539Z",
+          "private": false
+        },
+        {
+          "id": 37,
+          "url": "https://css-tricks.com/testing-vue-components-with-cypress/",
+          "description": " Testing Vue Components With Cypress\n\n",
+          "publish_on_social": false,
+          "published_at": "2021-10-27T18:30:44.076Z",
+          "created_at": "2021-10-27T18:30:41.379Z",
+          "updated_at": "2021-10-27T18:30:44.101Z",
+          "private": false
+        },
+        {
+          "id": 45,
+          "url": "https://github.com/appwrite/appwrite",
+          "description": "Appwrite is a secure end-to-end backend server for Web, Mobile, and Flutter developers that is packaged as a set of Docker containers for easy deployment\n\nAppwrite is an end-to-end backend server for Web, Mobile, Native, or Backend apps packaged as a set of Docker microservices. Appwrite abstracts the complexity and repetitiveness required to build a modern backend API from scratch and allows you to build secure apps faster.\n\nUsing Appwrite, you can easily integrate your app with user authentication & multiple sign-in methods, a database for storing and querying users and team data, storage and file management, image manipulation, Cloud Functions, realtime subscription and more services.\n\n",
+          "publish_on_social": false,
+          "published_at": "2021-10-31T10:37:53.083Z",
+          "created_at": "2021-10-31T10:37:50.661Z",
+          "updated_at": "2021-10-31T10:37:53.123Z",
+          "private": false
+        },
+        {
+          "id": 44,
+          "url": "https://github.com/nextapps-de/winbox",
+          "description": " WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source! ",
+          "publish_on_social": false,
+          "published_at": "2021-10-31T10:20:46.905Z",
+          "created_at": "2021-10-31T10:20:44.433Z",
+          "updated_at": "2021-10-31T10:20:46.932Z",
+          "private": false
+        },
+        {
+          "id": 74,
+          "url": "https://github.com/tannerlinsley/react-location",
+          "description": "Enterprise Client-Side Routing for React",
+          "publish_on_social": false,
+          "published_at": "2021-11-21T11:12:54.995Z",
+          "created_at": "2021-11-21T11:12:51.408Z",
+          "updated_at": "2021-11-21T11:12:55.026Z",
+          "private": false
+        },
+        {
+          "id": 92,
+          "url": "https://github.com/Shopify/react-native-skia",
+          "description": "React Native Skia brings the Skia Graphics Library to React Native. Skia serves as the graphics engine for Google Chrome and Chrome OS, Android, Flutter, Mozilla Firefox and, Firefox OS, and many other products.",
+          "publish_on_social": false,
+          "published_at": "2021-12-20T12:42:11.657Z",
+          "created_at": "2021-12-20T12:42:09.512Z",
+          "updated_at": "2021-12-20T12:42:11.698Z",
+          "private": false
+        },
+        {
+          "id": 73,
+          "url": "https://github.com/tannerlinsley/react-table",
+          "description": "Hooks for building lightweight, fast and extendable datagrids for React",
+          "publish_on_social": false,
+          "published_at": "2021-11-21T11:12:05.561Z",
+          "created_at": "2021-11-21T11:12:02.149Z",
+          "updated_at": "2021-11-21T11:12:05.577Z",
+          "private": false
+        },
+        {
+          "id": 20,
+          "url": "https://github.com/xtermjs/xterm.js",
+          "description": "Xterm.js is a front-end component written in TypeScript that lets applications bring fully-featured terminals to their users in the browser. It's used by popular projects such as VS Code, Hyper and Theia.",
+          "publish_on_social": false,
+          "published_at": "2021-10-14T09:13:26.263Z",
+          "created_at": "2021-10-14T09:13:23.840Z",
+          "updated_at": "2021-10-14T09:13:26.297Z",
+          "private": false
+        },
+        {
+          "id": 12,
+          "url": "https://github.com/mmazzarolo/react-native-universal-monorepo",
+          "description": " React Native boilerplate supporting multiple platforms: Android, iOS, macOS, Windows, web, browser extensions, Electron. \nAn opinonated approach to supporting multiple platforms with React Native using a Yarn Workspaces monorepo.",
+          "publish_on_social": false,
+          "published_at": "2021-10-05T18:18:29.877Z",
+          "created_at": "2021-10-05T18:18:26.983Z",
+          "updated_at": "2021-10-05T18:18:29.898Z",
+          "private": false
+        },
+        {
+          "id": 41,
+          "url": "https://github.com/openreplay/openreplay",
+          "description": "OpenReplay is developer-friendly, open-source session replay\n\nOpenReplay is a session replay stack that lets you see what users do on your web app, helping you troubleshoot issues faster. It's the only open-source alternative to products such as FullStory and LogRocket.\n\n- Session replay. OpenReplay replays what users do, but not only. It also shows you what went under the hood, how your website or app behaves by capturing network activity, console logs, JS errors, store actions/state, page speed metrics, cpu/memory usage and much more.\n- Low footprint. With a ~18KB (.gz) tracker that asynchronously sends minimal data for a very limited impact on performance.\n- Self-hosted. No more security compliance checks, 3rd-parties processing user data. Everything OpenReplay captures stays in your cloud for a complete control over your data.\n- Privacy controls. Fine-grained security features for sanitizing user data.\n- Easy deploy. With support of major public cloud providers (AWS, GCP, Azure, DigitalOcean).\n\nFeatures\n\n- Session replay: Lets you relive your users' experience, see where they struggle and how it affects their behavior. Each session replay is automatically analyzed based on heuristics, for easy triage.\n- DevTools: It's like debugging in your own browser. OpenReplay provides you with the full context (network activity, JS errors, store actions/state and 40+ metrics) so you can instantly reproduce bugs and understand performance issues.\n- Assist: Helps you support your users by seeing their live screen and instantly hopping on call (WebRTC) with them without requiring any 3rd-party screen sharing software.\n- Omni-search: Search and filter by almost any user action/criteria, session attribute or technical event, so you can answer any question. No instrumentation required.\n- Funnels: For surfacing the most impactful issues causing conversion and revenue loss.\n- Fine-grained privacy controls: Choose what to capture, what to obscure or what to ignore so user data doesn't even reach your servers.\n- Plugins oriented: Get to the root cause even faster by tracking application state (Redux, VueX, MobX, NgRx) and logging GraphQL queries (Apollo, Relay) and Fetch requests.\n- Integrations: Sync your backend logs with your session replays and see what happened front-to-back. OpenReplay supports Sentry, Datadog, CloudWatch, Stackdriver, Elastic and more",
+          "publish_on_social": false,
+          "published_at": "2021-10-28T22:44:21.676Z",
+          "created_at": "2021-10-28T22:44:17.035Z",
+          "updated_at": "2021-10-28T22:44:21.700Z",
+          "private": false
+        },
+        {
+          "id": 87,
+          "url": "https://github.com/antfu/unplugin-icons",
+          "description": "Access thousands of icons as components on-demand universally.",
+          "publish_on_social": false,
+          "published_at": "2021-12-12T19:47:41.398Z",
+          "created_at": "2021-12-12T19:47:34.855Z",
+          "updated_at": "2021-12-12T19:47:41.428Z",
+          "private": false
+        },
+        {
+          "id": 32,
+          "url": "https://usehooks-typescript.com/",
+          "description": "Simple React hooks, ready to use, written in typescript.\n\n- useBoolean()\n- useCopyToClipboard()\n- useCounter()\n- useDarkMode()\n- useDebounce()\n- useElementSize()\n- useEventListener()\n- useFetch()\n- useHover()\n- useImageOnLoad()\n- useIntersectionObserver()\n- useInterval()\n- useIsClient()\n- useIsMounted()\n- useLocalStorage()\n- useLockedBody()\n- useMap()\n- useOnClickOutside()\n- useReadLocalStorage()\n- useScreen()\n- useScript()\n- useSsr()\n- useTimeout()\n- useWindowSize()\n",
+          "publish_on_social": false,
+          "published_at": "2021-10-23T18:44:37.433Z",
+          "created_at": "2021-10-23T18:44:34.740Z",
+          "updated_at": "2021-10-23T18:44:37.457Z",
+          "private": false
+        },
+        {
+          "id": 91,
+          "url": "https://github.com/nolanlawson/fuite",
+          "description": "fuite is a CLI tool for finding memory leaks in web apps.",
+          "publish_on_social": false,
+          "published_at": "2021-12-20T12:41:25.995Z",
+          "created_at": "2021-12-20T12:41:23.031Z",
+          "updated_at": "2021-12-20T12:41:26.045Z",
+          "private": false
+        },
+        {
+          "id": 2,
+          "url": "https://omatsuri.app/",
+          "description": "Open source browser tools for everyday use.\n\n- Page divider\n- Triangle generator\n- Color shades generator\n- html symbols collection\n- Fake data generator",
+          "publish_on_social": false,
+          "published_at": "2021-09-29T21:16:44.791Z",
+          "created_at": "2021-09-29T21:14:46.347Z",
+          "updated_at": "2021-09-29T21:22:53.917Z",
+          "private": null
+        },
+        {
+          "id": 94,
+          "url": "https://github.com/prisma/prisma",
+          "description": "Prisma is a next-generation ORM that consists of these tools:\n\n- Prisma Client: Auto-generated and type-safe query builder for Node.js & TypeScript\n- Prisma Migrate: Declarative data modeling & migration system\n- Prisma Studio: GUI to view and edit data in your database\n\nPrisma Client can be used in any Node.js or TypeScript backend application (including serverless applications and microservices). This can be a REST API, a GraphQL API a gRPC API, or anything else that needs a database.",
+          "publish_on_social": false,
+          "published_at": "2021-12-20T12:45:03.904Z",
+          "created_at": "2021-12-20T12:44:55.644Z",
+          "updated_at": "2021-12-20T12:45:03.933Z",
+          "private": false
+        },
+        {
+          "id": 50,
+          "url": "https://github.com/lerna/lerna",
+          "description": " A tool for managing JavaScript projects with multiple packages.\n\nSplitting up large codebases into separate independently versioned packages is extremely useful for code sharing. However, making changes across many repositories is messy and difficult to track, and testing across repositories becomes complicated very quickly.\n\nTo solve these (and many other) problems, some projects will organize their codebases into multi-package repositories (sometimes called monorepos). Projects like Babel, React, Angular, Ember, Meteor, Jest, and many others develop all of their packages within a single repository.\n\nLerna is a tool that optimizes the workflow around managing multi-package repositories with git and npm.\n\nLerna can also reduce the time and space requirements for numerous copies of packages in development and build environments - normally a downside of dividing a project into many separate NPM packages. See the hoist documentation for details.",
+          "publish_on_social": false,
+          "published_at": "2021-11-09T12:26:43.764Z",
+          "created_at": "2021-11-09T12:26:41.405Z",
+          "updated_at": "2021-11-09T12:26:43.813Z",
+          "private": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.patterns.dev/",
+          "description": "Improve how you architect webapps\n\nPatterns.dev is free book on design patterns and component patterns for building powerful web apps with vanilla JavaScript and React.",
+          "publish_on_social": false,
+          "published_at": "2021-12-21T18:43:10.745Z",
+          "created_at": "2021-12-21T18:43:08.440Z",
+          "updated_at": "2021-12-21T18:43:10.775Z",
+          "private": false
+        },
+        {
+          "id": 95,
+          "url": "https://github.com/trpc/trpc",
+          "description": "End-to-end typesafe APIs made easy\n\ntRPC allows you to easily build & consume fully typesafe APIs, without schemas or code generation.",
+          "publish_on_social": false,
+          "published_at": "2021-12-20T17:33:12.158Z",
+          "created_at": "2021-12-20T17:33:09.003Z",
+          "updated_at": "2021-12-20T17:33:12.205Z",
+          "private": false
+        },
+        {
+          "id": 60,
+          "url": "https://github.com/lukeed/obj-str",
+          "description": "A tiny (96B) library for serializing Object values to Strings.\n\nThis module's intended use is for converting an Object with CSS class names (as keys) to a space-delimited className string. Other modules have similar goals (like classnames), but obj-str only does one thing. This is why it's only 100 bytes gzipped!\n\n```jsx\nimport React from 'react';\nimport objstr from 'obj-str';\n\nconst TodoItem = ({ text, isDone, disabled }) => (\n  <li className={ objstr({ item:true, completed:isDone, disabled }) }>\n    <input type=\"checkbox\" disabled={ disabled } checked={ isDone } />\n    <label>{ text }</label>\n  </li>\n);```",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:11:01.938Z",
+          "created_at": "2021-11-11T20:10:57.741Z",
+          "updated_at": "2021-11-11T20:11:01.966Z",
+          "private": false
+        },
+        {
+          "id": 84,
+          "url": "https://github.com/chalk/chalk",
+          "description": "Terminal string styling done right",
+          "publish_on_social": false,
+          "published_at": "2021-11-29T14:55:32.054Z",
+          "created_at": "2021-11-29T14:55:29.244Z",
+          "updated_at": "2021-11-29T14:55:32.091Z",
+          "private": false
+        },
+        {
+          "id": 88,
+          "url": "https://github.com/colinhacks/zod",
+          "description": "Zod is a TypeScript-first schema declaration and validation library. I'm using the term \"schema\" to broadly refer to any data type, from a simple string to a complex nested object.\n\nZod is designed to be as developer-friendly as possible. The goal is to eliminate duplicative type declarations. With Zod, you declare a validator once and Zod will automatically infer the static TypeScript type. It's easy to compose simpler types into complex data structures.",
+          "publish_on_social": false,
+          "published_at": "2021-12-14T14:42:02.267Z",
+          "created_at": "2021-12-14T14:41:51.042Z",
+          "updated_at": "2021-12-14T14:42:02.305Z",
+          "private": false
+        },
+        {
+          "id": 6,
+          "url": "http://thecodebarbarian.com/overview-of-jsx-with-non-react-examples.html",
+          "description": "JSX can be used with a custom function.\nTree, express routing and mangoose examples",
+          "publish_on_social": false,
+          "published_at": "2021-10-02T09:53:17.969Z",
+          "created_at": "2021-10-02T09:53:00.400Z",
+          "updated_at": "2021-10-02T09:53:39.971Z",
+          "private": null
+        },
+        {
+          "id": 34,
+          "url": "https://quilljs.com/",
+          "description": "Quill is a free, open source WYSIWYG editor built for the modern web. With its modular architecture and expressive API, it is completely customizable to fit any need.",
+          "publish_on_social": false,
+          "published_at": "2021-10-24T10:01:19.016Z",
+          "created_at": "2021-10-24T10:01:16.800Z",
+          "updated_at": "2021-10-24T10:01:19.037Z",
+          "private": false
+        },
+        {
+          "id": 80,
+          "url": "https://certitude.consulting/blog/en/invisible-backdoor/",
+          "description": "The Invisible JavaScript Backdoor\n\nWhat if a backdoor literally cannot be seen and thus evades detection even from thorough code reviews?",
+          "publish_on_social": false,
+          "published_at": "2021-11-24T17:31:33.877Z",
+          "created_at": "2021-11-24T17:31:30.883Z",
+          "updated_at": "2021-11-24T17:31:33.913Z",
+          "private": false
+        },
+        {
+          "id": 14,
+          "url": "https://github.com/fabiospampinato/cash",
+          "description": "Cash is an absurdly small jQuery alternative for modern browsers (IE11+) that provides jQuery-style syntax for manipulating the DOM. Utilizing modern browser features to minimize the codebase, developers can use the familiar chainable methods at a fraction of the file size. 100% feature parity with jQuery isn't a goal, but Cash comes helpfully close, covering most day to day use cases.",
+          "publish_on_social": false,
+          "published_at": "2021-10-12T08:12:19.160Z",
+          "created_at": "2021-10-12T08:12:16.132Z",
+          "updated_at": "2021-10-12T08:12:19.177Z",
+          "private": false
+        },
+        {
+          "id": 55,
+          "url": "https://github.com/tailwind-mobile/tailwind-mobile",
+          "description": " Mobile UI components made with Tailwind CSS \n\nTailwind Mobile - Pixel perfect mobile UI components built with Tailwind CSS with iOS and Material Design components for React, Vue & Svelte",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T14:17:01.610Z",
+          "created_at": "2021-11-11T14:16:59.027Z",
+          "updated_at": "2021-11-11T14:17:01.633Z",
+          "private": false
+        },
+        {
+          "id": 10,
+          "url": "https://atroposjs.com",
+          "description": "Atropos is a lightweight, free and open-source JavaScript library to create stunning touch-friendly 3D parallax hover effects.\n\nAvailable for JavaScript, React and Vue.js",
+          "publish_on_social": false,
+          "published_at": "2021-10-05T16:55:31.884Z",
+          "created_at": "2021-10-05T16:55:29.388Z",
+          "updated_at": "2021-10-05T16:55:52.330Z",
+          "private": false
+        },
+        {
+          "id": 81,
+          "url": "https://github.com/redis/redis-om-node",
+          "description": " Object mapping, and more, for Redis and Node.js. Written in TypeScript. ",
+          "publish_on_social": false,
+          "published_at": "2021-11-26T12:40:43.526Z",
+          "created_at": "2021-11-26T12:40:11.150Z",
+          "updated_at": "2021-11-26T12:40:43.549Z",
+          "private": false
+        },
+        {
+          "id": 62,
+          "url": "https://www.radix-ui.com/",
+          "description": "Unstyled, accessible components for building high\u2011quality design systems and web apps in React.",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:12:48.213Z",
+          "created_at": "2021-11-11T20:12:43.502Z",
+          "updated_at": "2021-11-11T20:12:48.238Z",
+          "private": false
+        },
+        {
+          "id": 35,
+          "url": "https://github.com/KilledByAPixel/LittleJS",
+          "description": "The Tiny JavaScript Game Engine That Can\n\nLittleJS is a super lightweight 2D JavaScript game engine with fast WebGL rendering. It was designed to be small, simple, and easy to use for a variety of applications from game jams to commercial releases. This engine has everything necessary to make high quality games including fast rendering, physics, particles, sound effects, music, keyboard/mouse/gamepad input handling, update/render loop, and debug tools.",
+          "publish_on_social": false,
+          "published_at": "2021-10-26T11:35:24.258Z",
+          "created_at": "2021-10-26T11:35:21.860Z",
+          "updated_at": "2021-10-26T11:35:24.287Z",
+          "private": false
+        },
+        {
+          "id": 58,
+          "url": "https://www.framer.com/motion/",
+          "description": "A production-ready motion library for React.",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:06:04.195Z",
+          "created_at": "2021-11-11T20:06:01.117Z",
+          "updated_at": "2021-11-11T20:06:04.207Z",
+          "private": false
+        },
+        {
+          "id": 79,
+          "url": "https://github.com/tannerlinsley/react-query",
+          "description": "Hooks for fetching, caching and updating asynchronous data in React ",
+          "publish_on_social": false,
+          "published_at": "2021-11-21T12:07:04.624Z",
+          "created_at": "2021-11-21T12:07:01.170Z",
+          "updated_at": "2021-11-21T12:07:04.650Z",
+          "private": false
+        },
+        {
+          "id": 46,
+          "url": "https://github.com/neon-bindings/neon",
+          "description": " Rust bindings for writing safe and fast native Node.js modules. ",
+          "publish_on_social": false,
+          "published_at": "2021-10-31T10:42:01.226Z",
+          "created_at": "2021-10-31T10:41:58.641Z",
+          "updated_at": "2021-10-31T10:42:01.270Z",
+          "private": false
+        },
+        {
+          "id": 59,
+          "url": "https://www.npmjs.com/package/clsx",
+          "description": "A tiny (228B) utility for constructing className strings conditionally from string, array, object...\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:08:05.855Z",
+          "created_at": "2021-11-11T20:08:03.439Z",
+          "updated_at": "2021-11-11T20:08:05.891Z",
+          "private": false
+        },
+        {
+          "id": 61,
+          "url": "https://github.com/vechai/vechaiui",
+          "description": "A set of high-quality accessible React UI components with the built-in dark mode using Tailwind CSS. Pre-designed headless ui and radix-ui. \n\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:12:03.488Z",
+          "created_at": "2021-11-11T20:12:00.963Z",
+          "updated_at": "2021-11-11T20:12:03.523Z",
+          "private": false
+        },
+        {
+          "id": 83,
+          "url": "https://github.com/tonaljs/tonal",
+          "description": "tonal is a music theory library. Contains functions to manipulate tonal elements of music (note, intervals, chords, scales, modes, keys). It deals with abstractions (not actual music or sound).\n\ntonal is implemented in Typescript and published as a collection of Javascript npm packages.\n\nIt uses a functional programing style: all functions are pure, there is no data mutation, and entities are represented by data structures instead of objects.",
+          "publish_on_social": false,
+          "published_at": "2021-11-29T14:43:24.974Z",
+          "created_at": "2021-11-29T14:43:22.698Z",
+          "updated_at": "2021-11-29T14:43:25.003Z",
+          "private": false
+        },
+        {
+          "id": 15,
+          "url": "https://github.com/sachinchoolur/replace-jquery",
+          "description": "Automatically find jQuery methods from existing projects and generate vanilla js alternatives.",
+          "publish_on_social": false,
+          "published_at": "2021-10-12T08:13:39.273Z",
+          "created_at": "2021-10-12T08:13:36.939Z",
+          "updated_at": "2021-10-12T08:13:39.286Z",
+          "private": false
+        },
+        {
+          "id": 57,
+          "url": "https://www.npmjs.com/package/web-vitals",
+          "description": "The web-vitals library is a tiny (~1K), modular library for measuring all the Web Vitals metrics on real users, in a way that accurately matches how they're measured by Chrome and reported to other Google tools (e.g. Chrome User Experience Report, Page Speed Insights, Search Console's Speed Report).",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T18:54:17.901Z",
+          "created_at": "2021-11-11T18:54:15.195Z",
+          "updated_at": "2021-11-11T18:54:17.936Z",
+          "private": false
+        },
+        {
+          "id": 77,
+          "url": "https://github.com/argyleink/gui-challenges",
+          "description": " centralized projects from the YouTube show GUI Challenges \n\nI build interfaces my way, then challenge you to do it your way. With our creative minds combined, we'll find multiple ways to solve these interfaces and expand the diversity of our skills.\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-21T12:00:56.327Z",
+          "created_at": "2021-11-21T12:00:52.835Z",
+          "updated_at": "2021-11-21T12:00:56.385Z",
+          "private": false
+        },
+        {
+          "id": 86,
+          "url": "https://github.com/floating-ui/floating-ui/",
+          "description": "Floating UI is a low-level library for positioning \"floating\" elements like tooltips, popovers, dropdowns, menus and more. Since these types of elements float on top of the UI without disrupting the flow of content, challenges arise when positioning them.\n\nFloating UI exposes primitives which enable a floating element to be positioned next to a given reference element while appearing in view for the user as best as possible. Features include overflow prevention (or collision awareness), placement flipping, and more.",
+          "publish_on_social": false,
+          "published_at": "2021-12-08T15:19:10.869Z",
+          "created_at": "2021-12-08T15:19:07.308Z",
+          "updated_at": "2021-12-08T15:19:10.888Z",
+          "private": false
+        },
         {
           "id": 65,
           "url": "https://github.com/pmndrs/zustand",
@@ -3266,26 +3707,6 @@
           "private": false
         },
         {
-          "id": 50,
-          "url": "https://github.com/lerna/lerna",
-          "description": " A tool for managing JavaScript projects with multiple packages.\n\nSplitting up large codebases into separate independently versioned packages is extremely useful for code sharing. However, making changes across many repositories is messy and difficult to track, and testing across repositories becomes complicated very quickly.\n\nTo solve these (and many other) problems, some projects will organize their codebases into multi-package repositories (sometimes called monorepos). Projects like Babel, React, Angular, Ember, Meteor, Jest, and many others develop all of their packages within a single repository.\n\nLerna is a tool that optimizes the workflow around managing multi-package repositories with git and npm.\n\nLerna can also reduce the time and space requirements for numerous copies of packages in development and build environments - normally a downside of dividing a project into many separate NPM packages. See the hoist documentation for details.",
-          "publish_on_social": false,
-          "published_at": "2021-11-09T12:26:43.764Z",
-          "created_at": "2021-11-09T12:26:41.405Z",
-          "updated_at": "2021-11-09T12:26:43.813Z",
-          "private": false
-        },
-        {
-          "id": 95,
-          "url": "https://github.com/trpc/trpc",
-          "description": "End-to-end typesafe APIs made easy\n\ntRPC allows you to easily build & consume fully typesafe APIs, without schemas or code generation.",
-          "publish_on_social": false,
-          "published_at": "2021-12-20T17:33:12.158Z",
-          "created_at": "2021-12-20T17:33:09.003Z",
-          "updated_at": "2021-12-20T17:33:12.205Z",
-          "private": false
-        },
-        {
           "id": 56,
           "url": "https://github.com/nas5w/use-local-storage",
           "description": " A flexible React Hook for using Local Storage. \n\n",
@@ -3316,36 +3737,6 @@
           "private": false
         },
         {
-          "id": 60,
-          "url": "https://github.com/lukeed/obj-str",
-          "description": "A tiny (96B) library for serializing Object values to Strings.\n\nThis module's intended use is for converting an Object with CSS class names (as keys) to a space-delimited className string. Other modules have similar goals (like classnames), but obj-str only does one thing. This is why it's only 100 bytes gzipped!\n\n```jsx\nimport React from 'react';\nimport objstr from 'obj-str';\n\nconst TodoItem = ({ text, isDone, disabled }) => (\n  <li className={ objstr({ item:true, completed:isDone, disabled }) }>\n    <input type=\"checkbox\" disabled={ disabled } checked={ isDone } />\n    <label>{ text }</label>\n  </li>\n);```",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T20:11:01.938Z",
-          "created_at": "2021-11-11T20:10:57.741Z",
-          "updated_at": "2021-11-11T20:11:01.966Z",
-          "private": false
-        },
-        {
-          "id": 84,
-          "url": "https://github.com/chalk/chalk",
-          "description": "Terminal string styling done right",
-          "publish_on_social": false,
-          "published_at": "2021-11-29T14:55:32.054Z",
-          "created_at": "2021-11-29T14:55:29.244Z",
-          "updated_at": "2021-11-29T14:55:32.091Z",
-          "private": false
-        },
-        {
-          "id": 88,
-          "url": "https://github.com/colinhacks/zod",
-          "description": "Zod is a TypeScript-first schema declaration and validation library. I'm using the term \"schema\" to broadly refer to any data type, from a simple string to a complex nested object.\n\nZod is designed to be as developer-friendly as possible. The goal is to eliminate duplicative type declarations. With Zod, you declare a validator once and Zod will automatically infer the static TypeScript type. It's easy to compose simpler types into complex data structures.",
-          "publish_on_social": false,
-          "published_at": "2021-12-14T14:42:02.267Z",
-          "created_at": "2021-12-14T14:41:51.042Z",
-          "updated_at": "2021-12-14T14:42:02.305Z",
-          "private": false
-        },
-        {
           "id": 16,
           "url": "https://github.com/handtracking-io/yoha",
           "description": "YoHa is a hand tracking engine that is built with the goal of being a versatile solution in practical scenarios where hand tracking is employed to add value to an application. While ultimately the goal is to be a general purpose hand tracking engine supporting any hand pose, the engine evolves around specific hand poses that users/developers find useful. These poses are detected by the engine which allows to build applications with meaningful interactions. See the demo for an example.",
@@ -3373,346 +3764,6 @@
           "published_at": "2021-10-13T10:46:54.710Z",
           "created_at": "2021-10-13T10:46:49.703Z",
           "updated_at": "2021-10-13T10:46:54.760Z",
-          "private": false
-        },
-        {
-          "id": 93,
-          "url": "https://github.com/vvo/iron-session",
-          "description": "Node.js stateless session utility using signed and encrypted cookies to store data. Works with Next.js, Express, NestJs, Fastify, and any Node.js HTTP framework. ",
-          "publish_on_social": false,
-          "published_at": "2021-12-20T12:43:49.470Z",
-          "created_at": "2021-12-20T12:43:47.406Z",
-          "updated_at": "2021-12-20T12:43:49.539Z",
-          "private": false
-        },
-        {
-          "id": 6,
-          "url": "http://thecodebarbarian.com/overview-of-jsx-with-non-react-examples.html",
-          "description": "JSX can be used with a custom function.\nTree, express routing and mangoose examples",
-          "publish_on_social": false,
-          "published_at": "2021-10-02T09:53:17.969Z",
-          "created_at": "2021-10-02T09:53:00.400Z",
-          "updated_at": "2021-10-02T09:53:39.971Z",
-          "private": null
-        },
-        {
-          "id": 37,
-          "url": "https://css-tricks.com/testing-vue-components-with-cypress/",
-          "description": " Testing Vue Components With Cypress\n\n",
-          "publish_on_social": false,
-          "published_at": "2021-10-27T18:30:44.076Z",
-          "created_at": "2021-10-27T18:30:41.379Z",
-          "updated_at": "2021-10-27T18:30:44.101Z",
-          "private": false
-        },
-        {
-          "id": 34,
-          "url": "https://quilljs.com/",
-          "description": "Quill is a free, open source WYSIWYG editor built for the modern web. With its modular architecture and expressive API, it is completely customizable to fit any need.",
-          "publish_on_social": false,
-          "published_at": "2021-10-24T10:01:19.016Z",
-          "created_at": "2021-10-24T10:01:16.800Z",
-          "updated_at": "2021-10-24T10:01:19.037Z",
-          "private": false
-        },
-        {
-          "id": 45,
-          "url": "https://github.com/appwrite/appwrite",
-          "description": "Appwrite is a secure end-to-end backend server for Web, Mobile, and Flutter developers that is packaged as a set of Docker containers for easy deployment\n\nAppwrite is an end-to-end backend server for Web, Mobile, Native, or Backend apps packaged as a set of Docker microservices. Appwrite abstracts the complexity and repetitiveness required to build a modern backend API from scratch and allows you to build secure apps faster.\n\nUsing Appwrite, you can easily integrate your app with user authentication & multiple sign-in methods, a database for storing and querying users and team data, storage and file management, image manipulation, Cloud Functions, realtime subscription and more services.\n\n",
-          "publish_on_social": false,
-          "published_at": "2021-10-31T10:37:53.083Z",
-          "created_at": "2021-10-31T10:37:50.661Z",
-          "updated_at": "2021-10-31T10:37:53.123Z",
-          "private": false
-        },
-        {
-          "id": 44,
-          "url": "https://github.com/nextapps-de/winbox",
-          "description": " WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source! ",
-          "publish_on_social": false,
-          "published_at": "2021-10-31T10:20:46.905Z",
-          "created_at": "2021-10-31T10:20:44.433Z",
-          "updated_at": "2021-10-31T10:20:46.932Z",
-          "private": false
-        },
-        {
-          "id": 80,
-          "url": "https://certitude.consulting/blog/en/invisible-backdoor/",
-          "description": "The Invisible JavaScript Backdoor\n\nWhat if a backdoor literally cannot be seen and thus evades detection even from thorough code reviews?",
-          "publish_on_social": false,
-          "published_at": "2021-11-24T17:31:33.877Z",
-          "created_at": "2021-11-24T17:31:30.883Z",
-          "updated_at": "2021-11-24T17:31:33.913Z",
-          "private": false
-        },
-        {
-          "id": 14,
-          "url": "https://github.com/fabiospampinato/cash",
-          "description": "Cash is an absurdly small jQuery alternative for modern browsers (IE11+) that provides jQuery-style syntax for manipulating the DOM. Utilizing modern browser features to minimize the codebase, developers can use the familiar chainable methods at a fraction of the file size. 100% feature parity with jQuery isn't a goal, but Cash comes helpfully close, covering most day to day use cases.",
-          "publish_on_social": false,
-          "published_at": "2021-10-12T08:12:19.160Z",
-          "created_at": "2021-10-12T08:12:16.132Z",
-          "updated_at": "2021-10-12T08:12:19.177Z",
-          "private": false
-        },
-        {
-          "id": 55,
-          "url": "https://github.com/tailwind-mobile/tailwind-mobile",
-          "description": " Mobile UI components made with Tailwind CSS \n\nTailwind Mobile - Pixel perfect mobile UI components built with Tailwind CSS with iOS and Material Design components for React, Vue & Svelte",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T14:17:01.610Z",
-          "created_at": "2021-11-11T14:16:59.027Z",
-          "updated_at": "2021-11-11T14:17:01.633Z",
-          "private": false
-        },
-        {
-          "id": 74,
-          "url": "https://github.com/tannerlinsley/react-location",
-          "description": "Enterprise Client-Side Routing for React",
-          "publish_on_social": false,
-          "published_at": "2021-11-21T11:12:54.995Z",
-          "created_at": "2021-11-21T11:12:51.408Z",
-          "updated_at": "2021-11-21T11:12:55.026Z",
-          "private": false
-        },
-        {
-          "id": 10,
-          "url": "https://atroposjs.com",
-          "description": "Atropos is a lightweight, free and open-source JavaScript library to create stunning touch-friendly 3D parallax hover effects.\n\nAvailable for JavaScript, React and Vue.js",
-          "publish_on_social": false,
-          "published_at": "2021-10-05T16:55:31.884Z",
-          "created_at": "2021-10-05T16:55:29.388Z",
-          "updated_at": "2021-10-05T16:55:52.330Z",
-          "private": false
-        },
-        {
-          "id": 81,
-          "url": "https://github.com/redis/redis-om-node",
-          "description": " Object mapping, and more, for Redis and Node.js. Written in TypeScript. ",
-          "publish_on_social": false,
-          "published_at": "2021-11-26T12:40:43.526Z",
-          "created_at": "2021-11-26T12:40:11.150Z",
-          "updated_at": "2021-11-26T12:40:43.549Z",
-          "private": false
-        },
-        {
-          "id": 92,
-          "url": "https://github.com/Shopify/react-native-skia",
-          "description": "React Native Skia brings the Skia Graphics Library to React Native. Skia serves as the graphics engine for Google Chrome and Chrome OS, Android, Flutter, Mozilla Firefox and, Firefox OS, and many other products.",
-          "publish_on_social": false,
-          "published_at": "2021-12-20T12:42:11.657Z",
-          "created_at": "2021-12-20T12:42:09.512Z",
-          "updated_at": "2021-12-20T12:42:11.698Z",
-          "private": false
-        },
-        {
-          "id": 73,
-          "url": "https://github.com/tannerlinsley/react-table",
-          "description": "Hooks for building lightweight, fast and extendable datagrids for React",
-          "publish_on_social": false,
-          "published_at": "2021-11-21T11:12:05.561Z",
-          "created_at": "2021-11-21T11:12:02.149Z",
-          "updated_at": "2021-11-21T11:12:05.577Z",
-          "private": false
-        },
-        {
-          "id": 20,
-          "url": "https://github.com/xtermjs/xterm.js",
-          "description": "Xterm.js is a front-end component written in TypeScript that lets applications bring fully-featured terminals to their users in the browser. It's used by popular projects such as VS Code, Hyper and Theia.",
-          "publish_on_social": false,
-          "published_at": "2021-10-14T09:13:26.263Z",
-          "created_at": "2021-10-14T09:13:23.840Z",
-          "updated_at": "2021-10-14T09:13:26.297Z",
-          "private": false
-        },
-        {
-          "id": 62,
-          "url": "https://www.radix-ui.com/",
-          "description": "Unstyled, accessible components for building high\u2011quality design systems and web apps in React.",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T20:12:48.213Z",
-          "created_at": "2021-11-11T20:12:43.502Z",
-          "updated_at": "2021-11-11T20:12:48.238Z",
-          "private": false
-        },
-        {
-          "id": 12,
-          "url": "https://github.com/mmazzarolo/react-native-universal-monorepo",
-          "description": " React Native boilerplate supporting multiple platforms: Android, iOS, macOS, Windows, web, browser extensions, Electron. \nAn opinonated approach to supporting multiple platforms with React Native using a Yarn Workspaces monorepo.",
-          "publish_on_social": false,
-          "published_at": "2021-10-05T18:18:29.877Z",
-          "created_at": "2021-10-05T18:18:26.983Z",
-          "updated_at": "2021-10-05T18:18:29.898Z",
-          "private": false
-        },
-        {
-          "id": 35,
-          "url": "https://github.com/KilledByAPixel/LittleJS",
-          "description": "The Tiny JavaScript Game Engine That Can\n\nLittleJS is a super lightweight 2D JavaScript game engine with fast WebGL rendering. It was designed to be small, simple, and easy to use for a variety of applications from game jams to commercial releases. This engine has everything necessary to make high quality games including fast rendering, physics, particles, sound effects, music, keyboard/mouse/gamepad input handling, update/render loop, and debug tools.",
-          "publish_on_social": false,
-          "published_at": "2021-10-26T11:35:24.258Z",
-          "created_at": "2021-10-26T11:35:21.860Z",
-          "updated_at": "2021-10-26T11:35:24.287Z",
-          "private": false
-        },
-        {
-          "id": 58,
-          "url": "https://www.framer.com/motion/",
-          "description": "A production-ready motion library for React.",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T20:06:04.195Z",
-          "created_at": "2021-11-11T20:06:01.117Z",
-          "updated_at": "2021-11-11T20:06:04.207Z",
-          "private": false
-        },
-        {
-          "id": 79,
-          "url": "https://github.com/tannerlinsley/react-query",
-          "description": "Hooks for fetching, caching and updating asynchronous data in React ",
-          "publish_on_social": false,
-          "published_at": "2021-11-21T12:07:04.624Z",
-          "created_at": "2021-11-21T12:07:01.170Z",
-          "updated_at": "2021-11-21T12:07:04.650Z",
-          "private": false
-        },
-        {
-          "id": 46,
-          "url": "https://github.com/neon-bindings/neon",
-          "description": " Rust bindings for writing safe and fast native Node.js modules. ",
-          "publish_on_social": false,
-          "published_at": "2021-10-31T10:42:01.226Z",
-          "created_at": "2021-10-31T10:41:58.641Z",
-          "updated_at": "2021-10-31T10:42:01.270Z",
-          "private": false
-        },
-        {
-          "id": 41,
-          "url": "https://github.com/openreplay/openreplay",
-          "description": "OpenReplay is developer-friendly, open-source session replay\n\nOpenReplay is a session replay stack that lets you see what users do on your web app, helping you troubleshoot issues faster. It's the only open-source alternative to products such as FullStory and LogRocket.\n\n- Session replay. OpenReplay replays what users do, but not only. It also shows you what went under the hood, how your website or app behaves by capturing network activity, console logs, JS errors, store actions/state, page speed metrics, cpu/memory usage and much more.\n- Low footprint. With a ~18KB (.gz) tracker that asynchronously sends minimal data for a very limited impact on performance.\n- Self-hosted. No more security compliance checks, 3rd-parties processing user data. Everything OpenReplay captures stays in your cloud for a complete control over your data.\n- Privacy controls. Fine-grained security features for sanitizing user data.\n- Easy deploy. With support of major public cloud providers (AWS, GCP, Azure, DigitalOcean).\n\nFeatures\n\n- Session replay: Lets you relive your users' experience, see where they struggle and how it affects their behavior. Each session replay is automatically analyzed based on heuristics, for easy triage.\n- DevTools: It's like debugging in your own browser. OpenReplay provides you with the full context (network activity, JS errors, store actions/state and 40+ metrics) so you can instantly reproduce bugs and understand performance issues.\n- Assist: Helps you support your users by seeing their live screen and instantly hopping on call (WebRTC) with them without requiring any 3rd-party screen sharing software.\n- Omni-search: Search and filter by almost any user action/criteria, session attribute or technical event, so you can answer any question. No instrumentation required.\n- Funnels: For surfacing the most impactful issues causing conversion and revenue loss.\n- Fine-grained privacy controls: Choose what to capture, what to obscure or what to ignore so user data doesn't even reach your servers.\n- Plugins oriented: Get to the root cause even faster by tracking application state (Redux, VueX, MobX, NgRx) and logging GraphQL queries (Apollo, Relay) and Fetch requests.\n- Integrations: Sync your backend logs with your session replays and see what happened front-to-back. OpenReplay supports Sentry, Datadog, CloudWatch, Stackdriver, Elastic and more",
-          "publish_on_social": false,
-          "published_at": "2021-10-28T22:44:21.676Z",
-          "created_at": "2021-10-28T22:44:17.035Z",
-          "updated_at": "2021-10-28T22:44:21.700Z",
-          "private": false
-        },
-        {
-          "id": 59,
-          "url": "https://www.npmjs.com/package/clsx",
-          "description": "A tiny (228B) utility for constructing className strings conditionally from string, array, object...\n",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T20:08:05.855Z",
-          "created_at": "2021-11-11T20:08:03.439Z",
-          "updated_at": "2021-11-11T20:08:05.891Z",
-          "private": false
-        },
-        {
-          "id": 61,
-          "url": "https://github.com/vechai/vechaiui",
-          "description": "A set of high-quality accessible React UI components with the built-in dark mode using Tailwind CSS. Pre-designed headless ui and radix-ui. \n\n",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T20:12:03.488Z",
-          "created_at": "2021-11-11T20:12:00.963Z",
-          "updated_at": "2021-11-11T20:12:03.523Z",
-          "private": false
-        },
-        {
-          "id": 83,
-          "url": "https://github.com/tonaljs/tonal",
-          "description": "tonal is a music theory library. Contains functions to manipulate tonal elements of music (note, intervals, chords, scales, modes, keys). It deals with abstractions (not actual music or sound).\n\ntonal is implemented in Typescript and published as a collection of Javascript npm packages.\n\nIt uses a functional programing style: all functions are pure, there is no data mutation, and entities are represented by data structures instead of objects.",
-          "publish_on_social": false,
-          "published_at": "2021-11-29T14:43:24.974Z",
-          "created_at": "2021-11-29T14:43:22.698Z",
-          "updated_at": "2021-11-29T14:43:25.003Z",
-          "private": false
-        },
-        {
-          "id": 15,
-          "url": "https://github.com/sachinchoolur/replace-jquery",
-          "description": "Automatically find jQuery methods from existing projects and generate vanilla js alternatives.",
-          "publish_on_social": false,
-          "published_at": "2021-10-12T08:13:39.273Z",
-          "created_at": "2021-10-12T08:13:36.939Z",
-          "updated_at": "2021-10-12T08:13:39.286Z",
-          "private": false
-        },
-        {
-          "id": 87,
-          "url": "https://github.com/antfu/unplugin-icons",
-          "description": "Access thousands of icons as components on-demand universally.",
-          "publish_on_social": false,
-          "published_at": "2021-12-12T19:47:41.398Z",
-          "created_at": "2021-12-12T19:47:34.855Z",
-          "updated_at": "2021-12-12T19:47:41.428Z",
-          "private": false
-        },
-        {
-          "id": 32,
-          "url": "https://usehooks-typescript.com/",
-          "description": "Simple React hooks, ready to use, written in typescript.\n\n- useBoolean()\n- useCopyToClipboard()\n- useCounter()\n- useDarkMode()\n- useDebounce()\n- useElementSize()\n- useEventListener()\n- useFetch()\n- useHover()\n- useImageOnLoad()\n- useIntersectionObserver()\n- useInterval()\n- useIsClient()\n- useIsMounted()\n- useLocalStorage()\n- useLockedBody()\n- useMap()\n- useOnClickOutside()\n- useReadLocalStorage()\n- useScreen()\n- useScript()\n- useSsr()\n- useTimeout()\n- useWindowSize()\n",
-          "publish_on_social": false,
-          "published_at": "2021-10-23T18:44:37.433Z",
-          "created_at": "2021-10-23T18:44:34.740Z",
-          "updated_at": "2021-10-23T18:44:37.457Z",
-          "private": false
-        },
-        {
-          "id": 91,
-          "url": "https://github.com/nolanlawson/fuite",
-          "description": "fuite is a CLI tool for finding memory leaks in web apps.",
-          "publish_on_social": false,
-          "published_at": "2021-12-20T12:41:25.995Z",
-          "created_at": "2021-12-20T12:41:23.031Z",
-          "updated_at": "2021-12-20T12:41:26.045Z",
-          "private": false
-        },
-        {
-          "id": 2,
-          "url": "https://omatsuri.app/",
-          "description": "Open source browser tools for everyday use.\n\n- Page divider\n- Triangle generator\n- Color shades generator\n- html symbols collection\n- Fake data generator",
-          "publish_on_social": false,
-          "published_at": "2021-09-29T21:16:44.791Z",
-          "created_at": "2021-09-29T21:14:46.347Z",
-          "updated_at": "2021-09-29T21:22:53.917Z",
-          "private": null
-        },
-        {
-          "id": 94,
-          "url": "https://github.com/prisma/prisma",
-          "description": "Prisma is a next-generation ORM that consists of these tools:\n\n- Prisma Client: Auto-generated and type-safe query builder for Node.js & TypeScript\n- Prisma Migrate: Declarative data modeling & migration system\n- Prisma Studio: GUI to view and edit data in your database\n\nPrisma Client can be used in any Node.js or TypeScript backend application (including serverless applications and microservices). This can be a REST API, a GraphQL API a gRPC API, or anything else that needs a database.",
-          "publish_on_social": false,
-          "published_at": "2021-12-20T12:45:03.904Z",
-          "created_at": "2021-12-20T12:44:55.644Z",
-          "updated_at": "2021-12-20T12:45:03.933Z",
-          "private": false
-        },
-        {
-          "id": 57,
-          "url": "https://www.npmjs.com/package/web-vitals",
-          "description": "The web-vitals library is a tiny (~1K), modular library for measuring all the Web Vitals metrics on real users, in a way that accurately matches how they're measured by Chrome and reported to other Google tools (e.g. Chrome User Experience Report, Page Speed Insights, Search Console's Speed Report).",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T18:54:17.901Z",
-          "created_at": "2021-11-11T18:54:15.195Z",
-          "updated_at": "2021-11-11T18:54:17.936Z",
-          "private": false
-        },
-        {
-          "id": 77,
-          "url": "https://github.com/argyleink/gui-challenges",
-          "description": " centralized projects from the YouTube show GUI Challenges \n\nI build interfaces my way, then challenge you to do it your way. With our creative minds combined, we'll find multiple ways to solve these interfaces and expand the diversity of our skills.\n",
-          "publish_on_social": false,
-          "published_at": "2021-11-21T12:00:56.327Z",
-          "created_at": "2021-11-21T12:00:52.835Z",
-          "updated_at": "2021-11-21T12:00:56.385Z",
-          "private": false
-        },
-        {
-          "id": 86,
-          "url": "https://github.com/floating-ui/floating-ui/",
-          "description": "Floating UI is a low-level library for positioning \"floating\" elements like tooltips, popovers, dropdowns, menus and more. Since these types of elements float on top of the UI without disrupting the flow of content, challenges arise when positioning them.\n\nFloating UI exposes primitives which enable a floating element to be positioned next to a given reference element while appearing in view for the user as best as possible. Features include overflow prevention (or collision awareness), placement flipping, and more.",
-          "publish_on_social": false,
-          "published_at": "2021-12-08T15:19:10.869Z",
-          "created_at": "2021-12-08T15:19:07.308Z",
-          "updated_at": "2021-12-08T15:19:10.888Z",
           "private": false
         }
       ],
@@ -3777,16 +3828,6 @@
           "private": false
         },
         {
-          "id": 2,
-          "url": "https://omatsuri.app/",
-          "description": "Open source browser tools for everyday use.\n\n- Page divider\n- Triangle generator\n- Color shades generator\n- html symbols collection\n- Fake data generator",
-          "publish_on_social": false,
-          "published_at": "2021-09-29T21:16:44.791Z",
-          "created_at": "2021-09-29T21:14:46.347Z",
-          "updated_at": "2021-09-29T21:22:53.917Z",
-          "private": null
-        },
-        {
           "id": 64,
           "url": "https://tailblocks.cc/",
           "description": " Ready-to-use Tailwind CSS blocks. \n\n",
@@ -3815,6 +3856,16 @@
           "created_at": "2021-11-11T10:01:13.621Z",
           "updated_at": "2021-11-11T10:01:16.267Z",
           "private": false
+        },
+        {
+          "id": 2,
+          "url": "https://omatsuri.app/",
+          "description": "Open source browser tools for everyday use.\n\n- Page divider\n- Triangle generator\n- Color shades generator\n- html symbols collection\n- Fake data generator",
+          "publish_on_social": false,
+          "published_at": "2021-09-29T21:16:44.791Z",
+          "created_at": "2021-09-29T21:14:46.347Z",
+          "updated_at": "2021-09-29T21:22:53.917Z",
+          "private": null
         },
         {
           "id": 61,
@@ -3938,6 +3989,36 @@
       "updated_at": "2021-09-29T21:22:29.572Z",
       "links": [
         {
+          "id": 63,
+          "url": "https://tailwindcomponents.com/",
+          "description": " A free repository for community components using TailwindCSS\n\nOpen source Tailwind UI components and templates to bootstrap your new apps, projects or landing sites!",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:13:36.329Z",
+          "created_at": "2021-11-11T20:13:34.052Z",
+          "updated_at": "2021-11-11T20:13:36.351Z",
+          "private": false
+        },
+        {
+          "id": 77,
+          "url": "https://github.com/argyleink/gui-challenges",
+          "description": " centralized projects from the YouTube show GUI Challenges \n\nI build interfaces my way, then challenge you to do it your way. With our creative minds combined, we'll find multiple ways to solve these interfaces and expand the diversity of our skills.\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-21T12:00:56.327Z",
+          "created_at": "2021-11-21T12:00:52.835Z",
+          "updated_at": "2021-11-21T12:00:56.385Z",
+          "private": false
+        },
+        {
+          "id": 85,
+          "url": "https://svgsilh.com/",
+          "description": "Free SVG Image & Icon.",
+          "publish_on_social": false,
+          "published_at": "2021-11-30T18:23:20.705Z",
+          "created_at": "2021-11-30T18:23:17.994Z",
+          "updated_at": "2021-11-30T18:23:20.728Z",
+          "private": false
+        },
+        {
           "id": 3,
           "url": "https://getwaves.io/",
           "description": "SVG waves generator",
@@ -3946,16 +4027,6 @@
           "created_at": "2021-09-29T21:22:11.087Z",
           "updated_at": "2021-09-29T21:23:19.149Z",
           "private": null
-        },
-        {
-          "id": 31,
-          "url": "https://dev.to/masakudamatsu/favicon-nightmare-how-to-maintain-sanity-3al7",
-          "description": "#  Definitive edition of \"How to Favicon in 2021\" \n\n## TL;DR\n\nIn the <head> element of your HTML document, insert\n\n```html\n<link rel=\"icon\" href=\"favicon.svg\" type=\"image/svg+xml\">\n<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\"/>\n<link rel=\"manifest\" href=\"/site.webmanifest\" />\n```\n\nwhere site.webmanifest is a JSON file with the content like this:\n\n```json\n{\n    \"name\": \"Your website name\",\n    \"short_name\": \"A shorter version of your website name\",\n    \"icons\": [\n        {\n            \"src\": \"/android-chrome-192x192.png\",\n            \"sizes\": \"192x192\",\n            \"type\": \"image/png\"\n        },\n        {\n            \"src\": \"/android-chrome-512x512.png\",\n            \"sizes\": \"512x512\",\n            \"type\": \"image/png\"\n        }\n    ],\n    \"theme_color\": \"#4a4a4a\",\n    \"background_color\": \"#4a4a4a\",\n    \"display\": \"standalone\"\n}\n```\n\nChange the values of \"theme_color\" and \"background_color\" to your favicon design specification\n\nThen create a favicon in the SVG format.\n\nConvert this SVG image into favicon.ico, apple-touch-icon.png, android-chrome-192x192.png, and android-chrome-512x512.png with RealFaviconGenerator.\n\nFinally, make sure that the favicon.ico file is named as it is (don't change it) and saved in the root directory. (Otherwise MacOS Safari and IE won't recognize the favicon.)\n\nThat's all! :-)",
-          "publish_on_social": false,
-          "published_at": "2021-10-22T10:15:15.537Z",
-          "created_at": "2021-10-22T10:15:12.555Z",
-          "updated_at": "2021-10-22T10:15:15.559Z",
-          "private": false
         },
         {
           "id": 4,
@@ -3968,23 +4039,13 @@
           "private": null
         },
         {
-          "id": 89,
-          "url": "https://thispersondoesnotexist.com/",
-          "description": "Generated photo of fake people",
+          "id": 97,
+          "url": "https://www.patterns.dev/",
+          "description": "Improve how you architect webapps\n\nPatterns.dev is free book on design patterns and component patterns for building powerful web apps with vanilla JavaScript and React.",
           "publish_on_social": false,
-          "published_at": "2021-12-19T14:08:30.530Z",
-          "created_at": "2021-12-19T14:07:55.547Z",
-          "updated_at": "2021-12-19T14:08:30.552Z",
-          "private": false
-        },
-        {
-          "id": 63,
-          "url": "https://tailwindcomponents.com/",
-          "description": " A free repository for community components using TailwindCSS\n\nOpen source Tailwind UI components and templates to bootstrap your new apps, projects or landing sites!",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T20:13:36.329Z",
-          "created_at": "2021-11-11T20:13:34.052Z",
-          "updated_at": "2021-11-11T20:13:36.351Z",
+          "published_at": "2021-12-21T18:43:10.745Z",
+          "created_at": "2021-12-21T18:43:08.440Z",
+          "updated_at": "2021-12-21T18:43:10.775Z",
           "private": false
         },
         {
@@ -3995,16 +4056,6 @@
           "published_at": "2021-11-07T11:47:01.022Z",
           "created_at": "2021-11-07T11:46:58.350Z",
           "updated_at": "2021-11-07T11:47:01.068Z",
-          "private": false
-        },
-        {
-          "id": 77,
-          "url": "https://github.com/argyleink/gui-challenges",
-          "description": " centralized projects from the YouTube show GUI Challenges \n\nI build interfaces my way, then challenge you to do it your way. With our creative minds combined, we'll find multiple ways to solve these interfaces and expand the diversity of our skills.\n",
-          "publish_on_social": false,
-          "published_at": "2021-11-21T12:00:56.327Z",
-          "created_at": "2021-11-21T12:00:52.835Z",
-          "updated_at": "2021-11-21T12:00:56.385Z",
           "private": false
         },
         {
@@ -4028,16 +4079,6 @@
           "private": false
         },
         {
-          "id": 85,
-          "url": "https://svgsilh.com/",
-          "description": "Free SVG Image & Icon.",
-          "publish_on_social": false,
-          "published_at": "2021-11-30T18:23:20.705Z",
-          "created_at": "2021-11-30T18:23:17.994Z",
-          "updated_at": "2021-11-30T18:23:20.728Z",
-          "private": false
-        },
-        {
           "id": 64,
           "url": "https://tailblocks.cc/",
           "description": " Ready-to-use Tailwind CSS blocks. \n\n",
@@ -4056,6 +4097,26 @@
           "created_at": "2021-09-29T21:14:46.347Z",
           "updated_at": "2021-09-29T21:22:53.917Z",
           "private": null
+        },
+        {
+          "id": 31,
+          "url": "https://dev.to/masakudamatsu/favicon-nightmare-how-to-maintain-sanity-3al7",
+          "description": "#  Definitive edition of \"How to Favicon in 2021\" \n\n## TL;DR\n\nIn the <head> element of your HTML document, insert\n\n```html\n<link rel=\"icon\" href=\"favicon.svg\" type=\"image/svg+xml\">\n<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\"/>\n<link rel=\"manifest\" href=\"/site.webmanifest\" />\n```\n\nwhere site.webmanifest is a JSON file with the content like this:\n\n```json\n{\n    \"name\": \"Your website name\",\n    \"short_name\": \"A shorter version of your website name\",\n    \"icons\": [\n        {\n            \"src\": \"/android-chrome-192x192.png\",\n            \"sizes\": \"192x192\",\n            \"type\": \"image/png\"\n        },\n        {\n            \"src\": \"/android-chrome-512x512.png\",\n            \"sizes\": \"512x512\",\n            \"type\": \"image/png\"\n        }\n    ],\n    \"theme_color\": \"#4a4a4a\",\n    \"background_color\": \"#4a4a4a\",\n    \"display\": \"standalone\"\n}\n```\n\nChange the values of \"theme_color\" and \"background_color\" to your favicon design specification\n\nThen create a favicon in the SVG format.\n\nConvert this SVG image into favicon.ico, apple-touch-icon.png, android-chrome-192x192.png, and android-chrome-512x512.png with RealFaviconGenerator.\n\nFinally, make sure that the favicon.ico file is named as it is (don't change it) and saved in the root directory. (Otherwise MacOS Safari and IE won't recognize the favicon.)\n\nThat's all! :-)",
+          "publish_on_social": false,
+          "published_at": "2021-10-22T10:15:15.537Z",
+          "created_at": "2021-10-22T10:15:12.555Z",
+          "updated_at": "2021-10-22T10:15:15.559Z",
+          "private": false
+        },
+        {
+          "id": 89,
+          "url": "https://thispersondoesnotexist.com/",
+          "description": "Generated photo of fake people",
+          "publish_on_social": false,
+          "published_at": "2021-12-19T14:08:30.530Z",
+          "created_at": "2021-12-19T14:07:55.547Z",
+          "updated_at": "2021-12-19T14:08:30.552Z",
+          "private": false
         }
       ],
       "notes": [
@@ -4089,326 +4150,6 @@
       "updated_at": "2021-09-29T21:22:59.637Z",
       "links": [
         {
-          "id": 79,
-          "url": "https://github.com/tannerlinsley/react-query",
-          "description": "Hooks for fetching, caching and updating asynchronous data in React ",
-          "publish_on_social": false,
-          "published_at": "2021-11-21T12:07:04.624Z",
-          "created_at": "2021-11-21T12:07:01.170Z",
-          "updated_at": "2021-11-21T12:07:04.650Z",
-          "private": false
-        },
-        {
-          "id": 29,
-          "url": "https://github.com/protonradio/player",
-          "description": "- Proton Player is an HTML5-based streaming music player optimized for compatibility across many devices and browsers.\n- The player is \"headless\", meaning that it doesn't come packaged with any visual components. It is meant to serve as a toolkit for building your own music player, offering features such as seeking, pausing, and preloading upcoming audio files.\n\nSeems there is no support for firefox\n",
-          "publish_on_social": false,
-          "published_at": "2021-10-21T18:33:44.166Z",
-          "created_at": "2021-10-21T18:33:41.537Z",
-          "updated_at": "2021-10-21T18:33:44.199Z",
-          "private": false
-        },
-        {
-          "id": 58,
-          "url": "https://www.framer.com/motion/",
-          "description": "A production-ready motion library for React.",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T20:06:04.195Z",
-          "created_at": "2021-11-11T20:06:01.117Z",
-          "updated_at": "2021-11-11T20:06:04.207Z",
-          "private": false
-        },
-        {
-          "id": 14,
-          "url": "https://github.com/fabiospampinato/cash",
-          "description": "Cash is an absurdly small jQuery alternative for modern browsers (IE11+) that provides jQuery-style syntax for manipulating the DOM. Utilizing modern browser features to minimize the codebase, developers can use the familiar chainable methods at a fraction of the file size. 100% feature parity with jQuery isn't a goal, but Cash comes helpfully close, covering most day to day use cases.",
-          "publish_on_social": false,
-          "published_at": "2021-10-12T08:12:19.160Z",
-          "created_at": "2021-10-12T08:12:16.132Z",
-          "updated_at": "2021-10-12T08:12:19.177Z",
-          "private": false
-        },
-        {
-          "id": 87,
-          "url": "https://github.com/antfu/unplugin-icons",
-          "description": "Access thousands of icons as components on-demand universally.",
-          "publish_on_social": false,
-          "published_at": "2021-12-12T19:47:41.398Z",
-          "created_at": "2021-12-12T19:47:34.855Z",
-          "updated_at": "2021-12-12T19:47:41.428Z",
-          "private": false
-        },
-        {
-          "id": 69,
-          "url": "https://oss.redis.com/redisearch/",
-          "description": "RediSearch - Redis Secondary Index & Query Engine\n\nRediSearch is a source available Secondary Index, Query Engine and Full-Text Search over Redis, developed by Redis . \n\n Redisearch implements a secondary index on top of Redis, but unlike other Redis indexing libraries, it does not use internal data structures such as sorted sets.\n\nThis also enables more advanced features, such as multi-field queries, aggregation, and full text search capabilites. These capabilities include exact phrase matching and numeric filtering for text queries, something that is neither possible or efficient with traditional Redis indexing approaches. \n",
-          "publish_on_social": false,
-          "published_at": "2021-11-17T19:51:32.686Z",
-          "created_at": "2021-11-17T19:51:30.444Z",
-          "updated_at": "2021-11-17T19:51:32.739Z",
-          "private": false
-        },
-        {
-          "id": 13,
-          "url": "https://www.webglstudio.org/",
-          "description": "WebGLStudio (formerly known as WebGLStudio) is a platform to create interactive 3D scenes directly from the browser.\nIt allows to edit the scene visually, code your behaviours, edit the shaders, and all directly from within the app.",
-          "publish_on_social": false,
-          "published_at": "2021-10-10T17:15:36.217Z",
-          "created_at": "2021-10-10T17:15:32.904Z",
-          "updated_at": "2021-10-10T17:15:36.242Z",
-          "private": false
-        },
-        {
-          "id": 67,
-          "url": "https://github.com/yeemachine/kalidokit",
-          "description": "Blendshape and kinematics solver for Mediapipe/Tensorflow.js face, eyes, pose, and hand tracking models.\n\nMovies -> pose recognition -> animation",
-          "publish_on_social": false,
-          "published_at": "2021-11-12T14:17:37.415Z",
-          "created_at": "2021-11-12T14:17:34.900Z",
-          "updated_at": "2021-11-12T14:17:37.455Z",
-          "private": false
-        },
-        {
-          "id": 4,
-          "url": "https://haikei.app/",
-          "description": "Generate unique SVG design assets\n\nHaikei is a web app to generate unique SVG shapes, backgrounds, and patterns \u2013 ready to use with your design tools and workflow.",
-          "publish_on_social": false,
-          "published_at": "2021-09-29T21:25:33.971Z",
-          "created_at": "2021-09-29T21:25:24.759Z",
-          "updated_at": "2021-09-29T21:25:33.996Z",
-          "private": null
-        },
-        {
-          "id": 28,
-          "url": "https://github.com/codenotary/immudb",
-          "description": "immudb - world\u2019s fastest immutable database, built on a zero trust model\n\nimmudb is a database with built-in cryptographic proof and verification. It tracks changes in sensitive data and the integrity of the history will be protected by the clients, without the need to trust the server. It can operate as a key-value store or as relational database (SQL).\n\nTraditional database transactions and logs are hard to scale and are mutable, so there is no way to know for sure if your data has been compromised. immudb is immutable. You can add new versions of existing records, but never change or delete records. This lets you store critical data without fear of it being tampered.\n\nData stored in immudb is cryptographically coherent and verifiable, just like with blockchains, but without all the complexity. Unlike blockchains, immudb can handle millions of transactions per second, and can be used both as a lightweight service or embedded in your application as a library. immudb runs everywhere, on an IoT device, your notebook, a server, on-premise or in the cloud.\n\nimmudb is already used by hundreds of projects to store tamper-proof data and to keep the data change history immutable. immudb can be used as a key-value store or relational data structure and supports both transactions and blobs, so there are no limits to the use cases.\n\nCompanies use immudb to secure and tamper-evident log data, sensor data, sensitive data, transactions, software build recipes, rule-base data, even artifacts or even video streams.",
-          "publish_on_social": false,
-          "published_at": "2021-10-21T11:59:23.366Z",
-          "created_at": "2021-10-21T11:59:19.664Z",
-          "updated_at": "2021-10-21T11:59:23.391Z",
-          "private": false
-        },
-        {
-          "id": 78,
-          "url": "https://github.com/geckosio/geckos.io",
-          "description": "Real-time client/server communication over UDP using WebRTC and Node.js\n\nGeckos.io fits perfectly with your next HTML5 real-time multiplayer games or chat app.",
-          "publish_on_social": false,
-          "published_at": "2021-11-21T12:05:45.078Z",
-          "created_at": "2021-11-21T12:05:40.865Z",
-          "updated_at": "2021-11-21T12:05:45.100Z",
-          "private": false
-        },
-        {
-          "id": 32,
-          "url": "https://usehooks-typescript.com/",
-          "description": "Simple React hooks, ready to use, written in typescript.\n\n- useBoolean()\n- useCopyToClipboard()\n- useCounter()\n- useDarkMode()\n- useDebounce()\n- useElementSize()\n- useEventListener()\n- useFetch()\n- useHover()\n- useImageOnLoad()\n- useIntersectionObserver()\n- useInterval()\n- useIsClient()\n- useIsMounted()\n- useLocalStorage()\n- useLockedBody()\n- useMap()\n- useOnClickOutside()\n- useReadLocalStorage()\n- useScreen()\n- useScript()\n- useSsr()\n- useTimeout()\n- useWindowSize()\n",
-          "publish_on_social": false,
-          "published_at": "2021-10-23T18:44:37.433Z",
-          "created_at": "2021-10-23T18:44:34.740Z",
-          "updated_at": "2021-10-23T18:44:37.457Z",
-          "private": false
-        },
-        {
-          "id": 23,
-          "url": "https://github.com/mgdm/htmlq",
-          "description": "Like jq, but for HTML. Uses CSS selectors to extract bits of content from HTML files.",
-          "publish_on_social": false,
-          "published_at": "2021-10-17T12:11:02.528Z",
-          "created_at": "2021-10-17T12:10:38.776Z",
-          "updated_at": "2021-10-17T12:11:02.571Z",
-          "private": false
-        },
-        {
-          "id": 45,
-          "url": "https://github.com/appwrite/appwrite",
-          "description": "Appwrite is a secure end-to-end backend server for Web, Mobile, and Flutter developers that is packaged as a set of Docker containers for easy deployment\n\nAppwrite is an end-to-end backend server for Web, Mobile, Native, or Backend apps packaged as a set of Docker microservices. Appwrite abstracts the complexity and repetitiveness required to build a modern backend API from scratch and allows you to build secure apps faster.\n\nUsing Appwrite, you can easily integrate your app with user authentication & multiple sign-in methods, a database for storing and querying users and team data, storage and file management, image manipulation, Cloud Functions, realtime subscription and more services.\n\n",
-          "publish_on_social": false,
-          "published_at": "2021-10-31T10:37:53.083Z",
-          "created_at": "2021-10-31T10:37:50.661Z",
-          "updated_at": "2021-10-31T10:37:53.123Z",
-          "private": false
-        },
-        {
-          "id": 57,
-          "url": "https://www.npmjs.com/package/web-vitals",
-          "description": "The web-vitals library is a tiny (~1K), modular library for measuring all the Web Vitals metrics on real users, in a way that accurately matches how they're measured by Chrome and reported to other Google tools (e.g. Chrome User Experience Report, Page Speed Insights, Search Console's Speed Report).",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T18:54:17.901Z",
-          "created_at": "2021-11-11T18:54:15.195Z",
-          "updated_at": "2021-11-11T18:54:17.936Z",
-          "private": false
-        },
-        {
-          "id": 34,
-          "url": "https://quilljs.com/",
-          "description": "Quill is a free, open source WYSIWYG editor built for the modern web. With its modular architecture and expressive API, it is completely customizable to fit any need.",
-          "publish_on_social": false,
-          "published_at": "2021-10-24T10:01:19.016Z",
-          "created_at": "2021-10-24T10:01:16.800Z",
-          "updated_at": "2021-10-24T10:01:19.037Z",
-          "private": false
-        },
-        {
-          "id": 59,
-          "url": "https://www.npmjs.com/package/clsx",
-          "description": "A tiny (228B) utility for constructing className strings conditionally from string, array, object...\n",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T20:08:05.855Z",
-          "created_at": "2021-11-11T20:08:03.439Z",
-          "updated_at": "2021-11-11T20:08:05.891Z",
-          "private": false
-        },
-        {
-          "id": 52,
-          "url": "https://www.brow.sh/",
-          "description": "Browsh is a fully-modern text-based browser renders on terminal.\n\nIt renders anything that a modern browser can; HTML5, CSS3, JS, video and even WebGL. Its main purpose is to be run on a remote server and accessed via SSH/Mosh or the in-browser HTML service in order to significantly reduce bandwidth and thus both increase browsing speeds and decrease bandwidth costs",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T09:52:03.638Z",
-          "created_at": "2021-11-11T09:52:00.961Z",
-          "updated_at": "2021-11-11T09:52:03.669Z",
-          "private": false
-        },
-        {
-          "id": 50,
-          "url": "https://github.com/lerna/lerna",
-          "description": " A tool for managing JavaScript projects with multiple packages.\n\nSplitting up large codebases into separate independently versioned packages is extremely useful for code sharing. However, making changes across many repositories is messy and difficult to track, and testing across repositories becomes complicated very quickly.\n\nTo solve these (and many other) problems, some projects will organize their codebases into multi-package repositories (sometimes called monorepos). Projects like Babel, React, Angular, Ember, Meteor, Jest, and many others develop all of their packages within a single repository.\n\nLerna is a tool that optimizes the workflow around managing multi-package repositories with git and npm.\n\nLerna can also reduce the time and space requirements for numerous copies of packages in development and build environments - normally a downside of dividing a project into many separate NPM packages. See the hoist documentation for details.",
-          "publish_on_social": false,
-          "published_at": "2021-11-09T12:26:43.764Z",
-          "created_at": "2021-11-09T12:26:41.405Z",
-          "updated_at": "2021-11-09T12:26:43.813Z",
-          "private": false
-        },
-        {
-          "id": 24,
-          "url": "https://concourse-ci.org/",
-          "description": "Concourse is an open-source continuous thing-doer.\n\nBuilt on the simple mechanics of resources, tasks, and jobs, Concourse presents a general approach to automation that makes it great for CI/CD.",
-          "publish_on_social": false,
-          "published_at": "2021-10-18T09:55:56.567Z",
-          "created_at": "2021-10-18T09:55:54.016Z",
-          "updated_at": "2021-10-18T09:55:56.604Z",
-          "private": false
-        },
-        {
-          "id": 83,
-          "url": "https://github.com/tonaljs/tonal",
-          "description": "tonal is a music theory library. Contains functions to manipulate tonal elements of music (note, intervals, chords, scales, modes, keys). It deals with abstractions (not actual music or sound).\n\ntonal is implemented in Typescript and published as a collection of Javascript npm packages.\n\nIt uses a functional programing style: all functions are pure, there is no data mutation, and entities are represented by data structures instead of objects.",
-          "publish_on_social": false,
-          "published_at": "2021-11-29T14:43:24.974Z",
-          "created_at": "2021-11-29T14:43:22.698Z",
-          "updated_at": "2021-11-29T14:43:25.003Z",
-          "private": false
-        },
-        {
-          "id": 88,
-          "url": "https://github.com/colinhacks/zod",
-          "description": "Zod is a TypeScript-first schema declaration and validation library. I'm using the term \"schema\" to broadly refer to any data type, from a simple string to a complex nested object.\n\nZod is designed to be as developer-friendly as possible. The goal is to eliminate duplicative type declarations. With Zod, you declare a validator once and Zod will automatically infer the static TypeScript type. It's easy to compose simpler types into complex data structures.",
-          "publish_on_social": false,
-          "published_at": "2021-12-14T14:42:02.267Z",
-          "created_at": "2021-12-14T14:41:51.042Z",
-          "updated_at": "2021-12-14T14:42:02.305Z",
-          "private": false
-        },
-        {
-          "id": 85,
-          "url": "https://svgsilh.com/",
-          "description": "Free SVG Image & Icon.",
-          "publish_on_social": false,
-          "published_at": "2021-11-30T18:23:20.705Z",
-          "created_at": "2021-11-30T18:23:17.994Z",
-          "updated_at": "2021-11-30T18:23:20.728Z",
-          "private": false
-        },
-        {
-          "id": 8,
-          "url": "http://dlib.net/",
-          "description": "Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems.\n\n- Machine Learning\n- Machine Learning\n- Graphical Model Inference\n- Image Processing (Face recognition...)\n",
-          "publish_on_social": false,
-          "published_at": "2021-10-03T21:02:20.627Z",
-          "created_at": "2021-10-03T21:02:13.923Z",
-          "updated_at": "2021-10-03T21:02:20.641Z",
-          "private": null
-        },
-        {
-          "id": 51,
-          "url": "https://github.com/JamesRyanATX/harmonicon",
-          "description": " An experimental DAW for music as code. \n\nSource code for harmonicon.studio, an experimental music-as-code DAW for browsers.",
-          "publish_on_social": false,
-          "published_at": "2021-11-09T12:28:01.798Z",
-          "created_at": "2021-11-09T12:27:59.266Z",
-          "updated_at": "2021-11-09T12:28:01.838Z",
-          "private": false
-        },
-        {
-          "id": 96,
-          "url": "https://github.com/chmln/sd",
-          "description": "sd is an intuitive find & replace CLI. (sed alternative)",
-          "publish_on_social": false,
-          "published_at": "2021-12-21T18:40:31.508Z",
-          "created_at": "2021-12-21T18:40:28.360Z",
-          "updated_at": "2021-12-21T18:40:31.572Z",
-          "private": false
-        },
-        {
-          "id": 65,
-          "url": "https://github.com/pmndrs/zustand",
-          "description": "A small, fast and scalable bearbones state-management solution using simplified flux principles. Has a comfy api based on hooks, isn't boilerplatey or opinionated.\n\nHomepage with a nice animation/effect : https://zustand.surge.sh/",
-          "publish_on_social": false,
-          "published_at": "2021-11-12T14:04:54.958Z",
-          "created_at": "2021-11-12T14:02:02.064Z",
-          "updated_at": "2021-11-12T14:04:54.981Z",
-          "private": false
-        },
-        {
-          "id": 95,
-          "url": "https://github.com/trpc/trpc",
-          "description": "End-to-end typesafe APIs made easy\n\ntRPC allows you to easily build & consume fully typesafe APIs, without schemas or code generation.",
-          "publish_on_social": false,
-          "published_at": "2021-12-20T17:33:12.158Z",
-          "created_at": "2021-12-20T17:33:09.003Z",
-          "updated_at": "2021-12-20T17:33:12.205Z",
-          "private": false
-        },
-        {
-          "id": 20,
-          "url": "https://github.com/xtermjs/xterm.js",
-          "description": "Xterm.js is a front-end component written in TypeScript that lets applications bring fully-featured terminals to their users in the browser. It's used by popular projects such as VS Code, Hyper and Theia.",
-          "publish_on_social": false,
-          "published_at": "2021-10-14T09:13:26.263Z",
-          "created_at": "2021-10-14T09:13:23.840Z",
-          "updated_at": "2021-10-14T09:13:26.297Z",
-          "private": false
-        },
-        {
-          "id": 38,
-          "url": "https://py.checkio.org",
-          "description": "Learn python with game/puzzles",
-          "publish_on_social": false,
-          "published_at": "2021-10-27T20:36:37.729Z",
-          "created_at": "2021-10-27T20:36:35.300Z",
-          "updated_at": "2021-10-27T20:36:37.756Z",
-          "private": false
-        },
-        {
-          "id": 18,
-          "url": "https://github.com/sdras/array-explorer",
-          "description": "A resource to help figure out what JavaScript array method would be best to use at any given time ",
-          "publish_on_social": false,
-          "published_at": "2021-10-13T10:48:44.079Z",
-          "created_at": "2021-10-13T10:48:41.544Z",
-          "updated_at": "2021-10-13T10:48:44.117Z",
-          "private": false
-        },
-        {
-          "id": 86,
-          "url": "https://github.com/floating-ui/floating-ui/",
-          "description": "Floating UI is a low-level library for positioning \"floating\" elements like tooltips, popovers, dropdowns, menus and more. Since these types of elements float on top of the UI without disrupting the flow of content, challenges arise when positioning them.\n\nFloating UI exposes primitives which enable a floating element to be positioned next to a given reference element while appearing in view for the user as best as possible. Features include overflow prevention (or collision awareness), placement flipping, and more.",
-          "publish_on_social": false,
-          "published_at": "2021-12-08T15:19:10.869Z",
-          "created_at": "2021-12-08T15:19:07.308Z",
-          "updated_at": "2021-12-08T15:19:10.888Z",
-          "private": false
-        },
-        {
           "id": 44,
           "url": "https://github.com/nextapps-de/winbox",
           "description": " WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source! ",
@@ -4416,26 +4157,6 @@
           "published_at": "2021-10-31T10:20:46.905Z",
           "created_at": "2021-10-31T10:20:44.433Z",
           "updated_at": "2021-10-31T10:20:46.932Z",
-          "private": false
-        },
-        {
-          "id": 11,
-          "url": "https://tailwind-mobile.com/",
-          "description": "Pixel perfect mobile UI components built with Tailwind CSS\nWith iOS and Material Design components for React, Vue & Svelte",
-          "publish_on_social": false,
-          "published_at": "2021-10-05T16:57:06.125Z",
-          "created_at": "2021-10-05T16:56:36.968Z",
-          "updated_at": "2021-10-05T16:57:06.140Z",
-          "private": false
-        },
-        {
-          "id": 63,
-          "url": "https://tailwindcomponents.com/",
-          "description": " A free repository for community components using TailwindCSS\n\nOpen source Tailwind UI components and templates to bootstrap your new apps, projects or landing sites!",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T20:13:36.329Z",
-          "created_at": "2021-11-11T20:13:34.052Z",
-          "updated_at": "2021-11-11T20:13:36.351Z",
           "private": false
         },
         {
@@ -4487,36 +4208,6 @@
           "created_at": "2021-10-28T22:44:17.035Z",
           "updated_at": "2021-10-28T22:44:21.700Z",
           "private": false
-        },
-        {
-          "id": 93,
-          "url": "https://github.com/vvo/iron-session",
-          "description": "Node.js stateless session utility using signed and encrypted cookies to store data. Works with Next.js, Express, NestJs, Fastify, and any Node.js HTTP framework. ",
-          "publish_on_social": false,
-          "published_at": "2021-12-20T12:43:49.470Z",
-          "created_at": "2021-12-20T12:43:47.406Z",
-          "updated_at": "2021-12-20T12:43:49.539Z",
-          "private": false
-        },
-        {
-          "id": 60,
-          "url": "https://github.com/lukeed/obj-str",
-          "description": "A tiny (96B) library for serializing Object values to Strings.\n\nThis module's intended use is for converting an Object with CSS class names (as keys) to a space-delimited className string. Other modules have similar goals (like classnames), but obj-str only does one thing. This is why it's only 100 bytes gzipped!\n\n```jsx\nimport React from 'react';\nimport objstr from 'obj-str';\n\nconst TodoItem = ({ text, isDone, disabled }) => (\n  <li className={ objstr({ item:true, completed:isDone, disabled }) }>\n    <input type=\"checkbox\" disabled={ disabled } checked={ isDone } />\n    <label>{ text }</label>\n  </li>\n);```",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T20:11:01.938Z",
-          "created_at": "2021-11-11T20:10:57.741Z",
-          "updated_at": "2021-11-11T20:11:01.966Z",
-          "private": false
-        },
-        {
-          "id": 7,
-          "url": "https://www.pyimagesearch.com/2018/09/24/opencv-face-recognition/",
-          "description": "Face recognition with python, opencv and dlib",
-          "publish_on_social": false,
-          "published_at": "2021-10-03T11:54:05.988Z",
-          "created_at": "2021-10-03T11:53:45.152Z",
-          "updated_at": "2021-10-03T11:54:05.999Z",
-          "private": null
         },
         {
           "id": 26,
@@ -4579,6 +4270,406 @@
           "private": false
         },
         {
+          "id": 2,
+          "url": "https://omatsuri.app/",
+          "description": "Open source browser tools for everyday use.\n\n- Page divider\n- Triangle generator\n- Color shades generator\n- html symbols collection\n- Fake data generator",
+          "publish_on_social": false,
+          "published_at": "2021-09-29T21:16:44.791Z",
+          "created_at": "2021-09-29T21:14:46.347Z",
+          "updated_at": "2021-09-29T21:22:53.917Z",
+          "private": null
+        },
+        {
+          "id": 62,
+          "url": "https://www.radix-ui.com/",
+          "description": "Unstyled, accessible components for building high\u2011quality design systems and web apps in React.",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:12:48.213Z",
+          "created_at": "2021-11-11T20:12:43.502Z",
+          "updated_at": "2021-11-11T20:12:48.238Z",
+          "private": false
+        },
+        {
+          "id": 3,
+          "url": "https://getwaves.io/",
+          "description": "SVG waves generator",
+          "publish_on_social": false,
+          "published_at": "2021-09-29T21:23:19.136Z",
+          "created_at": "2021-09-29T21:22:11.087Z",
+          "updated_at": "2021-09-29T21:23:19.149Z",
+          "private": null
+        },
+        {
+          "id": 71,
+          "url": "https://github.com/tannerlinsley/react-virtual",
+          "description": "Hooks for virtualizing scrollable elements in React",
+          "publish_on_social": false,
+          "published_at": "2021-11-21T11:10:38.130Z",
+          "created_at": "2021-11-21T11:10:05.914Z",
+          "updated_at": "2021-11-21T11:10:38.143Z",
+          "private": false
+        },
+        {
+          "id": 82,
+          "url": "https://github.com/redis/redis-om-python",
+          "description": " Object mapping, and more, for Redis and Python ",
+          "publish_on_social": false,
+          "published_at": "2021-11-26T12:41:13.998Z",
+          "created_at": "2021-11-26T12:41:11.333Z",
+          "updated_at": "2021-11-26T12:41:14.024Z",
+          "private": false
+        },
+        {
+          "id": 25,
+          "url": "https://github.com/tw-in-js/twind",
+          "description": " The smallest, fastest, most feature complete Tailwind-in-JS solution in existence\n\nTwind is a small compiler (~13kB) that converts Tailwind classes into actual CSS rules at runtime. If you have used Tailwind or other CSS-in-JS solutions, then most of the API should feel very familiar.",
+          "publish_on_social": false,
+          "published_at": "2021-10-19T11:00:19.641Z",
+          "created_at": "2021-10-19T11:00:17.161Z",
+          "updated_at": "2021-10-19T11:00:19.662Z",
+          "private": false
+        },
+        {
+          "id": 54,
+          "url": "https://github.com/alajmo/mani",
+          "description": " CLI tool to help you manage multiple repositories \n\nmani is a CLI tool that helps you manage multiple repositories. It's useful when you are working with microservices, multi-project systems, many libraries or just a bunch of repositories and want a central place for pulling all repositories and running commands over them.\n\nYou specify repository and commands in a config file and then run the commands over all or a subset of the repositories.",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T14:13:54.499Z",
+          "created_at": "2021-11-11T14:13:51.638Z",
+          "updated_at": "2021-11-11T14:13:54.549Z",
+          "private": false
+        },
+        {
+          "id": 73,
+          "url": "https://github.com/tannerlinsley/react-table",
+          "description": "Hooks for building lightweight, fast and extendable datagrids for React",
+          "publish_on_social": false,
+          "published_at": "2021-11-21T11:12:05.561Z",
+          "created_at": "2021-11-21T11:12:02.149Z",
+          "updated_at": "2021-11-21T11:12:05.577Z",
+          "private": false
+        },
+        {
+          "id": 64,
+          "url": "https://tailblocks.cc/",
+          "description": " Ready-to-use Tailwind CSS blocks. \n\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-17T19:12:19.335Z",
+          "created_at": "2021-11-11T20:14:49.523Z",
+          "updated_at": "2021-11-17T19:12:19.385Z",
+          "private": false
+        },
+        {
+          "id": 72,
+          "url": "https://github.com/tannerlinsley/react-charts",
+          "description": "Simple, immersive and interactive charts for React",
+          "publish_on_social": false,
+          "published_at": "2021-11-21T11:11:20.544Z",
+          "created_at": "2021-11-21T11:11:16.973Z",
+          "updated_at": "2021-11-21T11:11:20.560Z",
+          "private": false
+        },
+        {
+          "id": 9,
+          "url": "https://github.com/ageitgey/face_recognition",
+          "description": " The world's simplest facial recognition api for Python and the command line ",
+          "publish_on_social": false,
+          "published_at": "2021-10-03T21:32:56.994Z",
+          "created_at": "2021-10-03T21:32:51.476Z",
+          "updated_at": "2021-10-03T21:32:57.018Z",
+          "private": null
+        },
+        {
+          "id": 30,
+          "url": "https://github.com/vizzuhq/vizzu-lib",
+          "description": "Vizzu - Library for animated data visualizations and data stories.\n\nVizzu is a free, open-source Javascript/C++ library utilizing a generic dataviz engine that generates many types of charts and seamlessly animates between them. It can be used to create static charts but more importantly it is designed for building animated data stories and interactive explorers as Vizzu enables showing different perspectives of the data that the viewers can easily follow due to the animation.\n\nMain features:\n\n- Designed with animation in focus;\n- Defaults based on data visualization guidelines;\n- Automatic data aggregation & data filtering;\n- HTML5 canvas rendering;\n- Written in C++ compiled to WebAssembly;\n- Dependency-free.\n",
+          "publish_on_social": false,
+          "published_at": "2021-10-21T18:40:08.509Z",
+          "created_at": "2021-10-21T18:39:06.991Z",
+          "updated_at": "2021-10-21T18:40:08.530Z",
+          "private": false
+        },
+        {
+          "id": 5,
+          "url": "https://flatfile.com",
+          "description": "The leading data onboarding platform (saas)\ncsv cleanup",
+          "publish_on_social": false,
+          "published_at": "2021-09-29T21:38:38.390Z",
+          "created_at": "2021-09-29T21:38:15.420Z",
+          "updated_at": "2021-09-29T21:38:38.406Z",
+          "private": null
+        },
+        {
+          "id": 46,
+          "url": "https://github.com/neon-bindings/neon",
+          "description": " Rust bindings for writing safe and fast native Node.js modules. ",
+          "publish_on_social": false,
+          "published_at": "2021-10-31T10:42:01.226Z",
+          "created_at": "2021-10-31T10:41:58.641Z",
+          "updated_at": "2021-10-31T10:42:01.270Z",
+          "private": false
+        },
+        {
+          "id": 12,
+          "url": "https://github.com/mmazzarolo/react-native-universal-monorepo",
+          "description": " React Native boilerplate supporting multiple platforms: Android, iOS, macOS, Windows, web, browser extensions, Electron. \nAn opinonated approach to supporting multiple platforms with React Native using a Yarn Workspaces monorepo.",
+          "publish_on_social": false,
+          "published_at": "2021-10-05T18:18:29.877Z",
+          "created_at": "2021-10-05T18:18:26.983Z",
+          "updated_at": "2021-10-05T18:18:29.898Z",
+          "private": false
+        },
+        {
+          "id": 53,
+          "url": "https://simplecss.org/",
+          "description": "\nSimple.css is a classless CSS framework that allows you to make a good looking website really quickly.\n\nBy classless I mean that there are no CSS classes anywhere in the CSS or the HTML. So your website can look just like this using plain old vanilla HTML.\n\nCool, huh?",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T10:01:16.232Z",
+          "created_at": "2021-11-11T10:01:13.621Z",
+          "updated_at": "2021-11-11T10:01:16.267Z",
+          "private": false
+        },
+        {
+          "id": 61,
+          "url": "https://github.com/vechai/vechaiui",
+          "description": "A set of high-quality accessible React UI components with the built-in dark mode using Tailwind CSS. Pre-designed headless ui and radix-ui. \n\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:12:03.488Z",
+          "created_at": "2021-11-11T20:12:00.963Z",
+          "updated_at": "2021-11-11T20:12:03.523Z",
+          "private": false
+        },
+        {
+          "id": 40,
+          "url": "https://github.com/MichaelMure/git-bug",
+          "description": " Distributed, offline-first bug tracker embedded in git, with bridges\n\ngit-bug is a bug tracker that:\n\n- is fully embedded in git: you only need your git repository to have a bug tracker\n- is distributed: use your normal git remote to collaborate, push and pull your bugs!\n- works offline: in a plane or under the sea? Keep reading and writing bugs!\n- prevents vendor lock-in: your usual service is down or went bad? You already have a full backup.\n- is fast: listing bugs or opening them is a matter of milliseconds\n- doesn't pollute your project: no files are added in your project\n- integrates with your tooling: use the UI you like (CLI, terminal, web) or integrate with your existing tools through the CLI or the GraphQL API\n- bridges to other bug trackers: use bridges to import and export to other trackers.\n\nThis is now more than a proof of concept, but still not fully stable. Expect dragons and unfinished business.",
+          "publish_on_social": false,
+          "published_at": "2021-10-28T11:32:42.296Z",
+          "created_at": "2021-10-28T11:32:39.719Z",
+          "updated_at": "2021-10-28T11:32:42.330Z",
+          "private": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.patterns.dev/",
+          "description": "Improve how you architect webapps\n\nPatterns.dev is free book on design patterns and component patterns for building powerful web apps with vanilla JavaScript and React.",
+          "publish_on_social": false,
+          "published_at": "2021-12-21T18:43:10.745Z",
+          "created_at": "2021-12-21T18:43:08.440Z",
+          "updated_at": "2021-12-21T18:43:10.775Z",
+          "private": false
+        },
+        {
+          "id": 39,
+          "url": "https://py-rates.fr/",
+          "description": "Learn python with game/puzzle",
+          "publish_on_social": false,
+          "published_at": "2021-10-27T20:37:11.319Z",
+          "created_at": "2021-10-27T20:37:09.105Z",
+          "updated_at": "2021-10-27T20:37:25.216Z",
+          "private": false
+        },
+        {
+          "id": 29,
+          "url": "https://github.com/protonradio/player",
+          "description": "- Proton Player is an HTML5-based streaming music player optimized for compatibility across many devices and browsers.\n- The player is \"headless\", meaning that it doesn't come packaged with any visual components. It is meant to serve as a toolkit for building your own music player, offering features such as seeking, pausing, and preloading upcoming audio files.\n\nSeems there is no support for firefox\n",
+          "publish_on_social": false,
+          "published_at": "2021-10-21T18:33:44.166Z",
+          "created_at": "2021-10-21T18:33:41.537Z",
+          "updated_at": "2021-10-21T18:33:44.199Z",
+          "private": false
+        },
+        {
+          "id": 58,
+          "url": "https://www.framer.com/motion/",
+          "description": "A production-ready motion library for React.",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:06:04.195Z",
+          "created_at": "2021-11-11T20:06:01.117Z",
+          "updated_at": "2021-11-11T20:06:04.207Z",
+          "private": false
+        },
+        {
+          "id": 14,
+          "url": "https://github.com/fabiospampinato/cash",
+          "description": "Cash is an absurdly small jQuery alternative for modern browsers (IE11+) that provides jQuery-style syntax for manipulating the DOM. Utilizing modern browser features to minimize the codebase, developers can use the familiar chainable methods at a fraction of the file size. 100% feature parity with jQuery isn't a goal, but Cash comes helpfully close, covering most day to day use cases.",
+          "publish_on_social": false,
+          "published_at": "2021-10-12T08:12:19.160Z",
+          "created_at": "2021-10-12T08:12:16.132Z",
+          "updated_at": "2021-10-12T08:12:19.177Z",
+          "private": false
+        },
+        {
+          "id": 69,
+          "url": "https://oss.redis.com/redisearch/",
+          "description": "RediSearch - Redis Secondary Index & Query Engine\n\nRediSearch is a source available Secondary Index, Query Engine and Full-Text Search over Redis, developed by Redis . \n\n Redisearch implements a secondary index on top of Redis, but unlike other Redis indexing libraries, it does not use internal data structures such as sorted sets.\n\nThis also enables more advanced features, such as multi-field queries, aggregation, and full text search capabilites. These capabilities include exact phrase matching and numeric filtering for text queries, something that is neither possible or efficient with traditional Redis indexing approaches. \n",
+          "publish_on_social": false,
+          "published_at": "2021-11-17T19:51:32.686Z",
+          "created_at": "2021-11-17T19:51:30.444Z",
+          "updated_at": "2021-11-17T19:51:32.739Z",
+          "private": false
+        },
+        {
+          "id": 4,
+          "url": "https://haikei.app/",
+          "description": "Generate unique SVG design assets\n\nHaikei is a web app to generate unique SVG shapes, backgrounds, and patterns \u2013 ready to use with your design tools and workflow.",
+          "publish_on_social": false,
+          "published_at": "2021-09-29T21:25:33.971Z",
+          "created_at": "2021-09-29T21:25:24.759Z",
+          "updated_at": "2021-09-29T21:25:33.996Z",
+          "private": null
+        },
+        {
+          "id": 28,
+          "url": "https://github.com/codenotary/immudb",
+          "description": "immudb - world\u2019s fastest immutable database, built on a zero trust model\n\nimmudb is a database with built-in cryptographic proof and verification. It tracks changes in sensitive data and the integrity of the history will be protected by the clients, without the need to trust the server. It can operate as a key-value store or as relational database (SQL).\n\nTraditional database transactions and logs are hard to scale and are mutable, so there is no way to know for sure if your data has been compromised. immudb is immutable. You can add new versions of existing records, but never change or delete records. This lets you store critical data without fear of it being tampered.\n\nData stored in immudb is cryptographically coherent and verifiable, just like with blockchains, but without all the complexity. Unlike blockchains, immudb can handle millions of transactions per second, and can be used both as a lightweight service or embedded in your application as a library. immudb runs everywhere, on an IoT device, your notebook, a server, on-premise or in the cloud.\n\nimmudb is already used by hundreds of projects to store tamper-proof data and to keep the data change history immutable. immudb can be used as a key-value store or relational data structure and supports both transactions and blobs, so there are no limits to the use cases.\n\nCompanies use immudb to secure and tamper-evident log data, sensor data, sensitive data, transactions, software build recipes, rule-base data, even artifacts or even video streams.",
+          "publish_on_social": false,
+          "published_at": "2021-10-21T11:59:23.366Z",
+          "created_at": "2021-10-21T11:59:19.664Z",
+          "updated_at": "2021-10-21T11:59:23.391Z",
+          "private": false
+        },
+        {
+          "id": 57,
+          "url": "https://www.npmjs.com/package/web-vitals",
+          "description": "The web-vitals library is a tiny (~1K), modular library for measuring all the Web Vitals metrics on real users, in a way that accurately matches how they're measured by Chrome and reported to other Google tools (e.g. Chrome User Experience Report, Page Speed Insights, Search Console's Speed Report).",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T18:54:17.901Z",
+          "created_at": "2021-11-11T18:54:15.195Z",
+          "updated_at": "2021-11-11T18:54:17.936Z",
+          "private": false
+        },
+        {
+          "id": 52,
+          "url": "https://www.brow.sh/",
+          "description": "Browsh is a fully-modern text-based browser renders on terminal.\n\nIt renders anything that a modern browser can; HTML5, CSS3, JS, video and even WebGL. Its main purpose is to be run on a remote server and accessed via SSH/Mosh or the in-browser HTML service in order to significantly reduce bandwidth and thus both increase browsing speeds and decrease bandwidth costs",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T09:52:03.638Z",
+          "created_at": "2021-11-11T09:52:00.961Z",
+          "updated_at": "2021-11-11T09:52:03.669Z",
+          "private": false
+        },
+        {
+          "id": 50,
+          "url": "https://github.com/lerna/lerna",
+          "description": " A tool for managing JavaScript projects with multiple packages.\n\nSplitting up large codebases into separate independently versioned packages is extremely useful for code sharing. However, making changes across many repositories is messy and difficult to track, and testing across repositories becomes complicated very quickly.\n\nTo solve these (and many other) problems, some projects will organize their codebases into multi-package repositories (sometimes called monorepos). Projects like Babel, React, Angular, Ember, Meteor, Jest, and many others develop all of their packages within a single repository.\n\nLerna is a tool that optimizes the workflow around managing multi-package repositories with git and npm.\n\nLerna can also reduce the time and space requirements for numerous copies of packages in development and build environments - normally a downside of dividing a project into many separate NPM packages. See the hoist documentation for details.",
+          "publish_on_social": false,
+          "published_at": "2021-11-09T12:26:43.764Z",
+          "created_at": "2021-11-09T12:26:41.405Z",
+          "updated_at": "2021-11-09T12:26:43.813Z",
+          "private": false
+        },
+        {
+          "id": 85,
+          "url": "https://svgsilh.com/",
+          "description": "Free SVG Image & Icon.",
+          "publish_on_social": false,
+          "published_at": "2021-11-30T18:23:20.705Z",
+          "created_at": "2021-11-30T18:23:17.994Z",
+          "updated_at": "2021-11-30T18:23:20.728Z",
+          "private": false
+        },
+        {
+          "id": 8,
+          "url": "http://dlib.net/",
+          "description": "Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems.\n\n- Machine Learning\n- Machine Learning\n- Graphical Model Inference\n- Image Processing (Face recognition...)\n",
+          "publish_on_social": false,
+          "published_at": "2021-10-03T21:02:20.627Z",
+          "created_at": "2021-10-03T21:02:13.923Z",
+          "updated_at": "2021-10-03T21:02:20.641Z",
+          "private": null
+        },
+        {
+          "id": 51,
+          "url": "https://github.com/JamesRyanATX/harmonicon",
+          "description": " An experimental DAW for music as code. \n\nSource code for harmonicon.studio, an experimental music-as-code DAW for browsers.",
+          "publish_on_social": false,
+          "published_at": "2021-11-09T12:28:01.798Z",
+          "created_at": "2021-11-09T12:27:59.266Z",
+          "updated_at": "2021-11-09T12:28:01.838Z",
+          "private": false
+        },
+        {
+          "id": 38,
+          "url": "https://py.checkio.org",
+          "description": "Learn python with game/puzzles",
+          "publish_on_social": false,
+          "published_at": "2021-10-27T20:36:37.729Z",
+          "created_at": "2021-10-27T20:36:35.300Z",
+          "updated_at": "2021-10-27T20:36:37.756Z",
+          "private": false
+        },
+        {
+          "id": 18,
+          "url": "https://github.com/sdras/array-explorer",
+          "description": "A resource to help figure out what JavaScript array method would be best to use at any given time ",
+          "publish_on_social": false,
+          "published_at": "2021-10-13T10:48:44.079Z",
+          "created_at": "2021-10-13T10:48:41.544Z",
+          "updated_at": "2021-10-13T10:48:44.117Z",
+          "private": false
+        },
+        {
+          "id": 86,
+          "url": "https://github.com/floating-ui/floating-ui/",
+          "description": "Floating UI is a low-level library for positioning \"floating\" elements like tooltips, popovers, dropdowns, menus and more. Since these types of elements float on top of the UI without disrupting the flow of content, challenges arise when positioning them.\n\nFloating UI exposes primitives which enable a floating element to be positioned next to a given reference element while appearing in view for the user as best as possible. Features include overflow prevention (or collision awareness), placement flipping, and more.",
+          "publish_on_social": false,
+          "published_at": "2021-12-08T15:19:10.869Z",
+          "created_at": "2021-12-08T15:19:07.308Z",
+          "updated_at": "2021-12-08T15:19:10.888Z",
+          "private": false
+        },
+        {
+          "id": 11,
+          "url": "https://tailwind-mobile.com/",
+          "description": "Pixel perfect mobile UI components built with Tailwind CSS\nWith iOS and Material Design components for React, Vue & Svelte",
+          "publish_on_social": false,
+          "published_at": "2021-10-05T16:57:06.125Z",
+          "created_at": "2021-10-05T16:56:36.968Z",
+          "updated_at": "2021-10-05T16:57:06.140Z",
+          "private": false
+        },
+        {
+          "id": 63,
+          "url": "https://tailwindcomponents.com/",
+          "description": " A free repository for community components using TailwindCSS\n\nOpen source Tailwind UI components and templates to bootstrap your new apps, projects or landing sites!",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:13:36.329Z",
+          "created_at": "2021-11-11T20:13:34.052Z",
+          "updated_at": "2021-11-11T20:13:36.351Z",
+          "private": false
+        },
+        {
+          "id": 93,
+          "url": "https://github.com/vvo/iron-session",
+          "description": "Node.js stateless session utility using signed and encrypted cookies to store data. Works with Next.js, Express, NestJs, Fastify, and any Node.js HTTP framework. ",
+          "publish_on_social": false,
+          "published_at": "2021-12-20T12:43:49.470Z",
+          "created_at": "2021-12-20T12:43:47.406Z",
+          "updated_at": "2021-12-20T12:43:49.539Z",
+          "private": false
+        },
+        {
+          "id": 60,
+          "url": "https://github.com/lukeed/obj-str",
+          "description": "A tiny (96B) library for serializing Object values to Strings.\n\nThis module's intended use is for converting an Object with CSS class names (as keys) to a space-delimited className string. Other modules have similar goals (like classnames), but obj-str only does one thing. This is why it's only 100 bytes gzipped!\n\n```jsx\nimport React from 'react';\nimport objstr from 'obj-str';\n\nconst TodoItem = ({ text, isDone, disabled }) => (\n  <li className={ objstr({ item:true, completed:isDone, disabled }) }>\n    <input type=\"checkbox\" disabled={ disabled } checked={ isDone } />\n    <label>{ text }</label>\n  </li>\n);```",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:11:01.938Z",
+          "created_at": "2021-11-11T20:10:57.741Z",
+          "updated_at": "2021-11-11T20:11:01.966Z",
+          "private": false
+        },
+        {
+          "id": 7,
+          "url": "https://www.pyimagesearch.com/2018/09/24/opencv-face-recognition/",
+          "description": "Face recognition with python, opencv and dlib",
+          "publish_on_social": false,
+          "published_at": "2021-10-03T11:54:05.988Z",
+          "created_at": "2021-10-03T11:53:45.152Z",
+          "updated_at": "2021-10-03T11:54:05.999Z",
+          "private": null
+        },
+        {
           "id": 47,
           "url": "https://github.com/stargateaudio/stargate",
           "description": "daw :  digital audio workstation, instrument and effect plugins, wave editor, Stargate is a holistic audio production solution, everything you need to make music on a computer.",
@@ -4619,16 +4710,6 @@
           "private": false
         },
         {
-          "id": 2,
-          "url": "https://omatsuri.app/",
-          "description": "Open source browser tools for everyday use.\n\n- Page divider\n- Triangle generator\n- Color shades generator\n- html symbols collection\n- Fake data generator",
-          "publish_on_social": false,
-          "published_at": "2021-09-29T21:16:44.791Z",
-          "created_at": "2021-09-29T21:14:46.347Z",
-          "updated_at": "2021-09-29T21:22:53.917Z",
-          "private": null
-        },
-        {
           "id": 70,
           "url": "https://github.com/lark-parser/lark",
           "description": " Lark is a parsing toolkit for Python, built with a focus on ergonomics, performance and modularity. \n\nLark can parse all context-free languages. To put it simply, it means that it is capable of parsing almost any programming language out there, and to some degree most natural languages too.",
@@ -4637,26 +4718,6 @@
           "created_at": "2021-11-21T10:09:13.970Z",
           "updated_at": "2021-11-21T10:09:17.859Z",
           "private": false
-        },
-        {
-          "id": 62,
-          "url": "https://www.radix-ui.com/",
-          "description": "Unstyled, accessible components for building high\u2011quality design systems and web apps in React.",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T20:12:48.213Z",
-          "created_at": "2021-11-11T20:12:43.502Z",
-          "updated_at": "2021-11-11T20:12:48.238Z",
-          "private": false
-        },
-        {
-          "id": 3,
-          "url": "https://getwaves.io/",
-          "description": "SVG waves generator",
-          "publish_on_social": false,
-          "published_at": "2021-09-29T21:23:19.136Z",
-          "created_at": "2021-09-29T21:22:11.087Z",
-          "updated_at": "2021-09-29T21:23:19.149Z",
-          "private": null
         },
         {
           "id": 31,
@@ -4679,16 +4740,6 @@
           "private": false
         },
         {
-          "id": 71,
-          "url": "https://github.com/tannerlinsley/react-virtual",
-          "description": "Hooks for virtualizing scrollable elements in React",
-          "publish_on_social": false,
-          "published_at": "2021-11-21T11:10:38.130Z",
-          "created_at": "2021-11-21T11:10:05.914Z",
-          "updated_at": "2021-11-21T11:10:38.143Z",
-          "private": false
-        },
-        {
           "id": 89,
           "url": "https://thispersondoesnotexist.com/",
           "description": "Generated photo of fake people",
@@ -4696,16 +4747,6 @@
           "published_at": "2021-12-19T14:08:30.530Z",
           "created_at": "2021-12-19T14:07:55.547Z",
           "updated_at": "2021-12-19T14:08:30.552Z",
-          "private": false
-        },
-        {
-          "id": 82,
-          "url": "https://github.com/redis/redis-om-python",
-          "description": " Object mapping, and more, for Redis and Python ",
-          "publish_on_social": false,
-          "published_at": "2021-11-26T12:41:13.998Z",
-          "created_at": "2021-11-26T12:41:11.333Z",
-          "updated_at": "2021-11-26T12:41:14.024Z",
           "private": false
         },
         {
@@ -4719,36 +4760,6 @@
           "private": false
         },
         {
-          "id": 25,
-          "url": "https://github.com/tw-in-js/twind",
-          "description": " The smallest, fastest, most feature complete Tailwind-in-JS solution in existence\n\nTwind is a small compiler (~13kB) that converts Tailwind classes into actual CSS rules at runtime. If you have used Tailwind or other CSS-in-JS solutions, then most of the API should feel very familiar.",
-          "publish_on_social": false,
-          "published_at": "2021-10-19T11:00:19.641Z",
-          "created_at": "2021-10-19T11:00:17.161Z",
-          "updated_at": "2021-10-19T11:00:19.662Z",
-          "private": false
-        },
-        {
-          "id": 54,
-          "url": "https://github.com/alajmo/mani",
-          "description": " CLI tool to help you manage multiple repositories \n\nmani is a CLI tool that helps you manage multiple repositories. It's useful when you are working with microservices, multi-project systems, many libraries or just a bunch of repositories and want a central place for pulling all repositories and running commands over them.\n\nYou specify repository and commands in a config file and then run the commands over all or a subset of the repositories.",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T14:13:54.499Z",
-          "created_at": "2021-11-11T14:13:51.638Z",
-          "updated_at": "2021-11-11T14:13:54.549Z",
-          "private": false
-        },
-        {
-          "id": 73,
-          "url": "https://github.com/tannerlinsley/react-table",
-          "description": "Hooks for building lightweight, fast and extendable datagrids for React",
-          "publish_on_social": false,
-          "published_at": "2021-11-21T11:12:05.561Z",
-          "created_at": "2021-11-21T11:12:02.149Z",
-          "updated_at": "2021-11-21T11:12:05.577Z",
-          "private": false
-        },
-        {
           "id": 74,
           "url": "https://github.com/tannerlinsley/react-location",
           "description": "Enterprise Client-Side Routing for React",
@@ -4756,16 +4767,6 @@
           "published_at": "2021-11-21T11:12:54.995Z",
           "created_at": "2021-11-21T11:12:51.408Z",
           "updated_at": "2021-11-21T11:12:55.026Z",
-          "private": false
-        },
-        {
-          "id": 64,
-          "url": "https://tailblocks.cc/",
-          "description": " Ready-to-use Tailwind CSS blocks. \n\n",
-          "publish_on_social": false,
-          "published_at": "2021-11-17T19:12:19.335Z",
-          "created_at": "2021-11-11T20:14:49.523Z",
-          "updated_at": "2021-11-17T19:12:19.385Z",
           "private": false
         },
         {
@@ -4789,16 +4790,6 @@
           "private": false
         },
         {
-          "id": 72,
-          "url": "https://github.com/tannerlinsley/react-charts",
-          "description": "Simple, immersive and interactive charts for React",
-          "publish_on_social": false,
-          "published_at": "2021-11-21T11:11:20.544Z",
-          "created_at": "2021-11-21T11:11:16.973Z",
-          "updated_at": "2021-11-21T11:11:20.560Z",
-          "private": false
-        },
-        {
           "id": 42,
           "url": "https://cooklang.org/docs/spec/",
           "description": "The .cook Recipe Specification\n\nthe specification for defining a recipe in CookLang.",
@@ -4816,26 +4807,6 @@
           "published_at": "2021-10-13T10:29:09.213Z",
           "created_at": "2021-10-13T10:29:06.461Z",
           "updated_at": "2021-10-13T10:29:09.238Z",
-          "private": false
-        },
-        {
-          "id": 9,
-          "url": "https://github.com/ageitgey/face_recognition",
-          "description": " The world's simplest facial recognition api for Python and the command line ",
-          "publish_on_social": false,
-          "published_at": "2021-10-03T21:32:56.994Z",
-          "created_at": "2021-10-03T21:32:51.476Z",
-          "updated_at": "2021-10-03T21:32:57.018Z",
-          "private": null
-        },
-        {
-          "id": 30,
-          "url": "https://github.com/vizzuhq/vizzu-lib",
-          "description": "Vizzu - Library for animated data visualizations and data stories.\n\nVizzu is a free, open-source Javascript/C++ library utilizing a generic dataviz engine that generates many types of charts and seamlessly animates between them. It can be used to create static charts but more importantly it is designed for building animated data stories and interactive explorers as Vizzu enables showing different perspectives of the data that the viewers can easily follow due to the animation.\n\nMain features:\n\n- Designed with animation in focus;\n- Defaults based on data visualization guidelines;\n- Automatic data aggregation & data filtering;\n- HTML5 canvas rendering;\n- Written in C++ compiled to WebAssembly;\n- Dependency-free.\n",
-          "publish_on_social": false,
-          "published_at": "2021-10-21T18:40:08.509Z",
-          "created_at": "2021-10-21T18:39:06.991Z",
-          "updated_at": "2021-10-21T18:40:08.530Z",
           "private": false
         },
         {
@@ -4857,16 +4828,6 @@
           "created_at": "2021-11-11T18:53:27.705Z",
           "updated_at": "2021-11-11T18:53:30.175Z",
           "private": false
-        },
-        {
-          "id": 5,
-          "url": "https://flatfile.com",
-          "description": "The leading data onboarding platform (saas)\ncsv cleanup",
-          "publish_on_social": false,
-          "published_at": "2021-09-29T21:38:38.390Z",
-          "created_at": "2021-09-29T21:38:15.420Z",
-          "updated_at": "2021-09-29T21:38:38.406Z",
-          "private": null
         },
         {
           "id": 92,
@@ -4909,26 +4870,6 @@
           "private": false
         },
         {
-          "id": 46,
-          "url": "https://github.com/neon-bindings/neon",
-          "description": " Rust bindings for writing safe and fast native Node.js modules. ",
-          "publish_on_social": false,
-          "published_at": "2021-10-31T10:42:01.226Z",
-          "created_at": "2021-10-31T10:41:58.641Z",
-          "updated_at": "2021-10-31T10:42:01.270Z",
-          "private": false
-        },
-        {
-          "id": 12,
-          "url": "https://github.com/mmazzarolo/react-native-universal-monorepo",
-          "description": " React Native boilerplate supporting multiple platforms: Android, iOS, macOS, Windows, web, browser extensions, Electron. \nAn opinonated approach to supporting multiple platforms with React Native using a Yarn Workspaces monorepo.",
-          "publish_on_social": false,
-          "published_at": "2021-10-05T18:18:29.877Z",
-          "created_at": "2021-10-05T18:18:26.983Z",
-          "updated_at": "2021-10-05T18:18:29.898Z",
-          "private": false
-        },
-        {
           "id": 36,
           "url": "https://uiw.tf/minimap",
           "description": "Minimap For The Web\n\nInteract with the current page from a bird's eye view.\n\nIf you've ever played a video game, then you've most likely also used a minimap!\nA minimap is a heads up display that aids players in orienting themselves in the game world.\n\nCould a minimap help us navigate the web? Maybe...\n\nWe can use an experimental CSS property currently only available in Firefox to display a live image from an arbitrary HTML element.\n\nThis makes it trivial to create a minimap representation of the entire page.",
@@ -4936,36 +4877,6 @@
           "published_at": "2021-10-27T14:02:59.608Z",
           "created_at": "2021-10-27T14:02:56.664Z",
           "updated_at": "2021-10-27T14:02:59.632Z",
-          "private": false
-        },
-        {
-          "id": 53,
-          "url": "https://simplecss.org/",
-          "description": "\nSimple.css is a classless CSS framework that allows you to make a good looking website really quickly.\n\nBy classless I mean that there are no CSS classes anywhere in the CSS or the HTML. So your website can look just like this using plain old vanilla HTML.\n\nCool, huh?",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T10:01:16.232Z",
-          "created_at": "2021-11-11T10:01:13.621Z",
-          "updated_at": "2021-11-11T10:01:16.267Z",
-          "private": false
-        },
-        {
-          "id": 61,
-          "url": "https://github.com/vechai/vechaiui",
-          "description": "A set of high-quality accessible React UI components with the built-in dark mode using Tailwind CSS. Pre-designed headless ui and radix-ui. \n\n",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T20:12:03.488Z",
-          "created_at": "2021-11-11T20:12:00.963Z",
-          "updated_at": "2021-11-11T20:12:03.523Z",
-          "private": false
-        },
-        {
-          "id": 40,
-          "url": "https://github.com/MichaelMure/git-bug",
-          "description": " Distributed, offline-first bug tracker embedded in git, with bridges\n\ngit-bug is a bug tracker that:\n\n- is fully embedded in git: you only need your git repository to have a bug tracker\n- is distributed: use your normal git remote to collaborate, push and pull your bugs!\n- works offline: in a plane or under the sea? Keep reading and writing bugs!\n- prevents vendor lock-in: your usual service is down or went bad? You already have a full backup.\n- is fast: listing bugs or opening them is a matter of milliseconds\n- doesn't pollute your project: no files are added in your project\n- integrates with your tooling: use the UI you like (CLI, terminal, web) or integrate with your existing tools through the CLI or the GraphQL API\n- bridges to other bug trackers: use bridges to import and export to other trackers.\n\nThis is now more than a proof of concept, but still not fully stable. Expect dragons and unfinished business.",
-          "publish_on_social": false,
-          "published_at": "2021-10-28T11:32:42.296Z",
-          "created_at": "2021-10-28T11:32:39.719Z",
-          "updated_at": "2021-10-28T11:32:42.330Z",
           "private": false
         },
         {
@@ -4989,13 +4900,173 @@
           "private": false
         },
         {
-          "id": 39,
-          "url": "https://py-rates.fr/",
-          "description": "Learn python with game/puzzle",
+          "id": 79,
+          "url": "https://github.com/tannerlinsley/react-query",
+          "description": "Hooks for fetching, caching and updating asynchronous data in React ",
           "publish_on_social": false,
-          "published_at": "2021-10-27T20:37:11.319Z",
-          "created_at": "2021-10-27T20:37:09.105Z",
-          "updated_at": "2021-10-27T20:37:25.216Z",
+          "published_at": "2021-11-21T12:07:04.624Z",
+          "created_at": "2021-11-21T12:07:01.170Z",
+          "updated_at": "2021-11-21T12:07:04.650Z",
+          "private": false
+        },
+        {
+          "id": 87,
+          "url": "https://github.com/antfu/unplugin-icons",
+          "description": "Access thousands of icons as components on-demand universally.",
+          "publish_on_social": false,
+          "published_at": "2021-12-12T19:47:41.398Z",
+          "created_at": "2021-12-12T19:47:34.855Z",
+          "updated_at": "2021-12-12T19:47:41.428Z",
+          "private": false
+        },
+        {
+          "id": 13,
+          "url": "https://www.webglstudio.org/",
+          "description": "WebGLStudio (formerly known as WebGLStudio) is a platform to create interactive 3D scenes directly from the browser.\nIt allows to edit the scene visually, code your behaviours, edit the shaders, and all directly from within the app.",
+          "publish_on_social": false,
+          "published_at": "2021-10-10T17:15:36.217Z",
+          "created_at": "2021-10-10T17:15:32.904Z",
+          "updated_at": "2021-10-10T17:15:36.242Z",
+          "private": false
+        },
+        {
+          "id": 67,
+          "url": "https://github.com/yeemachine/kalidokit",
+          "description": "Blendshape and kinematics solver for Mediapipe/Tensorflow.js face, eyes, pose, and hand tracking models.\n\nMovies -> pose recognition -> animation",
+          "publish_on_social": false,
+          "published_at": "2021-11-12T14:17:37.415Z",
+          "created_at": "2021-11-12T14:17:34.900Z",
+          "updated_at": "2021-11-12T14:17:37.455Z",
+          "private": false
+        },
+        {
+          "id": 78,
+          "url": "https://github.com/geckosio/geckos.io",
+          "description": "Real-time client/server communication over UDP using WebRTC and Node.js\n\nGeckos.io fits perfectly with your next HTML5 real-time multiplayer games or chat app.",
+          "publish_on_social": false,
+          "published_at": "2021-11-21T12:05:45.078Z",
+          "created_at": "2021-11-21T12:05:40.865Z",
+          "updated_at": "2021-11-21T12:05:45.100Z",
+          "private": false
+        },
+        {
+          "id": 32,
+          "url": "https://usehooks-typescript.com/",
+          "description": "Simple React hooks, ready to use, written in typescript.\n\n- useBoolean()\n- useCopyToClipboard()\n- useCounter()\n- useDarkMode()\n- useDebounce()\n- useElementSize()\n- useEventListener()\n- useFetch()\n- useHover()\n- useImageOnLoad()\n- useIntersectionObserver()\n- useInterval()\n- useIsClient()\n- useIsMounted()\n- useLocalStorage()\n- useLockedBody()\n- useMap()\n- useOnClickOutside()\n- useReadLocalStorage()\n- useScreen()\n- useScript()\n- useSsr()\n- useTimeout()\n- useWindowSize()\n",
+          "publish_on_social": false,
+          "published_at": "2021-10-23T18:44:37.433Z",
+          "created_at": "2021-10-23T18:44:34.740Z",
+          "updated_at": "2021-10-23T18:44:37.457Z",
+          "private": false
+        },
+        {
+          "id": 23,
+          "url": "https://github.com/mgdm/htmlq",
+          "description": "Like jq, but for HTML. Uses CSS selectors to extract bits of content from HTML files.",
+          "publish_on_social": false,
+          "published_at": "2021-10-17T12:11:02.528Z",
+          "created_at": "2021-10-17T12:10:38.776Z",
+          "updated_at": "2021-10-17T12:11:02.571Z",
+          "private": false
+        },
+        {
+          "id": 45,
+          "url": "https://github.com/appwrite/appwrite",
+          "description": "Appwrite is a secure end-to-end backend server for Web, Mobile, and Flutter developers that is packaged as a set of Docker containers for easy deployment\n\nAppwrite is an end-to-end backend server for Web, Mobile, Native, or Backend apps packaged as a set of Docker microservices. Appwrite abstracts the complexity and repetitiveness required to build a modern backend API from scratch and allows you to build secure apps faster.\n\nUsing Appwrite, you can easily integrate your app with user authentication & multiple sign-in methods, a database for storing and querying users and team data, storage and file management, image manipulation, Cloud Functions, realtime subscription and more services.\n\n",
+          "publish_on_social": false,
+          "published_at": "2021-10-31T10:37:53.083Z",
+          "created_at": "2021-10-31T10:37:50.661Z",
+          "updated_at": "2021-10-31T10:37:53.123Z",
+          "private": false
+        },
+        {
+          "id": 34,
+          "url": "https://quilljs.com/",
+          "description": "Quill is a free, open source WYSIWYG editor built for the modern web. With its modular architecture and expressive API, it is completely customizable to fit any need.",
+          "publish_on_social": false,
+          "published_at": "2021-10-24T10:01:19.016Z",
+          "created_at": "2021-10-24T10:01:16.800Z",
+          "updated_at": "2021-10-24T10:01:19.037Z",
+          "private": false
+        },
+        {
+          "id": 59,
+          "url": "https://www.npmjs.com/package/clsx",
+          "description": "A tiny (228B) utility for constructing className strings conditionally from string, array, object...\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:08:05.855Z",
+          "created_at": "2021-11-11T20:08:03.439Z",
+          "updated_at": "2021-11-11T20:08:05.891Z",
+          "private": false
+        },
+        {
+          "id": 24,
+          "url": "https://concourse-ci.org/",
+          "description": "Concourse is an open-source continuous thing-doer.\n\nBuilt on the simple mechanics of resources, tasks, and jobs, Concourse presents a general approach to automation that makes it great for CI/CD.",
+          "publish_on_social": false,
+          "published_at": "2021-10-18T09:55:56.567Z",
+          "created_at": "2021-10-18T09:55:54.016Z",
+          "updated_at": "2021-10-18T09:55:56.604Z",
+          "private": false
+        },
+        {
+          "id": 83,
+          "url": "https://github.com/tonaljs/tonal",
+          "description": "tonal is a music theory library. Contains functions to manipulate tonal elements of music (note, intervals, chords, scales, modes, keys). It deals with abstractions (not actual music or sound).\n\ntonal is implemented in Typescript and published as a collection of Javascript npm packages.\n\nIt uses a functional programing style: all functions are pure, there is no data mutation, and entities are represented by data structures instead of objects.",
+          "publish_on_social": false,
+          "published_at": "2021-11-29T14:43:24.974Z",
+          "created_at": "2021-11-29T14:43:22.698Z",
+          "updated_at": "2021-11-29T14:43:25.003Z",
+          "private": false
+        },
+        {
+          "id": 88,
+          "url": "https://github.com/colinhacks/zod",
+          "description": "Zod is a TypeScript-first schema declaration and validation library. I'm using the term \"schema\" to broadly refer to any data type, from a simple string to a complex nested object.\n\nZod is designed to be as developer-friendly as possible. The goal is to eliminate duplicative type declarations. With Zod, you declare a validator once and Zod will automatically infer the static TypeScript type. It's easy to compose simpler types into complex data structures.",
+          "publish_on_social": false,
+          "published_at": "2021-12-14T14:42:02.267Z",
+          "created_at": "2021-12-14T14:41:51.042Z",
+          "updated_at": "2021-12-14T14:42:02.305Z",
+          "private": false
+        },
+        {
+          "id": 96,
+          "url": "https://github.com/chmln/sd",
+          "description": "sd is an intuitive find & replace CLI. (sed alternative)",
+          "publish_on_social": false,
+          "published_at": "2021-12-21T18:40:31.508Z",
+          "created_at": "2021-12-21T18:40:28.360Z",
+          "updated_at": "2021-12-21T18:40:31.572Z",
+          "private": false
+        },
+        {
+          "id": 65,
+          "url": "https://github.com/pmndrs/zustand",
+          "description": "A small, fast and scalable bearbones state-management solution using simplified flux principles. Has a comfy api based on hooks, isn't boilerplatey or opinionated.\n\nHomepage with a nice animation/effect : https://zustand.surge.sh/",
+          "publish_on_social": false,
+          "published_at": "2021-11-12T14:04:54.958Z",
+          "created_at": "2021-11-12T14:02:02.064Z",
+          "updated_at": "2021-11-12T14:04:54.981Z",
+          "private": false
+        },
+        {
+          "id": 95,
+          "url": "https://github.com/trpc/trpc",
+          "description": "End-to-end typesafe APIs made easy\n\ntRPC allows you to easily build & consume fully typesafe APIs, without schemas or code generation.",
+          "publish_on_social": false,
+          "published_at": "2021-12-20T17:33:12.158Z",
+          "created_at": "2021-12-20T17:33:09.003Z",
+          "updated_at": "2021-12-20T17:33:12.205Z",
+          "private": false
+        },
+        {
+          "id": 20,
+          "url": "https://github.com/xtermjs/xterm.js",
+          "description": "Xterm.js is a front-end component written in TypeScript that lets applications bring fully-featured terminals to their users in the browser. It's used by popular projects such as VS Code, Hyper and Theia.",
+          "publish_on_social": false,
+          "published_at": "2021-10-14T09:13:26.263Z",
+          "created_at": "2021-10-14T09:13:23.840Z",
+          "updated_at": "2021-10-14T09:13:26.297Z",
           "private": false
         }
       ],
@@ -5070,26 +5141,6 @@
       "updated_at": "2021-09-29T21:38:25.084Z",
       "links": [
         {
-          "id": 76,
-          "url": "https://www.backblaze.com/b2/cloud-storage-pricing.html",
-          "description": "American online storage/backup",
-          "publish_on_social": false,
-          "published_at": "2021-11-21T11:57:43.249Z",
-          "created_at": "2021-11-21T11:57:39.550Z",
-          "updated_at": "2021-11-21T11:57:43.271Z",
-          "private": false
-        },
-        {
-          "id": 77,
-          "url": "https://github.com/argyleink/gui-challenges",
-          "description": " centralized projects from the YouTube show GUI Challenges \n\nI build interfaces my way, then challenge you to do it your way. With our creative minds combined, we'll find multiple ways to solve these interfaces and expand the diversity of our skills.\n",
-          "publish_on_social": false,
-          "published_at": "2021-11-21T12:00:56.327Z",
-          "created_at": "2021-11-21T12:00:52.835Z",
-          "updated_at": "2021-11-21T12:00:56.385Z",
-          "private": false
-        },
-        {
           "id": 75,
           "url": "https://www.infomaniak.com/fr/kdrive/tarifs",
           "description": "Swiss online storage/backup",
@@ -5117,6 +5168,16 @@
           "published_at": "2021-10-31T10:37:53.083Z",
           "created_at": "2021-10-31T10:37:50.661Z",
           "updated_at": "2021-10-31T10:37:53.123Z",
+          "private": false
+        },
+        {
+          "id": 41,
+          "url": "https://github.com/openreplay/openreplay",
+          "description": "OpenReplay is developer-friendly, open-source session replay\n\nOpenReplay is a session replay stack that lets you see what users do on your web app, helping you troubleshoot issues faster. It's the only open-source alternative to products such as FullStory and LogRocket.\n\n- Session replay. OpenReplay replays what users do, but not only. It also shows you what went under the hood, how your website or app behaves by capturing network activity, console logs, JS errors, store actions/state, page speed metrics, cpu/memory usage and much more.\n- Low footprint. With a ~18KB (.gz) tracker that asynchronously sends minimal data for a very limited impact on performance.\n- Self-hosted. No more security compliance checks, 3rd-parties processing user data. Everything OpenReplay captures stays in your cloud for a complete control over your data.\n- Privacy controls. Fine-grained security features for sanitizing user data.\n- Easy deploy. With support of major public cloud providers (AWS, GCP, Azure, DigitalOcean).\n\nFeatures\n\n- Session replay: Lets you relive your users' experience, see where they struggle and how it affects their behavior. Each session replay is automatically analyzed based on heuristics, for easy triage.\n- DevTools: It's like debugging in your own browser. OpenReplay provides you with the full context (network activity, JS errors, store actions/state and 40+ metrics) so you can instantly reproduce bugs and understand performance issues.\n- Assist: Helps you support your users by seeing their live screen and instantly hopping on call (WebRTC) with them without requiring any 3rd-party screen sharing software.\n- Omni-search: Search and filter by almost any user action/criteria, session attribute or technical event, so you can answer any question. No instrumentation required.\n- Funnels: For surfacing the most impactful issues causing conversion and revenue loss.\n- Fine-grained privacy controls: Choose what to capture, what to obscure or what to ignore so user data doesn't even reach your servers.\n- Plugins oriented: Get to the root cause even faster by tracking application state (Redux, VueX, MobX, NgRx) and logging GraphQL queries (Apollo, Relay) and Fetch requests.\n- Integrations: Sync your backend logs with your session replays and see what happened front-to-back. OpenReplay supports Sentry, Datadog, CloudWatch, Stackdriver, Elastic and more",
+          "publish_on_social": false,
+          "published_at": "2021-10-28T22:44:21.676Z",
+          "created_at": "2021-10-28T22:44:17.035Z",
+          "updated_at": "2021-10-28T22:44:21.700Z",
           "private": false
         },
         {
@@ -5150,13 +5211,23 @@
           "private": false
         },
         {
-          "id": 41,
-          "url": "https://github.com/openreplay/openreplay",
-          "description": "OpenReplay is developer-friendly, open-source session replay\n\nOpenReplay is a session replay stack that lets you see what users do on your web app, helping you troubleshoot issues faster. It's the only open-source alternative to products such as FullStory and LogRocket.\n\n- Session replay. OpenReplay replays what users do, but not only. It also shows you what went under the hood, how your website or app behaves by capturing network activity, console logs, JS errors, store actions/state, page speed metrics, cpu/memory usage and much more.\n- Low footprint. With a ~18KB (.gz) tracker that asynchronously sends minimal data for a very limited impact on performance.\n- Self-hosted. No more security compliance checks, 3rd-parties processing user data. Everything OpenReplay captures stays in your cloud for a complete control over your data.\n- Privacy controls. Fine-grained security features for sanitizing user data.\n- Easy deploy. With support of major public cloud providers (AWS, GCP, Azure, DigitalOcean).\n\nFeatures\n\n- Session replay: Lets you relive your users' experience, see where they struggle and how it affects their behavior. Each session replay is automatically analyzed based on heuristics, for easy triage.\n- DevTools: It's like debugging in your own browser. OpenReplay provides you with the full context (network activity, JS errors, store actions/state and 40+ metrics) so you can instantly reproduce bugs and understand performance issues.\n- Assist: Helps you support your users by seeing their live screen and instantly hopping on call (WebRTC) with them without requiring any 3rd-party screen sharing software.\n- Omni-search: Search and filter by almost any user action/criteria, session attribute or technical event, so you can answer any question. No instrumentation required.\n- Funnels: For surfacing the most impactful issues causing conversion and revenue loss.\n- Fine-grained privacy controls: Choose what to capture, what to obscure or what to ignore so user data doesn't even reach your servers.\n- Plugins oriented: Get to the root cause even faster by tracking application state (Redux, VueX, MobX, NgRx) and logging GraphQL queries (Apollo, Relay) and Fetch requests.\n- Integrations: Sync your backend logs with your session replays and see what happened front-to-back. OpenReplay supports Sentry, Datadog, CloudWatch, Stackdriver, Elastic and more",
+          "id": 76,
+          "url": "https://www.backblaze.com/b2/cloud-storage-pricing.html",
+          "description": "American online storage/backup",
           "publish_on_social": false,
-          "published_at": "2021-10-28T22:44:21.676Z",
-          "created_at": "2021-10-28T22:44:17.035Z",
-          "updated_at": "2021-10-28T22:44:21.700Z",
+          "published_at": "2021-11-21T11:57:43.249Z",
+          "created_at": "2021-11-21T11:57:39.550Z",
+          "updated_at": "2021-11-21T11:57:43.271Z",
+          "private": false
+        },
+        {
+          "id": 77,
+          "url": "https://github.com/argyleink/gui-challenges",
+          "description": " centralized projects from the YouTube show GUI Challenges \n\nI build interfaces my way, then challenge you to do it your way. With our creative minds combined, we'll find multiple ways to solve these interfaces and expand the diversity of our skills.\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-21T12:00:56.327Z",
+          "created_at": "2021-11-21T12:00:52.835Z",
+          "updated_at": "2021-11-21T12:00:56.385Z",
           "private": false
         }
       ],
@@ -5201,6 +5272,56 @@
       "updated_at": "2021-10-02T10:15:01.410Z",
       "links": [
         {
+          "id": 32,
+          "url": "https://usehooks-typescript.com/",
+          "description": "Simple React hooks, ready to use, written in typescript.\n\n- useBoolean()\n- useCopyToClipboard()\n- useCounter()\n- useDarkMode()\n- useDebounce()\n- useElementSize()\n- useEventListener()\n- useFetch()\n- useHover()\n- useImageOnLoad()\n- useIntersectionObserver()\n- useInterval()\n- useIsClient()\n- useIsMounted()\n- useLocalStorage()\n- useLockedBody()\n- useMap()\n- useOnClickOutside()\n- useReadLocalStorage()\n- useScreen()\n- useScript()\n- useSsr()\n- useTimeout()\n- useWindowSize()\n",
+          "publish_on_social": false,
+          "published_at": "2021-10-23T18:44:37.433Z",
+          "created_at": "2021-10-23T18:44:34.740Z",
+          "updated_at": "2021-10-23T18:44:37.457Z",
+          "private": false
+        },
+        {
+          "id": 92,
+          "url": "https://github.com/Shopify/react-native-skia",
+          "description": "React Native Skia brings the Skia Graphics Library to React Native. Skia serves as the graphics engine for Google Chrome and Chrome OS, Android, Flutter, Mozilla Firefox and, Firefox OS, and many other products.",
+          "publish_on_social": false,
+          "published_at": "2021-12-20T12:42:11.657Z",
+          "created_at": "2021-12-20T12:42:09.512Z",
+          "updated_at": "2021-12-20T12:42:11.698Z",
+          "private": false
+        },
+        {
+          "id": 65,
+          "url": "https://github.com/pmndrs/zustand",
+          "description": "A small, fast and scalable bearbones state-management solution using simplified flux principles. Has a comfy api based on hooks, isn't boilerplatey or opinionated.\n\nHomepage with a nice animation/effect : https://zustand.surge.sh/",
+          "publish_on_social": false,
+          "published_at": "2021-11-12T14:04:54.958Z",
+          "created_at": "2021-11-12T14:02:02.064Z",
+          "updated_at": "2021-11-12T14:04:54.981Z",
+          "private": false
+        },
+        {
+          "id": 59,
+          "url": "https://www.npmjs.com/package/clsx",
+          "description": "A tiny (228B) utility for constructing className strings conditionally from string, array, object...\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:08:05.855Z",
+          "created_at": "2021-11-11T20:08:03.439Z",
+          "updated_at": "2021-11-11T20:08:05.891Z",
+          "private": false
+        },
+        {
+          "id": 73,
+          "url": "https://github.com/tannerlinsley/react-table",
+          "description": "Hooks for building lightweight, fast and extendable datagrids for React",
+          "publish_on_social": false,
+          "published_at": "2021-11-21T11:12:05.561Z",
+          "created_at": "2021-11-21T11:12:02.149Z",
+          "updated_at": "2021-11-21T11:12:05.577Z",
+          "private": false
+        },
+        {
           "id": 56,
           "url": "https://github.com/nas5w/use-local-storage",
           "description": " A flexible React Hook for using Local Storage. \n\n",
@@ -5208,16 +5329,6 @@
           "published_at": "2021-11-11T18:53:30.130Z",
           "created_at": "2021-11-11T18:53:27.705Z",
           "updated_at": "2021-11-11T18:53:30.175Z",
-          "private": false
-        },
-        {
-          "id": 12,
-          "url": "https://github.com/mmazzarolo/react-native-universal-monorepo",
-          "description": " React Native boilerplate supporting multiple platforms: Android, iOS, macOS, Windows, web, browser extensions, Electron. \nAn opinonated approach to supporting multiple platforms with React Native using a Yarn Workspaces monorepo.",
-          "publish_on_social": false,
-          "published_at": "2021-10-05T18:18:29.877Z",
-          "created_at": "2021-10-05T18:18:26.983Z",
-          "updated_at": "2021-10-05T18:18:29.898Z",
           "private": false
         },
         {
@@ -5231,16 +5342,6 @@
           "private": false
         },
         {
-          "id": 55,
-          "url": "https://github.com/tailwind-mobile/tailwind-mobile",
-          "description": " Mobile UI components made with Tailwind CSS \n\nTailwind Mobile - Pixel perfect mobile UI components built with Tailwind CSS with iOS and Material Design components for React, Vue & Svelte",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T14:17:01.610Z",
-          "created_at": "2021-11-11T14:16:59.027Z",
-          "updated_at": "2021-11-11T14:17:01.633Z",
-          "private": false
-        },
-        {
           "id": 62,
           "url": "https://www.radix-ui.com/",
           "description": "Unstyled, accessible components for building high\u2011quality design systems and web apps in React.",
@@ -5248,16 +5349,6 @@
           "published_at": "2021-11-11T20:12:48.213Z",
           "created_at": "2021-11-11T20:12:43.502Z",
           "updated_at": "2021-11-11T20:12:48.238Z",
-          "private": false
-        },
-        {
-          "id": 58,
-          "url": "https://www.framer.com/motion/",
-          "description": "A production-ready motion library for React.",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T20:06:04.195Z",
-          "created_at": "2021-11-11T20:06:01.117Z",
-          "updated_at": "2021-11-11T20:06:04.207Z",
           "private": false
         },
         {
@@ -5301,36 +5392,6 @@
           "private": false
         },
         {
-          "id": 32,
-          "url": "https://usehooks-typescript.com/",
-          "description": "Simple React hooks, ready to use, written in typescript.\n\n- useBoolean()\n- useCopyToClipboard()\n- useCounter()\n- useDarkMode()\n- useDebounce()\n- useElementSize()\n- useEventListener()\n- useFetch()\n- useHover()\n- useImageOnLoad()\n- useIntersectionObserver()\n- useInterval()\n- useIsClient()\n- useIsMounted()\n- useLocalStorage()\n- useLockedBody()\n- useMap()\n- useOnClickOutside()\n- useReadLocalStorage()\n- useScreen()\n- useScript()\n- useSsr()\n- useTimeout()\n- useWindowSize()\n",
-          "publish_on_social": false,
-          "published_at": "2021-10-23T18:44:37.433Z",
-          "created_at": "2021-10-23T18:44:34.740Z",
-          "updated_at": "2021-10-23T18:44:37.457Z",
-          "private": false
-        },
-        {
-          "id": 92,
-          "url": "https://github.com/Shopify/react-native-skia",
-          "description": "React Native Skia brings the Skia Graphics Library to React Native. Skia serves as the graphics engine for Google Chrome and Chrome OS, Android, Flutter, Mozilla Firefox and, Firefox OS, and many other products.",
-          "publish_on_social": false,
-          "published_at": "2021-12-20T12:42:11.657Z",
-          "created_at": "2021-12-20T12:42:09.512Z",
-          "updated_at": "2021-12-20T12:42:11.698Z",
-          "private": false
-        },
-        {
-          "id": 65,
-          "url": "https://github.com/pmndrs/zustand",
-          "description": "A small, fast and scalable bearbones state-management solution using simplified flux principles. Has a comfy api based on hooks, isn't boilerplatey or opinionated.\n\nHomepage with a nice animation/effect : https://zustand.surge.sh/",
-          "publish_on_social": false,
-          "published_at": "2021-11-12T14:04:54.958Z",
-          "created_at": "2021-11-12T14:02:02.064Z",
-          "updated_at": "2021-11-12T14:04:54.981Z",
-          "private": false
-        },
-        {
           "id": 71,
           "url": "https://github.com/tannerlinsley/react-virtual",
           "description": "Hooks for virtualizing scrollable elements in React",
@@ -5351,26 +5412,6 @@
           "private": false
         },
         {
-          "id": 59,
-          "url": "https://www.npmjs.com/package/clsx",
-          "description": "A tiny (228B) utility for constructing className strings conditionally from string, array, object...\n",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T20:08:05.855Z",
-          "created_at": "2021-11-11T20:08:03.439Z",
-          "updated_at": "2021-11-11T20:08:05.891Z",
-          "private": false
-        },
-        {
-          "id": 73,
-          "url": "https://github.com/tannerlinsley/react-table",
-          "description": "Hooks for building lightweight, fast and extendable datagrids for React",
-          "publish_on_social": false,
-          "published_at": "2021-11-21T11:12:05.561Z",
-          "created_at": "2021-11-21T11:12:02.149Z",
-          "updated_at": "2021-11-21T11:12:05.577Z",
-          "private": false
-        },
-        {
           "id": 72,
           "url": "https://github.com/tannerlinsley/react-charts",
           "description": "Simple, immersive and interactive charts for React",
@@ -5388,6 +5429,46 @@
           "published_at": "2021-11-21T11:12:54.995Z",
           "created_at": "2021-11-21T11:12:51.408Z",
           "updated_at": "2021-11-21T11:12:55.026Z",
+          "private": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.patterns.dev/",
+          "description": "Improve how you architect webapps\n\nPatterns.dev is free book on design patterns and component patterns for building powerful web apps with vanilla JavaScript and React.",
+          "publish_on_social": false,
+          "published_at": "2021-12-21T18:43:10.745Z",
+          "created_at": "2021-12-21T18:43:08.440Z",
+          "updated_at": "2021-12-21T18:43:10.775Z",
+          "private": false
+        },
+        {
+          "id": 12,
+          "url": "https://github.com/mmazzarolo/react-native-universal-monorepo",
+          "description": " React Native boilerplate supporting multiple platforms: Android, iOS, macOS, Windows, web, browser extensions, Electron. \nAn opinonated approach to supporting multiple platforms with React Native using a Yarn Workspaces monorepo.",
+          "publish_on_social": false,
+          "published_at": "2021-10-05T18:18:29.877Z",
+          "created_at": "2021-10-05T18:18:26.983Z",
+          "updated_at": "2021-10-05T18:18:29.898Z",
+          "private": false
+        },
+        {
+          "id": 55,
+          "url": "https://github.com/tailwind-mobile/tailwind-mobile",
+          "description": " Mobile UI components made with Tailwind CSS \n\nTailwind Mobile - Pixel perfect mobile UI components built with Tailwind CSS with iOS and Material Design components for React, Vue & Svelte",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T14:17:01.610Z",
+          "created_at": "2021-11-11T14:16:59.027Z",
+          "updated_at": "2021-11-11T14:17:01.633Z",
+          "private": false
+        },
+        {
+          "id": 58,
+          "url": "https://www.framer.com/motion/",
+          "description": "A production-ready motion library for React.",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:06:04.195Z",
+          "created_at": "2021-11-11T20:06:01.117Z",
+          "updated_at": "2021-11-11T20:06:04.207Z",
           "private": false
         }
       ],
@@ -5411,6 +5492,26 @@
       "created_at": "2021-10-03T11:53:53.267Z",
       "updated_at": "2021-10-03T11:53:54.919Z",
       "links": [
+        {
+          "id": 82,
+          "url": "https://github.com/redis/redis-om-python",
+          "description": " Object mapping, and more, for Redis and Python ",
+          "publish_on_social": false,
+          "published_at": "2021-11-26T12:41:13.998Z",
+          "created_at": "2021-11-26T12:41:11.333Z",
+          "updated_at": "2021-11-26T12:41:14.024Z",
+          "private": false
+        },
+        {
+          "id": 70,
+          "url": "https://github.com/lark-parser/lark",
+          "description": " Lark is a parsing toolkit for Python, built with a focus on ergonomics, performance and modularity. \n\nLark can parse all context-free languages. To put it simply, it means that it is capable of parsing almost any programming language out there, and to some degree most natural languages too.",
+          "publish_on_social": false,
+          "published_at": "2021-11-21T10:09:17.834Z",
+          "created_at": "2021-11-21T10:09:13.970Z",
+          "updated_at": "2021-11-21T10:09:17.859Z",
+          "private": false
+        },
         {
           "id": 9,
           "url": "https://github.com/ageitgey/face_recognition",
@@ -5450,26 +5551,6 @@
           "created_at": "2021-10-03T11:53:45.152Z",
           "updated_at": "2021-10-03T11:54:05.999Z",
           "private": null
-        },
-        {
-          "id": 82,
-          "url": "https://github.com/redis/redis-om-python",
-          "description": " Object mapping, and more, for Redis and Python ",
-          "publish_on_social": false,
-          "published_at": "2021-11-26T12:41:13.998Z",
-          "created_at": "2021-11-26T12:41:11.333Z",
-          "updated_at": "2021-11-26T12:41:14.024Z",
-          "private": false
-        },
-        {
-          "id": 70,
-          "url": "https://github.com/lark-parser/lark",
-          "description": " Lark is a parsing toolkit for Python, built with a focus on ergonomics, performance and modularity. \n\nLark can parse all context-free languages. To put it simply, it means that it is capable of parsing almost any programming language out there, and to some degree most natural languages too.",
-          "publish_on_social": false,
-          "published_at": "2021-11-21T10:09:17.834Z",
-          "created_at": "2021-11-21T10:09:13.970Z",
-          "updated_at": "2021-11-21T10:09:17.859Z",
-          "private": false
         }
       ],
       "notes": []
@@ -5482,16 +5563,6 @@
       "updated_at": "2021-10-04T15:00:32.804Z",
       "links": [
         {
-          "id": 96,
-          "url": "https://github.com/chmln/sd",
-          "description": "sd is an intuitive find & replace CLI. (sed alternative)",
-          "publish_on_social": false,
-          "published_at": "2021-12-21T18:40:31.508Z",
-          "created_at": "2021-12-21T18:40:28.360Z",
-          "updated_at": "2021-12-21T18:40:31.572Z",
-          "private": false
-        },
-        {
           "id": 40,
           "url": "https://github.com/MichaelMure/git-bug",
           "description": " Distributed, offline-first bug tracker embedded in git, with bridges\n\ngit-bug is a bug tracker that:\n\n- is fully embedded in git: you only need your git repository to have a bug tracker\n- is distributed: use your normal git remote to collaborate, push and pull your bugs!\n- works offline: in a plane or under the sea? Keep reading and writing bugs!\n- prevents vendor lock-in: your usual service is down or went bad? You already have a full backup.\n- is fast: listing bugs or opening them is a matter of milliseconds\n- doesn't pollute your project: no files are added in your project\n- integrates with your tooling: use the UI you like (CLI, terminal, web) or integrate with your existing tools through the CLI or the GraphQL API\n- bridges to other bug trackers: use bridges to import and export to other trackers.\n\nThis is now more than a proof of concept, but still not fully stable. Expect dragons and unfinished business.",
@@ -5499,6 +5570,16 @@
           "published_at": "2021-10-28T11:32:42.296Z",
           "created_at": "2021-10-28T11:32:39.719Z",
           "updated_at": "2021-10-28T11:32:42.330Z",
+          "private": false
+        },
+        {
+          "id": 96,
+          "url": "https://github.com/chmln/sd",
+          "description": "sd is an intuitive find & replace CLI. (sed alternative)",
+          "publish_on_social": false,
+          "published_at": "2021-12-21T18:40:31.508Z",
+          "created_at": "2021-12-21T18:40:28.360Z",
+          "updated_at": "2021-12-21T18:40:31.572Z",
           "private": false
         },
         {
@@ -5533,6 +5614,16 @@
       "updated_at": "2021-10-05T16:55:44.498Z",
       "links": [
         {
+          "id": 11,
+          "url": "https://tailwind-mobile.com/",
+          "description": "Pixel perfect mobile UI components built with Tailwind CSS\nWith iOS and Material Design components for React, Vue & Svelte",
+          "publish_on_social": false,
+          "published_at": "2021-10-05T16:57:06.125Z",
+          "created_at": "2021-10-05T16:56:36.968Z",
+          "updated_at": "2021-10-05T16:57:06.140Z",
+          "private": false
+        },
+        {
           "id": 87,
           "url": "https://github.com/antfu/unplugin-icons",
           "description": "Access thousands of icons as components on-demand universally.",
@@ -5550,16 +5641,6 @@
           "published_at": "2021-11-11T14:17:01.610Z",
           "created_at": "2021-11-11T14:16:59.027Z",
           "updated_at": "2021-11-11T14:17:01.633Z",
-          "private": false
-        },
-        {
-          "id": 11,
-          "url": "https://tailwind-mobile.com/",
-          "description": "Pixel perfect mobile UI components built with Tailwind CSS\nWith iOS and Material Design components for React, Vue & Svelte",
-          "publish_on_social": false,
-          "published_at": "2021-10-05T16:57:06.125Z",
-          "created_at": "2021-10-05T16:56:36.968Z",
-          "updated_at": "2021-10-05T16:57:06.140Z",
           "private": false
         },
         {
@@ -5603,16 +5684,6 @@
           "private": false
         },
         {
-          "id": 11,
-          "url": "https://tailwind-mobile.com/",
-          "description": "Pixel perfect mobile UI components built with Tailwind CSS\nWith iOS and Material Design components for React, Vue & Svelte",
-          "publish_on_social": false,
-          "published_at": "2021-10-05T16:57:06.125Z",
-          "created_at": "2021-10-05T16:56:36.968Z",
-          "updated_at": "2021-10-05T16:57:06.140Z",
-          "private": false
-        },
-        {
           "id": 55,
           "url": "https://github.com/tailwind-mobile/tailwind-mobile",
           "description": " Mobile UI components made with Tailwind CSS \n\nTailwind Mobile - Pixel perfect mobile UI components built with Tailwind CSS with iOS and Material Design components for React, Vue & Svelte",
@@ -5641,6 +5712,16 @@
           "created_at": "2021-11-11T20:13:34.052Z",
           "updated_at": "2021-11-11T20:13:36.351Z",
           "private": false
+        },
+        {
+          "id": 11,
+          "url": "https://tailwind-mobile.com/",
+          "description": "Pixel perfect mobile UI components built with Tailwind CSS\nWith iOS and Material Design components for React, Vue & Svelte",
+          "publish_on_social": false,
+          "published_at": "2021-10-05T16:57:06.125Z",
+          "created_at": "2021-10-05T16:56:36.968Z",
+          "updated_at": "2021-10-05T16:57:06.140Z",
+          "private": false
         }
       ],
       "notes": []
@@ -5652,16 +5733,6 @@
       "created_at": "2021-10-17T12:10:46.859Z",
       "updated_at": "2021-10-17T12:10:49.181Z",
       "links": [
-        {
-          "id": 96,
-          "url": "https://github.com/chmln/sd",
-          "description": "sd is an intuitive find & replace CLI. (sed alternative)",
-          "publish_on_social": false,
-          "published_at": "2021-12-21T18:40:31.508Z",
-          "created_at": "2021-12-21T18:40:28.360Z",
-          "updated_at": "2021-12-21T18:40:31.572Z",
-          "private": false
-        },
         {
           "id": 23,
           "url": "https://github.com/mgdm/htmlq",
@@ -5680,6 +5751,16 @@
           "published_at": "2021-10-31T10:42:01.226Z",
           "created_at": "2021-10-31T10:41:58.641Z",
           "updated_at": "2021-10-31T10:42:01.270Z",
+          "private": false
+        },
+        {
+          "id": 96,
+          "url": "https://github.com/chmln/sd",
+          "description": "sd is an intuitive find & replace CLI. (sed alternative)",
+          "publish_on_social": false,
+          "published_at": "2021-12-21T18:40:31.508Z",
+          "created_at": "2021-12-21T18:40:28.360Z",
+          "updated_at": "2021-12-21T18:40:31.572Z",
           "private": false
         }
       ],
@@ -5733,16 +5814,6 @@
       "updated_at": "2021-10-31T10:00:21.943Z",
       "links": [
         {
-          "id": 42,
-          "url": "https://cooklang.org/docs/spec/",
-          "description": "The .cook Recipe Specification\n\nthe specification for defining a recipe in CookLang.",
-          "publish_on_social": false,
-          "published_at": "2021-10-31T10:00:40.158Z",
-          "created_at": "2021-10-31T10:00:00.961Z",
-          "updated_at": "2021-10-31T10:00:40.198Z",
-          "private": false
-        },
-        {
           "id": 43,
           "url": "https://github.com/cooklang/CookCLI",
           "description": "CookCLI is provided as a command-line tool to make Cook recipe management easier, and enable automation and scripting workflows for the CookLang ecosystem.",
@@ -5750,6 +5821,16 @@
           "published_at": "2021-10-31T10:01:18.441Z",
           "created_at": "2021-10-31T10:01:15.784Z",
           "updated_at": "2021-10-31T10:01:18.473Z",
+          "private": false
+        },
+        {
+          "id": 42,
+          "url": "https://cooklang.org/docs/spec/",
+          "description": "The .cook Recipe Specification\n\nthe specification for defining a recipe in CookLang.",
+          "publish_on_social": false,
+          "published_at": "2021-10-31T10:00:40.158Z",
+          "created_at": "2021-10-31T10:00:00.961Z",
+          "updated_at": "2021-10-31T10:00:40.198Z",
           "private": false
         }
       ],
@@ -5763,16 +5844,6 @@
       "updated_at": "2021-11-03T18:45:33.880Z",
       "links": [
         {
-          "id": 83,
-          "url": "https://github.com/tonaljs/tonal",
-          "description": "tonal is a music theory library. Contains functions to manipulate tonal elements of music (note, intervals, chords, scales, modes, keys). It deals with abstractions (not actual music or sound).\n\ntonal is implemented in Typescript and published as a collection of Javascript npm packages.\n\nIt uses a functional programing style: all functions are pure, there is no data mutation, and entities are represented by data structures instead of objects.",
-          "publish_on_social": false,
-          "published_at": "2021-11-29T14:43:24.974Z",
-          "created_at": "2021-11-29T14:43:22.698Z",
-          "updated_at": "2021-11-29T14:43:25.003Z",
-          "private": false
-        },
-        {
           "id": 47,
           "url": "https://github.com/stargateaudio/stargate",
           "description": "daw :  digital audio workstation, instrument and effect plugins, wave editor, Stargate is a holistic audio production solution, everything you need to make music on a computer.",
@@ -5780,6 +5851,16 @@
           "published_at": "2021-11-03T18:46:23.166Z",
           "created_at": "2021-11-03T18:46:20.907Z",
           "updated_at": "2021-11-03T18:46:23.187Z",
+          "private": false
+        },
+        {
+          "id": 83,
+          "url": "https://github.com/tonaljs/tonal",
+          "description": "tonal is a music theory library. Contains functions to manipulate tonal elements of music (note, intervals, chords, scales, modes, keys). It deals with abstractions (not actual music or sound).\n\ntonal is implemented in Typescript and published as a collection of Javascript npm packages.\n\nIt uses a functional programing style: all functions are pure, there is no data mutation, and entities are represented by data structures instead of objects.",
+          "publish_on_social": false,
+          "published_at": "2021-11-29T14:43:24.974Z",
+          "created_at": "2021-11-29T14:43:22.698Z",
+          "updated_at": "2021-11-29T14:43:25.003Z",
           "private": false
         }
       ],
@@ -5853,16 +5934,6 @@
       "updated_at": "2021-11-17T19:11:54.523Z",
       "links": [
         {
-          "id": 69,
-          "url": "https://oss.redis.com/redisearch/",
-          "description": "RediSearch - Redis Secondary Index & Query Engine\n\nRediSearch is a source available Secondary Index, Query Engine and Full-Text Search over Redis, developed by Redis . \n\n Redisearch implements a secondary index on top of Redis, but unlike other Redis indexing libraries, it does not use internal data structures such as sorted sets.\n\nThis also enables more advanced features, such as multi-field queries, aggregation, and full text search capabilites. These capabilities include exact phrase matching and numeric filtering for text queries, something that is neither possible or efficient with traditional Redis indexing approaches. \n",
-          "publish_on_social": false,
-          "published_at": "2021-11-17T19:51:32.686Z",
-          "created_at": "2021-11-17T19:51:30.444Z",
-          "updated_at": "2021-11-17T19:51:32.739Z",
-          "private": false
-        },
-        {
           "id": 94,
           "url": "https://github.com/prisma/prisma",
           "description": "Prisma is a next-generation ORM that consists of these tools:\n\n- Prisma Client: Auto-generated and type-safe query builder for Node.js & TypeScript\n- Prisma Migrate: Declarative data modeling & migration system\n- Prisma Studio: GUI to view and edit data in your database\n\nPrisma Client can be used in any Node.js or TypeScript backend application (including serverless applications and microservices). This can be a REST API, a GraphQL API a gRPC API, or anything else that needs a database.",
@@ -5880,6 +5951,16 @@
           "published_at": "2021-11-17T19:12:09.069Z",
           "created_at": "2021-11-17T19:11:46.734Z",
           "updated_at": "2021-11-17T19:12:09.087Z",
+          "private": false
+        },
+        {
+          "id": 69,
+          "url": "https://oss.redis.com/redisearch/",
+          "description": "RediSearch - Redis Secondary Index & Query Engine\n\nRediSearch is a source available Secondary Index, Query Engine and Full-Text Search over Redis, developed by Redis . \n\n Redisearch implements a secondary index on top of Redis, but unlike other Redis indexing libraries, it does not use internal data structures such as sorted sets.\n\nThis also enables more advanced features, such as multi-field queries, aggregation, and full text search capabilites. These capabilities include exact phrase matching and numeric filtering for text queries, something that is neither possible or efficient with traditional Redis indexing approaches. \n",
+          "publish_on_social": false,
+          "published_at": "2021-11-17T19:51:32.686Z",
+          "created_at": "2021-11-17T19:51:30.444Z",
+          "updated_at": "2021-11-17T19:51:32.739Z",
           "private": false
         }
       ],
