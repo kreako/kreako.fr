@@ -2791,6 +2791,40 @@
       "kind": "link"
     },
     {
+      "id": "link-96",
+      "url": "https://github.com/chmln/sd",
+      "description": "sd is an intuitive find & replace CLI. (sed alternative)",
+      "publish_on_social": false,
+      "published_at": "2021-12-21T18:40:31.508Z",
+      "created_at": "2021-12-21T18:40:28.360Z",
+      "updated_at": "2021-12-21T18:40:31.572Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 10,
+          "title": "cli",
+          "published_at": "2021-10-04T15:00:32.782Z",
+          "created_at": "2021-10-04T15:00:30.614Z",
+          "updated_at": "2021-10-04T15:00:32.804Z"
+        },
+        {
+          "id": 13,
+          "title": "rust",
+          "published_at": "2021-10-17T12:10:49.151Z",
+          "created_at": "2021-10-17T12:10:46.859Z",
+          "updated_at": "2021-10-17T12:10:49.181Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
+    },
+    {
       "id": "link-85",
       "url": "https://svgsilh.com/",
       "description": "Free SVG Image & Icon.",
@@ -3131,6 +3165,156 @@
       "created_at": "2021-09-29T21:01:48.486Z",
       "updated_at": "2021-09-29T21:01:51.167Z",
       "links": [
+        {
+          "id": 65,
+          "url": "https://github.com/pmndrs/zustand",
+          "description": "A small, fast and scalable bearbones state-management solution using simplified flux principles. Has a comfy api based on hooks, isn't boilerplatey or opinionated.\n\nHomepage with a nice animation/effect : https://zustand.surge.sh/",
+          "publish_on_social": false,
+          "published_at": "2021-11-12T14:04:54.958Z",
+          "created_at": "2021-11-12T14:02:02.064Z",
+          "updated_at": "2021-11-12T14:04:54.981Z",
+          "private": false
+        },
+        {
+          "id": 11,
+          "url": "https://tailwind-mobile.com/",
+          "description": "Pixel perfect mobile UI components built with Tailwind CSS\nWith iOS and Material Design components for React, Vue & Svelte",
+          "publish_on_social": false,
+          "published_at": "2021-10-05T16:57:06.125Z",
+          "created_at": "2021-10-05T16:56:36.968Z",
+          "updated_at": "2021-10-05T16:57:06.140Z",
+          "private": false
+        },
+        {
+          "id": 49,
+          "url": "https://github.com/AsyncBanana/microdiff",
+          "description": "A fast, zero dependency object and array comparison library. Significantly faster than most other deep comparison libraries and has full TypeScript support. \n\n```javascript\nimport diff from \"microdiff\";\n\nconst obj1 = {\n\toriginalProperty: true,\n};\nconst obj2 = {\n\toriginalProperty: true,\n\tnewProperty: \"new\",\n};\n\nconsole.log(diff(obj1, obj2));\n// [{type: \"CREATE\", path: [\"newProperty\"], value: \"new\"}]\n```",
+          "publish_on_social": false,
+          "published_at": "2021-11-09T09:04:48.218Z",
+          "created_at": "2021-11-09T09:04:45.319Z",
+          "updated_at": "2021-11-09T09:04:48.272Z",
+          "private": false
+        },
+        {
+          "id": 29,
+          "url": "https://github.com/protonradio/player",
+          "description": "- Proton Player is an HTML5-based streaming music player optimized for compatibility across many devices and browsers.\n- The player is \"headless\", meaning that it doesn't come packaged with any visual components. It is meant to serve as a toolkit for building your own music player, offering features such as seeking, pausing, and preloading upcoming audio files.\n\nSeems there is no support for firefox\n",
+          "publish_on_social": false,
+          "published_at": "2021-10-21T18:33:44.166Z",
+          "created_at": "2021-10-21T18:33:41.537Z",
+          "updated_at": "2021-10-21T18:33:44.199Z",
+          "private": false
+        },
+        {
+          "id": 19,
+          "url": "https://blog.openreplay.com/the-ultimate-guide-to-getting-started-with-the-rollup-js-javascript-bundler",
+          "description": "The Ultimate Guide to Getting Started with the Rollup.js JavaScript Bundler",
+          "publish_on_social": false,
+          "published_at": "2021-10-13T11:04:39.587Z",
+          "created_at": "2021-10-13T11:04:37.111Z",
+          "updated_at": "2021-10-13T11:04:39.615Z",
+          "private": false
+        },
+        {
+          "id": 30,
+          "url": "https://github.com/vizzuhq/vizzu-lib",
+          "description": "Vizzu - Library for animated data visualizations and data stories.\n\nVizzu is a free, open-source Javascript/C++ library utilizing a generic dataviz engine that generates many types of charts and seamlessly animates between them. It can be used to create static charts but more importantly it is designed for building animated data stories and interactive explorers as Vizzu enables showing different perspectives of the data that the viewers can easily follow due to the animation.\n\nMain features:\n\n- Designed with animation in focus;\n- Defaults based on data visualization guidelines;\n- Automatic data aggregation & data filtering;\n- HTML5 canvas rendering;\n- Written in C++ compiled to WebAssembly;\n- Dependency-free.\n",
+          "publish_on_social": false,
+          "published_at": "2021-10-21T18:40:08.509Z",
+          "created_at": "2021-10-21T18:39:06.991Z",
+          "updated_at": "2021-10-21T18:40:08.530Z",
+          "private": false
+        },
+        {
+          "id": 25,
+          "url": "https://github.com/tw-in-js/twind",
+          "description": " The smallest, fastest, most feature complete Tailwind-in-JS solution in existence\n\nTwind is a small compiler (~13kB) that converts Tailwind classes into actual CSS rules at runtime. If you have used Tailwind or other CSS-in-JS solutions, then most of the API should feel very familiar.",
+          "publish_on_social": false,
+          "published_at": "2021-10-19T11:00:19.641Z",
+          "created_at": "2021-10-19T11:00:17.161Z",
+          "updated_at": "2021-10-19T11:00:19.662Z",
+          "private": false
+        },
+        {
+          "id": 13,
+          "url": "https://www.webglstudio.org/",
+          "description": "WebGLStudio (formerly known as WebGLStudio) is a platform to create interactive 3D scenes directly from the browser.\nIt allows to edit the scene visually, code your behaviours, edit the shaders, and all directly from within the app.",
+          "publish_on_social": false,
+          "published_at": "2021-10-10T17:15:36.217Z",
+          "created_at": "2021-10-10T17:15:32.904Z",
+          "updated_at": "2021-10-10T17:15:36.242Z",
+          "private": false
+        },
+        {
+          "id": 51,
+          "url": "https://github.com/JamesRyanATX/harmonicon",
+          "description": " An experimental DAW for music as code. \n\nSource code for harmonicon.studio, an experimental music-as-code DAW for browsers.",
+          "publish_on_social": false,
+          "published_at": "2021-11-09T12:28:01.798Z",
+          "created_at": "2021-11-09T12:27:59.266Z",
+          "updated_at": "2021-11-09T12:28:01.838Z",
+          "private": false
+        },
+        {
+          "id": 71,
+          "url": "https://github.com/tannerlinsley/react-virtual",
+          "description": "Hooks for virtualizing scrollable elements in React",
+          "publish_on_social": false,
+          "published_at": "2021-11-21T11:10:38.130Z",
+          "created_at": "2021-11-21T11:10:05.914Z",
+          "updated_at": "2021-11-21T11:10:38.143Z",
+          "private": false
+        },
+        {
+          "id": 50,
+          "url": "https://github.com/lerna/lerna",
+          "description": " A tool for managing JavaScript projects with multiple packages.\n\nSplitting up large codebases into separate independently versioned packages is extremely useful for code sharing. However, making changes across many repositories is messy and difficult to track, and testing across repositories becomes complicated very quickly.\n\nTo solve these (and many other) problems, some projects will organize their codebases into multi-package repositories (sometimes called monorepos). Projects like Babel, React, Angular, Ember, Meteor, Jest, and many others develop all of their packages within a single repository.\n\nLerna is a tool that optimizes the workflow around managing multi-package repositories with git and npm.\n\nLerna can also reduce the time and space requirements for numerous copies of packages in development and build environments - normally a downside of dividing a project into many separate NPM packages. See the hoist documentation for details.",
+          "publish_on_social": false,
+          "published_at": "2021-11-09T12:26:43.764Z",
+          "created_at": "2021-11-09T12:26:41.405Z",
+          "updated_at": "2021-11-09T12:26:43.813Z",
+          "private": false
+        },
+        {
+          "id": 95,
+          "url": "https://github.com/trpc/trpc",
+          "description": "End-to-end typesafe APIs made easy\n\ntRPC allows you to easily build & consume fully typesafe APIs, without schemas or code generation.",
+          "publish_on_social": false,
+          "published_at": "2021-12-20T17:33:12.158Z",
+          "created_at": "2021-12-20T17:33:09.003Z",
+          "updated_at": "2021-12-20T17:33:12.205Z",
+          "private": false
+        },
+        {
+          "id": 56,
+          "url": "https://github.com/nas5w/use-local-storage",
+          "description": " A flexible React Hook for using Local Storage. \n\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T18:53:30.130Z",
+          "created_at": "2021-11-11T18:53:27.705Z",
+          "updated_at": "2021-11-11T18:53:30.175Z",
+          "private": false
+        },
+        {
+          "id": 72,
+          "url": "https://github.com/tannerlinsley/react-charts",
+          "description": "Simple, immersive and interactive charts for React",
+          "publish_on_social": false,
+          "published_at": "2021-11-21T11:11:20.544Z",
+          "created_at": "2021-11-21T11:11:16.973Z",
+          "updated_at": "2021-11-21T11:11:20.560Z",
+          "private": false
+        },
+        {
+          "id": 18,
+          "url": "https://github.com/sdras/array-explorer",
+          "description": "A resource to help figure out what JavaScript array method would be best to use at any given time ",
+          "publish_on_social": false,
+          "published_at": "2021-10-13T10:48:44.079Z",
+          "created_at": "2021-10-13T10:48:41.544Z",
+          "updated_at": "2021-10-13T10:48:44.117Z",
+          "private": false
+        },
         {
           "id": 60,
           "url": "https://github.com/lukeed/obj-str",
@@ -3530,156 +3714,6 @@
           "created_at": "2021-12-08T15:19:07.308Z",
           "updated_at": "2021-12-08T15:19:10.888Z",
           "private": false
-        },
-        {
-          "id": 65,
-          "url": "https://github.com/pmndrs/zustand",
-          "description": "A small, fast and scalable bearbones state-management solution using simplified flux principles. Has a comfy api based on hooks, isn't boilerplatey or opinionated.\n\nHomepage with a nice animation/effect : https://zustand.surge.sh/",
-          "publish_on_social": false,
-          "published_at": "2021-11-12T14:04:54.958Z",
-          "created_at": "2021-11-12T14:02:02.064Z",
-          "updated_at": "2021-11-12T14:04:54.981Z",
-          "private": false
-        },
-        {
-          "id": 11,
-          "url": "https://tailwind-mobile.com/",
-          "description": "Pixel perfect mobile UI components built with Tailwind CSS\nWith iOS and Material Design components for React, Vue & Svelte",
-          "publish_on_social": false,
-          "published_at": "2021-10-05T16:57:06.125Z",
-          "created_at": "2021-10-05T16:56:36.968Z",
-          "updated_at": "2021-10-05T16:57:06.140Z",
-          "private": false
-        },
-        {
-          "id": 49,
-          "url": "https://github.com/AsyncBanana/microdiff",
-          "description": "A fast, zero dependency object and array comparison library. Significantly faster than most other deep comparison libraries and has full TypeScript support. \n\n```javascript\nimport diff from \"microdiff\";\n\nconst obj1 = {\n\toriginalProperty: true,\n};\nconst obj2 = {\n\toriginalProperty: true,\n\tnewProperty: \"new\",\n};\n\nconsole.log(diff(obj1, obj2));\n// [{type: \"CREATE\", path: [\"newProperty\"], value: \"new\"}]\n```",
-          "publish_on_social": false,
-          "published_at": "2021-11-09T09:04:48.218Z",
-          "created_at": "2021-11-09T09:04:45.319Z",
-          "updated_at": "2021-11-09T09:04:48.272Z",
-          "private": false
-        },
-        {
-          "id": 29,
-          "url": "https://github.com/protonradio/player",
-          "description": "- Proton Player is an HTML5-based streaming music player optimized for compatibility across many devices and browsers.\n- The player is \"headless\", meaning that it doesn't come packaged with any visual components. It is meant to serve as a toolkit for building your own music player, offering features such as seeking, pausing, and preloading upcoming audio files.\n\nSeems there is no support for firefox\n",
-          "publish_on_social": false,
-          "published_at": "2021-10-21T18:33:44.166Z",
-          "created_at": "2021-10-21T18:33:41.537Z",
-          "updated_at": "2021-10-21T18:33:44.199Z",
-          "private": false
-        },
-        {
-          "id": 19,
-          "url": "https://blog.openreplay.com/the-ultimate-guide-to-getting-started-with-the-rollup-js-javascript-bundler",
-          "description": "The Ultimate Guide to Getting Started with the Rollup.js JavaScript Bundler",
-          "publish_on_social": false,
-          "published_at": "2021-10-13T11:04:39.587Z",
-          "created_at": "2021-10-13T11:04:37.111Z",
-          "updated_at": "2021-10-13T11:04:39.615Z",
-          "private": false
-        },
-        {
-          "id": 30,
-          "url": "https://github.com/vizzuhq/vizzu-lib",
-          "description": "Vizzu - Library for animated data visualizations and data stories.\n\nVizzu is a free, open-source Javascript/C++ library utilizing a generic dataviz engine that generates many types of charts and seamlessly animates between them. It can be used to create static charts but more importantly it is designed for building animated data stories and interactive explorers as Vizzu enables showing different perspectives of the data that the viewers can easily follow due to the animation.\n\nMain features:\n\n- Designed with animation in focus;\n- Defaults based on data visualization guidelines;\n- Automatic data aggregation & data filtering;\n- HTML5 canvas rendering;\n- Written in C++ compiled to WebAssembly;\n- Dependency-free.\n",
-          "publish_on_social": false,
-          "published_at": "2021-10-21T18:40:08.509Z",
-          "created_at": "2021-10-21T18:39:06.991Z",
-          "updated_at": "2021-10-21T18:40:08.530Z",
-          "private": false
-        },
-        {
-          "id": 25,
-          "url": "https://github.com/tw-in-js/twind",
-          "description": " The smallest, fastest, most feature complete Tailwind-in-JS solution in existence\n\nTwind is a small compiler (~13kB) that converts Tailwind classes into actual CSS rules at runtime. If you have used Tailwind or other CSS-in-JS solutions, then most of the API should feel very familiar.",
-          "publish_on_social": false,
-          "published_at": "2021-10-19T11:00:19.641Z",
-          "created_at": "2021-10-19T11:00:17.161Z",
-          "updated_at": "2021-10-19T11:00:19.662Z",
-          "private": false
-        },
-        {
-          "id": 13,
-          "url": "https://www.webglstudio.org/",
-          "description": "WebGLStudio (formerly known as WebGLStudio) is a platform to create interactive 3D scenes directly from the browser.\nIt allows to edit the scene visually, code your behaviours, edit the shaders, and all directly from within the app.",
-          "publish_on_social": false,
-          "published_at": "2021-10-10T17:15:36.217Z",
-          "created_at": "2021-10-10T17:15:32.904Z",
-          "updated_at": "2021-10-10T17:15:36.242Z",
-          "private": false
-        },
-        {
-          "id": 51,
-          "url": "https://github.com/JamesRyanATX/harmonicon",
-          "description": " An experimental DAW for music as code. \n\nSource code for harmonicon.studio, an experimental music-as-code DAW for browsers.",
-          "publish_on_social": false,
-          "published_at": "2021-11-09T12:28:01.798Z",
-          "created_at": "2021-11-09T12:27:59.266Z",
-          "updated_at": "2021-11-09T12:28:01.838Z",
-          "private": false
-        },
-        {
-          "id": 71,
-          "url": "https://github.com/tannerlinsley/react-virtual",
-          "description": "Hooks for virtualizing scrollable elements in React",
-          "publish_on_social": false,
-          "published_at": "2021-11-21T11:10:38.130Z",
-          "created_at": "2021-11-21T11:10:05.914Z",
-          "updated_at": "2021-11-21T11:10:38.143Z",
-          "private": false
-        },
-        {
-          "id": 50,
-          "url": "https://github.com/lerna/lerna",
-          "description": " A tool for managing JavaScript projects with multiple packages.\n\nSplitting up large codebases into separate independently versioned packages is extremely useful for code sharing. However, making changes across many repositories is messy and difficult to track, and testing across repositories becomes complicated very quickly.\n\nTo solve these (and many other) problems, some projects will organize their codebases into multi-package repositories (sometimes called monorepos). Projects like Babel, React, Angular, Ember, Meteor, Jest, and many others develop all of their packages within a single repository.\n\nLerna is a tool that optimizes the workflow around managing multi-package repositories with git and npm.\n\nLerna can also reduce the time and space requirements for numerous copies of packages in development and build environments - normally a downside of dividing a project into many separate NPM packages. See the hoist documentation for details.",
-          "publish_on_social": false,
-          "published_at": "2021-11-09T12:26:43.764Z",
-          "created_at": "2021-11-09T12:26:41.405Z",
-          "updated_at": "2021-11-09T12:26:43.813Z",
-          "private": false
-        },
-        {
-          "id": 95,
-          "url": "https://github.com/trpc/trpc",
-          "description": "End-to-end typesafe APIs made easy\n\ntRPC allows you to easily build & consume fully typesafe APIs, without schemas or code generation.",
-          "publish_on_social": false,
-          "published_at": "2021-12-20T17:33:12.158Z",
-          "created_at": "2021-12-20T17:33:09.003Z",
-          "updated_at": "2021-12-20T17:33:12.205Z",
-          "private": false
-        },
-        {
-          "id": 56,
-          "url": "https://github.com/nas5w/use-local-storage",
-          "description": " A flexible React Hook for using Local Storage. \n\n",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T18:53:30.130Z",
-          "created_at": "2021-11-11T18:53:27.705Z",
-          "updated_at": "2021-11-11T18:53:30.175Z",
-          "private": false
-        },
-        {
-          "id": 72,
-          "url": "https://github.com/tannerlinsley/react-charts",
-          "description": "Simple, immersive and interactive charts for React",
-          "publish_on_social": false,
-          "published_at": "2021-11-21T11:11:20.544Z",
-          "created_at": "2021-11-21T11:11:16.973Z",
-          "updated_at": "2021-11-21T11:11:20.560Z",
-          "private": false
-        },
-        {
-          "id": 18,
-          "url": "https://github.com/sdras/array-explorer",
-          "description": "A resource to help figure out what JavaScript array method would be best to use at any given time ",
-          "publish_on_social": false,
-          "published_at": "2021-10-13T10:48:44.079Z",
-          "created_at": "2021-10-13T10:48:41.544Z",
-          "updated_at": "2021-10-13T10:48:44.117Z",
-          "private": false
         }
       ],
       "notes": [
@@ -3904,6 +3938,46 @@
       "updated_at": "2021-09-29T21:22:29.572Z",
       "links": [
         {
+          "id": 3,
+          "url": "https://getwaves.io/",
+          "description": "SVG waves generator",
+          "publish_on_social": false,
+          "published_at": "2021-09-29T21:23:19.136Z",
+          "created_at": "2021-09-29T21:22:11.087Z",
+          "updated_at": "2021-09-29T21:23:19.149Z",
+          "private": null
+        },
+        {
+          "id": 31,
+          "url": "https://dev.to/masakudamatsu/favicon-nightmare-how-to-maintain-sanity-3al7",
+          "description": "#  Definitive edition of \"How to Favicon in 2021\" \n\n## TL;DR\n\nIn the <head> element of your HTML document, insert\n\n```html\n<link rel=\"icon\" href=\"favicon.svg\" type=\"image/svg+xml\">\n<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\"/>\n<link rel=\"manifest\" href=\"/site.webmanifest\" />\n```\n\nwhere site.webmanifest is a JSON file with the content like this:\n\n```json\n{\n    \"name\": \"Your website name\",\n    \"short_name\": \"A shorter version of your website name\",\n    \"icons\": [\n        {\n            \"src\": \"/android-chrome-192x192.png\",\n            \"sizes\": \"192x192\",\n            \"type\": \"image/png\"\n        },\n        {\n            \"src\": \"/android-chrome-512x512.png\",\n            \"sizes\": \"512x512\",\n            \"type\": \"image/png\"\n        }\n    ],\n    \"theme_color\": \"#4a4a4a\",\n    \"background_color\": \"#4a4a4a\",\n    \"display\": \"standalone\"\n}\n```\n\nChange the values of \"theme_color\" and \"background_color\" to your favicon design specification\n\nThen create a favicon in the SVG format.\n\nConvert this SVG image into favicon.ico, apple-touch-icon.png, android-chrome-192x192.png, and android-chrome-512x512.png with RealFaviconGenerator.\n\nFinally, make sure that the favicon.ico file is named as it is (don't change it) and saved in the root directory. (Otherwise MacOS Safari and IE won't recognize the favicon.)\n\nThat's all! :-)",
+          "publish_on_social": false,
+          "published_at": "2021-10-22T10:15:15.537Z",
+          "created_at": "2021-10-22T10:15:12.555Z",
+          "updated_at": "2021-10-22T10:15:15.559Z",
+          "private": false
+        },
+        {
+          "id": 4,
+          "url": "https://haikei.app/",
+          "description": "Generate unique SVG design assets\n\nHaikei is a web app to generate unique SVG shapes, backgrounds, and patterns \u2013 ready to use with your design tools and workflow.",
+          "publish_on_social": false,
+          "published_at": "2021-09-29T21:25:33.971Z",
+          "created_at": "2021-09-29T21:25:24.759Z",
+          "updated_at": "2021-09-29T21:25:33.996Z",
+          "private": null
+        },
+        {
+          "id": 89,
+          "url": "https://thispersondoesnotexist.com/",
+          "description": "Generated photo of fake people",
+          "publish_on_social": false,
+          "published_at": "2021-12-19T14:08:30.530Z",
+          "created_at": "2021-12-19T14:07:55.547Z",
+          "updated_at": "2021-12-19T14:08:30.552Z",
+          "private": false
+        },
+        {
           "id": 63,
           "url": "https://tailwindcomponents.com/",
           "description": " A free repository for community components using TailwindCSS\n\nOpen source Tailwind UI components and templates to bootstrap your new apps, projects or landing sites!",
@@ -3982,46 +4056,6 @@
           "created_at": "2021-09-29T21:14:46.347Z",
           "updated_at": "2021-09-29T21:22:53.917Z",
           "private": null
-        },
-        {
-          "id": 3,
-          "url": "https://getwaves.io/",
-          "description": "SVG waves generator",
-          "publish_on_social": false,
-          "published_at": "2021-09-29T21:23:19.136Z",
-          "created_at": "2021-09-29T21:22:11.087Z",
-          "updated_at": "2021-09-29T21:23:19.149Z",
-          "private": null
-        },
-        {
-          "id": 31,
-          "url": "https://dev.to/masakudamatsu/favicon-nightmare-how-to-maintain-sanity-3al7",
-          "description": "#  Definitive edition of \"How to Favicon in 2021\" \n\n## TL;DR\n\nIn the <head> element of your HTML document, insert\n\n```html\n<link rel=\"icon\" href=\"favicon.svg\" type=\"image/svg+xml\">\n<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\"/>\n<link rel=\"manifest\" href=\"/site.webmanifest\" />\n```\n\nwhere site.webmanifest is a JSON file with the content like this:\n\n```json\n{\n    \"name\": \"Your website name\",\n    \"short_name\": \"A shorter version of your website name\",\n    \"icons\": [\n        {\n            \"src\": \"/android-chrome-192x192.png\",\n            \"sizes\": \"192x192\",\n            \"type\": \"image/png\"\n        },\n        {\n            \"src\": \"/android-chrome-512x512.png\",\n            \"sizes\": \"512x512\",\n            \"type\": \"image/png\"\n        }\n    ],\n    \"theme_color\": \"#4a4a4a\",\n    \"background_color\": \"#4a4a4a\",\n    \"display\": \"standalone\"\n}\n```\n\nChange the values of \"theme_color\" and \"background_color\" to your favicon design specification\n\nThen create a favicon in the SVG format.\n\nConvert this SVG image into favicon.ico, apple-touch-icon.png, android-chrome-192x192.png, and android-chrome-512x512.png with RealFaviconGenerator.\n\nFinally, make sure that the favicon.ico file is named as it is (don't change it) and saved in the root directory. (Otherwise MacOS Safari and IE won't recognize the favicon.)\n\nThat's all! :-)",
-          "publish_on_social": false,
-          "published_at": "2021-10-22T10:15:15.537Z",
-          "created_at": "2021-10-22T10:15:12.555Z",
-          "updated_at": "2021-10-22T10:15:15.559Z",
-          "private": false
-        },
-        {
-          "id": 4,
-          "url": "https://haikei.app/",
-          "description": "Generate unique SVG design assets\n\nHaikei is a web app to generate unique SVG shapes, backgrounds, and patterns \u2013 ready to use with your design tools and workflow.",
-          "publish_on_social": false,
-          "published_at": "2021-09-29T21:25:33.971Z",
-          "created_at": "2021-09-29T21:25:24.759Z",
-          "updated_at": "2021-09-29T21:25:33.996Z",
-          "private": null
-        },
-        {
-          "id": 89,
-          "url": "https://thispersondoesnotexist.com/",
-          "description": "Generated photo of fake people",
-          "publish_on_social": false,
-          "published_at": "2021-12-19T14:08:30.530Z",
-          "created_at": "2021-12-19T14:07:55.547Z",
-          "updated_at": "2021-12-19T14:08:30.552Z",
-          "private": false
         }
       ],
       "notes": [
@@ -4055,6 +4089,246 @@
       "updated_at": "2021-09-29T21:22:59.637Z",
       "links": [
         {
+          "id": 79,
+          "url": "https://github.com/tannerlinsley/react-query",
+          "description": "Hooks for fetching, caching and updating asynchronous data in React ",
+          "publish_on_social": false,
+          "published_at": "2021-11-21T12:07:04.624Z",
+          "created_at": "2021-11-21T12:07:01.170Z",
+          "updated_at": "2021-11-21T12:07:04.650Z",
+          "private": false
+        },
+        {
+          "id": 29,
+          "url": "https://github.com/protonradio/player",
+          "description": "- Proton Player is an HTML5-based streaming music player optimized for compatibility across many devices and browsers.\n- The player is \"headless\", meaning that it doesn't come packaged with any visual components. It is meant to serve as a toolkit for building your own music player, offering features such as seeking, pausing, and preloading upcoming audio files.\n\nSeems there is no support for firefox\n",
+          "publish_on_social": false,
+          "published_at": "2021-10-21T18:33:44.166Z",
+          "created_at": "2021-10-21T18:33:41.537Z",
+          "updated_at": "2021-10-21T18:33:44.199Z",
+          "private": false
+        },
+        {
+          "id": 58,
+          "url": "https://www.framer.com/motion/",
+          "description": "A production-ready motion library for React.",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:06:04.195Z",
+          "created_at": "2021-11-11T20:06:01.117Z",
+          "updated_at": "2021-11-11T20:06:04.207Z",
+          "private": false
+        },
+        {
+          "id": 14,
+          "url": "https://github.com/fabiospampinato/cash",
+          "description": "Cash is an absurdly small jQuery alternative for modern browsers (IE11+) that provides jQuery-style syntax for manipulating the DOM. Utilizing modern browser features to minimize the codebase, developers can use the familiar chainable methods at a fraction of the file size. 100% feature parity with jQuery isn't a goal, but Cash comes helpfully close, covering most day to day use cases.",
+          "publish_on_social": false,
+          "published_at": "2021-10-12T08:12:19.160Z",
+          "created_at": "2021-10-12T08:12:16.132Z",
+          "updated_at": "2021-10-12T08:12:19.177Z",
+          "private": false
+        },
+        {
+          "id": 87,
+          "url": "https://github.com/antfu/unplugin-icons",
+          "description": "Access thousands of icons as components on-demand universally.",
+          "publish_on_social": false,
+          "published_at": "2021-12-12T19:47:41.398Z",
+          "created_at": "2021-12-12T19:47:34.855Z",
+          "updated_at": "2021-12-12T19:47:41.428Z",
+          "private": false
+        },
+        {
+          "id": 69,
+          "url": "https://oss.redis.com/redisearch/",
+          "description": "RediSearch - Redis Secondary Index & Query Engine\n\nRediSearch is a source available Secondary Index, Query Engine and Full-Text Search over Redis, developed by Redis . \n\n Redisearch implements a secondary index on top of Redis, but unlike other Redis indexing libraries, it does not use internal data structures such as sorted sets.\n\nThis also enables more advanced features, such as multi-field queries, aggregation, and full text search capabilites. These capabilities include exact phrase matching and numeric filtering for text queries, something that is neither possible or efficient with traditional Redis indexing approaches. \n",
+          "publish_on_social": false,
+          "published_at": "2021-11-17T19:51:32.686Z",
+          "created_at": "2021-11-17T19:51:30.444Z",
+          "updated_at": "2021-11-17T19:51:32.739Z",
+          "private": false
+        },
+        {
+          "id": 13,
+          "url": "https://www.webglstudio.org/",
+          "description": "WebGLStudio (formerly known as WebGLStudio) is a platform to create interactive 3D scenes directly from the browser.\nIt allows to edit the scene visually, code your behaviours, edit the shaders, and all directly from within the app.",
+          "publish_on_social": false,
+          "published_at": "2021-10-10T17:15:36.217Z",
+          "created_at": "2021-10-10T17:15:32.904Z",
+          "updated_at": "2021-10-10T17:15:36.242Z",
+          "private": false
+        },
+        {
+          "id": 67,
+          "url": "https://github.com/yeemachine/kalidokit",
+          "description": "Blendshape and kinematics solver for Mediapipe/Tensorflow.js face, eyes, pose, and hand tracking models.\n\nMovies -> pose recognition -> animation",
+          "publish_on_social": false,
+          "published_at": "2021-11-12T14:17:37.415Z",
+          "created_at": "2021-11-12T14:17:34.900Z",
+          "updated_at": "2021-11-12T14:17:37.455Z",
+          "private": false
+        },
+        {
+          "id": 4,
+          "url": "https://haikei.app/",
+          "description": "Generate unique SVG design assets\n\nHaikei is a web app to generate unique SVG shapes, backgrounds, and patterns \u2013 ready to use with your design tools and workflow.",
+          "publish_on_social": false,
+          "published_at": "2021-09-29T21:25:33.971Z",
+          "created_at": "2021-09-29T21:25:24.759Z",
+          "updated_at": "2021-09-29T21:25:33.996Z",
+          "private": null
+        },
+        {
+          "id": 28,
+          "url": "https://github.com/codenotary/immudb",
+          "description": "immudb - world\u2019s fastest immutable database, built on a zero trust model\n\nimmudb is a database with built-in cryptographic proof and verification. It tracks changes in sensitive data and the integrity of the history will be protected by the clients, without the need to trust the server. It can operate as a key-value store or as relational database (SQL).\n\nTraditional database transactions and logs are hard to scale and are mutable, so there is no way to know for sure if your data has been compromised. immudb is immutable. You can add new versions of existing records, but never change or delete records. This lets you store critical data without fear of it being tampered.\n\nData stored in immudb is cryptographically coherent and verifiable, just like with blockchains, but without all the complexity. Unlike blockchains, immudb can handle millions of transactions per second, and can be used both as a lightweight service or embedded in your application as a library. immudb runs everywhere, on an IoT device, your notebook, a server, on-premise or in the cloud.\n\nimmudb is already used by hundreds of projects to store tamper-proof data and to keep the data change history immutable. immudb can be used as a key-value store or relational data structure and supports both transactions and blobs, so there are no limits to the use cases.\n\nCompanies use immudb to secure and tamper-evident log data, sensor data, sensitive data, transactions, software build recipes, rule-base data, even artifacts or even video streams.",
+          "publish_on_social": false,
+          "published_at": "2021-10-21T11:59:23.366Z",
+          "created_at": "2021-10-21T11:59:19.664Z",
+          "updated_at": "2021-10-21T11:59:23.391Z",
+          "private": false
+        },
+        {
+          "id": 78,
+          "url": "https://github.com/geckosio/geckos.io",
+          "description": "Real-time client/server communication over UDP using WebRTC and Node.js\n\nGeckos.io fits perfectly with your next HTML5 real-time multiplayer games or chat app.",
+          "publish_on_social": false,
+          "published_at": "2021-11-21T12:05:45.078Z",
+          "created_at": "2021-11-21T12:05:40.865Z",
+          "updated_at": "2021-11-21T12:05:45.100Z",
+          "private": false
+        },
+        {
+          "id": 32,
+          "url": "https://usehooks-typescript.com/",
+          "description": "Simple React hooks, ready to use, written in typescript.\n\n- useBoolean()\n- useCopyToClipboard()\n- useCounter()\n- useDarkMode()\n- useDebounce()\n- useElementSize()\n- useEventListener()\n- useFetch()\n- useHover()\n- useImageOnLoad()\n- useIntersectionObserver()\n- useInterval()\n- useIsClient()\n- useIsMounted()\n- useLocalStorage()\n- useLockedBody()\n- useMap()\n- useOnClickOutside()\n- useReadLocalStorage()\n- useScreen()\n- useScript()\n- useSsr()\n- useTimeout()\n- useWindowSize()\n",
+          "publish_on_social": false,
+          "published_at": "2021-10-23T18:44:37.433Z",
+          "created_at": "2021-10-23T18:44:34.740Z",
+          "updated_at": "2021-10-23T18:44:37.457Z",
+          "private": false
+        },
+        {
+          "id": 23,
+          "url": "https://github.com/mgdm/htmlq",
+          "description": "Like jq, but for HTML. Uses CSS selectors to extract bits of content from HTML files.",
+          "publish_on_social": false,
+          "published_at": "2021-10-17T12:11:02.528Z",
+          "created_at": "2021-10-17T12:10:38.776Z",
+          "updated_at": "2021-10-17T12:11:02.571Z",
+          "private": false
+        },
+        {
+          "id": 45,
+          "url": "https://github.com/appwrite/appwrite",
+          "description": "Appwrite is a secure end-to-end backend server for Web, Mobile, and Flutter developers that is packaged as a set of Docker containers for easy deployment\n\nAppwrite is an end-to-end backend server for Web, Mobile, Native, or Backend apps packaged as a set of Docker microservices. Appwrite abstracts the complexity and repetitiveness required to build a modern backend API from scratch and allows you to build secure apps faster.\n\nUsing Appwrite, you can easily integrate your app with user authentication & multiple sign-in methods, a database for storing and querying users and team data, storage and file management, image manipulation, Cloud Functions, realtime subscription and more services.\n\n",
+          "publish_on_social": false,
+          "published_at": "2021-10-31T10:37:53.083Z",
+          "created_at": "2021-10-31T10:37:50.661Z",
+          "updated_at": "2021-10-31T10:37:53.123Z",
+          "private": false
+        },
+        {
+          "id": 57,
+          "url": "https://www.npmjs.com/package/web-vitals",
+          "description": "The web-vitals library is a tiny (~1K), modular library for measuring all the Web Vitals metrics on real users, in a way that accurately matches how they're measured by Chrome and reported to other Google tools (e.g. Chrome User Experience Report, Page Speed Insights, Search Console's Speed Report).",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T18:54:17.901Z",
+          "created_at": "2021-11-11T18:54:15.195Z",
+          "updated_at": "2021-11-11T18:54:17.936Z",
+          "private": false
+        },
+        {
+          "id": 34,
+          "url": "https://quilljs.com/",
+          "description": "Quill is a free, open source WYSIWYG editor built for the modern web. With its modular architecture and expressive API, it is completely customizable to fit any need.",
+          "publish_on_social": false,
+          "published_at": "2021-10-24T10:01:19.016Z",
+          "created_at": "2021-10-24T10:01:16.800Z",
+          "updated_at": "2021-10-24T10:01:19.037Z",
+          "private": false
+        },
+        {
+          "id": 59,
+          "url": "https://www.npmjs.com/package/clsx",
+          "description": "A tiny (228B) utility for constructing className strings conditionally from string, array, object...\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:08:05.855Z",
+          "created_at": "2021-11-11T20:08:03.439Z",
+          "updated_at": "2021-11-11T20:08:05.891Z",
+          "private": false
+        },
+        {
+          "id": 52,
+          "url": "https://www.brow.sh/",
+          "description": "Browsh is a fully-modern text-based browser renders on terminal.\n\nIt renders anything that a modern browser can; HTML5, CSS3, JS, video and even WebGL. Its main purpose is to be run on a remote server and accessed via SSH/Mosh or the in-browser HTML service in order to significantly reduce bandwidth and thus both increase browsing speeds and decrease bandwidth costs",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T09:52:03.638Z",
+          "created_at": "2021-11-11T09:52:00.961Z",
+          "updated_at": "2021-11-11T09:52:03.669Z",
+          "private": false
+        },
+        {
+          "id": 50,
+          "url": "https://github.com/lerna/lerna",
+          "description": " A tool for managing JavaScript projects with multiple packages.\n\nSplitting up large codebases into separate independently versioned packages is extremely useful for code sharing. However, making changes across many repositories is messy and difficult to track, and testing across repositories becomes complicated very quickly.\n\nTo solve these (and many other) problems, some projects will organize their codebases into multi-package repositories (sometimes called monorepos). Projects like Babel, React, Angular, Ember, Meteor, Jest, and many others develop all of their packages within a single repository.\n\nLerna is a tool that optimizes the workflow around managing multi-package repositories with git and npm.\n\nLerna can also reduce the time and space requirements for numerous copies of packages in development and build environments - normally a downside of dividing a project into many separate NPM packages. See the hoist documentation for details.",
+          "publish_on_social": false,
+          "published_at": "2021-11-09T12:26:43.764Z",
+          "created_at": "2021-11-09T12:26:41.405Z",
+          "updated_at": "2021-11-09T12:26:43.813Z",
+          "private": false
+        },
+        {
+          "id": 24,
+          "url": "https://concourse-ci.org/",
+          "description": "Concourse is an open-source continuous thing-doer.\n\nBuilt on the simple mechanics of resources, tasks, and jobs, Concourse presents a general approach to automation that makes it great for CI/CD.",
+          "publish_on_social": false,
+          "published_at": "2021-10-18T09:55:56.567Z",
+          "created_at": "2021-10-18T09:55:54.016Z",
+          "updated_at": "2021-10-18T09:55:56.604Z",
+          "private": false
+        },
+        {
+          "id": 83,
+          "url": "https://github.com/tonaljs/tonal",
+          "description": "tonal is a music theory library. Contains functions to manipulate tonal elements of music (note, intervals, chords, scales, modes, keys). It deals with abstractions (not actual music or sound).\n\ntonal is implemented in Typescript and published as a collection of Javascript npm packages.\n\nIt uses a functional programing style: all functions are pure, there is no data mutation, and entities are represented by data structures instead of objects.",
+          "publish_on_social": false,
+          "published_at": "2021-11-29T14:43:24.974Z",
+          "created_at": "2021-11-29T14:43:22.698Z",
+          "updated_at": "2021-11-29T14:43:25.003Z",
+          "private": false
+        },
+        {
+          "id": 88,
+          "url": "https://github.com/colinhacks/zod",
+          "description": "Zod is a TypeScript-first schema declaration and validation library. I'm using the term \"schema\" to broadly refer to any data type, from a simple string to a complex nested object.\n\nZod is designed to be as developer-friendly as possible. The goal is to eliminate duplicative type declarations. With Zod, you declare a validator once and Zod will automatically infer the static TypeScript type. It's easy to compose simpler types into complex data structures.",
+          "publish_on_social": false,
+          "published_at": "2021-12-14T14:42:02.267Z",
+          "created_at": "2021-12-14T14:41:51.042Z",
+          "updated_at": "2021-12-14T14:42:02.305Z",
+          "private": false
+        },
+        {
+          "id": 85,
+          "url": "https://svgsilh.com/",
+          "description": "Free SVG Image & Icon.",
+          "publish_on_social": false,
+          "published_at": "2021-11-30T18:23:20.705Z",
+          "created_at": "2021-11-30T18:23:17.994Z",
+          "updated_at": "2021-11-30T18:23:20.728Z",
+          "private": false
+        },
+        {
+          "id": 8,
+          "url": "http://dlib.net/",
+          "description": "Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems.\n\n- Machine Learning\n- Machine Learning\n- Graphical Model Inference\n- Image Processing (Face recognition...)\n",
+          "publish_on_social": false,
+          "published_at": "2021-10-03T21:02:20.627Z",
+          "created_at": "2021-10-03T21:02:13.923Z",
+          "updated_at": "2021-10-03T21:02:20.641Z",
+          "private": null
+        },
+        {
           "id": 51,
           "url": "https://github.com/JamesRyanATX/harmonicon",
           "description": " An experimental DAW for music as code. \n\nSource code for harmonicon.studio, an experimental music-as-code DAW for browsers.",
@@ -4062,6 +4336,16 @@
           "published_at": "2021-11-09T12:28:01.798Z",
           "created_at": "2021-11-09T12:27:59.266Z",
           "updated_at": "2021-11-09T12:28:01.838Z",
+          "private": false
+        },
+        {
+          "id": 96,
+          "url": "https://github.com/chmln/sd",
+          "description": "sd is an intuitive find & replace CLI. (sed alternative)",
+          "publish_on_social": false,
+          "published_at": "2021-12-21T18:40:31.508Z",
+          "created_at": "2021-12-21T18:40:28.360Z",
+          "updated_at": "2021-12-21T18:40:31.572Z",
           "private": false
         },
         {
@@ -4713,246 +4997,6 @@
           "created_at": "2021-10-27T20:37:09.105Z",
           "updated_at": "2021-10-27T20:37:25.216Z",
           "private": false
-        },
-        {
-          "id": 79,
-          "url": "https://github.com/tannerlinsley/react-query",
-          "description": "Hooks for fetching, caching and updating asynchronous data in React ",
-          "publish_on_social": false,
-          "published_at": "2021-11-21T12:07:04.624Z",
-          "created_at": "2021-11-21T12:07:01.170Z",
-          "updated_at": "2021-11-21T12:07:04.650Z",
-          "private": false
-        },
-        {
-          "id": 29,
-          "url": "https://github.com/protonradio/player",
-          "description": "- Proton Player is an HTML5-based streaming music player optimized for compatibility across many devices and browsers.\n- The player is \"headless\", meaning that it doesn't come packaged with any visual components. It is meant to serve as a toolkit for building your own music player, offering features such as seeking, pausing, and preloading upcoming audio files.\n\nSeems there is no support for firefox\n",
-          "publish_on_social": false,
-          "published_at": "2021-10-21T18:33:44.166Z",
-          "created_at": "2021-10-21T18:33:41.537Z",
-          "updated_at": "2021-10-21T18:33:44.199Z",
-          "private": false
-        },
-        {
-          "id": 58,
-          "url": "https://www.framer.com/motion/",
-          "description": "A production-ready motion library for React.",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T20:06:04.195Z",
-          "created_at": "2021-11-11T20:06:01.117Z",
-          "updated_at": "2021-11-11T20:06:04.207Z",
-          "private": false
-        },
-        {
-          "id": 14,
-          "url": "https://github.com/fabiospampinato/cash",
-          "description": "Cash is an absurdly small jQuery alternative for modern browsers (IE11+) that provides jQuery-style syntax for manipulating the DOM. Utilizing modern browser features to minimize the codebase, developers can use the familiar chainable methods at a fraction of the file size. 100% feature parity with jQuery isn't a goal, but Cash comes helpfully close, covering most day to day use cases.",
-          "publish_on_social": false,
-          "published_at": "2021-10-12T08:12:19.160Z",
-          "created_at": "2021-10-12T08:12:16.132Z",
-          "updated_at": "2021-10-12T08:12:19.177Z",
-          "private": false
-        },
-        {
-          "id": 87,
-          "url": "https://github.com/antfu/unplugin-icons",
-          "description": "Access thousands of icons as components on-demand universally.",
-          "publish_on_social": false,
-          "published_at": "2021-12-12T19:47:41.398Z",
-          "created_at": "2021-12-12T19:47:34.855Z",
-          "updated_at": "2021-12-12T19:47:41.428Z",
-          "private": false
-        },
-        {
-          "id": 69,
-          "url": "https://oss.redis.com/redisearch/",
-          "description": "RediSearch - Redis Secondary Index & Query Engine\n\nRediSearch is a source available Secondary Index, Query Engine and Full-Text Search over Redis, developed by Redis . \n\n Redisearch implements a secondary index on top of Redis, but unlike other Redis indexing libraries, it does not use internal data structures such as sorted sets.\n\nThis also enables more advanced features, such as multi-field queries, aggregation, and full text search capabilites. These capabilities include exact phrase matching and numeric filtering for text queries, something that is neither possible or efficient with traditional Redis indexing approaches. \n",
-          "publish_on_social": false,
-          "published_at": "2021-11-17T19:51:32.686Z",
-          "created_at": "2021-11-17T19:51:30.444Z",
-          "updated_at": "2021-11-17T19:51:32.739Z",
-          "private": false
-        },
-        {
-          "id": 13,
-          "url": "https://www.webglstudio.org/",
-          "description": "WebGLStudio (formerly known as WebGLStudio) is a platform to create interactive 3D scenes directly from the browser.\nIt allows to edit the scene visually, code your behaviours, edit the shaders, and all directly from within the app.",
-          "publish_on_social": false,
-          "published_at": "2021-10-10T17:15:36.217Z",
-          "created_at": "2021-10-10T17:15:32.904Z",
-          "updated_at": "2021-10-10T17:15:36.242Z",
-          "private": false
-        },
-        {
-          "id": 67,
-          "url": "https://github.com/yeemachine/kalidokit",
-          "description": "Blendshape and kinematics solver for Mediapipe/Tensorflow.js face, eyes, pose, and hand tracking models.\n\nMovies -> pose recognition -> animation",
-          "publish_on_social": false,
-          "published_at": "2021-11-12T14:17:37.415Z",
-          "created_at": "2021-11-12T14:17:34.900Z",
-          "updated_at": "2021-11-12T14:17:37.455Z",
-          "private": false
-        },
-        {
-          "id": 4,
-          "url": "https://haikei.app/",
-          "description": "Generate unique SVG design assets\n\nHaikei is a web app to generate unique SVG shapes, backgrounds, and patterns \u2013 ready to use with your design tools and workflow.",
-          "publish_on_social": false,
-          "published_at": "2021-09-29T21:25:33.971Z",
-          "created_at": "2021-09-29T21:25:24.759Z",
-          "updated_at": "2021-09-29T21:25:33.996Z",
-          "private": null
-        },
-        {
-          "id": 28,
-          "url": "https://github.com/codenotary/immudb",
-          "description": "immudb - world\u2019s fastest immutable database, built on a zero trust model\n\nimmudb is a database with built-in cryptographic proof and verification. It tracks changes in sensitive data and the integrity of the history will be protected by the clients, without the need to trust the server. It can operate as a key-value store or as relational database (SQL).\n\nTraditional database transactions and logs are hard to scale and are mutable, so there is no way to know for sure if your data has been compromised. immudb is immutable. You can add new versions of existing records, but never change or delete records. This lets you store critical data without fear of it being tampered.\n\nData stored in immudb is cryptographically coherent and verifiable, just like with blockchains, but without all the complexity. Unlike blockchains, immudb can handle millions of transactions per second, and can be used both as a lightweight service or embedded in your application as a library. immudb runs everywhere, on an IoT device, your notebook, a server, on-premise or in the cloud.\n\nimmudb is already used by hundreds of projects to store tamper-proof data and to keep the data change history immutable. immudb can be used as a key-value store or relational data structure and supports both transactions and blobs, so there are no limits to the use cases.\n\nCompanies use immudb to secure and tamper-evident log data, sensor data, sensitive data, transactions, software build recipes, rule-base data, even artifacts or even video streams.",
-          "publish_on_social": false,
-          "published_at": "2021-10-21T11:59:23.366Z",
-          "created_at": "2021-10-21T11:59:19.664Z",
-          "updated_at": "2021-10-21T11:59:23.391Z",
-          "private": false
-        },
-        {
-          "id": 78,
-          "url": "https://github.com/geckosio/geckos.io",
-          "description": "Real-time client/server communication over UDP using WebRTC and Node.js\n\nGeckos.io fits perfectly with your next HTML5 real-time multiplayer games or chat app.",
-          "publish_on_social": false,
-          "published_at": "2021-11-21T12:05:45.078Z",
-          "created_at": "2021-11-21T12:05:40.865Z",
-          "updated_at": "2021-11-21T12:05:45.100Z",
-          "private": false
-        },
-        {
-          "id": 32,
-          "url": "https://usehooks-typescript.com/",
-          "description": "Simple React hooks, ready to use, written in typescript.\n\n- useBoolean()\n- useCopyToClipboard()\n- useCounter()\n- useDarkMode()\n- useDebounce()\n- useElementSize()\n- useEventListener()\n- useFetch()\n- useHover()\n- useImageOnLoad()\n- useIntersectionObserver()\n- useInterval()\n- useIsClient()\n- useIsMounted()\n- useLocalStorage()\n- useLockedBody()\n- useMap()\n- useOnClickOutside()\n- useReadLocalStorage()\n- useScreen()\n- useScript()\n- useSsr()\n- useTimeout()\n- useWindowSize()\n",
-          "publish_on_social": false,
-          "published_at": "2021-10-23T18:44:37.433Z",
-          "created_at": "2021-10-23T18:44:34.740Z",
-          "updated_at": "2021-10-23T18:44:37.457Z",
-          "private": false
-        },
-        {
-          "id": 23,
-          "url": "https://github.com/mgdm/htmlq",
-          "description": "Like jq, but for HTML. Uses CSS selectors to extract bits of content from HTML files.",
-          "publish_on_social": false,
-          "published_at": "2021-10-17T12:11:02.528Z",
-          "created_at": "2021-10-17T12:10:38.776Z",
-          "updated_at": "2021-10-17T12:11:02.571Z",
-          "private": false
-        },
-        {
-          "id": 45,
-          "url": "https://github.com/appwrite/appwrite",
-          "description": "Appwrite is a secure end-to-end backend server for Web, Mobile, and Flutter developers that is packaged as a set of Docker containers for easy deployment\n\nAppwrite is an end-to-end backend server for Web, Mobile, Native, or Backend apps packaged as a set of Docker microservices. Appwrite abstracts the complexity and repetitiveness required to build a modern backend API from scratch and allows you to build secure apps faster.\n\nUsing Appwrite, you can easily integrate your app with user authentication & multiple sign-in methods, a database for storing and querying users and team data, storage and file management, image manipulation, Cloud Functions, realtime subscription and more services.\n\n",
-          "publish_on_social": false,
-          "published_at": "2021-10-31T10:37:53.083Z",
-          "created_at": "2021-10-31T10:37:50.661Z",
-          "updated_at": "2021-10-31T10:37:53.123Z",
-          "private": false
-        },
-        {
-          "id": 57,
-          "url": "https://www.npmjs.com/package/web-vitals",
-          "description": "The web-vitals library is a tiny (~1K), modular library for measuring all the Web Vitals metrics on real users, in a way that accurately matches how they're measured by Chrome and reported to other Google tools (e.g. Chrome User Experience Report, Page Speed Insights, Search Console's Speed Report).",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T18:54:17.901Z",
-          "created_at": "2021-11-11T18:54:15.195Z",
-          "updated_at": "2021-11-11T18:54:17.936Z",
-          "private": false
-        },
-        {
-          "id": 34,
-          "url": "https://quilljs.com/",
-          "description": "Quill is a free, open source WYSIWYG editor built for the modern web. With its modular architecture and expressive API, it is completely customizable to fit any need.",
-          "publish_on_social": false,
-          "published_at": "2021-10-24T10:01:19.016Z",
-          "created_at": "2021-10-24T10:01:16.800Z",
-          "updated_at": "2021-10-24T10:01:19.037Z",
-          "private": false
-        },
-        {
-          "id": 59,
-          "url": "https://www.npmjs.com/package/clsx",
-          "description": "A tiny (228B) utility for constructing className strings conditionally from string, array, object...\n",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T20:08:05.855Z",
-          "created_at": "2021-11-11T20:08:03.439Z",
-          "updated_at": "2021-11-11T20:08:05.891Z",
-          "private": false
-        },
-        {
-          "id": 52,
-          "url": "https://www.brow.sh/",
-          "description": "Browsh is a fully-modern text-based browser renders on terminal.\n\nIt renders anything that a modern browser can; HTML5, CSS3, JS, video and even WebGL. Its main purpose is to be run on a remote server and accessed via SSH/Mosh or the in-browser HTML service in order to significantly reduce bandwidth and thus both increase browsing speeds and decrease bandwidth costs",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T09:52:03.638Z",
-          "created_at": "2021-11-11T09:52:00.961Z",
-          "updated_at": "2021-11-11T09:52:03.669Z",
-          "private": false
-        },
-        {
-          "id": 50,
-          "url": "https://github.com/lerna/lerna",
-          "description": " A tool for managing JavaScript projects with multiple packages.\n\nSplitting up large codebases into separate independently versioned packages is extremely useful for code sharing. However, making changes across many repositories is messy and difficult to track, and testing across repositories becomes complicated very quickly.\n\nTo solve these (and many other) problems, some projects will organize their codebases into multi-package repositories (sometimes called monorepos). Projects like Babel, React, Angular, Ember, Meteor, Jest, and many others develop all of their packages within a single repository.\n\nLerna is a tool that optimizes the workflow around managing multi-package repositories with git and npm.\n\nLerna can also reduce the time and space requirements for numerous copies of packages in development and build environments - normally a downside of dividing a project into many separate NPM packages. See the hoist documentation for details.",
-          "publish_on_social": false,
-          "published_at": "2021-11-09T12:26:43.764Z",
-          "created_at": "2021-11-09T12:26:41.405Z",
-          "updated_at": "2021-11-09T12:26:43.813Z",
-          "private": false
-        },
-        {
-          "id": 24,
-          "url": "https://concourse-ci.org/",
-          "description": "Concourse is an open-source continuous thing-doer.\n\nBuilt on the simple mechanics of resources, tasks, and jobs, Concourse presents a general approach to automation that makes it great for CI/CD.",
-          "publish_on_social": false,
-          "published_at": "2021-10-18T09:55:56.567Z",
-          "created_at": "2021-10-18T09:55:54.016Z",
-          "updated_at": "2021-10-18T09:55:56.604Z",
-          "private": false
-        },
-        {
-          "id": 83,
-          "url": "https://github.com/tonaljs/tonal",
-          "description": "tonal is a music theory library. Contains functions to manipulate tonal elements of music (note, intervals, chords, scales, modes, keys). It deals with abstractions (not actual music or sound).\n\ntonal is implemented in Typescript and published as a collection of Javascript npm packages.\n\nIt uses a functional programing style: all functions are pure, there is no data mutation, and entities are represented by data structures instead of objects.",
-          "publish_on_social": false,
-          "published_at": "2021-11-29T14:43:24.974Z",
-          "created_at": "2021-11-29T14:43:22.698Z",
-          "updated_at": "2021-11-29T14:43:25.003Z",
-          "private": false
-        },
-        {
-          "id": 88,
-          "url": "https://github.com/colinhacks/zod",
-          "description": "Zod is a TypeScript-first schema declaration and validation library. I'm using the term \"schema\" to broadly refer to any data type, from a simple string to a complex nested object.\n\nZod is designed to be as developer-friendly as possible. The goal is to eliminate duplicative type declarations. With Zod, you declare a validator once and Zod will automatically infer the static TypeScript type. It's easy to compose simpler types into complex data structures.",
-          "publish_on_social": false,
-          "published_at": "2021-12-14T14:42:02.267Z",
-          "created_at": "2021-12-14T14:41:51.042Z",
-          "updated_at": "2021-12-14T14:42:02.305Z",
-          "private": false
-        },
-        {
-          "id": 85,
-          "url": "https://svgsilh.com/",
-          "description": "Free SVG Image & Icon.",
-          "publish_on_social": false,
-          "published_at": "2021-11-30T18:23:20.705Z",
-          "created_at": "2021-11-30T18:23:17.994Z",
-          "updated_at": "2021-11-30T18:23:20.728Z",
-          "private": false
-        },
-        {
-          "id": 8,
-          "url": "http://dlib.net/",
-          "description": "Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems.\n\n- Machine Learning\n- Machine Learning\n- Graphical Model Inference\n- Image Processing (Face recognition...)\n",
-          "publish_on_social": false,
-          "published_at": "2021-10-03T21:02:20.627Z",
-          "created_at": "2021-10-03T21:02:13.923Z",
-          "updated_at": "2021-10-03T21:02:20.641Z",
-          "private": null
         }
       ],
       "notes": [
@@ -5025,6 +5069,16 @@
       "created_at": "2021-09-29T21:38:22.908Z",
       "updated_at": "2021-09-29T21:38:25.084Z",
       "links": [
+        {
+          "id": 76,
+          "url": "https://www.backblaze.com/b2/cloud-storage-pricing.html",
+          "description": "American online storage/backup",
+          "publish_on_social": false,
+          "published_at": "2021-11-21T11:57:43.249Z",
+          "created_at": "2021-11-21T11:57:39.550Z",
+          "updated_at": "2021-11-21T11:57:43.271Z",
+          "private": false
+        },
         {
           "id": 77,
           "url": "https://github.com/argyleink/gui-challenges",
@@ -5104,16 +5158,6 @@
           "created_at": "2021-10-28T22:44:17.035Z",
           "updated_at": "2021-10-28T22:44:21.700Z",
           "private": false
-        },
-        {
-          "id": 76,
-          "url": "https://www.backblaze.com/b2/cloud-storage-pricing.html",
-          "description": "American online storage/backup",
-          "publish_on_social": false,
-          "published_at": "2021-11-21T11:57:43.249Z",
-          "created_at": "2021-11-21T11:57:39.550Z",
-          "updated_at": "2021-11-21T11:57:43.271Z",
-          "private": false
         }
       ],
       "notes": []
@@ -5156,6 +5200,56 @@
       "created_at": "2021-10-02T10:14:59.290Z",
       "updated_at": "2021-10-02T10:15:01.410Z",
       "links": [
+        {
+          "id": 56,
+          "url": "https://github.com/nas5w/use-local-storage",
+          "description": " A flexible React Hook for using Local Storage. \n\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T18:53:30.130Z",
+          "created_at": "2021-11-11T18:53:27.705Z",
+          "updated_at": "2021-11-11T18:53:30.175Z",
+          "private": false
+        },
+        {
+          "id": 12,
+          "url": "https://github.com/mmazzarolo/react-native-universal-monorepo",
+          "description": " React Native boilerplate supporting multiple platforms: Android, iOS, macOS, Windows, web, browser extensions, Electron. \nAn opinonated approach to supporting multiple platforms with React Native using a Yarn Workspaces monorepo.",
+          "publish_on_social": false,
+          "published_at": "2021-10-05T18:18:29.877Z",
+          "created_at": "2021-10-05T18:18:26.983Z",
+          "updated_at": "2021-10-05T18:18:29.898Z",
+          "private": false
+        },
+        {
+          "id": 60,
+          "url": "https://github.com/lukeed/obj-str",
+          "description": "A tiny (96B) library for serializing Object values to Strings.\n\nThis module's intended use is for converting an Object with CSS class names (as keys) to a space-delimited className string. Other modules have similar goals (like classnames), but obj-str only does one thing. This is why it's only 100 bytes gzipped!\n\n```jsx\nimport React from 'react';\nimport objstr from 'obj-str';\n\nconst TodoItem = ({ text, isDone, disabled }) => (\n  <li className={ objstr({ item:true, completed:isDone, disabled }) }>\n    <input type=\"checkbox\" disabled={ disabled } checked={ isDone } />\n    <label>{ text }</label>\n  </li>\n);```",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:11:01.938Z",
+          "created_at": "2021-11-11T20:10:57.741Z",
+          "updated_at": "2021-11-11T20:11:01.966Z",
+          "private": false
+        },
+        {
+          "id": 55,
+          "url": "https://github.com/tailwind-mobile/tailwind-mobile",
+          "description": " Mobile UI components made with Tailwind CSS \n\nTailwind Mobile - Pixel perfect mobile UI components built with Tailwind CSS with iOS and Material Design components for React, Vue & Svelte",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T14:17:01.610Z",
+          "created_at": "2021-11-11T14:16:59.027Z",
+          "updated_at": "2021-11-11T14:17:01.633Z",
+          "private": false
+        },
+        {
+          "id": 62,
+          "url": "https://www.radix-ui.com/",
+          "description": "Unstyled, accessible components for building high\u2011quality design systems and web apps in React.",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:12:48.213Z",
+          "created_at": "2021-11-11T20:12:43.502Z",
+          "updated_at": "2021-11-11T20:12:48.238Z",
+          "private": false
+        },
         {
           "id": 58,
           "url": "https://www.framer.com/motion/",
@@ -5295,56 +5389,6 @@
           "created_at": "2021-11-21T11:12:51.408Z",
           "updated_at": "2021-11-21T11:12:55.026Z",
           "private": false
-        },
-        {
-          "id": 56,
-          "url": "https://github.com/nas5w/use-local-storage",
-          "description": " A flexible React Hook for using Local Storage. \n\n",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T18:53:30.130Z",
-          "created_at": "2021-11-11T18:53:27.705Z",
-          "updated_at": "2021-11-11T18:53:30.175Z",
-          "private": false
-        },
-        {
-          "id": 12,
-          "url": "https://github.com/mmazzarolo/react-native-universal-monorepo",
-          "description": " React Native boilerplate supporting multiple platforms: Android, iOS, macOS, Windows, web, browser extensions, Electron. \nAn opinonated approach to supporting multiple platforms with React Native using a Yarn Workspaces monorepo.",
-          "publish_on_social": false,
-          "published_at": "2021-10-05T18:18:29.877Z",
-          "created_at": "2021-10-05T18:18:26.983Z",
-          "updated_at": "2021-10-05T18:18:29.898Z",
-          "private": false
-        },
-        {
-          "id": 60,
-          "url": "https://github.com/lukeed/obj-str",
-          "description": "A tiny (96B) library for serializing Object values to Strings.\n\nThis module's intended use is for converting an Object with CSS class names (as keys) to a space-delimited className string. Other modules have similar goals (like classnames), but obj-str only does one thing. This is why it's only 100 bytes gzipped!\n\n```jsx\nimport React from 'react';\nimport objstr from 'obj-str';\n\nconst TodoItem = ({ text, isDone, disabled }) => (\n  <li className={ objstr({ item:true, completed:isDone, disabled }) }>\n    <input type=\"checkbox\" disabled={ disabled } checked={ isDone } />\n    <label>{ text }</label>\n  </li>\n);```",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T20:11:01.938Z",
-          "created_at": "2021-11-11T20:10:57.741Z",
-          "updated_at": "2021-11-11T20:11:01.966Z",
-          "private": false
-        },
-        {
-          "id": 55,
-          "url": "https://github.com/tailwind-mobile/tailwind-mobile",
-          "description": " Mobile UI components made with Tailwind CSS \n\nTailwind Mobile - Pixel perfect mobile UI components built with Tailwind CSS with iOS and Material Design components for React, Vue & Svelte",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T14:17:01.610Z",
-          "created_at": "2021-11-11T14:16:59.027Z",
-          "updated_at": "2021-11-11T14:17:01.633Z",
-          "private": false
-        },
-        {
-          "id": 62,
-          "url": "https://www.radix-ui.com/",
-          "description": "Unstyled, accessible components for building high\u2011quality design systems and web apps in React.",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T20:12:48.213Z",
-          "created_at": "2021-11-11T20:12:43.502Z",
-          "updated_at": "2021-11-11T20:12:48.238Z",
-          "private": false
         }
       ],
       "notes": [
@@ -5367,6 +5411,16 @@
       "created_at": "2021-10-03T11:53:53.267Z",
       "updated_at": "2021-10-03T11:53:54.919Z",
       "links": [
+        {
+          "id": 9,
+          "url": "https://github.com/ageitgey/face_recognition",
+          "description": " The world's simplest facial recognition api for Python and the command line ",
+          "publish_on_social": false,
+          "published_at": "2021-10-03T21:32:56.994Z",
+          "created_at": "2021-10-03T21:32:51.476Z",
+          "updated_at": "2021-10-03T21:32:57.018Z",
+          "private": null
+        },
         {
           "id": 38,
           "url": "https://py.checkio.org",
@@ -5416,16 +5470,6 @@
           "created_at": "2021-11-21T10:09:13.970Z",
           "updated_at": "2021-11-21T10:09:17.859Z",
           "private": false
-        },
-        {
-          "id": 9,
-          "url": "https://github.com/ageitgey/face_recognition",
-          "description": " The world's simplest facial recognition api for Python and the command line ",
-          "publish_on_social": false,
-          "published_at": "2021-10-03T21:32:56.994Z",
-          "created_at": "2021-10-03T21:32:51.476Z",
-          "updated_at": "2021-10-03T21:32:57.018Z",
-          "private": null
         }
       ],
       "notes": []
@@ -5437,6 +5481,16 @@
       "created_at": "2021-10-04T15:00:30.614Z",
       "updated_at": "2021-10-04T15:00:32.804Z",
       "links": [
+        {
+          "id": 96,
+          "url": "https://github.com/chmln/sd",
+          "description": "sd is an intuitive find & replace CLI. (sed alternative)",
+          "publish_on_social": false,
+          "published_at": "2021-12-21T18:40:31.508Z",
+          "created_at": "2021-12-21T18:40:28.360Z",
+          "updated_at": "2021-12-21T18:40:31.572Z",
+          "private": false
+        },
         {
           "id": 40,
           "url": "https://github.com/MichaelMure/git-bug",
@@ -5479,6 +5533,26 @@
       "updated_at": "2021-10-05T16:55:44.498Z",
       "links": [
         {
+          "id": 87,
+          "url": "https://github.com/antfu/unplugin-icons",
+          "description": "Access thousands of icons as components on-demand universally.",
+          "publish_on_social": false,
+          "published_at": "2021-12-12T19:47:41.398Z",
+          "created_at": "2021-12-12T19:47:34.855Z",
+          "updated_at": "2021-12-12T19:47:41.428Z",
+          "private": false
+        },
+        {
+          "id": 55,
+          "url": "https://github.com/tailwind-mobile/tailwind-mobile",
+          "description": " Mobile UI components made with Tailwind CSS \n\nTailwind Mobile - Pixel perfect mobile UI components built with Tailwind CSS with iOS and Material Design components for React, Vue & Svelte",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T14:17:01.610Z",
+          "created_at": "2021-11-11T14:16:59.027Z",
+          "updated_at": "2021-11-11T14:17:01.633Z",
+          "private": false
+        },
+        {
           "id": 11,
           "url": "https://tailwind-mobile.com/",
           "description": "Pixel perfect mobile UI components built with Tailwind CSS\nWith iOS and Material Design components for React, Vue & Svelte",
@@ -5507,26 +5581,6 @@
           "created_at": "2021-10-27T18:30:41.379Z",
           "updated_at": "2021-10-27T18:30:44.101Z",
           "private": false
-        },
-        {
-          "id": 87,
-          "url": "https://github.com/antfu/unplugin-icons",
-          "description": "Access thousands of icons as components on-demand universally.",
-          "publish_on_social": false,
-          "published_at": "2021-12-12T19:47:41.398Z",
-          "created_at": "2021-12-12T19:47:34.855Z",
-          "updated_at": "2021-12-12T19:47:41.428Z",
-          "private": false
-        },
-        {
-          "id": 55,
-          "url": "https://github.com/tailwind-mobile/tailwind-mobile",
-          "description": " Mobile UI components made with Tailwind CSS \n\nTailwind Mobile - Pixel perfect mobile UI components built with Tailwind CSS with iOS and Material Design components for React, Vue & Svelte",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T14:17:01.610Z",
-          "created_at": "2021-11-11T14:16:59.027Z",
-          "updated_at": "2021-11-11T14:17:01.633Z",
-          "private": false
         }
       ],
       "notes": []
@@ -5538,26 +5592,6 @@
       "created_at": "2021-10-05T16:56:47.855Z",
       "updated_at": "2021-10-05T16:56:49.731Z",
       "links": [
-        {
-          "id": 64,
-          "url": "https://tailblocks.cc/",
-          "description": " Ready-to-use Tailwind CSS blocks. \n\n",
-          "publish_on_social": false,
-          "published_at": "2021-11-17T19:12:19.335Z",
-          "created_at": "2021-11-11T20:14:49.523Z",
-          "updated_at": "2021-11-17T19:12:19.385Z",
-          "private": false
-        },
-        {
-          "id": 63,
-          "url": "https://tailwindcomponents.com/",
-          "description": " A free repository for community components using TailwindCSS\n\nOpen source Tailwind UI components and templates to bootstrap your new apps, projects or landing sites!",
-          "publish_on_social": false,
-          "published_at": "2021-11-11T20:13:36.329Z",
-          "created_at": "2021-11-11T20:13:34.052Z",
-          "updated_at": "2021-11-11T20:13:36.351Z",
-          "private": false
-        },
         {
           "id": 61,
           "url": "https://github.com/vechai/vechaiui",
@@ -5587,6 +5621,26 @@
           "created_at": "2021-11-11T14:16:59.027Z",
           "updated_at": "2021-11-11T14:17:01.633Z",
           "private": false
+        },
+        {
+          "id": 64,
+          "url": "https://tailblocks.cc/",
+          "description": " Ready-to-use Tailwind CSS blocks. \n\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-17T19:12:19.335Z",
+          "created_at": "2021-11-11T20:14:49.523Z",
+          "updated_at": "2021-11-17T19:12:19.385Z",
+          "private": false
+        },
+        {
+          "id": 63,
+          "url": "https://tailwindcomponents.com/",
+          "description": " A free repository for community components using TailwindCSS\n\nOpen source Tailwind UI components and templates to bootstrap your new apps, projects or landing sites!",
+          "publish_on_social": false,
+          "published_at": "2021-11-11T20:13:36.329Z",
+          "created_at": "2021-11-11T20:13:34.052Z",
+          "updated_at": "2021-11-11T20:13:36.351Z",
+          "private": false
         }
       ],
       "notes": []
@@ -5598,6 +5652,16 @@
       "created_at": "2021-10-17T12:10:46.859Z",
       "updated_at": "2021-10-17T12:10:49.181Z",
       "links": [
+        {
+          "id": 96,
+          "url": "https://github.com/chmln/sd",
+          "description": "sd is an intuitive find & replace CLI. (sed alternative)",
+          "publish_on_social": false,
+          "published_at": "2021-12-21T18:40:31.508Z",
+          "created_at": "2021-12-21T18:40:28.360Z",
+          "updated_at": "2021-12-21T18:40:31.572Z",
+          "private": false
+        },
         {
           "id": 23,
           "url": "https://github.com/mgdm/htmlq",
@@ -5699,16 +5763,6 @@
       "updated_at": "2021-11-03T18:45:33.880Z",
       "links": [
         {
-          "id": 47,
-          "url": "https://github.com/stargateaudio/stargate",
-          "description": "daw :  digital audio workstation, instrument and effect plugins, wave editor, Stargate is a holistic audio production solution, everything you need to make music on a computer.",
-          "publish_on_social": false,
-          "published_at": "2021-11-03T18:46:23.166Z",
-          "created_at": "2021-11-03T18:46:20.907Z",
-          "updated_at": "2021-11-03T18:46:23.187Z",
-          "private": false
-        },
-        {
           "id": 83,
           "url": "https://github.com/tonaljs/tonal",
           "description": "tonal is a music theory library. Contains functions to manipulate tonal elements of music (note, intervals, chords, scales, modes, keys). It deals with abstractions (not actual music or sound).\n\ntonal is implemented in Typescript and published as a collection of Javascript npm packages.\n\nIt uses a functional programing style: all functions are pure, there is no data mutation, and entities are represented by data structures instead of objects.",
@@ -5716,6 +5770,16 @@
           "published_at": "2021-11-29T14:43:24.974Z",
           "created_at": "2021-11-29T14:43:22.698Z",
           "updated_at": "2021-11-29T14:43:25.003Z",
+          "private": false
+        },
+        {
+          "id": 47,
+          "url": "https://github.com/stargateaudio/stargate",
+          "description": "daw :  digital audio workstation, instrument and effect plugins, wave editor, Stargate is a holistic audio production solution, everything you need to make music on a computer.",
+          "publish_on_social": false,
+          "published_at": "2021-11-03T18:46:23.166Z",
+          "created_at": "2021-11-03T18:46:20.907Z",
+          "updated_at": "2021-11-03T18:46:23.187Z",
           "private": false
         }
       ],
