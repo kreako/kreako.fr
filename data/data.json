@@ -3196,6 +3196,40 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-98",
+      "url": "https://storybook.js.org/tutorials/ui-testing-handbook/",
+      "description": "UI Testing Handbook from storybook\n\nA guide that highlights UI testing strategies used by scaled front-end teams. You'll learn to verify everything from visual appearance to logic and even detect integration issues. Along the way, we'll demonstrate how you can reduce bugs by automatically running your tests.",
+      "publish_on_social": false,
+      "published_at": "2021-12-21T18:44:18.127Z",
+      "created_at": "2021-12-21T18:44:15.636Z",
+      "updated_at": "2021-12-21T18:44:18.142Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 1,
+          "title": "javascript",
+          "published_at": "2021-09-29T21:01:51.147Z",
+          "created_at": "2021-09-29T21:01:48.486Z",
+          "updated_at": "2021-09-29T21:01:51.167Z"
+        },
+        {
+          "id": 4,
+          "title": "design",
+          "published_at": "2021-09-29T21:22:29.557Z",
+          "created_at": "2021-09-29T21:22:27.099Z",
+          "updated_at": "2021-09-29T21:22:29.572Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -3384,6 +3418,16 @@
           "published_at": "2021-12-20T17:33:12.158Z",
           "created_at": "2021-12-20T17:33:09.003Z",
           "updated_at": "2021-12-20T17:33:12.205Z",
+          "private": false
+        },
+        {
+          "id": 98,
+          "url": "https://storybook.js.org/tutorials/ui-testing-handbook/",
+          "description": "UI Testing Handbook from storybook\n\nA guide that highlights UI testing strategies used by scaled front-end teams. You'll learn to verify everything from visual appearance to logic and even detect integration issues. Along the way, we'll demonstrate how you can reduce bugs by automatically running your tests.",
+          "publish_on_social": false,
+          "published_at": "2021-12-21T18:44:18.127Z",
+          "created_at": "2021-12-21T18:44:15.636Z",
+          "updated_at": "2021-12-21T18:44:18.142Z",
           "private": false
         },
         {
@@ -3996,6 +4040,16 @@
           "published_at": "2021-11-11T20:13:36.329Z",
           "created_at": "2021-11-11T20:13:34.052Z",
           "updated_at": "2021-11-11T20:13:36.351Z",
+          "private": false
+        },
+        {
+          "id": 98,
+          "url": "https://storybook.js.org/tutorials/ui-testing-handbook/",
+          "description": "UI Testing Handbook from storybook\n\nA guide that highlights UI testing strategies used by scaled front-end teams. You'll learn to verify everything from visual appearance to logic and even detect integration issues. Along the way, we'll demonstrate how you can reduce bugs by automatically running your tests.",
+          "publish_on_social": false,
+          "published_at": "2021-12-21T18:44:18.127Z",
+          "created_at": "2021-12-21T18:44:15.636Z",
+          "updated_at": "2021-12-21T18:44:18.142Z",
           "private": false
         },
         {
@@ -4637,6 +4691,16 @@
           "published_at": "2021-11-11T20:13:36.329Z",
           "created_at": "2021-11-11T20:13:34.052Z",
           "updated_at": "2021-11-11T20:13:36.351Z",
+          "private": false
+        },
+        {
+          "id": 98,
+          "url": "https://storybook.js.org/tutorials/ui-testing-handbook/",
+          "description": "UI Testing Handbook from storybook\n\nA guide that highlights UI testing strategies used by scaled front-end teams. You'll learn to verify everything from visual appearance to logic and even detect integration issues. Along the way, we'll demonstrate how you can reduce bugs by automatically running your tests.",
+          "publish_on_social": false,
+          "published_at": "2021-12-21T18:44:18.127Z",
+          "created_at": "2021-12-21T18:44:15.636Z",
+          "updated_at": "2021-12-21T18:44:18.142Z",
           "private": false
         },
         {
