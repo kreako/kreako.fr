@@ -2954,6 +2954,33 @@
       "kind": "link"
     },
     {
+      "id": "link-100",
+      "url": "https://github.com/oclif/oclif",
+      "description": "This is a framework for building CLIs in Node.js. This framework was built out of the Heroku CLI but generalized to build any custom CLI. It's designed both for single-file CLIs with a few flag options, or for very complex CLIs that have subcommands (like git or heroku).",
+      "publish_on_social": false,
+      "published_at": "2021-12-25T21:02:29.365Z",
+      "created_at": "2021-12-25T21:02:27.106Z",
+      "updated_at": "2021-12-25T21:02:29.395Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 1,
+          "title": "javascript",
+          "published_at": "2021-09-29T21:01:51.147Z",
+          "created_at": "2021-09-29T21:01:48.486Z",
+          "updated_at": "2021-09-29T21:01:51.167Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
+    },
+    {
       "id": "link-88",
       "url": "https://github.com/colinhacks/zod",
       "description": "Zod is a TypeScript-first schema declaration and validation library. I'm using the term \"schema\" to broadly refer to any data type, from a simple string to a complex nested object.\n\nZod is designed to be as developer-friendly as possible. The goal is to eliminate duplicative type declarations. With Zod, you declare a validator once and Zod will automatically infer the static TypeScript type. It's easy to compose simpler types into complex data structures.",
@@ -3632,6 +3659,16 @@
           "published_at": "2021-11-11T20:12:03.488Z",
           "created_at": "2021-11-11T20:12:00.963Z",
           "updated_at": "2021-11-11T20:12:03.523Z",
+          "private": false
+        },
+        {
+          "id": 100,
+          "url": "https://github.com/oclif/oclif",
+          "description": "This is a framework for building CLIs in Node.js. This framework was built out of the Heroku CLI but generalized to build any custom CLI. It's designed both for single-file CLIs with a few flag options, or for very complex CLIs that have subcommands (like git or heroku).",
+          "publish_on_social": false,
+          "published_at": "2021-12-25T21:02:29.365Z",
+          "created_at": "2021-12-25T21:02:27.106Z",
+          "updated_at": "2021-12-25T21:02:29.395Z",
           "private": false
         },
         {
@@ -4325,6 +4362,16 @@
           "published_at": "2021-10-13T10:46:54.710Z",
           "created_at": "2021-10-13T10:46:49.703Z",
           "updated_at": "2021-10-13T10:46:54.760Z",
+          "private": false
+        },
+        {
+          "id": 100,
+          "url": "https://github.com/oclif/oclif",
+          "description": "This is a framework for building CLIs in Node.js. This framework was built out of the Heroku CLI but generalized to build any custom CLI. It's designed both for single-file CLIs with a few flag options, or for very complex CLIs that have subcommands (like git or heroku).",
+          "publish_on_social": false,
+          "published_at": "2021-12-25T21:02:29.365Z",
+          "created_at": "2021-12-25T21:02:27.106Z",
+          "updated_at": "2021-12-25T21:02:29.395Z",
           "private": false
         },
         {
