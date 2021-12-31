@@ -3302,6 +3302,16 @@
       "updated_at": "2021-09-29T21:01:51.167Z",
       "links": [
         {
+          "id": 102,
+          "url": "https://github.com/ds300/patch-package",
+          "description": "patch-package lets app authors instantly make and keep fixes to npm dependencies. It's a vital band-aid for those of us living on the bleeding edge.\n\nNo more waiting around for pull requests to be merged and published. No more forking repos just to fix that one tiny thing preventing your app from working.",
+          "publish_on_social": false,
+          "published_at": "2021-12-31T13:57:44.315Z",
+          "created_at": "2021-12-31T13:57:40.378Z",
+          "updated_at": "2021-12-31T13:57:44.340Z",
+          "private": false
+        },
+        {
           "id": 93,
           "url": "https://github.com/vvo/iron-session",
           "description": "Node.js stateless session utility using signed and encrypted cookies to store data. Works with Next.js, Express, NestJs, Fastify, and any Node.js HTTP framework. ",
@@ -5022,6 +5032,16 @@
           "published_at": "2021-10-14T13:15:06.888Z",
           "created_at": "2021-10-14T13:15:03.857Z",
           "updated_at": "2021-10-14T13:15:06.911Z",
+          "private": false
+        },
+        {
+          "id": 102,
+          "url": "https://github.com/ds300/patch-package",
+          "description": "patch-package lets app authors instantly make and keep fixes to npm dependencies. It's a vital band-aid for those of us living on the bleeding edge.\n\nNo more waiting around for pull requests to be merged and published. No more forking repos just to fix that one tiny thing preventing your app from working.",
+          "publish_on_social": false,
+          "published_at": "2021-12-31T13:57:44.315Z",
+          "created_at": "2021-12-31T13:57:40.378Z",
+          "updated_at": "2021-12-31T13:57:44.340Z",
           "private": false
         },
         {
