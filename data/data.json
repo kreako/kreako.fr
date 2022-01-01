@@ -3542,6 +3542,16 @@
           "private": null
         },
         {
+          "id": 103,
+          "url": "https://github.com/volta-cli/volta",
+          "description": "JS Toolchains as Code.\n\nFast: Install and run any JS tool quickly and seamlessly! Volta is built in Rust and ships as a snappy static binary.\n\nReliable: Ensure everyone in your project has the same tools\u2014without interfering with their workflow.\n\nUniversal: No matter the package manager, Node runtime, or OS, one command is all you need: volta install.",
+          "publish_on_social": false,
+          "published_at": "2022-01-01T18:38:40.262Z",
+          "created_at": "2022-01-01T18:38:37.078Z",
+          "updated_at": "2022-01-01T18:38:40.338Z",
+          "private": false
+        },
+        {
           "id": 34,
           "url": "https://quilljs.com/",
           "description": "Quill is a free, open source WYSIWYG editor built for the modern web. With its modular architecture and expressive API, it is completely customizable to fit any need.",
@@ -4682,6 +4692,16 @@
           "published_at": "2021-10-21T11:59:23.366Z",
           "created_at": "2021-10-21T11:59:19.664Z",
           "updated_at": "2021-10-21T11:59:23.391Z",
+          "private": false
+        },
+        {
+          "id": 103,
+          "url": "https://github.com/volta-cli/volta",
+          "description": "JS Toolchains as Code.\n\nFast: Install and run any JS tool quickly and seamlessly! Volta is built in Rust and ships as a snappy static binary.\n\nReliable: Ensure everyone in your project has the same tools\u2014without interfering with their workflow.\n\nUniversal: No matter the package manager, Node runtime, or OS, one command is all you need: volta install.",
+          "publish_on_social": false,
+          "published_at": "2022-01-01T18:38:40.262Z",
+          "created_at": "2022-01-01T18:38:37.078Z",
+          "updated_at": "2022-01-01T18:38:40.338Z",
           "private": false
         },
         {
