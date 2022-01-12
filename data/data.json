@@ -3512,6 +3512,16 @@
           "private": false
         },
         {
+          "id": 118,
+          "url": "https://github.com/KATT/zart",
+          "description": "Zero-API, React, & TypeScript\n\nA monorepo containing:\n\n- Next.js web app\n- React Native app with Expo\n- A tRPC-API which is inferred straight into the above.\n- Prisma as a typesafe ORM\n",
+          "publish_on_social": false,
+          "published_at": "2022-01-12T22:17:17.332Z",
+          "created_at": "2022-01-12T22:17:15.294Z",
+          "updated_at": "2022-01-12T22:17:17.362Z",
+          "private": false
+        },
+        {
           "id": 98,
           "url": "https://storybook.js.org/tutorials/ui-testing-handbook/",
           "description": "UI Testing Handbook from storybook\n\nA guide that highlights UI testing strategies used by scaled front-end teams. You'll learn to verify everything from visual appearance to logic and even detect integration issues. Along the way, we'll demonstrate how you can reduce bugs by automatically running your tests.",
@@ -4725,6 +4735,16 @@
           "private": false
         },
         {
+          "id": 118,
+          "url": "https://github.com/KATT/zart",
+          "description": "Zero-API, React, & TypeScript\n\nA monorepo containing:\n\n- Next.js web app\n- React Native app with Expo\n- A tRPC-API which is inferred straight into the above.\n- Prisma as a typesafe ORM\n",
+          "publish_on_social": false,
+          "published_at": "2022-01-12T22:17:17.332Z",
+          "created_at": "2022-01-12T22:17:15.294Z",
+          "updated_at": "2022-01-12T22:17:17.362Z",
+          "private": false
+        },
+        {
           "id": 106,
           "url": "http://tree-sitter.github.io/tree-sitter/",
           "description": "Tree-sitter is a parser generator tool and an incremental parsing library. It can build a concrete syntax tree for a source file and efficiently update the syntax tree as the source file is edited. Tree-sitter aims to be:\n\n- General enough to parse any programming language\n- Fast enough to parse on every keystroke in a text editor\n- Robust enough to provide useful results even in the presence of syntax errors\n- Dependency-free so that the runtime library (which is written in pure C) can be embedded in any application\n",
@@ -5643,6 +5663,16 @@
           "published_at": "2021-11-21T11:57:43.249Z",
           "created_at": "2021-11-21T11:57:39.550Z",
           "updated_at": "2021-11-21T11:57:43.271Z",
+          "private": false
+        },
+        {
+          "id": 118,
+          "url": "https://github.com/KATT/zart",
+          "description": "Zero-API, React, & TypeScript\n\nA monorepo containing:\n\n- Next.js web app\n- React Native app with Expo\n- A tRPC-API which is inferred straight into the above.\n- Prisma as a typesafe ORM\n",
+          "publish_on_social": false,
+          "published_at": "2022-01-12T22:17:17.332Z",
+          "created_at": "2022-01-12T22:17:15.294Z",
+          "updated_at": "2022-01-12T22:17:17.362Z",
           "private": false
         },
         {
