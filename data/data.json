@@ -3872,6 +3872,16 @@
           "private": false
         },
         {
+          "id": 120,
+          "url": "https://github.com/hammerjs/hammer.js",
+          "description": "A JavaScript library for detecting touch gestures.",
+          "publish_on_social": false,
+          "published_at": "2022-01-12T22:31:59.836Z",
+          "created_at": "2022-01-12T22:31:56.265Z",
+          "updated_at": "2022-01-12T22:31:59.910Z",
+          "private": false
+        },
+        {
           "id": 13,
           "url": "https://www.webglstudio.org/",
           "description": "WebGLStudio (formerly known as WebGLStudio) is a platform to create interactive 3D scenes directly from the browser.\nIt allows to edit the scene visually, code your behaviours, edit the shaders, and all directly from within the app.",
@@ -4852,6 +4862,16 @@
           "published_at": "2021-10-21T11:59:23.366Z",
           "created_at": "2021-10-21T11:59:19.664Z",
           "updated_at": "2021-10-21T11:59:23.391Z",
+          "private": false
+        },
+        {
+          "id": 120,
+          "url": "https://github.com/hammerjs/hammer.js",
+          "description": "A JavaScript library for detecting touch gestures.",
+          "publish_on_social": false,
+          "published_at": "2022-01-12T22:31:59.836Z",
+          "created_at": "2022-01-12T22:31:56.265Z",
+          "updated_at": "2022-01-12T22:31:59.910Z",
           "private": false
         },
         {
