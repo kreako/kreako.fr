@@ -4545,6 +4545,16 @@
           "private": false
         },
         {
+          "id": 130,
+          "url": "https://github.com/extrawurst/gitui/",
+          "description": "GitUI provides you with the comfort of a git GUI but right in your terminal",
+          "publish_on_social": false,
+          "published_at": "2022-01-13T17:57:15.022Z",
+          "created_at": "2022-01-13T17:57:03.733Z",
+          "updated_at": "2022-01-13T17:57:15.055Z",
+          "private": false
+        },
+        {
           "id": 26,
           "url": "https://github.com/arxanas/git-branchless",
           "description": " Branchless workflow for Git \n\ngit-branchless is a suite of tools to help you visualize, navigate, manipulate, and repair your commit history. It's based off of the branchless Mercurial workflows at large companies such as Google and Facebook.",
@@ -6278,6 +6288,16 @@
       "updated_at": "2021-10-04T15:00:32.804Z",
       "links": [
         {
+          "id": 130,
+          "url": "https://github.com/extrawurst/gitui/",
+          "description": "GitUI provides you with the comfort of a git GUI but right in your terminal",
+          "publish_on_social": false,
+          "published_at": "2022-01-13T17:57:15.022Z",
+          "created_at": "2022-01-13T17:57:03.733Z",
+          "updated_at": "2022-01-13T17:57:15.055Z",
+          "private": false
+        },
+        {
           "id": 129,
           "url": "https://github.com/osandov/drgn",
           "description": "drgn (pronounced \"dragon\") is a debugger with an emphasis on programmability. drgn exposes the types and variables in a program for easy, expressive scripting in Python. For example, you can debug the Linux kernel.",
@@ -6486,6 +6506,16 @@
           "published_at": "2021-10-17T12:11:02.528Z",
           "created_at": "2021-10-17T12:10:38.776Z",
           "updated_at": "2021-10-17T12:11:02.571Z",
+          "private": false
+        },
+        {
+          "id": 130,
+          "url": "https://github.com/extrawurst/gitui/",
+          "description": "GitUI provides you with the comfort of a git GUI but right in your terminal",
+          "publish_on_social": false,
+          "published_at": "2022-01-13T17:57:15.022Z",
+          "created_at": "2022-01-13T17:57:03.733Z",
+          "updated_at": "2022-01-13T17:57:15.055Z",
           "private": false
         },
         {
