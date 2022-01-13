@@ -3482,6 +3482,16 @@
           "private": false
         },
         {
+          "id": 128,
+          "url": "https://github.com/builderio/partytown",
+          "description": "Relocate resource intensive third-party scripts off of the main thread and into a web worker.",
+          "publish_on_social": false,
+          "published_at": "2022-01-13T17:42:50.460Z",
+          "created_at": "2022-01-13T17:42:48.186Z",
+          "updated_at": "2022-01-13T17:42:50.492Z",
+          "private": false
+        },
+        {
           "id": 125,
           "url": "https://date-fns.org/",
           "description": "Modern JavaScript date utility library\ndate-fns provides the most comprehensive, yet simple and consistent toolset for manipulating JavaScript dates in a browser & Node.js.\n",
@@ -5472,6 +5482,16 @@
           "published_at": "2022-01-12T22:28:21.353Z",
           "created_at": "2022-01-12T22:28:18.571Z",
           "updated_at": "2022-01-12T22:28:21.374Z",
+          "private": false
+        },
+        {
+          "id": 128,
+          "url": "https://github.com/builderio/partytown",
+          "description": "Relocate resource intensive third-party scripts off of the main thread and into a web worker.",
+          "publish_on_social": false,
+          "published_at": "2022-01-13T17:42:50.460Z",
+          "created_at": "2022-01-13T17:42:48.186Z",
+          "updated_at": "2022-01-13T17:42:50.492Z",
           "private": false
         },
         {
