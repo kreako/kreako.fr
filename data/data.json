@@ -3482,6 +3482,16 @@
           "private": false
         },
         {
+          "id": 134,
+          "url": "https://github.com/slidevjs/slidev",
+          "description": "Presentation slides for developers",
+          "publish_on_social": false,
+          "published_at": "2022-01-13T19:19:57.990Z",
+          "created_at": "2022-01-13T19:19:55.741Z",
+          "updated_at": "2022-01-13T19:19:58.015Z",
+          "private": false
+        },
+        {
           "id": 128,
           "url": "https://github.com/builderio/partytown",
           "description": "Relocate resource intensive third-party scripts off of the main thread and into a web worker.",
@@ -4992,6 +5002,16 @@
           "published_at": "2021-10-12T08:12:19.160Z",
           "created_at": "2021-10-12T08:12:16.132Z",
           "updated_at": "2021-10-12T08:12:19.177Z",
+          "private": false
+        },
+        {
+          "id": 134,
+          "url": "https://github.com/slidevjs/slidev",
+          "description": "Presentation slides for developers",
+          "publish_on_social": false,
+          "published_at": "2022-01-13T19:19:57.990Z",
+          "created_at": "2022-01-13T19:19:55.741Z",
+          "updated_at": "2022-01-13T19:19:58.015Z",
           "private": false
         },
         {
