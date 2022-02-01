@@ -5495,6 +5495,16 @@
           "private": false
         },
         {
+          "id": 143,
+          "url": "https://github.com/Textualize/rich",
+          "description": "Rich is a Python library for rich text and beautiful formatting in the terminal.\n\nThe Rich API makes it easy to add color and style to terminal output. Rich can also render pretty tables, progress bars, markdown, syntax highlighted source code, tracebacks, and more \u2014 out of the box.",
+          "publish_on_social": false,
+          "published_at": "2022-02-01T12:27:46.912Z",
+          "created_at": "2022-02-01T12:27:44.376Z",
+          "updated_at": "2022-02-01T12:27:46.952Z",
+          "private": false
+        },
+        {
           "id": 74,
           "url": "https://github.com/tannerlinsley/react-location",
           "description": "Enterprise Client-Side Routing for React",
@@ -6455,6 +6465,16 @@
           "published_at": "2022-02-01T12:27:05.676Z",
           "created_at": "2022-02-01T12:27:03.723Z",
           "updated_at": "2022-02-01T12:27:05.713Z",
+          "private": false
+        },
+        {
+          "id": 143,
+          "url": "https://github.com/Textualize/rich",
+          "description": "Rich is a Python library for rich text and beautiful formatting in the terminal.\n\nThe Rich API makes it easy to add color and style to terminal output. Rich can also render pretty tables, progress bars, markdown, syntax highlighted source code, tracebacks, and more \u2014 out of the box.",
+          "publish_on_social": false,
+          "published_at": "2022-02-01T12:27:46.912Z",
+          "created_at": "2022-02-01T12:27:44.376Z",
+          "updated_at": "2022-02-01T12:27:46.952Z",
           "private": false
         },
         {
