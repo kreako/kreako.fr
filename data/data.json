@@ -5192,6 +5192,16 @@
           "private": null
         },
         {
+          "id": 147,
+          "url": "https://github.com/quickwit-oss/quickwit",
+          "description": "Quickwit is a fast and cost-efficient distributed search engine for large-scale, immutable data. ",
+          "publish_on_social": false,
+          "published_at": "2022-02-04T20:47:14.144Z",
+          "created_at": "2022-02-04T20:47:08.499Z",
+          "updated_at": "2022-02-04T20:47:14.185Z",
+          "private": false
+        },
+        {
           "id": 28,
           "url": "https://github.com/codenotary/immudb",
           "description": "immudb - world\u2019s fastest immutable database, built on a zero trust model\n\nimmudb is a database with built-in cryptographic proof and verification. It tracks changes in sensitive data and the integrity of the history will be protected by the clients, without the need to trust the server. It can operate as a key-value store or as relational database (SQL).\n\nTraditional database transactions and logs are hard to scale and are mutable, so there is no way to know for sure if your data has been compromised. immudb is immutable. You can add new versions of existing records, but never change or delete records. This lets you store critical data without fear of it being tampered.\n\nData stored in immudb is cryptographically coherent and verifiable, just like with blockchains, but without all the complexity. Unlike blockchains, immudb can handle millions of transactions per second, and can be used both as a lightweight service or embedded in your application as a library. immudb runs everywhere, on an IoT device, your notebook, a server, on-premise or in the cloud.\n\nimmudb is already used by hundreds of projects to store tamper-proof data and to keep the data change history immutable. immudb can be used as a key-value store or relational data structure and supports both transactions and blobs, so there are no limits to the use cases.\n\nCompanies use immudb to secure and tamper-evident log data, sensor data, sensitive data, transactions, software build recipes, rule-base data, even artifacts or even video streams.",
@@ -6133,6 +6143,16 @@
           "private": false
         },
         {
+          "id": 147,
+          "url": "https://github.com/quickwit-oss/quickwit",
+          "description": "Quickwit is a fast and cost-efficient distributed search engine for large-scale, immutable data. ",
+          "publish_on_social": false,
+          "published_at": "2022-02-04T20:47:14.144Z",
+          "created_at": "2022-02-04T20:47:08.499Z",
+          "updated_at": "2022-02-04T20:47:14.185Z",
+          "private": false
+        },
+        {
           "id": 41,
           "url": "https://github.com/openreplay/openreplay",
           "description": "OpenReplay is developer-friendly, open-source session replay\n\nOpenReplay is a session replay stack that lets you see what users do on your web app, helping you troubleshoot issues faster. It's the only open-source alternative to products such as FullStory and LogRocket.\n\n- Session replay. OpenReplay replays what users do, but not only. It also shows you what went under the hood, how your website or app behaves by capturing network activity, console logs, JS errors, store actions/state, page speed metrics, cpu/memory usage and much more.\n- Low footprint. With a ~18KB (.gz) tracker that asynchronously sends minimal data for a very limited impact on performance.\n- Self-hosted. No more security compliance checks, 3rd-parties processing user data. Everything OpenReplay captures stays in your cloud for a complete control over your data.\n- Privacy controls. Fine-grained security features for sanitizing user data.\n- Easy deploy. With support of major public cloud providers (AWS, GCP, Azure, DigitalOcean).\n\nFeatures\n\n- Session replay: Lets you relive your users' experience, see where they struggle and how it affects their behavior. Each session replay is automatically analyzed based on heuristics, for easy triage.\n- DevTools: It's like debugging in your own browser. OpenReplay provides you with the full context (network activity, JS errors, store actions/state and 40+ metrics) so you can instantly reproduce bugs and understand performance issues.\n- Assist: Helps you support your users by seeing their live screen and instantly hopping on call (WebRTC) with them without requiring any 3rd-party screen sharing software.\n- Omni-search: Search and filter by almost any user action/criteria, session attribute or technical event, so you can answer any question. No instrumentation required.\n- Funnels: For surfacing the most impactful issues causing conversion and revenue loss.\n- Fine-grained privacy controls: Choose what to capture, what to obscure or what to ignore so user data doesn't even reach your servers.\n- Plugins oriented: Get to the root cause even faster by tracking application state (Redux, VueX, MobX, NgRx) and logging GraphQL queries (Apollo, Relay) and Fetch requests.\n- Integrations: Sync your backend logs with your session replays and see what happened front-to-back. OpenReplay supports Sentry, Datadog, CloudWatch, Stackdriver, Elastic and more",
@@ -6895,6 +6915,16 @@
       "created_at": "2021-10-17T12:10:46.859Z",
       "updated_at": "2021-10-17T12:10:49.181Z",
       "links": [
+        {
+          "id": 147,
+          "url": "https://github.com/quickwit-oss/quickwit",
+          "description": "Quickwit is a fast and cost-efficient distributed search engine for large-scale, immutable data. ",
+          "publish_on_social": false,
+          "published_at": "2022-02-04T20:47:14.144Z",
+          "created_at": "2022-02-04T20:47:08.499Z",
+          "updated_at": "2022-02-04T20:47:14.185Z",
+          "private": false
+        },
         {
           "id": 23,
           "url": "https://github.com/mgdm/htmlq",
