@@ -3459,6 +3459,16 @@
           "private": false
         },
         {
+          "id": 148,
+          "url": "https://github.com/soketi/soketi",
+          "description": "soketi is your simple, fast, and resilient open-source WebSockets server",
+          "publish_on_social": false,
+          "published_at": "2022-02-04T20:53:49.175Z",
+          "created_at": "2022-02-04T20:53:42.877Z",
+          "updated_at": "2022-02-04T20:53:49.206Z",
+          "private": false
+        },
+        {
           "id": 87,
           "url": "https://github.com/antfu/unplugin-icons",
           "description": "Access thousands of icons as components on-demand universally.",
@@ -5719,6 +5729,16 @@
           "published_at": "2021-12-31T13:57:44.315Z",
           "created_at": "2021-12-31T13:57:40.378Z",
           "updated_at": "2021-12-31T13:57:44.340Z",
+          "private": false
+        },
+        {
+          "id": 148,
+          "url": "https://github.com/soketi/soketi",
+          "description": "soketi is your simple, fast, and resilient open-source WebSockets server",
+          "publish_on_social": false,
+          "published_at": "2022-02-04T20:53:49.175Z",
+          "created_at": "2022-02-04T20:53:42.877Z",
+          "updated_at": "2022-02-04T20:53:49.206Z",
           "private": false
         },
         {
