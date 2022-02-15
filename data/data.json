@@ -5232,6 +5232,16 @@
           "private": false
         },
         {
+          "id": 155,
+          "url": "https://github.com/sezanzeb/input-remapper",
+          "description": "An easy to use tool to change the mapping of your input device buttons.\nSupports mice, keyboards, gamepads, X11, Wayland, combined buttons and programmable macros.\nAllows mapping non-keyboard events (click, joystick, wheel) to keys of keyboard devices. ",
+          "publish_on_social": false,
+          "published_at": "2022-02-15T11:45:23.695Z",
+          "created_at": "2022-02-15T11:45:21.520Z",
+          "updated_at": "2022-02-15T11:45:23.728Z",
+          "private": false
+        },
+        {
           "id": 134,
           "url": "https://github.com/slidevjs/slidev",
           "description": "Presentation slides for developers",
@@ -6773,6 +6783,16 @@
           "created_at": "2021-10-03T11:53:45.152Z",
           "updated_at": "2021-10-03T11:54:05.999Z",
           "private": null
+        },
+        {
+          "id": 155,
+          "url": "https://github.com/sezanzeb/input-remapper",
+          "description": "An easy to use tool to change the mapping of your input device buttons.\nSupports mice, keyboards, gamepads, X11, Wayland, combined buttons and programmable macros.\nAllows mapping non-keyboard events (click, joystick, wheel) to keys of keyboard devices. ",
+          "publish_on_social": false,
+          "published_at": "2022-02-15T11:45:23.695Z",
+          "created_at": "2022-02-15T11:45:21.520Z",
+          "updated_at": "2022-02-15T11:45:23.728Z",
+          "private": false
         }
       ],
       "notes": []
