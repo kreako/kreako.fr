@@ -5502,6 +5502,16 @@
           "private": false
         },
         {
+          "id": 157,
+          "url": "https://github.com/ezrosent/frawk",
+          "description": "frawk is a small programming language for writing short programs processing textual data. To a first approximation, it is an implementation of the AWK language; many common Awk programs produce equivalent output when passed to frawk. You might be interested in frawk if you want your scripts to handle escaped CSV/TSV like standard Awk fields, or if you want your scripts to execute faster.",
+          "publish_on_social": false,
+          "published_at": "2022-02-16T16:01:21.069Z",
+          "created_at": "2022-02-16T16:01:17.939Z",
+          "updated_at": "2022-02-16T16:01:21.253Z",
+          "private": false
+        },
+        {
           "id": 63,
           "url": "https://tailwindcomponents.com/",
           "description": " A free repository for community components using TailwindCSS\n\nOpen source Tailwind UI components and templates to bootstrap your new apps, projects or landing sites!",
@@ -7213,6 +7223,16 @@
           "published_at": "2022-01-25T00:19:04.152Z",
           "created_at": "2022-01-25T00:19:01.725Z",
           "updated_at": "2022-01-25T00:19:04.218Z",
+          "private": false
+        },
+        {
+          "id": 157,
+          "url": "https://github.com/ezrosent/frawk",
+          "description": "frawk is a small programming language for writing short programs processing textual data. To a first approximation, it is an implementation of the AWK language; many common Awk programs produce equivalent output when passed to frawk. You might be interested in frawk if you want your scripts to handle escaped CSV/TSV like standard Awk fields, or if you want your scripts to execute faster.",
+          "publish_on_social": false,
+          "published_at": "2022-02-16T16:01:21.069Z",
+          "created_at": "2022-02-16T16:01:17.939Z",
+          "updated_at": "2022-02-16T16:01:21.253Z",
           "private": false
         },
         {
