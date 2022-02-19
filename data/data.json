@@ -231,33 +231,6 @@
       "kind": "note"
     },
     {
-      "id": "note-13",
-      "title": "How to cut/trim a video using ffmpeg",
-      "description": "## Cut with start position and duration\n\n```$ ffmpeg -i input.mp4 -ss 00:05:20 -t 00:10:00 -c:v copy -c:a copy output1.mp4```\n\n```-t``` specifies the duration from the start position\n\n## Cut with start position and end position\n\n```$ ffmpeg -i input.mp4 -ss 00:05:10 -to 00:15:30 -c:v copy -c:a copy output2.mp4```\n\n```-to``` to specify an exact time to cut to from the starting position.\n\n## Trim duration from end of video\n\n```ffmpeg -sseof -00:10:00 -i input.mp4 -c copy output6.mp4```",
-      "publish_on_social": false,
-      "published_at": "2022-02-19T12:07:29.515Z",
-      "created_at": "2022-02-19T12:07:27.289Z",
-      "updated_at": "2022-02-19T12:07:29.575Z",
-      "private": false,
-      "tags": [
-        {
-          "id": 5,
-          "title": "english",
-          "published_at": "2021-09-29T21:22:59.595Z",
-          "created_at": "2021-09-29T21:22:41.440Z",
-          "updated_at": "2021-09-29T21:22:59.637Z"
-        },
-        {
-          "id": 10,
-          "title": "cli",
-          "published_at": "2021-10-04T15:00:32.782Z",
-          "created_at": "2021-10-04T15:00:30.614Z",
-          "updated_at": "2021-10-04T15:00:32.804Z"
-        }
-      ],
-      "kind": "note"
-    },
-    {
       "id": "note-11",
       "title": "node-postgres",
       "description": "Bug in node-postgres with a stupid date and timezone related behaviour.\nDetails at https://github.com/brianc/node-postgres/issues/818\n\nFix with :\n\n```javascript\nconst DATATYPE_DATE = 1082\npg.types.setTypeParser(DATATYPE_DATE, (val) => val)\nconst DATATYPE_TIMESTAMP = 1114\npg.types.setTypeParser(DATATYPE_TIMESTAMP,  (val) => val)\n```\n\n",
@@ -307,6 +280,33 @@
           "published_at": "2021-10-24T10:14:13.859Z",
           "created_at": "2021-10-24T10:14:11.951Z",
           "updated_at": "2021-10-24T10:14:13.921Z"
+        }
+      ],
+      "kind": "note"
+    },
+    {
+      "id": "note-13",
+      "title": "How to cut/trim a video using ffmpeg",
+      "description": "## Cut with start position and duration\n\n```$ ffmpeg -i input.mp4 -ss 00:03:17 -t 00:10:11 -c:v copy -c:a copy output.mp4```\n\n```-t``` specifies the duration from the start position\n\n## Cut with start position and end position\n\n```$ ffmpeg -i input.mp4 -ss 00:15:23 -to 00:17:32 -c:v copy -c:a copy output.mp4```\n\n```-to``` to specify an exact time to cut to from the starting position.\n\n## Trim duration from end of video\n\n```ffmpeg -sseof -00:12:00 -i input.mp4 -c copy output.mp4```",
+      "publish_on_social": false,
+      "published_at": "2022-02-19T12:07:29.515Z",
+      "created_at": "2022-02-19T12:07:27.289Z",
+      "updated_at": "2022-02-19T12:08:28.497Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 10,
+          "title": "cli",
+          "published_at": "2021-10-04T15:00:32.782Z",
+          "created_at": "2021-10-04T15:00:30.614Z",
+          "updated_at": "2021-10-04T15:00:32.804Z"
         }
       ],
       "kind": "note"
@@ -6343,11 +6343,11 @@
         {
           "id": 13,
           "title": "How to cut/trim a video using ffmpeg",
-          "description": "## Cut with start position and duration\n\n```$ ffmpeg -i input.mp4 -ss 00:05:20 -t 00:10:00 -c:v copy -c:a copy output1.mp4```\n\n```-t``` specifies the duration from the start position\n\n## Cut with start position and end position\n\n```$ ffmpeg -i input.mp4 -ss 00:05:10 -to 00:15:30 -c:v copy -c:a copy output2.mp4```\n\n```-to``` to specify an exact time to cut to from the starting position.\n\n## Trim duration from end of video\n\n```ffmpeg -sseof -00:10:00 -i input.mp4 -c copy output6.mp4```",
+          "description": "## Cut with start position and duration\n\n```$ ffmpeg -i input.mp4 -ss 00:03:17 -t 00:10:11 -c:v copy -c:a copy output.mp4```\n\n```-t``` specifies the duration from the start position\n\n## Cut with start position and end position\n\n```$ ffmpeg -i input.mp4 -ss 00:15:23 -to 00:17:32 -c:v copy -c:a copy output.mp4```\n\n```-to``` to specify an exact time to cut to from the starting position.\n\n## Trim duration from end of video\n\n```ffmpeg -sseof -00:12:00 -i input.mp4 -c copy output.mp4```",
           "publish_on_social": false,
           "published_at": "2022-02-19T12:07:29.515Z",
           "created_at": "2022-02-19T12:07:27.289Z",
-          "updated_at": "2022-02-19T12:07:29.575Z",
+          "updated_at": "2022-02-19T12:08:28.497Z",
           "private": false
         }
       ]
@@ -7076,11 +7076,11 @@
         {
           "id": 13,
           "title": "How to cut/trim a video using ffmpeg",
-          "description": "## Cut with start position and duration\n\n```$ ffmpeg -i input.mp4 -ss 00:05:20 -t 00:10:00 -c:v copy -c:a copy output1.mp4```\n\n```-t``` specifies the duration from the start position\n\n## Cut with start position and end position\n\n```$ ffmpeg -i input.mp4 -ss 00:05:10 -to 00:15:30 -c:v copy -c:a copy output2.mp4```\n\n```-to``` to specify an exact time to cut to from the starting position.\n\n## Trim duration from end of video\n\n```ffmpeg -sseof -00:10:00 -i input.mp4 -c copy output6.mp4```",
+          "description": "## Cut with start position and duration\n\n```$ ffmpeg -i input.mp4 -ss 00:03:17 -t 00:10:11 -c:v copy -c:a copy output.mp4```\n\n```-t``` specifies the duration from the start position\n\n## Cut with start position and end position\n\n```$ ffmpeg -i input.mp4 -ss 00:15:23 -to 00:17:32 -c:v copy -c:a copy output.mp4```\n\n```-to``` to specify an exact time to cut to from the starting position.\n\n## Trim duration from end of video\n\n```ffmpeg -sseof -00:12:00 -i input.mp4 -c copy output.mp4```",
           "publish_on_social": false,
           "published_at": "2022-02-19T12:07:29.515Z",
           "created_at": "2022-02-19T12:07:27.289Z",
-          "updated_at": "2022-02-19T12:07:29.575Z",
+          "updated_at": "2022-02-19T12:08:28.497Z",
           "private": false
         }
       ]
