@@ -5999,6 +5999,16 @@
           "private": false
         },
         {
+          "id": 160,
+          "url": "https://github.com/RobertCraigie/prisma-client-py",
+          "description": " Prisma Python is an auto-generated and fully type-safe database client providing a simplistic yet extremely powerful API ",
+          "publish_on_social": false,
+          "published_at": "2022-02-22T11:25:05.934Z",
+          "created_at": "2022-02-22T11:25:03.657Z",
+          "updated_at": "2022-02-22T11:25:05.973Z",
+          "private": false
+        },
+        {
           "id": 128,
           "url": "https://github.com/builderio/partytown",
           "description": "Relocate resource intensive third-party scripts off of the main thread and into a web worker.",
@@ -6889,6 +6899,16 @@
           "published_at": "2022-01-13T17:53:16.772Z",
           "created_at": "2022-01-13T17:53:14.581Z",
           "updated_at": "2022-01-13T17:53:16.793Z",
+          "private": false
+        },
+        {
+          "id": 160,
+          "url": "https://github.com/RobertCraigie/prisma-client-py",
+          "description": " Prisma Python is an auto-generated and fully type-safe database client providing a simplistic yet extremely powerful API ",
+          "publish_on_social": false,
+          "published_at": "2022-02-22T11:25:05.934Z",
+          "created_at": "2022-02-22T11:25:03.657Z",
+          "updated_at": "2022-02-22T11:25:05.973Z",
           "private": false
         },
         {
