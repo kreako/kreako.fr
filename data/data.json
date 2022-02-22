@@ -5439,6 +5439,16 @@
           "private": false
         },
         {
+          "id": 161,
+          "url": "https://www.interdb.jp/pg/",
+          "description": "The Internals of PostgreSQL, with :\n\n\n- Chapter 1. Database Cluster, Databases and Tables\n- Chapter 2. Process and Memory Architecture\n- Chapter 3. Query Processing\n- Chapter 4. Foreign Data Wrappers (FDW) and Parallel Query\n- Chapter 5. Concurrency Control\n- Chapter 6. VACUUM Processing\n- Chapter 7. Heap Only Tuple (HOT) and Index-Only Scans\n- Chapter 8. Buffer Manager\n- Chapter 9. Write Ahead Logging (WAL)\n- Chapter 10. Base Backup and Point-In-Time Recovery (PITR)\n- Chapter 11. Streaming Replication\n",
+          "publish_on_social": false,
+          "published_at": "2022-02-22T11:27:19.492Z",
+          "created_at": "2022-02-22T11:27:17.348Z",
+          "updated_at": "2022-02-22T11:27:19.553Z",
+          "private": false
+        },
+        {
           "id": 126,
           "url": "https://greensock.com/get-started/",
           "description": " GSAP is a property manipulator\n\nAnimation ultimately boils down to changing property values many times per second, making something appear to move, fade, spin, etc. GSAP snags a starting value, an ending value and then interpolates between them 60 times per second. ",
@@ -7582,6 +7592,16 @@
       "created_at": "2021-11-17T19:11:52.440Z",
       "updated_at": "2021-11-17T19:11:54.523Z",
       "links": [
+        {
+          "id": 161,
+          "url": "https://www.interdb.jp/pg/",
+          "description": "The Internals of PostgreSQL, with :\n\n\n- Chapter 1. Database Cluster, Databases and Tables\n- Chapter 2. Process and Memory Architecture\n- Chapter 3. Query Processing\n- Chapter 4. Foreign Data Wrappers (FDW) and Parallel Query\n- Chapter 5. Concurrency Control\n- Chapter 6. VACUUM Processing\n- Chapter 7. Heap Only Tuple (HOT) and Index-Only Scans\n- Chapter 8. Buffer Manager\n- Chapter 9. Write Ahead Logging (WAL)\n- Chapter 10. Base Backup and Point-In-Time Recovery (PITR)\n- Chapter 11. Streaming Replication\n",
+          "publish_on_social": false,
+          "published_at": "2022-02-22T11:27:19.492Z",
+          "created_at": "2022-02-22T11:27:17.348Z",
+          "updated_at": "2022-02-22T11:27:19.553Z",
+          "private": false
+        },
         {
           "id": 139,
           "url": "https://github.com/AlexTatiyants/pev",
