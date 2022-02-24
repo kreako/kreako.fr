@@ -1,0 +1,58 @@
+---
+pane_frames: false
+template:
+  direction: Horizontal
+  parts:
+    - direction: Vertical
+      borderless: true
+      split_size:
+        Fixed: 1
+      run:
+        plugin:
+          location: "zellij:tab-bar"
+    - direction: Vertical
+      body: true
+    - direction: Vertical
+      borderless: true
+      split_size:
+        Fixed: 2
+      run:
+        plugin:
+          location: "zellij:status-bar"
+tabs:
+  - name: "Strapi"
+    run:
+      command:
+        cmd: "./.launch.expect"
+        args: ["cd kreako-strapi && npm run develop"]
+  - name: "Redis"
+    run:
+      command:
+        cmd: "./.launch.expect"
+        args: ["podman run --rm --name kreako-redis -p 6379:6379 redis"]
+  - name: "Webhook"
+    run:
+      command:
+        cmd: "./.launch.expect"
+        args:
+          ["cd webhook && . env/bin/activate && cd src && uvicorn main:app --reload --port 1338"]
+  - name: "Rq Worker"
+    run:
+      command:
+        cmd: "./.launch.expect"
+        args:
+          ["cd webhook && . env/bin/activate && cd src && sleep 5s && rq worker --with-scheduler"]
+  - name: "meilisearch"
+    run:
+      command:
+        cmd: "./.launch.expect"
+        args:
+          [
+            "podman run -it --rm -p 7700:7700 -v ./meilisearch/:/data.ms:z --name kreako-meilisearch getmeili/meilisearch",
+          ]
+  - name: "Next"
+    run:
+      command:
+        cmd: "./.launch.expect"
+        args: ["cd next && npm run dev"]
+  - name: "Utils"
