@@ -6,6 +6,7 @@ import requests
 import json
 import meilisearch
 from dotenv import load_dotenv
+import itertools
 
 
 load_dotenv()
@@ -40,6 +41,15 @@ def generate_data(data, fname):
         json.dump(data, f, indent=2)
 
 
+def chunked_iterable(iterable, size):
+    it = iter(iterable)
+    while True:
+        chunk = tuple(itertools.islice(it, size))
+        if not chunk:
+            break
+        yield chunk
+
+
 def index_data(data):
     client = meilisearch.Client("http://127.0.0.1:7700", apiKey=MEILI_PRIVATE_KEY)
     index = client.index("ressource")
@@ -49,8 +59,10 @@ def index_data(data):
     for link in data["links"]:
         link["id"] = f"link-{link['id']}"
         link["kind"] = "link"
-    index.add_documents(data["notes"])
-    index.add_documents(data["links"])
+    for notes in chunked_iterable(data["notes"], 5):
+        index.add_documents(notes)
+    for links in chunked_iterable(data["links"], 5):
+        index.add_documents(links)
 
 
 def build(body):
