@@ -27,7 +27,7 @@ MEILI_PRIVATE_KEY = os.getenv("MEILI_PRIVATE_KEY")
 
 def get_data():
     def endpoint(e):
-        return f"{API_ENDPOINT}/{e}"
+        return f"{API_ENDPOINT}/{e}?_limit=-1"
 
     notes = requests.get(endpoint("notes")).json()
     links = requests.get(endpoint("links")).json()
