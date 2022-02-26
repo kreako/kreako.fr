@@ -5247,6 +5247,33 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-165",
+      "url": "https://github.com/zestyping/q",
+      "description": " Quick and dirty debugging output for tired programmers.\n\n",
+      "publish_on_social": false,
+      "published_at": "2022-02-26T19:22:37.002Z",
+      "created_at": "2022-02-26T19:22:34.958Z",
+      "updated_at": "2022-02-26T19:22:37.040Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 9,
+          "title": "python",
+          "published_at": "2021-10-03T11:53:54.883Z",
+          "created_at": "2021-10-03T11:53:53.267Z",
+          "updated_at": "2021-10-03T11:53:54.919Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -7301,6 +7328,16 @@
           "private": false
         },
         {
+          "id": 165,
+          "url": "https://github.com/zestyping/q",
+          "description": " Quick and dirty debugging output for tired programmers.\n\n",
+          "publish_on_social": false,
+          "published_at": "2022-02-26T19:22:37.002Z",
+          "created_at": "2022-02-26T19:22:34.958Z",
+          "updated_at": "2022-02-26T19:22:37.040Z",
+          "private": false
+        },
+        {
           "id": 138,
           "url": "https://github.com/debauchee/barrier",
           "description": "Open-source KVM software \nSynergy fork ",
@@ -8931,6 +8968,16 @@
           "published_at": "2022-02-15T11:45:23.695Z",
           "created_at": "2022-02-15T11:45:21.520Z",
           "updated_at": "2022-02-15T11:45:23.728Z",
+          "private": false
+        },
+        {
+          "id": 165,
+          "url": "https://github.com/zestyping/q",
+          "description": " Quick and dirty debugging output for tired programmers.\n\n",
+          "publish_on_social": false,
+          "published_at": "2022-02-26T19:22:37.002Z",
+          "created_at": "2022-02-26T19:22:34.958Z",
+          "updated_at": "2022-02-26T19:22:37.040Z",
           "private": false
         }
       ],
