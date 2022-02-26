@@ -4678,6 +4678,16 @@
           "private": null
         },
         {
+          "id": 162,
+          "url": "https://inkstitch.org/",
+          "description": "An open-source machine embroidery design platform based on Inkscape.",
+          "publish_on_social": false,
+          "published_at": "2022-02-26T12:06:10.080Z",
+          "created_at": "2022-02-26T12:06:08.125Z",
+          "updated_at": "2022-02-26T12:06:10.148Z",
+          "private": false
+        },
+        {
           "id": 31,
           "url": "https://dev.to/masakudamatsu/favicon-nightmare-how-to-maintain-sanity-3al7",
           "description": "#  Definitive edition of \"How to Favicon in 2021\" \n\n## TL;DR\n\nIn the <head> element of your HTML document, insert\n\n```html\n<link rel=\"icon\" href=\"favicon.svg\" type=\"image/svg+xml\">\n<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\"/>\n<link rel=\"manifest\" href=\"/site.webmanifest\" />\n```\n\nwhere site.webmanifest is a JSON file with the content like this:\n\n```json\n{\n    \"name\": \"Your website name\",\n    \"short_name\": \"A shorter version of your website name\",\n    \"icons\": [\n        {\n            \"src\": \"/android-chrome-192x192.png\",\n            \"sizes\": \"192x192\",\n            \"type\": \"image/png\"\n        },\n        {\n            \"src\": \"/android-chrome-512x512.png\",\n            \"sizes\": \"512x512\",\n            \"type\": \"image/png\"\n        }\n    ],\n    \"theme_color\": \"#4a4a4a\",\n    \"background_color\": \"#4a4a4a\",\n    \"display\": \"standalone\"\n}\n```\n\nChange the values of \"theme_color\" and \"background_color\" to your favicon design specification\n\nThen create a favicon in the SVG format.\n\nConvert this SVG image into favicon.ico, apple-touch-icon.png, android-chrome-192x192.png, and android-chrome-512x512.png with RealFaviconGenerator.\n\nFinally, make sure that the favicon.ico file is named as it is (don't change it) and saved in the root directory. (Otherwise MacOS Safari and IE won't recognize the favicon.)\n\nThat's all! :-)",
@@ -5146,6 +5156,16 @@
           "published_at": "2021-11-11T20:12:03.488Z",
           "created_at": "2021-11-11T20:12:00.963Z",
           "updated_at": "2021-11-11T20:12:03.523Z",
+          "private": false
+        },
+        {
+          "id": 162,
+          "url": "https://inkstitch.org/",
+          "description": "An open-source machine embroidery design platform based on Inkscape.",
+          "publish_on_social": false,
+          "published_at": "2022-02-26T12:06:10.080Z",
+          "created_at": "2022-02-26T12:06:08.125Z",
+          "updated_at": "2022-02-26T12:06:10.148Z",
           "private": false
         },
         {
