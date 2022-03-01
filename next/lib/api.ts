@@ -5,6 +5,7 @@ export type TagType = {
   id: number
   created_at: string
   title: string
+  slug: string
   links: LinkType[]
   notes: NoteType[]
 }
@@ -41,6 +42,14 @@ export type ContentType =
 
 const BASE_URL = "http://127.0.0.1:1337"
 
+const addSlugToTags = (contents: LinkType[] | NoteType[]) => {
+  for (const content of contents) {
+    for (const tag of content.tags) {
+      tag.slug = slugify(tag.title)
+    }
+  }
+}
+
 export const fetchLinks = async (): Promise<LinkType[]> => {
   const response = await fetch(`${BASE_URL}/links?_sort=created_at:DESC&_limit=-1`)
   let links: LinkType[] = await response.json()
@@ -50,6 +59,8 @@ export const fetchLinks = async (): Promise<LinkType[]> => {
   links.forEach((l) => {
     l.slug = slugify(l.url.replace("https://", "").replace("www.", ""))
   })
+  // slug to tags
+  addSlugToTags(links)
   return links
 }
 
@@ -62,6 +73,8 @@ export const fetchNotes = async (): Promise<NoteType[]> => {
   notes.forEach((n) => {
     n.slug = slugify(n.title)
   })
+  // slug to notes
+  addSlugToTags(notes)
   return notes
 }
 
