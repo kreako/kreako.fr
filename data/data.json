@@ -5403,6 +5403,33 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-171",
+      "url": "https://github.com/teenjuna/prae",
+      "description": "This crate provides a convenient macro that allows you to generate type wrappers that promise to always uphold arbitrary invariants that you specified. ",
+      "publish_on_social": false,
+      "published_at": "2022-03-04T19:54:16.691Z",
+      "created_at": "2022-03-04T19:53:43.480Z",
+      "updated_at": "2022-03-04T19:54:16.705Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 13,
+          "title": "rust",
+          "published_at": "2021-10-17T12:10:49.151Z",
+          "created_at": "2021-10-17T12:10:46.859Z",
+          "updated_at": "2021-10-17T12:10:49.181Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -7174,6 +7201,16 @@
           "published_at": "2021-11-17T19:12:19.335Z",
           "created_at": "2021-11-11T20:14:49.523Z",
           "updated_at": "2021-11-17T19:12:19.385Z",
+          "private": false
+        },
+        {
+          "id": 171,
+          "url": "https://github.com/teenjuna/prae",
+          "description": "This crate provides a convenient macro that allows you to generate type wrappers that promise to always uphold arbitrary invariants that you specified. ",
+          "publish_on_social": false,
+          "published_at": "2022-03-04T19:54:16.691Z",
+          "created_at": "2022-03-04T19:53:43.480Z",
+          "updated_at": "2022-03-04T19:54:16.705Z",
           "private": false
         },
         {
@@ -9538,6 +9575,16 @@
           "published_at": "2022-02-18T11:58:26.048Z",
           "created_at": "2022-02-18T11:58:23.512Z",
           "updated_at": "2022-02-18T11:58:26.109Z",
+          "private": false
+        },
+        {
+          "id": 171,
+          "url": "https://github.com/teenjuna/prae",
+          "description": "This crate provides a convenient macro that allows you to generate type wrappers that promise to always uphold arbitrary invariants that you specified. ",
+          "publish_on_social": false,
+          "published_at": "2022-03-04T19:54:16.691Z",
+          "created_at": "2022-03-04T19:53:43.480Z",
+          "updated_at": "2022-03-04T19:54:16.705Z",
           "private": false
         },
         {
