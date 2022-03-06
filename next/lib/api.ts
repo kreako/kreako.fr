@@ -1,5 +1,4 @@
 import slugify from "slugify"
-import { markdownToHtml } from "./markdown"
 
 export type TagType = {
   id: number
@@ -8,10 +7,6 @@ export type TagType = {
   slug: string
   links: LinkType[]
   notes: NoteType[]
-}
-
-type MarkdownHtml = {
-  __html: string
 }
 
 export type LinkType = {
