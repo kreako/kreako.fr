@@ -5452,6 +5452,33 @@
       "kind": "link"
     },
     {
+      "id": "link-175",
+      "url": "https://crates.io/crates/tap",
+      "description": "Suffix-Position Pipeline Behavior\n\nThis crate provides extension methods on all types that allow transparent, temporary, inspection/mutation (tapping), transformation (piping), or type conversion. These methods make it convenient for you to insert debugging or modification points into an expression without requiring you to change any other portions of your code.",
+      "publish_on_social": false,
+      "published_at": "2022-03-06T22:38:15.611Z",
+      "created_at": "2022-03-06T22:38:13.816Z",
+      "updated_at": "2022-03-06T22:38:15.651Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 13,
+          "title": "rust",
+          "published_at": "2021-10-17T12:10:49.151Z",
+          "created_at": "2021-10-17T12:10:46.859Z",
+          "updated_at": "2021-10-17T12:10:49.181Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
+    },
+    {
       "id": "link-172",
       "url": "https://secure-system.gitlab.io/Insular/",
       "description": "\u201cInsular\u201d is a sandbox environment to clone selected apps and isolate them from accessing your personal data outside the sandbox (including call logs, contacts, photos and etc) even if related permissions are granted. Device-bound data (SMS, IMEI and etc) is still accessible.\n\nIsolated app can be frozen on demand, with launcher icon vanish and its background behaviors completely blocked.\n\nInsular takes advantage of the \u201cmanaged profile\u201d feature on Android 5.0+, which is also the base of \u201cAndroid for Work\u201d, to create an isolated sandbox for apps with their data.",
@@ -8561,6 +8588,16 @@
           "private": false
         },
         {
+          "id": 175,
+          "url": "https://crates.io/crates/tap",
+          "description": "Suffix-Position Pipeline Behavior\n\nThis crate provides extension methods on all types that allow transparent, temporary, inspection/mutation (tapping), transformation (piping), or type conversion. These methods make it convenient for you to insert debugging or modification points into an expression without requiring you to change any other portions of your code.",
+          "publish_on_social": false,
+          "published_at": "2022-03-06T22:38:15.611Z",
+          "created_at": "2022-03-06T22:38:13.816Z",
+          "updated_at": "2022-03-06T22:38:15.651Z",
+          "private": false
+        },
+        {
           "id": 109,
           "url": "https://www.speedscope.app/",
           "description": "interactive flamegraph visualizer",
@@ -9842,6 +9879,16 @@
           "published_at": "2022-01-05T19:58:12.185Z",
           "created_at": "2022-01-05T19:58:09.394Z",
           "updated_at": "2022-01-05T19:58:12.220Z",
+          "private": false
+        },
+        {
+          "id": 175,
+          "url": "https://crates.io/crates/tap",
+          "description": "Suffix-Position Pipeline Behavior\n\nThis crate provides extension methods on all types that allow transparent, temporary, inspection/mutation (tapping), transformation (piping), or type conversion. These methods make it convenient for you to insert debugging or modification points into an expression without requiring you to change any other portions of your code.",
+          "publish_on_social": false,
+          "published_at": "2022-03-06T22:38:15.611Z",
+          "created_at": "2022-03-06T22:38:13.816Z",
+          "updated_at": "2022-03-06T22:38:15.651Z",
           "private": false
         }
       ],
