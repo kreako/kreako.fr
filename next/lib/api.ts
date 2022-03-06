@@ -48,6 +48,9 @@ const addSlugToTags = (contents: LinkType[] | NoteType[]) => {
       tag.slug = slugify(tag.title)
     }
   }
+
+export const urlSlugify = (url: string): string => {
+  return slugify(url.replace("https://", "").replace("www.", ""))
 }
 
 export const fetchLinks = async (): Promise<LinkType[]> => {
@@ -57,7 +60,7 @@ export const fetchLinks = async (): Promise<LinkType[]> => {
   links = links.filter((l) => l.private !== true)
   // slug
   links.forEach((l) => {
-    l.slug = slugify(l.url.replace("https://", "").replace("www.", ""))
+    l.slug = urlSlugify(l.url)
   })
   // slug to tags
   addSlugToTags(links)
