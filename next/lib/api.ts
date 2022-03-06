@@ -44,10 +44,10 @@ const addSlugToTagsContents = (contents: LinkType[] | NoteType[]) => {
 }
 
 const addSlugToTagsContent = (content: LinkType | NoteType) => {
-    for (const tag of content.tags) {
-      tag.slug = slugify(tag.title)
-    }
+  for (const tag of content.tags) {
+    tag.slug = slugify(tag.title)
   }
+}
 
 export const urlSlugify = (url: string): string => {
   return slugify(url.replace("https://", "").replace("www.", ""))
@@ -79,6 +79,20 @@ export const fetchNotes = async (): Promise<NoteType[]> => {
   // slug to notes
   addSlugToTagsContents(notes)
   return notes
+}
+
+export const fetchNote = async (id: number): Promise<NoteType | null> => {
+  const response = await fetch(`${BASE_URL}/notes/${id}`)
+  let note: NoteType = await response.json()
+  // Filter out private
+  if (note.private) {
+    return null
+  }
+  // slug
+  note.slug = slugify(note.title)
+  // slug to notes
+  addSlugToTagsContent(note)
+  return note
 }
 
 export const fetchTags = async (): Promise<TagType[]> => {
