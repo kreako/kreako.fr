@@ -22,7 +22,8 @@
     "remark-parse": "^10.0.1",
     "remark-rehype": "^10.1.0",
     "slugify": "^1.6.5",
-    "unified": "^10.1.1"
+    "unified": "^10.1.1",
+    "usehooks-ts": "^2.4.2"
   },
   "devDependencies": {
     "@types/node": "17.0.21",
