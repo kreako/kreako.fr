@@ -1,3 +1,4 @@
+import Head from "next/head"
 import Link from "next/link"
 import ContentLink from "../../../components/Link"
 import ContentNote from "../../../components/Note"
@@ -32,24 +33,32 @@ type ArchiveProps = {
 
 export default function Archive({ contents, current, previous, next }: ArchiveProps) {
   return (
-    <div>
-      <div className="mt-2 text-lg">
-        Archive of {current.year}/{current.month}
+    <>
+      <Head>
+        <title>
+          Archive {current.year}/{current.month} - kreako
+        </title>
+        <meta name="description" content="blog page of kreako.fr" />
+      </Head>
+      <div>
+        <div className="mt-2 text-lg">
+          Archive of {current.year}/{current.month}
+        </div>
+        <div className="mt-8">
+          {contents.map((c) => {
+            if (c.kind === "link") {
+              return <ContentLink link={c.link} key={c.id} />
+            } else {
+              return <ContentNote note={c.note} key={c.id} />
+            }
+          })}
+        </div>
+        <div className="flex flex-row space-x-2">
+          <PaginationButton label="previous" month={previous} />
+          <PaginationButton label="next" month={next} />
+        </div>
       </div>
-      <div className="mt-8">
-        {contents.map((c) => {
-          if (c.kind === "link") {
-            return <ContentLink link={c.link} key={c.id} />
-          } else {
-            return <ContentNote note={c.note} key={c.id} />
-          }
-        })}
-      </div>
-      <div className="flex flex-row space-x-2">
-        <PaginationButton label="previous" month={previous} />
-        <PaginationButton label="next" month={next} />
-      </div>
-    </div>
+    </>
   )
 }
 

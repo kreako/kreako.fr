@@ -1,4 +1,5 @@
 import { useThrottleCallback } from "@react-hook/throttle"
+import Head from "next/head"
 import Link from "next/link"
 import { useRouter } from "next/router"
 import { ChangeEvent, useEffect, useState } from "react"
@@ -132,26 +133,32 @@ export default function Search() {
   }, [query, first, updateSearch])
 
   return (
-    <section className="px-2 mt-8">
-      {query === "" ? <h1>No filter</h1> : <h1>Filter for {query}</h1>}
-      <input
-        type="text"
-        value={query}
-        onChange={onQueryChange}
-        className="w-full mt-1 block rounded-md border-gray-300 shadow-sm focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50"
-      />
-      {results && (
-        <div className="mt-4 grid grid-cols-3 gap-4">
-          {results.map((c) => {
-            if (c.kind === "link") {
-              return <LinkPreview link={c} key={c.id} />
-            } else {
-              return <NotePreview note={c} key={c.id} />
-            }
-          })}
-        </div>
-      )}
-    </section>
+    <>
+      <Head>
+        <title>search - kreako</title>
+        <meta name="description" content="search page of kreako.fr" />
+      </Head>
+      <section className="px-2 mt-8">
+        {query === "" ? <h1>No filter</h1> : <h1>Filter for {query}</h1>}
+        <input
+          type="text"
+          value={query}
+          onChange={onQueryChange}
+          className="w-full mt-1 block rounded-md border-gray-300 shadow-sm focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50"
+        />
+        {results && (
+          <div className="mt-4 grid grid-cols-3 gap-4">
+            {results.map((c) => {
+              if (c.kind === "link") {
+                return <LinkPreview link={c} key={c.id} />
+              } else {
+                return <NotePreview note={c} key={c.id} />
+              }
+            })}
+          </div>
+        )}
+      </section>
+    </>
   )
 }
 

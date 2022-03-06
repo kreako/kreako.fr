@@ -1,3 +1,4 @@
+import Head from "next/head"
 import slugify from "slugify"
 import Tags from "../../../components/tags"
 import { IconNote } from "../../../icons/icon-note"
@@ -9,15 +10,21 @@ type NoteProps = {
 
 export default function Note({ note }: NoteProps) {
   return (
-    <div className="mt-4">
-      <div className="flex flex-row items-center space-x-4 text-sky-600">
-        <div className="font-bold flex-grow-0">{note.title}</div>
-        <IconNote />
-        <div className="text-right flex-grow text-xs">{note.created_at}</div>
+    <>
+      <Head>
+        <title>{note.title} - kreako</title>
+        <meta name="description" content="blog page of kreako.fr" />
+      </Head>
+      <div className="mt-4">
+        <div className="flex flex-row items-center space-x-4 text-sky-600">
+          <div className="font-bold flex-grow-0">{note.title}</div>
+          <IconNote />
+          <div className="text-right flex-grow text-xs">{note.created_at}</div>
+        </div>
+        <div dangerouslySetInnerHTML={{ __html: note.description }} className="prose" />
+        <Tags tags={note.tags} />
       </div>
-      <div dangerouslySetInnerHTML={{ __html: note.description }} className="prose" />
-      <Tags tags={note.tags} />
-    </div>
+    </>
   )
 }
 

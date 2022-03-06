@@ -8,9 +8,8 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>kreako - home</title>
+        <title>home - kreako</title>
         <meta name="description" content="home of kreako.fr" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <section className="flex flex-col items-center min-h-[18rem] md:min-h-[24rem] lg:min-h-[32rem]">

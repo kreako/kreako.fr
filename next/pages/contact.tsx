@@ -1,9 +1,14 @@
+import Head from "next/head"
 import { IconMail } from "../icons/icon-mail"
 import { IconPhone } from "../icons/icon-phone"
 
 export default function Contact() {
   return (
     <>
+      <Head>
+        <title>contact - kreako</title>
+        <meta name="description" content="contact page of kreako.fr" />
+      </Head>
       <section className="flex flex-col items-center min-h-[18rem] md:min-h-[24rem] lg:min-h-[32rem]">
         <div className="flex flex-col justify-center flex-grow items-center">
           <div className="grid grid-cols-1 gap-y-2 md:gap-y-4 lg:gap-y-6 mt-20 text-gray-900">
