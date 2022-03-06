@@ -37,8 +37,13 @@ export type ContentType =
 
 const BASE_URL = "http://127.0.0.1:1337"
 
-const addSlugToTags = (contents: LinkType[] | NoteType[]) => {
+const addSlugToTagsContents = (contents: LinkType[] | NoteType[]) => {
   for (const content of contents) {
+    addSlugToTagsContent(content)
+  }
+}
+
+const addSlugToTagsContent = (content: LinkType | NoteType) => {
     for (const tag of content.tags) {
       tag.slug = slugify(tag.title)
     }
@@ -58,7 +63,7 @@ export const fetchLinks = async (): Promise<LinkType[]> => {
     l.slug = urlSlugify(l.url)
   })
   // slug to tags
-  addSlugToTags(links)
+  addSlugToTagsContents(links)
   return links
 }
 
@@ -72,7 +77,7 @@ export const fetchNotes = async (): Promise<NoteType[]> => {
     n.slug = slugify(n.title)
   })
   // slug to notes
-  addSlugToTags(notes)
+  addSlugToTagsContents(notes)
   return notes
 }
 
