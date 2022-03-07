@@ -373,6 +373,18 @@
       "kind": "note"
     },
     {
+      "id": "note-15",
+      "title": "mime type xdg-open/xdg-mime configuration file",
+      "description": "Get the mime type of the file :\n```\n$ file --mime-type -b my_beautiful_photo.png\nimage/png\n```\n\nWhat tool will xdg-open use and in which file this info is stored ?\n```\n$ XDG_UTILS_DEBUG_LEVEL=3 xdg-mime query default image/png\nChecking /home/user/.config/mimeapps.list\nChecking /home/user/.local/share/applications/mimeapps.list\nChecking /usr/share//applications/gnome-mimeapps.list\norg.gnome.eog.desktop\n```\n",
+      "publish_on_social": false,
+      "published_at": "2022-03-07T15:25:59.784Z",
+      "created_at": "2022-03-07T15:25:57.472Z",
+      "updated_at": "2022-03-07T15:25:59.833Z",
+      "private": false,
+      "tags": [],
+      "kind": "note"
+    },
+    {
       "id": "note-12",
       "title": "Change the date of the last git commit",
       "description": "git commit --amend --no-edit --date \"20220115T13:42:11\"",
