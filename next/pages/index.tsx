@@ -1,6 +1,7 @@
 import type { NextPage } from "next"
 import Head from "next/head"
 import ContactBlock from "../components/contact-block"
+import EmptyProjectCard from "../components/empty-project-card"
 import ProjectCard from "../components/project-card"
 import ProjectHashtag from "../components/project-hashtag"
 
@@ -87,6 +88,7 @@ const Home: NextPage = () => {
               </p>
             </div>
           </ProjectCard>
+          <EmptyProjectCard className="hidden lg:block" />
           <ProjectCard
             img="/projects/cleomacs.png"
             url="https://github.com/kreako/cleomacs"
@@ -105,6 +107,7 @@ const Home: NextPage = () => {
               </p>
             </div>
           </ProjectCard>
+          <EmptyProjectCard className="hidden lg:block" />
         </div>
       </section>
       <section className="mt-12">
