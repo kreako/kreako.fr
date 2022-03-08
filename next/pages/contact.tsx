@@ -12,21 +12,15 @@ export default function Contact() {
       <section className="flex flex-col items-center min-h-[18rem] md:min-h-[24rem] lg:min-h-[32rem] ">
         <div className="flex flex-col justify-center flex-grow items-center">
           <div className="grid grid-cols-1 gap-y-2 md:gap-y-4 lg:gap-y-6 mt-20 text-gray-900">
-            <div className="flex items-center space-x-2  mr-8">
-              <IconPhone />
-              <p className="text-2xl md:text-3xl">
-                <a className="font-bold" href="tel:+33698990069">
-                  +33 6 98 99 00 69
-                </a>
-              </p>
+            <div className="text-2xl md:text-3xl text-sky-600">
+              <a className="font-bold" href="tel:+33698990069">
+                +33 6 98 99 00 69
+              </a>
             </div>
-            <div className="flex items-center space-x-2 mt-6">
-              <IconMail />
-              <p className="text-2xl md:text-3xl">
-                <a className="font-bold" href="mailto:olivier@kreako.fr">
-                  olivier@kreako.fr
-                </a>
-              </p>
+            <div className="text-2xl md:text-3xl text-sky-600">
+              <a className="font-bold" href="mailto:olivier@kreako.fr">
+                olivier@kreako.fr
+              </a>
             </div>
           </div>
         </div>
