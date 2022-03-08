@@ -28,11 +28,11 @@ const Home: NextPage = () => {
         <ContactBlock />
       </section>
 
-      <section className="flex flex-col px-2 py-6 mt-12">
+      <section className="flex flex-col px-2 py-6 mt-12 items-center">
         <div className="uppercase tracking-wider font-bold text-sky-600 text-sm">
           Open-source projects
         </div>
-        <div className="grid justify-between grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:max-w-screen-md lg:max-w-screen-xl">
+        <div className="grid justify-between grid-cols-1 md:grid-cols-2 lg:grid-cols-3  md:max-w-screen-md lg:max-w-screen-xl gap-x-4">
           <ProjectCard
             img="/projects/soklaki.png"
             url="https://soklaki.fr"

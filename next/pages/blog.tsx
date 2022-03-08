@@ -17,7 +17,7 @@ export default function Blog({ contents, archiveLink }: BlogProps) {
         <title>blog - kreako</title>
         <meta name="description" content="blog page of kreako.fr" />
       </Head>
-      <div className="px-2 mt-8">
+      <div className="px-2 mt-8 max-w-3xl mx-auto">
         {contents.map((c) => {
           if (c.kind === "link") {
             return <ContentLink link={c.link} key={c.id} />
@@ -26,7 +26,7 @@ export default function Blog({ contents, archiveLink }: BlogProps) {
           }
         })}
       </div>
-      <div>
+      <div className="my-4 max-w-3xl mx-auto">
         <Link href={archiveLink}>
           <a className="text-sky-600">Archives</a>
         </Link>

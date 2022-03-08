@@ -138,7 +138,7 @@ export default function Search() {
         <title>search - kreako</title>
         <meta name="description" content="search page of kreako.fr" />
       </Head>
-      <section className="px-2 mt-8">
+      <section className="px-2 mt-8 max-w-3xl mx-auto">
         {query === "" ? <h1>No filter</h1> : <h1>Filter for {query}</h1>}
         <input
           type="text"
@@ -146,8 +146,10 @@ export default function Search() {
           onChange={onQueryChange}
           className="w-full mt-1 block rounded-md border-gray-300 shadow-sm focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50"
         />
+      </section>
+      <section className="px-2 mt-8">
         {results && (
-          <div className="mt-4 grid grid-cols-3 gap-4">
+          <div className="mt-4 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
             {results.map((c) => {
               if (c.kind === "link") {
                 return <LinkPreview link={c} key={c.id} />

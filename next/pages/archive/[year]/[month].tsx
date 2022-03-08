@@ -16,11 +16,11 @@ function PaginationButton({ label, month }: PaginationButtonProps) {
   if (month) {
     return (
       <Link href={`/archive/${month.year}/${month.month}`}>
-        <a className="bg-sky-600 text-white font-bold px-4 py-2 hover:bg-sky-400">{label}</a>
+        <a className="text-sky-600 font-bold hover:text-sky-400">{label}</a>
       </Link>
     )
   } else {
-    return <div className="bg-gray-100 text-gray-400 font-bold px-4 py-2">{label}</div>
+    return <div className="text-gray-400 font-bold">{label}</div>
   }
 }
 
@@ -40,8 +40,8 @@ export default function Archive({ contents, current, previous, next }: ArchivePr
         </title>
         <meta name="description" content="blog page of kreako.fr" />
       </Head>
-      <div>
-        <div className="mt-2 text-lg">
+      <div className="max-w-3xl mx-auto">
+        <div className="mt-4 text-xs text-sky-600 font-bold uppercase tracking-wide">
           Archive of {current.year}/{current.month}
         </div>
         <div className="mt-8">
@@ -53,7 +53,7 @@ export default function Archive({ contents, current, previous, next }: ArchivePr
             }
           })}
         </div>
-        <div className="flex flex-row space-x-2">
+        <div className="flex flex-row space-x-2 justify-center">
           <PaginationButton label="previous" month={previous} />
           <PaginationButton label="next" month={next} />
         </div>

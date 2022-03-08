@@ -15,7 +15,7 @@ export default function Note({ note }: NoteProps) {
         <title>{note.title} - kreako</title>
         <meta name="description" content="blog page of kreako.fr" />
       </Head>
-      <div className="mt-4">
+      <div className="mt-4 max-w-3xl mx-auto">
         <div className="flex flex-row items-center space-x-4 text-sky-600">
           <div className="font-bold flex-grow-0">{note.title}</div>
           <IconNote />
