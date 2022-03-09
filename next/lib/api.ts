@@ -1,4 +1,5 @@
 import slugify from "slugify"
+import { markdownToHtml } from "./markdown"
 
 export type TagType = {
   id: number
@@ -97,7 +98,30 @@ export const fetchNote = async (id: number): Promise<NoteType | null> => {
 
 export const fetchTags = async (): Promise<TagType[]> => {
   const response = await fetch(`${BASE_URL}/tags?_sort=title:ASC`)
-  return await response.json()
+  const tags: TagType[] = await response.json()
+  for (const tag of tags) {
+    tag.slug = slugify(tag.title)
+  }
+  return tags
+}
+
+export const fetchTag = async (id: number): Promise<TagType> => {
+  const response = await fetch(`${BASE_URL}/tags/${id}`)
+  let tag: TagType = await response.json()
+  // tag slug
+  tag.slug = slugify(tag.title)
+  // filter private
+  tag.links = tag.links.filter((l) => l.private !== true)
+  tag.notes = tag.notes.filter((n) => n.private !== true)
+  // markdown and slug
+  for (const link of tag.links) {
+    link.description = await markdownToHtml(link.description)
+  }
+  for (const note of tag.notes) {
+    note.description = await markdownToHtml(note.description)
+    note.slug = slugify(note.title)
+  }
+  return tag
 }
 
 export const fetchBlogContent = async (): Promise<ContentType[]> => {
