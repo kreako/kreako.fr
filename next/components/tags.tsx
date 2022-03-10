@@ -5,7 +5,7 @@ export default function Tags({ tags }: { tags: TagType[] }) {
   return (
     <div className="flex flex-row space-x-2 justify-end text-sm text-sky-600">
       {tags.map((tag) => (
-        <Link key={tag.id} href={`/tag-${tag.slug}`}>
+        <Link key={tag.id} href={`/tag/${tag.slug}/${tag.id}`}>
           <a>#{tag.title}</a>
         </Link>
       ))}
