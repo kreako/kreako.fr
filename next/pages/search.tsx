@@ -1,16 +1,15 @@
 import { useThrottleCallback } from "@react-hook/throttle"
 import Head from "next/head"
-import Link from "next/link"
 import { useRouter } from "next/router"
 import { ChangeEvent, useEffect, useState } from "react"
 import slugify from "slugify"
-import { IconLink } from "../icons/icon-link"
-import { IconNote } from "../icons/icon-note"
+import LinkPreview from "../components/link-preview"
+import NotePreview from "../components/note-preview"
 import { TagType, urlSlugify } from "../lib/api"
 import { markdownToHtml } from "../lib/markdown"
 
-type ContentType = LinkType | NoteType
-type LinkType = {
+export type SearchContentType = SearchLinkType | SearchNoteType
+export type SearchLinkType = {
   id: string
   url: string
   slug: string
@@ -21,7 +20,7 @@ type LinkType = {
   private: boolean
   kind: "link"
 }
-type NoteType = {
+export type SearchNoteType = {
   id: string
   title: string
   slug: string
@@ -35,7 +34,7 @@ type NoteType = {
 
 // Search a term with meilisearch rest api
 // See ref here : https://docs.meilisearch.com/reference/api/search.html
-async function meilisearch(term: string): Promise<ContentType[]> {
+async function meilisearch(term: string): Promise<SearchContentType[]> {
   const meiliUrl =
     process.env.NODE_ENV === "development"
       ? "http://127.0.0.1:7700/indexes/ressource/search"
@@ -56,7 +55,9 @@ async function meilisearch(term: string): Promise<ContentType[]> {
   const res = await fetch(request, init)
   const jsonres = await res.json()
   // Get contents and filter private out
-  const contents: ContentType[] = jsonres.hits.filter((c: ContentType) => c.private !== true)
+  const contents: SearchContentType[] = jsonres.hits.filter(
+    (c: SearchContentType) => c.private !== true
+  )
   for (const content of contents) {
     // markdown
     content.description = await markdownToHtml(content.description)
@@ -70,9 +71,9 @@ async function meilisearch(term: string): Promise<ContentType[]> {
   return contents
 }
 
-const useUpdateSearch = (): [ContentType[] | null, (query: string) => void] => {
+const useUpdateSearch = (): [SearchContentType[] | null, (query: string) => void] => {
   // Results of the request
-  const [results, setResults] = useState<ContentType[] | null>(null)
+  const [results, setResults] = useState<SearchContentType[] | null>(null)
   // Store the last query that I launched so I don't fetch it twice if this is the same
   const [lastQuery, setLastQuery] = useState<string | null>(null)
 
@@ -154,43 +155,12 @@ export default function Search() {
               if (c.kind === "link") {
                 return <LinkPreview link={c} key={c.id} />
               } else {
-                return <NotePreview note={c} key={c.id} />
+                return <NotePreview id={parseInt(c.id.slice(5))} note={c} key={c.id} />
               }
             })}
           </div>
         )}
       </section>
     </>
-  )
-}
-
-function LinkPreview({ link }: { link: LinkType }) {
-  return (
-    <a href={link.url}>
-      <div className="h-40 p-2 overflow-hidden shadow-md">
-        <div className="flex space-x-2 items-center text-sky-600  hover:text-sky-800 ">
-          <div className="font-bold">{link.url}</div>
-          <IconLink />
-        </div>
-        <div dangerouslySetInnerHTML={{ __html: link.description }} className="prose mt-2" />
-      </div>
-    </a>
-  )
-}
-
-function NotePreview({ note }: { note: NoteType }) {
-  const id = note.id.slice(5)
-  return (
-    <Link href={`/note/${note.slug}/${id}`}>
-      <a>
-        <div className="h-40 p-2 overflow-hidden shadow-md">
-          <div className="flex space-x-2 items-center text-sky-600  hover:text-sky-800 ">
-            <div className="font-bold">{note.title}</div>
-            <IconNote />
-          </div>
-          <div dangerouslySetInnerHTML={{ __html: note.description }} className="prose mt-2" />
-        </div>
-      </a>
-    </Link>
   )
 }
