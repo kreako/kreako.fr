@@ -1,5 +1,5 @@
-import Image from "next/image"
 import Link from "next/link"
+import avatar from "../images/avatar.png?resize&size=48"
 
 export default function Header() {
   return (
@@ -8,8 +8,8 @@ export default function Header() {
         <div className="ml-2 my-2 flex-none">
           <Link href="/">
             <a>
-              <Image
-                src="/avatar.png"
+              <img
+                src={avatar}
                 alt="Avatar"
                 width={48}
                 height={48}

@@ -4,6 +4,10 @@ import ContactBlock from "../components/contact-block"
 import EmptyProjectCard from "../components/empty-project-card"
 import ProjectCard from "../components/project-card"
 import ProjectHashtag from "../components/project-hashtag"
+import imgSoklaki from "../images/projects/soklaki.png?resize&size=256"
+import imgTailwind from "../images/projects/tailwind.png?resize&size=256"
+import imgBlog from "../images/projects/blog.png?resize&size=256"
+import imgCleomacs from "../images/projects/cleomacs.png?resize&size=256"
 
 const Home: NextPage = () => {
   return (
@@ -35,7 +39,7 @@ const Home: NextPage = () => {
         </div>
         <div className="grid justify-between grid-cols-1 md:grid-cols-2 lg:grid-cols-3  md:max-w-screen-md lg:max-w-screen-xl gap-x-4">
           <ProjectCard
-            img="/projects/soklaki.png"
+            img={imgSoklaki}
             url="https://soklaki.fr"
             name="soklaki"
             github="https://github.com/kreako/soklaki"
@@ -58,7 +62,7 @@ const Home: NextPage = () => {
             </div>
           </ProjectCard>
           <ProjectCard
-            img="/projects/tailwind.png"
+            img={imgTailwind}
             url="https://github.com/kreako/inkscape-gimp-tailwindcss-palette"
             name="Tailwindcss palette"
             github="https://github.com/kreako/inkscape-gimp-tailwindcss-palette"
@@ -71,7 +75,7 @@ const Home: NextPage = () => {
             </div>
           </ProjectCard>
           <ProjectCard
-            img="/projects/blog.png"
+            img={imgBlog}
             url="https://kreako.fr/blog"
             name="Blog"
             github="https://github.com/kreako/kreako.fr"
@@ -90,7 +94,7 @@ const Home: NextPage = () => {
           </ProjectCard>
           <EmptyProjectCard className="hidden lg:block" />
           <ProjectCard
-            img="/projects/cleomacs.png"
+            img={imgCleomacs}
             url="https://github.com/kreako/cleomacs"
             name="Cleomacs"
             github="https://github.com/kreako/cleomacs"

@@ -1,9 +1,8 @@
-import Image from "next/image"
 import { ReactNode } from "react"
 import IconGithub from "../icons/icon-github"
 
 type ProjectCardProps = {
-  img: string
+  img: any
   name: string
   url: string
   github: string
@@ -21,14 +20,8 @@ export default function ProjectCard({ img, name, url, github, children }: Projec
           <IconGithub />
         </a>
       </div>
-      <a href={url} className="grid items-center justify-center rounded-md relative w-40 h-20 mt-4">
-        <Image
-          src={img}
-          alt={`Screenshot of ${name}`}
-          width={320}
-          layout="fill"
-          objectFit="contain"
-        />
+      <a href={url} className="grid items-center justify-center rounded-md relative w-64 h-32 mt-4">
+        <img src={img} alt={`Screenshot of ${name}`} />
       </a>
 
       <div className="mt-8 text-white">{children}</div>
