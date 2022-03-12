@@ -3,11 +3,12 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from redis import Redis
 from rq import Queue
-import astro
+import nextjs
 
 app = FastAPI()
 
-DataT = TypeVar('DataT')
+DataT = TypeVar("DataT")
+
 
 class Body(BaseModel):
     event: str
@@ -20,5 +21,5 @@ class Body(BaseModel):
 @app.post("/")
 async def root(body: Body):
     q = Queue(connection=Redis())
-    q.enqueue(astro.build, body)
+    q.enqueue(nextjs.build, body)
     return {"message": "Hello World"}
