@@ -93,6 +93,8 @@ export const fetchNote = async (id: number): Promise<NoteType | null> => {
   note.slug = slugify(note.title)
   // slug to notes
   addSlugToTagsContent(note)
+  // markdown description
+  note.description = await markdownToHtml(note.description)
   return note
 }
 
