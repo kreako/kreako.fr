@@ -5583,6 +5583,33 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-178",
+      "url": "https://github.com/mdsteele/rust-cfb",
+      "description": "A Rust library for reading/writing Compound File Binary (structured storage) files",
+      "publish_on_social": false,
+      "published_at": "2022-03-14T12:26:07.749Z",
+      "created_at": "2022-03-14T12:26:05.806Z",
+      "updated_at": "2022-03-14T12:26:07.807Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 13,
+          "title": "rust",
+          "published_at": "2021-10-17T12:10:49.151Z",
+          "created_at": "2021-10-17T12:10:46.859Z",
+          "updated_at": "2021-10-17T12:10:49.181Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -5593,6 +5620,66 @@
       "created_at": "2021-09-29T21:01:48.486Z",
       "updated_at": "2021-09-29T21:01:51.167Z",
       "links": [
+        {
+          "id": 176,
+          "url": "https://github.com/alexfoxy/lax.js",
+          "description": "Simple & lightweight (<4kb gzipped) vanilla JavaScript library to create smooth & beautiful animations when you scroll.",
+          "publish_on_social": false,
+          "published_at": "2022-03-07T22:07:38.222Z",
+          "created_at": "2022-03-07T22:07:36.205Z",
+          "updated_at": "2022-03-07T22:07:38.283Z",
+          "private": false
+        },
+        {
+          "id": 116,
+          "url": "https://github.com/vadimdemedes/ink",
+          "description": "React for CLIs. Build and test your CLI output using components.\n\nInk provides the same component-based UI building experience that React offers in the browser, but for command-line apps. It uses Yoga to build Flexbox layouts in the terminal, so most CSS-like props are available in Ink as well. If you are already familiar with React, you already know Ink.\n\nSince Ink is a React renderer, it means that all features of React are supported. Head over to React website for documentation on how to use it. Only Ink's methods will be documented in this readme.",
+          "publish_on_social": false,
+          "published_at": "2022-01-11T19:17:27.364Z",
+          "created_at": "2022-01-11T19:17:25.230Z",
+          "updated_at": "2022-01-11T19:17:27.401Z",
+          "private": false
+        },
+        {
+          "id": 104,
+          "url": "https://tslog.js.org/#/",
+          "description": "Beautiful logging experience for Node.js with TypeScript support",
+          "publish_on_social": false,
+          "published_at": "2022-01-02T14:01:38.813Z",
+          "created_at": "2022-01-02T14:01:35.587Z",
+          "updated_at": "2022-01-02T14:01:38.838Z",
+          "private": false
+        },
+        {
+          "id": 16,
+          "url": "https://github.com/handtracking-io/yoha",
+          "description": "YoHa is a hand tracking engine that is built with the goal of being a versatile solution in practical scenarios where hand tracking is employed to add value to an application. While ultimately the goal is to be a general purpose hand tracking engine supporting any hand pose, the engine evolves around specific hand poses that users/developers find useful. These poses are detected by the engine which allows to build applications with meaningful interactions. See the demo for an example.",
+          "publish_on_social": false,
+          "published_at": "2021-10-13T10:29:09.213Z",
+          "created_at": "2021-10-13T10:29:06.461Z",
+          "updated_at": "2021-10-13T10:29:09.238Z",
+          "private": false
+        },
+        {
+          "id": 78,
+          "url": "https://github.com/geckosio/geckos.io",
+          "description": "Real-time client/server communication over UDP using WebRTC and Node.js\n\nGeckos.io fits perfectly with your next HTML5 real-time multiplayer games or chat app.",
+          "publish_on_social": false,
+          "published_at": "2021-11-21T12:05:45.078Z",
+          "created_at": "2021-11-21T12:05:40.865Z",
+          "updated_at": "2021-11-21T12:05:45.100Z",
+          "private": false
+        },
+        {
+          "id": 17,
+          "url": "https://github.com/summitech/gitexplorer",
+          "description": " Find the right git commands without digging through the web. ",
+          "publish_on_social": false,
+          "published_at": "2021-10-13T10:46:54.710Z",
+          "created_at": "2021-10-13T10:46:49.703Z",
+          "updated_at": "2021-10-13T10:46:54.760Z",
+          "private": false
+        },
         {
           "id": 169,
           "url": "https://github.com/jekuer/add-to-calendar-button",
@@ -6512,66 +6599,6 @@
           "created_at": "2021-10-13T10:48:41.544Z",
           "updated_at": "2021-10-13T10:48:44.117Z",
           "private": false
-        },
-        {
-          "id": 176,
-          "url": "https://github.com/alexfoxy/lax.js",
-          "description": "Simple & lightweight (<4kb gzipped) vanilla JavaScript library to create smooth & beautiful animations when you scroll.",
-          "publish_on_social": false,
-          "published_at": "2022-03-07T22:07:38.222Z",
-          "created_at": "2022-03-07T22:07:36.205Z",
-          "updated_at": "2022-03-07T22:07:38.283Z",
-          "private": false
-        },
-        {
-          "id": 116,
-          "url": "https://github.com/vadimdemedes/ink",
-          "description": "React for CLIs. Build and test your CLI output using components.\n\nInk provides the same component-based UI building experience that React offers in the browser, but for command-line apps. It uses Yoga to build Flexbox layouts in the terminal, so most CSS-like props are available in Ink as well. If you are already familiar with React, you already know Ink.\n\nSince Ink is a React renderer, it means that all features of React are supported. Head over to React website for documentation on how to use it. Only Ink's methods will be documented in this readme.",
-          "publish_on_social": false,
-          "published_at": "2022-01-11T19:17:27.364Z",
-          "created_at": "2022-01-11T19:17:25.230Z",
-          "updated_at": "2022-01-11T19:17:27.401Z",
-          "private": false
-        },
-        {
-          "id": 104,
-          "url": "https://tslog.js.org/#/",
-          "description": "Beautiful logging experience for Node.js with TypeScript support",
-          "publish_on_social": false,
-          "published_at": "2022-01-02T14:01:38.813Z",
-          "created_at": "2022-01-02T14:01:35.587Z",
-          "updated_at": "2022-01-02T14:01:38.838Z",
-          "private": false
-        },
-        {
-          "id": 16,
-          "url": "https://github.com/handtracking-io/yoha",
-          "description": "YoHa is a hand tracking engine that is built with the goal of being a versatile solution in practical scenarios where hand tracking is employed to add value to an application. While ultimately the goal is to be a general purpose hand tracking engine supporting any hand pose, the engine evolves around specific hand poses that users/developers find useful. These poses are detected by the engine which allows to build applications with meaningful interactions. See the demo for an example.",
-          "publish_on_social": false,
-          "published_at": "2021-10-13T10:29:09.213Z",
-          "created_at": "2021-10-13T10:29:06.461Z",
-          "updated_at": "2021-10-13T10:29:09.238Z",
-          "private": false
-        },
-        {
-          "id": 78,
-          "url": "https://github.com/geckosio/geckos.io",
-          "description": "Real-time client/server communication over UDP using WebRTC and Node.js\n\nGeckos.io fits perfectly with your next HTML5 real-time multiplayer games or chat app.",
-          "publish_on_social": false,
-          "published_at": "2021-11-21T12:05:45.078Z",
-          "created_at": "2021-11-21T12:05:40.865Z",
-          "updated_at": "2021-11-21T12:05:45.100Z",
-          "private": false
-        },
-        {
-          "id": 17,
-          "url": "https://github.com/summitech/gitexplorer",
-          "description": " Find the right git commands without digging through the web. ",
-          "publish_on_social": false,
-          "published_at": "2021-10-13T10:46:54.710Z",
-          "created_at": "2021-10-13T10:46:49.703Z",
-          "updated_at": "2021-10-13T10:46:54.760Z",
-          "private": false
         }
       ],
       "notes": [
@@ -7057,6 +7084,66 @@
       "updated_at": "2021-09-29T21:22:59.637Z",
       "links": [
         {
+          "id": 172,
+          "url": "https://secure-system.gitlab.io/Insular/",
+          "description": "\u201cInsular\u201d is a sandbox environment to clone selected apps and isolate them from accessing your personal data outside the sandbox (including call logs, contacts, photos and etc) even if related permissions are granted. Device-bound data (SMS, IMEI and etc) is still accessible.\n\nIsolated app can be frozen on demand, with launcher icon vanish and its background behaviors completely blocked.\n\nInsular takes advantage of the \u201cmanaged profile\u201d feature on Android 5.0+, which is also the base of \u201cAndroid for Work\u201d, to create an isolated sandbox for apps with their data.",
+          "publish_on_social": false,
+          "published_at": "2022-03-04T20:31:53.863Z",
+          "created_at": "2022-03-04T20:31:32.583Z",
+          "updated_at": "2022-03-04T20:31:53.919Z",
+          "private": false
+        },
+        {
+          "id": 107,
+          "url": "https://bellard.org/quickjs/",
+          "description": "QuickJS is a small and embeddable Javascript engine",
+          "publish_on_social": false,
+          "published_at": "2022-01-05T17:54:02.558Z",
+          "created_at": "2022-01-05T17:54:00.154Z",
+          "updated_at": "2022-01-05T17:54:02.589Z",
+          "private": false
+        },
+        {
+          "id": 136,
+          "url": "https://github.com/tauri-apps/tauri",
+          "description": "Tauri is a framework for building tiny, blazing fast binaries for all major desktop platforms. Developers can integrate any front-end framework that compiles to HTML, JS and CSS for building their user interface. The backend of the application is a rust-sourced binary with an API that the front-end can interact with.",
+          "publish_on_social": false,
+          "published_at": "2022-01-13T19:30:51.042Z",
+          "created_at": "2022-01-13T19:30:49.180Z",
+          "updated_at": "2022-01-13T19:30:51.067Z",
+          "private": false
+        },
+        {
+          "id": 65,
+          "url": "https://github.com/pmndrs/zustand",
+          "description": "A small, fast and scalable bearbones state-management solution using simplified flux principles. Has a comfy api based on hooks, isn't boilerplatey or opinionated.\n\nHomepage with a nice animation/effect : https://zustand.surge.sh/",
+          "publish_on_social": false,
+          "published_at": "2021-11-12T14:04:54.958Z",
+          "created_at": "2021-11-12T14:02:02.064Z",
+          "updated_at": "2021-11-12T14:04:54.981Z",
+          "private": false
+        },
+        {
+          "id": 95,
+          "url": "https://github.com/trpc/trpc",
+          "description": "End-to-end typesafe APIs made easy\n\ntRPC allows you to easily build & consume fully typesafe APIs, without schemas or code generation.",
+          "publish_on_social": false,
+          "published_at": "2021-12-20T17:33:12.158Z",
+          "created_at": "2021-12-20T17:33:09.003Z",
+          "updated_at": "2021-12-20T17:33:12.205Z",
+          "private": false
+        },
+        {
+          "id": 20,
+          "url": "https://github.com/xtermjs/xterm.js",
+          "description": "Xterm.js is a front-end component written in TypeScript that lets applications bring fully-featured terminals to their users in the browser. It's used by popular projects such as VS Code, Hyper and Theia.",
+          "publish_on_social": false,
+          "published_at": "2021-10-14T09:13:26.263Z",
+          "created_at": "2021-10-14T09:13:23.840Z",
+          "updated_at": "2021-10-14T09:13:26.297Z",
+          "private": false
+        },
+        {
           "id": 140,
           "url": "https://github.com/dioxuslabs/dioxus",
           "description": "Elegant React-like library for building user interfaces for desktop, web, mobile, SSR, liveview, and more in rust",
@@ -7064,6 +7151,16 @@
           "published_at": "2022-01-25T00:19:04.152Z",
           "created_at": "2022-01-25T00:19:01.725Z",
           "updated_at": "2022-01-25T00:19:04.218Z",
+          "private": false
+        },
+        {
+          "id": 178,
+          "url": "https://github.com/mdsteele/rust-cfb",
+          "description": "A Rust library for reading/writing Compound File Binary (structured storage) files",
+          "publish_on_social": false,
+          "published_at": "2022-03-14T12:26:07.749Z",
+          "created_at": "2022-03-14T12:26:05.806Z",
+          "updated_at": "2022-03-14T12:26:07.807Z",
           "private": false
         },
         {
@@ -8705,66 +8802,6 @@
           "created_at": "2021-12-21T18:40:28.360Z",
           "updated_at": "2021-12-21T18:40:31.572Z",
           "private": false
-        },
-        {
-          "id": 172,
-          "url": "https://secure-system.gitlab.io/Insular/",
-          "description": "\u201cInsular\u201d is a sandbox environment to clone selected apps and isolate them from accessing your personal data outside the sandbox (including call logs, contacts, photos and etc) even if related permissions are granted. Device-bound data (SMS, IMEI and etc) is still accessible.\n\nIsolated app can be frozen on demand, with launcher icon vanish and its background behaviors completely blocked.\n\nInsular takes advantage of the \u201cmanaged profile\u201d feature on Android 5.0+, which is also the base of \u201cAndroid for Work\u201d, to create an isolated sandbox for apps with their data.",
-          "publish_on_social": false,
-          "published_at": "2022-03-04T20:31:53.863Z",
-          "created_at": "2022-03-04T20:31:32.583Z",
-          "updated_at": "2022-03-04T20:31:53.919Z",
-          "private": false
-        },
-        {
-          "id": 107,
-          "url": "https://bellard.org/quickjs/",
-          "description": "QuickJS is a small and embeddable Javascript engine",
-          "publish_on_social": false,
-          "published_at": "2022-01-05T17:54:02.558Z",
-          "created_at": "2022-01-05T17:54:00.154Z",
-          "updated_at": "2022-01-05T17:54:02.589Z",
-          "private": false
-        },
-        {
-          "id": 136,
-          "url": "https://github.com/tauri-apps/tauri",
-          "description": "Tauri is a framework for building tiny, blazing fast binaries for all major desktop platforms. Developers can integrate any front-end framework that compiles to HTML, JS and CSS for building their user interface. The backend of the application is a rust-sourced binary with an API that the front-end can interact with.",
-          "publish_on_social": false,
-          "published_at": "2022-01-13T19:30:51.042Z",
-          "created_at": "2022-01-13T19:30:49.180Z",
-          "updated_at": "2022-01-13T19:30:51.067Z",
-          "private": false
-        },
-        {
-          "id": 65,
-          "url": "https://github.com/pmndrs/zustand",
-          "description": "A small, fast and scalable bearbones state-management solution using simplified flux principles. Has a comfy api based on hooks, isn't boilerplatey or opinionated.\n\nHomepage with a nice animation/effect : https://zustand.surge.sh/",
-          "publish_on_social": false,
-          "published_at": "2021-11-12T14:04:54.958Z",
-          "created_at": "2021-11-12T14:02:02.064Z",
-          "updated_at": "2021-11-12T14:04:54.981Z",
-          "private": false
-        },
-        {
-          "id": 95,
-          "url": "https://github.com/trpc/trpc",
-          "description": "End-to-end typesafe APIs made easy\n\ntRPC allows you to easily build & consume fully typesafe APIs, without schemas or code generation.",
-          "publish_on_social": false,
-          "published_at": "2021-12-20T17:33:12.158Z",
-          "created_at": "2021-12-20T17:33:09.003Z",
-          "updated_at": "2021-12-20T17:33:12.205Z",
-          "private": false
-        },
-        {
-          "id": 20,
-          "url": "https://github.com/xtermjs/xterm.js",
-          "description": "Xterm.js is a front-end component written in TypeScript that lets applications bring fully-featured terminals to their users in the browser. It's used by popular projects such as VS Code, Hyper and Theia.",
-          "publish_on_social": false,
-          "published_at": "2021-10-14T09:13:26.263Z",
-          "created_at": "2021-10-14T09:13:23.840Z",
-          "updated_at": "2021-10-14T09:13:26.297Z",
-          "private": false
         }
       ],
       "notes": [
@@ -9029,6 +9066,16 @@
       "updated_at": "2021-10-02T10:15:01.410Z",
       "links": [
         {
+          "id": 156,
+          "url": "https://github.com/microsoft/griffel",
+          "description": "CSS-in-JS with ahead-of-time compilation.",
+          "publish_on_social": false,
+          "published_at": "2022-02-15T14:28:10.244Z",
+          "created_at": "2022-02-15T14:28:07.075Z",
+          "updated_at": "2022-02-15T14:28:10.282Z",
+          "private": false
+        },
+        {
           "id": 32,
           "url": "https://usehooks-typescript.com/",
           "description": "Simple React hooks, ready to use, written in typescript.\n\n- useBoolean()\n- useCopyToClipboard()\n- useCounter()\n- useDarkMode()\n- useDebounce()\n- useElementSize()\n- useEventListener()\n- useFetch()\n- useHover()\n- useImageOnLoad()\n- useIntersectionObserver()\n- useInterval()\n- useIsClient()\n- useIsMounted()\n- useLocalStorage()\n- useLockedBody()\n- useMap()\n- useOnClickOutside()\n- useReadLocalStorage()\n- useScreen()\n- useScript()\n- useSsr()\n- useTimeout()\n- useWindowSize()\n",
@@ -9286,16 +9333,6 @@
           "published_at": "2021-11-11T20:06:04.195Z",
           "created_at": "2021-11-11T20:06:01.117Z",
           "updated_at": "2021-11-11T20:06:04.207Z",
-          "private": false
-        },
-        {
-          "id": 156,
-          "url": "https://github.com/microsoft/griffel",
-          "description": "CSS-in-JS with ahead-of-time compilation.",
-          "publish_on_social": false,
-          "published_at": "2022-02-15T14:28:10.244Z",
-          "created_at": "2022-02-15T14:28:07.075Z",
-          "updated_at": "2022-02-15T14:28:10.282Z",
           "private": false
         }
       ],
@@ -9781,6 +9818,16 @@
       "updated_at": "2021-10-17T12:10:49.181Z",
       "links": [
         {
+          "id": 175,
+          "url": "https://crates.io/crates/tap",
+          "description": "Suffix-Position Pipeline Behavior\n\nThis crate provides extension methods on all types that allow transparent, temporary, inspection/mutation (tapping), transformation (piping), or type conversion. These methods make it convenient for you to insert debugging or modification points into an expression without requiring you to change any other portions of your code.",
+          "publish_on_social": false,
+          "published_at": "2022-03-06T22:38:15.611Z",
+          "created_at": "2022-03-06T22:38:13.816Z",
+          "updated_at": "2022-03-06T22:38:15.651Z",
+          "private": false
+        },
+        {
           "id": 152,
           "url": "https://git.deuxfleurs.fr/Deuxfleurs/garage",
           "description": "Garage is a lightweight S3-compatible distributed object store",
@@ -9858,6 +9905,16 @@
           "published_at": "2022-03-02T10:06:42.733Z",
           "created_at": "2022-03-02T10:06:40.797Z",
           "updated_at": "2022-03-02T10:06:42.782Z",
+          "private": false
+        },
+        {
+          "id": 178,
+          "url": "https://github.com/mdsteele/rust-cfb",
+          "description": "A Rust library for reading/writing Compound File Binary (structured storage) files",
+          "publish_on_social": false,
+          "published_at": "2022-03-14T12:26:07.749Z",
+          "created_at": "2022-03-14T12:26:05.806Z",
+          "updated_at": "2022-03-14T12:26:07.807Z",
           "private": false
         },
         {
@@ -9968,16 +10025,6 @@
           "published_at": "2022-01-05T19:58:12.185Z",
           "created_at": "2022-01-05T19:58:09.394Z",
           "updated_at": "2022-01-05T19:58:12.220Z",
-          "private": false
-        },
-        {
-          "id": 175,
-          "url": "https://crates.io/crates/tap",
-          "description": "Suffix-Position Pipeline Behavior\n\nThis crate provides extension methods on all types that allow transparent, temporary, inspection/mutation (tapping), transformation (piping), or type conversion. These methods make it convenient for you to insert debugging or modification points into an expression without requiring you to change any other portions of your code.",
-          "publish_on_social": false,
-          "published_at": "2022-03-06T22:38:15.611Z",
-          "created_at": "2022-03-06T22:38:13.816Z",
-          "updated_at": "2022-03-06T22:38:15.651Z",
           "private": false
         }
       ],
@@ -10151,6 +10198,16 @@
       "updated_at": "2021-11-17T19:11:54.523Z",
       "links": [
         {
+          "id": 69,
+          "url": "https://oss.redis.com/redisearch/",
+          "description": "RediSearch - Redis Secondary Index & Query Engine\n\nRediSearch is a source available Secondary Index, Query Engine and Full-Text Search over Redis, developed by Redis . \n\n Redisearch implements a secondary index on top of Redis, but unlike other Redis indexing libraries, it does not use internal data structures such as sorted sets.\n\nThis also enables more advanced features, such as multi-field queries, aggregation, and full text search capabilites. These capabilities include exact phrase matching and numeric filtering for text queries, something that is neither possible or efficient with traditional Redis indexing approaches. \n",
+          "publish_on_social": false,
+          "published_at": "2021-11-17T19:51:32.686Z",
+          "created_at": "2021-11-17T19:51:30.444Z",
+          "updated_at": "2021-11-17T19:51:32.739Z",
+          "private": false
+        },
+        {
           "id": 161,
           "url": "https://www.interdb.jp/pg/",
           "description": "The Internals of PostgreSQL, with :\n\n\n- Chapter 1. Database Cluster, Databases and Tables\n- Chapter 2. Process and Memory Architecture\n- Chapter 3. Query Processing\n- Chapter 4. Foreign Data Wrappers (FDW) and Parallel Query\n- Chapter 5. Concurrency Control\n- Chapter 6. VACUUM Processing\n- Chapter 7. Heap Only Tuple (HOT) and Index-Only Scans\n- Chapter 8. Buffer Manager\n- Chapter 9. Write Ahead Logging (WAL)\n- Chapter 10. Base Backup and Point-In-Time Recovery (PITR)\n- Chapter 11. Streaming Replication\n",
@@ -10188,16 +10245,6 @@
           "published_at": "2021-11-17T19:12:09.069Z",
           "created_at": "2021-11-17T19:11:46.734Z",
           "updated_at": "2021-11-17T19:12:09.087Z",
-          "private": false
-        },
-        {
-          "id": 69,
-          "url": "https://oss.redis.com/redisearch/",
-          "description": "RediSearch - Redis Secondary Index & Query Engine\n\nRediSearch is a source available Secondary Index, Query Engine and Full-Text Search over Redis, developed by Redis . \n\n Redisearch implements a secondary index on top of Redis, but unlike other Redis indexing libraries, it does not use internal data structures such as sorted sets.\n\nThis also enables more advanced features, such as multi-field queries, aggregation, and full text search capabilites. These capabilities include exact phrase matching and numeric filtering for text queries, something that is neither possible or efficient with traditional Redis indexing approaches. \n",
-          "publish_on_social": false,
-          "published_at": "2021-11-17T19:51:32.686Z",
-          "created_at": "2021-11-17T19:51:30.444Z",
-          "updated_at": "2021-11-17T19:51:32.739Z",
           "private": false
         }
       ],
