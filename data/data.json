@@ -5612,6 +5612,33 @@
       "kind": "link"
     },
     {
+      "id": "link-181",
+      "url": "https://github.com/bheisler/TinyTemplate",
+      "description": "TinyTemplate is a small, minimalistic text templating system with limited dependencies.",
+      "publish_on_social": false,
+      "published_at": "2022-03-14T12:40:27.922Z",
+      "created_at": "2022-03-14T12:40:26.118Z",
+      "updated_at": "2022-03-14T12:40:27.973Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 13,
+          "title": "rust",
+          "published_at": "2021-10-17T12:10:49.151Z",
+          "created_at": "2021-10-17T12:10:46.859Z",
+          "updated_at": "2021-10-17T12:10:49.181Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
+    },
+    {
       "id": "link-178",
       "url": "https://github.com/mdsteele/rust-cfb",
       "description": "A Rust library for reading/writing Compound File Binary (structured storage) files",
@@ -7568,6 +7595,16 @@
           "private": false
         },
         {
+          "id": 181,
+          "url": "https://github.com/bheisler/TinyTemplate",
+          "description": "TinyTemplate is a small, minimalistic text templating system with limited dependencies.",
+          "publish_on_social": false,
+          "published_at": "2022-03-14T12:40:27.922Z",
+          "created_at": "2022-03-14T12:40:26.118Z",
+          "updated_at": "2022-03-14T12:40:27.973Z",
+          "private": false
+        },
+        {
           "id": 5,
           "url": "https://flatfile.com",
           "description": "The leading data onboarding platform (saas)\ncsv cleanup",
@@ -8979,6 +9016,16 @@
       "updated_at": "2021-09-29T21:38:25.084Z",
       "links": [
         {
+          "id": 77,
+          "url": "https://github.com/argyleink/gui-challenges",
+          "description": " centralized projects from the YouTube show GUI Challenges \n\nI build interfaces my way, then challenge you to do it your way. With our creative minds combined, we'll find multiple ways to solve these interfaces and expand the diversity of our skills.\n",
+          "publish_on_social": false,
+          "published_at": "2021-11-21T12:00:56.327Z",
+          "created_at": "2021-11-21T12:00:52.835Z",
+          "updated_at": "2021-11-21T12:00:56.385Z",
+          "private": false
+        },
+        {
           "id": 75,
           "url": "https://www.infomaniak.com/fr/kdrive/tarifs",
           "description": "Swiss online storage/backup",
@@ -9086,16 +9133,6 @@
           "published_at": "2022-01-12T22:17:17.332Z",
           "created_at": "2022-01-12T22:17:15.294Z",
           "updated_at": "2022-01-12T22:17:17.362Z",
-          "private": false
-        },
-        {
-          "id": 77,
-          "url": "https://github.com/argyleink/gui-challenges",
-          "description": " centralized projects from the YouTube show GUI Challenges \n\nI build interfaces my way, then challenge you to do it your way. With our creative minds combined, we'll find multiple ways to solve these interfaces and expand the diversity of our skills.\n",
-          "publish_on_social": false,
-          "published_at": "2021-11-21T12:00:56.327Z",
-          "created_at": "2021-11-21T12:00:52.835Z",
-          "updated_at": "2021-11-21T12:00:56.385Z",
           "private": false
         }
       ],
@@ -9891,6 +9928,16 @@
       "created_at": "2021-10-17T12:10:46.859Z",
       "updated_at": "2021-10-17T12:10:49.181Z",
       "links": [
+        {
+          "id": 181,
+          "url": "https://github.com/bheisler/TinyTemplate",
+          "description": "TinyTemplate is a small, minimalistic text templating system with limited dependencies.",
+          "publish_on_social": false,
+          "published_at": "2022-03-14T12:40:27.922Z",
+          "created_at": "2022-03-14T12:40:26.118Z",
+          "updated_at": "2022-03-14T12:40:27.973Z",
+          "private": false
+        },
         {
           "id": 175,
           "url": "https://crates.io/crates/tap",
