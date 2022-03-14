@@ -3,6 +3,7 @@ import Head from "next/head"
 import { useRouter } from "next/router"
 import { ChangeEvent, useEffect, useState } from "react"
 import slugify from "slugify"
+import useHighlight from "../components/code-highlight"
 import LinkPreview from "../components/link-preview"
 import NotePreview from "../components/note-preview"
 import { TagType, urlSlugify } from "../lib/api"
@@ -112,6 +113,8 @@ export default function Search() {
     })
   }
 
+  const highlightCss = useHighlight()
+
   useEffect(() => {
     if (first) {
       // First time effect
@@ -139,6 +142,7 @@ export default function Search() {
         <title>search - kreako</title>
         <meta name="description" content="search page of kreako.fr" />
       </Head>
+      {highlightCss}
       <section className="px-2 mt-8 max-w-3xl mx-auto">
         {query === "" ? <h1>No filter</h1> : <h1>Filter for {query}</h1>}
         <input

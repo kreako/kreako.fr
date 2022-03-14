@@ -1,8 +1,9 @@
 import Head from "next/head"
 import Link from "next/link"
+import useHighlight from "../components/code-highlight"
 import ContentLink from "../components/Link"
 import ContentNote from "../components/Note"
-import { ContentType, fetchBlogContent, LinkType, NoteType } from "../lib/api"
+import { ContentType, fetchBlogContent } from "../lib/api"
 import { convertDescriptionInHtml } from "../lib/markdown"
 
 type BlogProps = {
@@ -11,12 +12,15 @@ type BlogProps = {
 }
 
 export default function Blog({ contents, archiveLink }: BlogProps) {
+  const highlightCss = useHighlight()
+
   return (
     <>
       <Head>
         <title>blog - kreako</title>
         <meta name="description" content="blog page of kreako.fr" />
       </Head>
+      {highlightCss}
       <div className="px-2 mt-8 max-w-3xl mx-auto">
         {contents.map((c) => {
           if (c.kind === "link") {

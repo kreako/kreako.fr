@@ -1,5 +1,6 @@
 import Head from "next/head"
 import Link from "next/link"
+import useHighlight from "../../../components/code-highlight"
 import ContentLink from "../../../components/Link"
 import ContentNote from "../../../components/Note"
 import { ContentType, fetchBlogContent } from "../../../lib/api"
@@ -32,6 +33,8 @@ type ArchiveProps = {
 }
 
 export default function Archive({ contents, current, previous, next }: ArchiveProps) {
+  const highlightCss = useHighlight()
+
   return (
     <>
       <Head>
@@ -40,6 +43,7 @@ export default function Archive({ contents, current, previous, next }: ArchivePr
         </title>
         <meta name="description" content="blog page of kreako.fr" />
       </Head>
+      {highlightCss}
       <div className="max-w-3xl mx-auto">
         <div className="mt-4 text-xs text-sky-600 font-bold uppercase tracking-wide">
           Archive of {current.year}/{current.month}

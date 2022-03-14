@@ -1,5 +1,6 @@
 import Head from "next/head"
 import slugify from "slugify"
+import useHighlight from "../../../components/code-highlight"
 import Tags from "../../../components/tags"
 import { IconNote } from "../../../icons/icon-note"
 import { fetchNote, fetchNotes, NoteType } from "../../../lib/api"
@@ -9,12 +10,14 @@ type NoteProps = {
 }
 
 export default function Note({ note }: NoteProps) {
+  const highlightCss = useHighlight()
   return (
     <>
       <Head>
         <title>{note.title} - kreako</title>
         <meta name="description" content="blog page of kreako.fr" />
       </Head>
+      {highlightCss}
       <div className="mt-4 max-w-3xl mx-auto">
         <div className="flex flex-row items-center space-x-4 text-sky-600">
           <div className="font-bold flex-grow-0">{note.title}</div>
