@@ -1,6 +1,6 @@
 import Head from "next/head"
 import Prism from "prismjs"
-import { useEffectOnce } from "usehooks-ts"
+import { useEffect } from "react"
 
 // PrismJS 1.27.0
 // downloaded from
@@ -10,7 +10,7 @@ const PRISM_JS_CSS =
 
 // Returns highlighted stylesheet wrap in head component
 export default function useHighlight() {
-  useEffectOnce(() => {
+  useEffect(() => {
     Prism.highlightAll()
   })
   return (
