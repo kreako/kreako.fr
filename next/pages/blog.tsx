@@ -45,10 +45,11 @@ export const getStaticProps = async () => {
   const nextContent = allContents[5]
 
   const homeContents = allContents.slice(0, 6)
-  await convertDescriptionInHtml(homeContents)
+
   const dt = homeContents[0].created_at
   const year = String(dt.getFullYear())
   const month = String(dt.getMonth() + 1).padStart(2, "0")
   const archiveLink = `/archive/${year}/${month}`
+
   return { props: { contents: homeContents, archiveLink } }
 }
