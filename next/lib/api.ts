@@ -65,6 +65,10 @@ export const fetchLinks = async (): Promise<LinkType[]> => {
   })
   // slug to tags
   addSlugToTagsContents(links)
+  // markdown description
+  for (const link of links) {
+    link.description = await markdownToHtml(link.description)
+  }
   return links
 }
 
@@ -79,6 +83,10 @@ export const fetchNotes = async (): Promise<NoteType[]> => {
   })
   // slug to notes
   addSlugToTagsContents(notes)
+  // markdown description
+  for (const note of notes) {
+    note.description = await markdownToHtml(note.description)
+  }
   return notes
 }
 
