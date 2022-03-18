@@ -5464,6 +5464,33 @@
       "kind": "link"
     },
     {
+      "id": "link-184",
+      "url": "https://github.com/slint-ui/slint",
+      "description": "Slint is a toolkit to efficiently develop fluid graphical user interfaces for any display: embedded devices and desktop applications. We support multiple programming languages, such as Rust, C++ or JavaScript.\n\nFormerly known as sixtyFPS",
+      "publish_on_social": false,
+      "published_at": "2022-03-18T10:33:23.007Z",
+      "created_at": "2022-03-18T10:33:20.322Z",
+      "updated_at": "2022-03-18T10:33:23.048Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 13,
+          "title": "rust",
+          "published_at": "2021-10-17T12:10:49.151Z",
+          "created_at": "2021-10-17T12:10:46.859Z",
+          "updated_at": "2021-10-17T12:10:49.181Z"
+        }
+      ],
+      "kind": "link"
+    },
+    {
       "id": "link-175",
       "url": "https://crates.io/crates/tap",
       "description": "Suffix-Position Pipeline Behavior\n\nThis crate provides extension methods on all types that allow transparent, temporary, inspection/mutation (tapping), transformation (piping), or type conversion. These methods make it convenient for you to insert debugging or modification points into an expression without requiring you to change any other portions of your code.",
@@ -7753,6 +7780,16 @@
           "published_at": "2021-10-05T18:18:29.877Z",
           "created_at": "2021-10-05T18:18:26.983Z",
           "updated_at": "2021-10-05T18:18:29.898Z",
+          "private": false
+        },
+        {
+          "id": 184,
+          "url": "https://github.com/slint-ui/slint",
+          "description": "Slint is a toolkit to efficiently develop fluid graphical user interfaces for any display: embedded devices and desktop applications. We support multiple programming languages, such as Rust, C++ or JavaScript.\n\nFormerly known as sixtyFPS",
+          "publish_on_social": false,
+          "published_at": "2022-03-18T10:33:23.007Z",
+          "created_at": "2022-03-18T10:33:20.322Z",
+          "updated_at": "2022-03-18T10:33:23.048Z",
           "private": false
         },
         {
@@ -10177,6 +10214,16 @@
           "published_at": "2022-01-13T19:30:51.042Z",
           "created_at": "2022-01-13T19:30:49.180Z",
           "updated_at": "2022-01-13T19:30:51.067Z",
+          "private": false
+        },
+        {
+          "id": 184,
+          "url": "https://github.com/slint-ui/slint",
+          "description": "Slint is a toolkit to efficiently develop fluid graphical user interfaces for any display: embedded devices and desktop applications. We support multiple programming languages, such as Rust, C++ or JavaScript.\n\nFormerly known as sixtyFPS",
+          "publish_on_social": false,
+          "published_at": "2022-03-18T10:33:23.007Z",
+          "created_at": "2022-03-18T10:33:20.322Z",
+          "updated_at": "2022-03-18T10:33:23.048Z",
           "private": false
         },
         {
