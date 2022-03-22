@@ -5720,6 +5720,33 @@
       "kind": "link"
     },
     {
+      "id": "link-185",
+      "url": "https://github.com/nebuly-ai/nebullvm",
+      "description": " Easy-to-use library to boost AI inference leveraging multiple DL compilers\n\nnebullvm speeds up AI inference by 5-20x in just a few lines of code\n\nThis open-source library takes your AI model as input and outputs an optimized version that runs 5-20 times faster on your machine. Nebullvm tests multiple deep learning compilers to identify the best possible way to execute your model on your specific hardware, without impacting the accuracy of your model.",
+      "publish_on_social": false,
+      "published_at": "2022-03-22T10:50:03.894Z",
+      "created_at": "2022-03-22T10:50:01.186Z",
+      "updated_at": "2022-03-22T10:50:03.946Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 9,
+          "title": "python",
+          "published_at": "2021-10-03T11:53:54.883Z",
+          "created_at": "2021-10-03T11:53:53.267Z",
+          "updated_at": "2021-10-03T11:53:54.919Z"
+        }
+      ],
+      "kind": "link"
+    },
+    {
       "id": "link-182",
       "url": "https://shaderpark.com/",
       "description": " A JavaScript library for creating interactive procedural 2D and 3D shaders.\n\nExplore shader programming through a JavaScript interface without the complexity of GLSL. Quickly script shaders using a P5.js style language. ",
@@ -8093,6 +8120,16 @@
           "private": false
         },
         {
+          "id": 185,
+          "url": "https://github.com/nebuly-ai/nebullvm",
+          "description": " Easy-to-use library to boost AI inference leveraging multiple DL compilers\n\nnebullvm speeds up AI inference by 5-20x in just a few lines of code\n\nThis open-source library takes your AI model as input and outputs an optimized version that runs 5-20 times faster on your machine. Nebullvm tests multiple deep learning compilers to identify the best possible way to execute your model on your specific hardware, without impacting the accuracy of your model.",
+          "publish_on_social": false,
+          "published_at": "2022-03-22T10:50:03.894Z",
+          "created_at": "2022-03-22T10:50:01.186Z",
+          "updated_at": "2022-03-22T10:50:03.946Z",
+          "private": false
+        },
+        {
           "id": 57,
           "url": "https://www.npmjs.com/package/web-vitals",
           "description": "The web-vitals library is a tiny (~1K), modular library for measuring all the Web Vitals metrics on real users, in a way that accurately matches how they're measured by Chrome and reported to other Google tools (e.g. Chrome User Experience Report, Page Speed Insights, Search Console's Speed Report).",
@@ -9753,6 +9790,16 @@
           "published_at": "2022-02-26T19:22:37.002Z",
           "created_at": "2022-02-26T19:22:34.958Z",
           "updated_at": "2022-02-26T19:22:37.040Z",
+          "private": false
+        },
+        {
+          "id": 185,
+          "url": "https://github.com/nebuly-ai/nebullvm",
+          "description": " Easy-to-use library to boost AI inference leveraging multiple DL compilers\n\nnebullvm speeds up AI inference by 5-20x in just a few lines of code\n\nThis open-source library takes your AI model as input and outputs an optimized version that runs 5-20 times faster on your machine. Nebullvm tests multiple deep learning compilers to identify the best possible way to execute your model on your specific hardware, without impacting the accuracy of your model.",
+          "publish_on_social": false,
+          "published_at": "2022-03-22T10:50:03.894Z",
+          "created_at": "2022-03-22T10:50:01.186Z",
+          "updated_at": "2022-03-22T10:50:03.946Z",
           "private": false
         }
       ],
