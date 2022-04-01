@@ -6084,6 +6084,33 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-195",
+      "url": "https://github.com/containers/bubblewrap",
+      "description": " Unprivileged sandboxing tool\n\nMany container runtime tools like systemd-nspawn, docker, etc. focus on providing infrastructure for system administrators and orchestration tools (e.g. Kubernetes) to run containers.\n\nThese tools are not suitable to give to unprivileged users, because it is trivial to turn such access into a fully privileged root shell on the host.\n\nBubblewrap could be viewed as setuid implementation of a subset of user namespaces. Emphasis on subset - specifically relevant to the above CVE, bubblewrap does not allow control over iptables.\n\nbubblewrap works by creating a new, completely empty, mount namespace where the root is on a tmpfs that is invisible from the host, and will be automatically cleaned up when the last process exits. You can then use commandline options to construct the root filesystem and process environment and command to run in the namespace.",
+      "publish_on_social": false,
+      "published_at": "2022-04-01T12:49:30.256Z",
+      "created_at": "2022-04-01T12:49:27.684Z",
+      "updated_at": "2022-04-01T12:49:30.322Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 10,
+          "title": "cli",
+          "published_at": "2021-10-04T15:00:32.782Z",
+          "created_at": "2021-10-04T15:00:30.614Z",
+          "updated_at": "2021-10-04T15:00:32.804Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -6094,6 +6121,16 @@
       "created_at": "2021-09-29T21:01:48.486Z",
       "updated_at": "2021-09-29T21:01:51.167Z",
       "links": [
+        {
+          "id": 18,
+          "url": "https://github.com/sdras/array-explorer",
+          "description": "A resource to help figure out what JavaScript array method would be best to use at any given time ",
+          "publish_on_social": false,
+          "published_at": "2021-10-13T10:48:44.079Z",
+          "created_at": "2021-10-13T10:48:41.544Z",
+          "updated_at": "2021-10-13T10:48:44.117Z",
+          "private": false
+        },
         {
           "id": 176,
           "url": "https://github.com/alexfoxy/lax.js",
@@ -7143,16 +7180,6 @@
           "created_at": "2021-11-21T11:11:16.973Z",
           "updated_at": "2021-11-21T11:11:20.560Z",
           "private": false
-        },
-        {
-          "id": 18,
-          "url": "https://github.com/sdras/array-explorer",
-          "description": "A resource to help figure out what JavaScript array method would be best to use at any given time ",
-          "publish_on_social": false,
-          "published_at": "2021-10-13T10:48:44.079Z",
-          "created_at": "2021-10-13T10:48:41.544Z",
-          "updated_at": "2021-10-13T10:48:44.117Z",
-          "private": false
         }
       ],
       "notes": [
@@ -7638,6 +7665,16 @@
       "updated_at": "2021-09-29T21:22:59.637Z",
       "links": [
         {
+          "id": 175,
+          "url": "https://crates.io/crates/tap",
+          "description": "Suffix-Position Pipeline Behavior\n\nThis crate provides extension methods on all types that allow transparent, temporary, inspection/mutation (tapping), transformation (piping), or type conversion. These methods make it convenient for you to insert debugging or modification points into an expression without requiring you to change any other portions of your code.",
+          "publish_on_social": false,
+          "published_at": "2022-03-06T22:38:15.611Z",
+          "created_at": "2022-03-06T22:38:13.816Z",
+          "updated_at": "2022-03-06T22:38:15.651Z",
+          "private": false
+        },
+        {
           "id": 109,
           "url": "https://www.speedscope.app/",
           "description": "interactive flamegraph visualizer",
@@ -7665,6 +7702,16 @@
           "published_at": "2022-03-04T20:31:53.863Z",
           "created_at": "2022-03-04T20:31:32.583Z",
           "updated_at": "2022-03-04T20:31:53.919Z",
+          "private": false
+        },
+        {
+          "id": 195,
+          "url": "https://github.com/containers/bubblewrap",
+          "description": " Unprivileged sandboxing tool\n\nMany container runtime tools like systemd-nspawn, docker, etc. focus on providing infrastructure for system administrators and orchestration tools (e.g. Kubernetes) to run containers.\n\nThese tools are not suitable to give to unprivileged users, because it is trivial to turn such access into a fully privileged root shell on the host.\n\nBubblewrap could be viewed as setuid implementation of a subset of user namespaces. Emphasis on subset - specifically relevant to the above CVE, bubblewrap does not allow control over iptables.\n\nbubblewrap works by creating a new, completely empty, mount namespace where the root is on a tmpfs that is invisible from the host, and will be automatically cleaned up when the last process exits. You can then use commandline options to construct the root filesystem and process environment and command to run in the namespace.",
+          "publish_on_social": false,
+          "published_at": "2022-04-01T12:49:30.256Z",
+          "created_at": "2022-04-01T12:49:27.684Z",
+          "updated_at": "2022-04-01T12:49:30.322Z",
           "private": false
         },
         {
@@ -9506,16 +9553,6 @@
           "created_at": "2022-02-01T12:27:03.723Z",
           "updated_at": "2022-02-01T12:27:05.713Z",
           "private": false
-        },
-        {
-          "id": 175,
-          "url": "https://crates.io/crates/tap",
-          "description": "Suffix-Position Pipeline Behavior\n\nThis crate provides extension methods on all types that allow transparent, temporary, inspection/mutation (tapping), transformation (piping), or type conversion. These methods make it convenient for you to insert debugging or modification points into an expression without requiring you to change any other portions of your code.",
-          "publish_on_social": false,
-          "published_at": "2022-03-06T22:38:15.611Z",
-          "created_at": "2022-03-06T22:38:13.816Z",
-          "updated_at": "2022-03-06T22:38:15.651Z",
-          "private": false
         }
       ],
       "notes": [
@@ -10418,6 +10455,16 @@
           "published_at": "2022-02-12T20:04:49.926Z",
           "created_at": "2022-02-12T20:04:33.153Z",
           "updated_at": "2022-02-12T20:04:49.954Z",
+          "private": false
+        },
+        {
+          "id": 195,
+          "url": "https://github.com/containers/bubblewrap",
+          "description": " Unprivileged sandboxing tool\n\nMany container runtime tools like systemd-nspawn, docker, etc. focus on providing infrastructure for system administrators and orchestration tools (e.g. Kubernetes) to run containers.\n\nThese tools are not suitable to give to unprivileged users, because it is trivial to turn such access into a fully privileged root shell on the host.\n\nBubblewrap could be viewed as setuid implementation of a subset of user namespaces. Emphasis on subset - specifically relevant to the above CVE, bubblewrap does not allow control over iptables.\n\nbubblewrap works by creating a new, completely empty, mount namespace where the root is on a tmpfs that is invisible from the host, and will be automatically cleaned up when the last process exits. You can then use commandline options to construct the root filesystem and process environment and command to run in the namespace.",
+          "publish_on_social": false,
+          "published_at": "2022-04-01T12:49:30.256Z",
+          "created_at": "2022-04-01T12:49:27.684Z",
+          "updated_at": "2022-04-01T12:49:30.322Z",
           "private": false
         },
         {
