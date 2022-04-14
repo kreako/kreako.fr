@@ -21,7 +21,11 @@ export default function ProjectCard({ img, name, url, github, children }: Projec
         </a>
       </div>
       <a href={url} className="grid items-center justify-center rounded-md relative w-64 h-32 mt-4">
-        <img src={img} alt={`Screenshot of ${name}`} />
+        <img
+          src={img}
+          alt={`Screenshot of ${name}`}
+          className="border-sky-300 border-2 rounded-md"
+        />
       </a>
 
       <div className="mt-8 text-white">{children}</div>
