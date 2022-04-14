@@ -41,7 +41,7 @@ tabs:
       command:
         cmd: "./.launch.expect"
         args:
-          ["cd webhook && . env/bin/activate && cd src && sleep 5s && rq worker --with-scheduler"]
+          ["cd webhook && . env/bin/activate && cd src && sleep 20s && rq worker --with-scheduler"]
   - name: "meilisearch"
     run:
       command:
