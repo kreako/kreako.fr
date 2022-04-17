@@ -6113,6 +6113,40 @@
       "kind": "link"
     },
     {
+      "id": "link-206",
+      "url": "https://github.com/facebook/lexical",
+      "description": "Lexical is an extensible JavaScript web text-editor framework with an emphasis on reliability, accessibility and performance. Lexical aims to provide a best-in-class developer experience, so you can easily prototype and build features with confidence. Combined with a highly extensible architecture, Lexical allows developers to create unique text editing experiences that scale in size and functionality.",
+      "publish_on_social": false,
+      "published_at": "2022-04-17T14:43:31.111Z",
+      "created_at": "2022-04-17T14:43:25.037Z",
+      "updated_at": "2022-04-17T14:43:31.170Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 8,
+          "title": "react",
+          "published_at": "2021-10-02T10:15:01.395Z",
+          "created_at": "2021-10-02T10:14:59.290Z",
+          "updated_at": "2021-10-02T10:15:01.410Z"
+        },
+        {
+          "id": 1,
+          "title": "javascript",
+          "published_at": "2021-09-29T21:01:51.147Z",
+          "created_at": "2021-09-29T21:01:48.486Z",
+          "updated_at": "2021-09-29T21:01:51.167Z"
+        }
+      ],
+      "kind": "link"
+    },
+    {
       "id": "link-196",
       "url": "https://github.com/lapce/lapce",
       "description": " Lightning-fast and Powerful Code Editor written in Rust ",
@@ -6480,6 +6514,16 @@
           "published_at": "2021-11-21T11:12:54.995Z",
           "created_at": "2021-11-21T11:12:51.408Z",
           "updated_at": "2021-11-21T11:12:55.026Z",
+          "private": false
+        },
+        {
+          "id": 206,
+          "url": "https://github.com/facebook/lexical",
+          "description": "Lexical is an extensible JavaScript web text-editor framework with an emphasis on reliability, accessibility and performance. Lexical aims to provide a best-in-class developer experience, so you can easily prototype and build features with confidence. Combined with a highly extensible architecture, Lexical allows developers to create unique text editing experiences that scale in size and functionality.",
+          "publish_on_social": false,
+          "published_at": "2022-04-17T14:43:31.111Z",
+          "created_at": "2022-04-17T14:43:25.037Z",
+          "updated_at": "2022-04-17T14:43:31.170Z",
           "private": false
         },
         {
@@ -8506,6 +8550,16 @@
           "private": false
         },
         {
+          "id": 206,
+          "url": "https://github.com/facebook/lexical",
+          "description": "Lexical is an extensible JavaScript web text-editor framework with an emphasis on reliability, accessibility and performance. Lexical aims to provide a best-in-class developer experience, so you can easily prototype and build features with confidence. Combined with a highly extensible architecture, Lexical allows developers to create unique text editing experiences that scale in size and functionality.",
+          "publish_on_social": false,
+          "published_at": "2022-04-17T14:43:31.111Z",
+          "created_at": "2022-04-17T14:43:25.037Z",
+          "updated_at": "2022-04-17T14:43:31.170Z",
+          "private": false
+        },
+        {
           "id": 38,
           "url": "https://py.checkio.org",
           "description": "Learn python with game/puzzles",
@@ -10365,6 +10419,16 @@
           "published_at": "2022-04-08T18:34:06.095Z",
           "created_at": "2022-04-08T18:34:03.697Z",
           "updated_at": "2022-04-08T18:34:06.144Z",
+          "private": false
+        },
+        {
+          "id": 206,
+          "url": "https://github.com/facebook/lexical",
+          "description": "Lexical is an extensible JavaScript web text-editor framework with an emphasis on reliability, accessibility and performance. Lexical aims to provide a best-in-class developer experience, so you can easily prototype and build features with confidence. Combined with a highly extensible architecture, Lexical allows developers to create unique text editing experiences that scale in size and functionality.",
+          "publish_on_social": false,
+          "published_at": "2022-04-17T14:43:31.111Z",
+          "created_at": "2022-04-17T14:43:25.037Z",
+          "updated_at": "2022-04-17T14:43:31.170Z",
           "private": false
         },
         {
