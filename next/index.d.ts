@@ -9,3 +9,9 @@ declare module "*.png?resize&size=256" {
   const content: any
   export default content
 }
+
+// resize at 768px (width)
+declare module "*.jpg?resize&size=768" {
+  const content: any
+  export default content
+}
