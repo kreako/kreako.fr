@@ -1,6 +1,6 @@
 export default function ContactBlock() {
   return (
-    <div className="flex flex-col items-center bg-sky-600 px-2 py-16 space-y-4">
+    <div className="flex flex-col items-center bg-sky-700 px-2 py-16 space-y-4">
       <div className="uppercase tracking-wider font-bold text-white text-sm">Contact</div>
       <div className="grid grid-cols-1 gap-y-4 mt-6">
         <div className="flex items-center space-x-2">
