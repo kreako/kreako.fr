@@ -14,7 +14,7 @@ const Page: NextPage = () => {
   return (
     <>
       <Head>
-        <title>home - kreako</title>
+        <title>Freelance Full Stack Developer - kreako</title>
         <meta name="description" content="home of kreako.fr" />
       </Head>
 
