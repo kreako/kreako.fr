@@ -45,7 +45,7 @@ const Page: NextPage = () => {
               <li>
                 <div className="flex items-center space-x-2">
                   <div>
-                    <abbr title="Software As A Service">SAAS</abbr> and web apps lover
+                    <abbr title="Software As A Service">SaaS</abbr> and web apps lover
                   </div>
                   <div className="text-red-600">
                     <IconHeart />
