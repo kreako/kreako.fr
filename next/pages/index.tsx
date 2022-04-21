@@ -1,15 +1,16 @@
 import type { NextPage } from "next"
 import Head from "next/head"
 import ContactBlock from "../components/contact-block"
-import EmptyProjectCard from "../components/empty-project-card"
-import ProjectCard from "../components/project-card"
-import ProjectHashtag from "../components/project-hashtag"
-import imgSoklaki from "../images/projects/soklaki.png?resize&size=256"
-import imgTailwind from "../images/projects/tailwind.png?resize&size=256"
-import imgBlog from "../images/projects/blog.png?resize&size=256"
-import imgCleomacs from "../images/projects/cleomacs.png?resize&size=256"
+import imgServer from "../images/server-view.jpg?resize&size=768"
+import type { EmptyLayoutPage } from "./_app"
+import { IconHeart } from "../icons/icon-heart"
+import { IconUbuntu } from "../icons/icon-ubuntu"
+import PortfolioSoklaki from "../components/portfolio-soklaki"
+import PortfolioCleomacs from "../components/portfolio-cleomacs"
+import PortfolioCcasStats from "../components/portfolio-ccas-stats"
+import PortfolioMaraiche from "../components/portfolio-maraiche"
 
-const Home: NextPage = () => {
+const Page: NextPage = () => {
   return (
     <>
       <Head>
@@ -17,15 +18,18 @@ const Home: NextPage = () => {
         <meta name="description" content="home of kreako.fr" />
       </Head>
 
-      <section className="flex flex-col items-center min-h-[18rem] md:min-h-[24rem] lg:min-h-[32rem]">
-        <div className="flex flex-col justify-center flex-grow items-center">
-          <h1 className="text-3xl uppercase font-extrabold tracking-widest text-center text-sky-600">
-            Full Stack Developer
+      <section
+        className="min-h-[18rem] md:min-h-[24rem] lg:min-h-[32rem] flex items-center justify-center bg-cover bg-center mx-auto"
+        style={{ backgroundImage: `url(${imgServer})` }}
+      >
+        <div className="bg-white/90 flex flex-col items-center justify-center flex-grow py-4 md:py-8 space-y-2 md:space-y-4 lg:space-y-8">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl uppercase font-extrabold tracking-widest text-center text-sky-700">
+            Senior Full Stack Developer
           </h1>
-          <div>
-            #{"{"}java,type{"}"}script #react #vue
+          <div className="flex flex-col items-center md:text-lg lg:text-xl">
+            <div className="font-bold">#SaaS #typescript #react</div>
+            <div>#vue #rust #python</div>
           </div>
-          <div>#rust #python</div>
         </div>
       </section>
 
@@ -33,92 +37,125 @@ const Home: NextPage = () => {
         <ContactBlock />
       </section>
 
-      <section className="flex flex-col px-2 py-6 mt-12 items-center">
-        <div className="uppercase tracking-wider font-bold text-sky-600 text-sm">
-          Open-source projects
-        </div>
-        <div className="grid justify-between grid-cols-1 md:grid-cols-2 lg:grid-cols-3  md:max-w-screen-md lg:max-w-screen-xl gap-x-4">
-          <ProjectCard
-            img={imgSoklaki}
-            url="https://soklaki.fr"
-            name="soklaki"
-            github="https://github.com/kreako/soklaki"
-          >
-            <div>A SaaS for french schools to help them to comply with regulations.</div>
-            <div className="mt-4 text-sm">
-              <p>
-                Frontend with <ProjectHashtag name="vue" /> and{" "}
-                <ProjectHashtag name="tailwindcss" />
-              </p>
-              <p>
-                Backend with <ProjectHashtag name="rust" />, <ProjectHashtag name="python" />,{" "}
-                <ProjectHashtag name="hasura" /> and <ProjectHashtag name="postgresql" />
-              </p>
-              <p>
-                Infrastructure with <ProjectHashtag name="docker/podman" />,{" "}
-                <ProjectHashtag name="ansible" />, <ProjectHashtag name="prometheus" /> and{" "}
-                <ProjectHashtag name="grafana" />
-              </p>
-            </div>
-          </ProjectCard>
-          <ProjectCard
-            img={imgTailwind}
-            url="https://github.com/kreako/inkscape-gimp-tailwindcss-palette"
-            name="Tailwindcss palette"
-            github="https://github.com/kreako/inkscape-gimp-tailwindcss-palette"
-          >
-            <div>Tailwindcss palette for inkscape or gimp.</div>
-            <div className="mt-4 text-sm">
-              <p>
-                <ProjectHashtag name="javascript" />
-              </p>
-            </div>
-          </ProjectCard>
-          <ProjectCard
-            img={imgBlog}
-            url="https://kreako.fr/blog"
-            name="Blog"
-            github="https://github.com/kreako/kreako.fr"
-          >
-            <div>
-              Next.js site with a strapi/postgresql backend. Showcase, ressources and ideas storage.
-            </div>
-            <div className="mt-4 text-sm">
-              <p>
-                <ProjectHashtag name="typescript" />, <ProjectHashtag name="next" />,{" "}
-                <ProjectHashtag name="strapi" />, <ProjectHashtag name="meilisearch" />,{" "}
-                <ProjectHashtag name="docker/podman" />, <ProjectHashtag name="ansible" />,{" "}
-                <ProjectHashtag name="jamstack" />
-              </p>
-            </div>
-          </ProjectCard>
-          <EmptyProjectCard className="hidden lg:block" />
-          <ProjectCard
-            img={imgCleomacs}
-            url="https://github.com/kreako/cleomacs"
-            name="Cleomacs"
-            github="https://github.com/kreako/cleomacs"
-          >
-            <div>Saas starter mono-repo typescript template</div>
-            <div className="mt-4 text-sm">
-              <p>
-                Frontend with <ProjectHashtag name="react" />, <ProjectHashtag name="typescript" />{" "}
-                and <ProjectHashtag name="tailwindcss" />
-              </p>
-              <p>
-                Backend with <ProjectHashtag name="typescript" />, <ProjectHashtag name="prisma" />,{" "}
-                <ProjectHashtag name="express" /> and <ProjectHashtag name="postgresql" />
-              </p>
-            </div>
-          </ProjectCard>
-          <EmptyProjectCard className="hidden lg:block" />
+      <div className="grid grid-cols-1 md:grid-cols-2 justify-center mx-auto">
+        <section className="flex flex-col px-2 py-12 items-center">
+          <div className="uppercase tracking-wider font-bold text-sky-700 text-sm">Who am I ?</div>
+          <div className="text-sky-700 mt-6">
+            <ul className="list-disc">
+              <li>
+                <div className="flex items-center space-x-2">
+                  <div>
+                    <abbr title="Software As A Service">SAAS</abbr> and web apps lover
+                  </div>
+                  <div className="text-red-600">
+                    <IconHeart />
+                  </div>
+                </div>
+              </li>
+              <li>17 years of experience in software development</li>
+              <li>
+                <div className="flex items-center space-x-2">
+                  <div>Tech lead, solo and team player</div>
+                  <div className="text-amber-600">
+                    <IconUbuntu />
+                  </div>
+                </div>
+              </li>
+              <li>Daily rate from 450€</li>
+            </ul>
+          </div>
+        </section>
+        <section className="flex flex-col px-2 py-12 items-center bg-sky-700">
+          <div className="uppercase tracking-wider font-bold text-white text-sm">Skills</div>
+          <div className="text-white mt-6">
+            <div className="font-bold">Backend / System</div>
+            <ul className="list-disc">
+              <li>
+                <WhiteTag title="python" />, <WhiteTag title="django" />, <WhiteTag title="flask" />
+                , <WhiteTag title="fastapi" />
+              </li>
+              <li>
+                <WhiteTag title="rust" />, <WhiteTag title="rocket" />, <WhiteTag title="axum" />
+              </li>
+              <li>
+                <WhiteTag title="c" />, drivers, <WhiteTag title="linux" />,{" "}
+                <WhiteTag title="vxworks" />
+              </li>
+              <li>
+                <WhiteTag title="sql" />, <WhiteTag title="postgres" />,{" "}
+                <WhiteTag title="mongodb" />, <WhiteTag title="redis" />
+              </li>
+            </ul>
+            <div className="mt-4 font-bold">Frontend</div>
+            <ul className="list-disc">
+              <li>
+                <WhiteTag title="typescript" />, <WhiteTag title="javascript" />
+              </li>
+              <li>
+                <WhiteTag title="react" />, <WhiteTag title="vue" />, <WhiteTag title="jquery" />
+              </li>
+              <li>
+                <WhiteTag title="tailwindcss" />, <WhiteTag title="nextjs" />,{" "}
+                <WhiteTag title="quasar" />
+              </li>
+              <li>
+                <WhiteTag title="jest" />, <WhiteTag title="storybook" />
+              </li>
+            </ul>
+            <div className="mt-4 font-bold">Soft</div>
+            <ul className="list-disc">
+              <li>
+                <WhiteTag title="communication" />, <WhiteTag title="empathy" />
+              </li>
+              <li>
+                <WhiteTag title="strategy" />, <WhiteTag title="listening" />
+              </li>
+              <li>
+                <WhiteTag title="training" />, <WhiteTag title="coaching" />
+              </li>
+              <li>
+                <WhiteTag title="french" />, <WhiteTag title="english" />,{" "}
+                <WhiteTag title="german" />
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <hr className="h-1 md:hidden bg-white" />
+      <section className="flex flex-col px-2 py-6 items-center bg-sky-700">
+        <div className="uppercase tracking-wider font-bold text-white text-sm py-16">Portfolio</div>
+        <div className="grid grid-cols-1 xl:grid-cols-2 justify-center mx-auto gap-4 place-items-stretch">
+          <div>
+            <PortfolioSoklaki />
+          </div>
+          <div>
+            <PortfolioCleomacs />
+          </div>
+          <div>
+            <PortfolioCcasStats />
+          </div>
+          <div>
+            <PortfolioMaraiche />
+          </div>
         </div>
       </section>
-      <section className="mt-12">
+      <hr className="h-1 md:hidden bg-white" />
+      <section className="">
         <ContactBlock />
       </section>
     </>
   )
 }
+
+type WhiteTagProps = {
+  title: string
+}
+
+function WhiteTag({ title }: WhiteTagProps) {
+  return <span className="before:content-['#'] before:text-xs before:text-sky-300">{title}</span>
+}
+
+const Home = Page as EmptyLayoutPage
+Home.emptyLayout = true
 
 export default Home
