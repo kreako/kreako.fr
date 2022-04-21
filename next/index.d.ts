@@ -15,3 +15,15 @@ declare module "*.jpg?resize&size=768" {
   const content: any
   export default content
 }
+
+// jpg images
+declare module "*.jpg" {
+  const content: any
+  export default content
+}
+
+// png images
+declare module "*.png" {
+  const content: any
+  export default content
+}
