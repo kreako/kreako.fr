@@ -47,12 +47,12 @@ const Page: NextPage = () => {
             <ul className="list-disc list-inside">
               <li>
                 <abbr title="Software As A Service">SaaS</abbr> and web apps lover
-                <IconHeart />
+                <IconHeart className="inline ml-2 text-red-600" />
               </li>
               <li>17 years of experience in software development</li>
               <li>
                 Tech lead, solo and team player
-                <IconUbuntu />
+                <IconUbuntu className="inline ml-2 text-amber-600" />
               </li>
               <li>Daily rate from 450€</li>
               <li>Full remote</li>
