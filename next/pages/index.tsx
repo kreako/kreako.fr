@@ -44,7 +44,7 @@ const Page: NextPage = () => {
         <section className="flex flex-col px-2 py-12 items-center">
           <div className="uppercase tracking-wider font-bold text-sky-700 text-sm">Who am I ?</div>
           <div className="text-sky-700 mt-6">
-            <ul className="list-disc">
+            <ul className="list-disc list-inside">
               <li>
                 <div className="flex items-center space-x-2">
                   <div>
@@ -74,7 +74,7 @@ const Page: NextPage = () => {
           <div className="uppercase tracking-wider font-bold text-white text-sm">Skills</div>
           <div className="text-white mt-6">
             <div className="font-bold">Backend / System</div>
-            <ul className="list-disc">
+            <ul className="list-disc list-inside">
               <li>
                 <WhiteTag title="python" />, <WhiteTag title="django" />, <WhiteTag title="flask" />
                 , <WhiteTag title="fastapi" />
@@ -92,7 +92,7 @@ const Page: NextPage = () => {
               </li>
             </ul>
             <div className="mt-4 font-bold">Frontend</div>
-            <ul className="list-disc">
+            <ul className="list-disc list-inside">
               <li>
                 <WhiteTag title="typescript" />, <WhiteTag title="javascript" />
               </li>
@@ -108,7 +108,7 @@ const Page: NextPage = () => {
               </li>
             </ul>
             <div className="mt-4 font-bold">Soft</div>
-            <ul className="list-disc">
+            <ul className="list-disc list-inside">
               <li>
                 <WhiteTag title="communication" />, <WhiteTag title="empathy" />
               </li>
