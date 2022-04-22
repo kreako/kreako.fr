@@ -10,6 +10,8 @@ import PortfolioSoklaki from "../components/portfolio-soklaki"
 import PortfolioCleomacs from "../components/portfolio-cleomacs"
 import PortfolioCcasStats from "../components/portfolio-ccas-stats"
 import PortfolioMaraiche from "../components/portfolio-maraiche"
+import IconGithub from "../icons/icon-github"
+import IconTwitter from "../icons/icon-twitter"
 
 const Page: NextPage = () => {
   return (
@@ -126,7 +128,19 @@ const Page: NextPage = () => {
       </div>
       <hr className="h-1 md:hidden bg-white" />
       <section className="flex flex-col px-2 py-6 items-center bg-sky-700">
-        <div className="uppercase tracking-wider font-bold text-white text-sm py-16">Portfolio</div>
+        <div className="flex items-center space-x-4">
+          <div className="uppercase tracking-wider font-bold text-white text-sm py-16">
+            Portfolio
+          </div>
+          <div className="flex items-center space-x-2">
+            <a href="https://github.com/kreako" className="text-white">
+              <IconGithub />
+            </a>
+            <a href="https://twitter.com/kreako4/" className="text-white">
+              <IconTwitter />
+            </a>
+          </div>
+        </div>
         <div className="grid grid-cols-1 xl:grid-cols-2 justify-center mx-auto gap-4 place-items-stretch">
           <div>
             <PortfolioSoklaki />
