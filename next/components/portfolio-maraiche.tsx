@@ -166,9 +166,9 @@ export default function PortfolioMaraiche() {
   return (
     <div className="bg-sky-100 rounded-md px-2 py-12 h-full">
       <div className="uppercase tracking-wider font-bold text-sky-700 text-sm text-center">
-        Seeds production
+        Seeds/plants production
       </div>
-      <div className="text-sky-700 mt-4 text-center">SaaS to organize and plan</div>
+      <div className="text-sky-700 mt-4 text-center">SaaS to organize and plan production</div>
 
       <div className="relative bg-white rounded-md mt-8">
         <div className="absolute -inset-1 bg-white rounded-md blur opacity-75"></div>
