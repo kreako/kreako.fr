@@ -16,6 +16,12 @@ declare module "*.jpg?resize&size=768" {
   export default content
 }
 
+// resize at 335px (width)
+declare module "*.jpg?resize&size=335" {
+  const content: any
+  export default content
+}
+
 // jpg images
 declare module "*.jpg" {
   const content: any
