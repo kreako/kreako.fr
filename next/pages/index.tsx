@@ -2,6 +2,7 @@ import type { NextPage } from "next"
 import Head from "next/head"
 import ContactBlock from "../components/contact-block"
 import imgServer from "../images/server-view.jpg?resize&size=768"
+import imgMe from "../images/me.jpg?resize&size=335"
 import type { EmptyLayoutPage } from "./_app"
 import { IconHeart } from "../icons/icon-heart"
 import { IconUbuntu } from "../icons/icon-ubuntu"
@@ -65,6 +66,7 @@ const Page: NextPage = () => {
               <li>Full remote</li>
             </ul>
           </div>
+          <img src={imgMe} alt="Picture of Olivier Meurant" className="mt-4 rounded-full" />
         </section>
         <section className="flex flex-col px-2 py-12 items-center bg-sky-700">
           <div className="uppercase tracking-wider font-bold text-white text-sm">Skills</div>
