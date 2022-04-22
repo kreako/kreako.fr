@@ -46,23 +46,13 @@ const Page: NextPage = () => {
           <div className="text-sky-700 mt-6">
             <ul className="list-disc list-inside">
               <li>
-                <div className="flex items-center space-x-2">
-                  <div>
-                    <abbr title="Software As A Service">SaaS</abbr> and web apps lover
-                  </div>
-                  <div className="text-red-600">
-                    <IconHeart />
-                  </div>
-                </div>
+                <abbr title="Software As A Service">SaaS</abbr> and web apps lover
+                <IconHeart />
               </li>
               <li>17 years of experience in software development</li>
               <li>
-                <div className="flex items-center space-x-2">
-                  <div>Tech lead, solo and team player</div>
-                  <div className="text-amber-600">
-                    <IconUbuntu />
-                  </div>
-                </div>
+                Tech lead, solo and team player
+                <IconUbuntu />
               </li>
               <li>Daily rate from 450€</li>
               <li>Full remote</li>
