@@ -62,6 +62,7 @@ const Page: NextPage = () => {
                 </div>
               </li>
               <li>Daily rate from 450€</li>
+              <li>Full remote</li>
             </ul>
           </div>
         </section>
