@@ -82,7 +82,7 @@ function IndividualCompetencies() {
 
 export default function PortfolioSoklaki() {
   return (
-    <div className="bg-sky-100 rounded-md px-2 py-12">
+    <div id="soklaki" className="bg-sky-100 rounded-md px-2 py-12">
       <div className="uppercase tracking-wider font-bold text-sky-700 text-sm text-center">
         Soklaki
       </div>

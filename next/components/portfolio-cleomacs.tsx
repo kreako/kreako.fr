@@ -3,7 +3,7 @@ import SkyTag from "./sky-tag"
 
 export default function PortfolioCleomacs() {
   return (
-    <div className="bg-sky-100 rounded-md px-2 py-12 h-full">
+    <div id="cleomacs" className="bg-sky-100 rounded-md px-2 py-12 h-full">
       <div className="uppercase tracking-wider font-bold text-sky-700 text-sm text-center">
         Cleomacs
       </div>
