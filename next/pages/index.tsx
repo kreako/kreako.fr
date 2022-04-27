@@ -3,6 +3,7 @@ import Head from "next/head"
 import ContactBlock from "../components/contact-block"
 import imgServer from "../images/server-view.jpg?resize&size=768"
 import imgMe from "../images/me.jpg?resize&size=335"
+import imgSite from "../images/site.jpg"
 import type { EmptyLayoutPage } from "./_app"
 import { IconHeart } from "../icons/icon-heart"
 import { IconUbuntu } from "../icons/icon-ubuntu"
@@ -18,7 +19,14 @@ const Page: NextPage = () => {
     <>
       <Head>
         <title>Freelance Full Stack Developer - kreako</title>
-        <meta name="description" content="home of kreako.fr" />
+        <meta
+          name="description"
+          content="Freelance Full Stack Developer, Saas, typescript, javascript, react, vue, python, rust"
+        />
+        <meta property="og:title" content="Freelance Full Stack Developer - kreako" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://kreako.fr" />
+        <meta property="og:image" content={`https://kreako.fr${imgSite}`} />
       </Head>
 
       <section
