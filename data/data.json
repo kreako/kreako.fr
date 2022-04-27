@@ -6526,6 +6526,33 @@
       "kind": "link"
     },
     {
+      "id": "link-211",
+      "url": "https://github.com/ellie/atuin",
+      "description": "magical shell history\n\nAtuin replaces your existing shell history with a SQLite database, and records additional context for your commands. Additionally, it provides optional and fully encrypted synchronization of your history between machines, via an Atuin server.",
+      "publish_on_social": false,
+      "published_at": "2022-04-27T10:34:54.464Z",
+      "created_at": "2022-04-27T10:34:51.369Z",
+      "updated_at": "2022-04-27T10:34:54.487Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 13,
+          "title": "rust",
+          "published_at": "2021-10-17T12:10:49.151Z",
+          "created_at": "2021-10-17T12:10:46.859Z",
+          "updated_at": "2021-10-17T12:10:49.181Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
+    },
+    {
       "id": "link-210",
       "url": "https://github.com/markmead/hyperui",
       "description": "Free open source Tailwind CSS components",
@@ -8759,6 +8786,16 @@
           "published_at": "2022-02-04T19:36:16.059Z",
           "created_at": "2022-02-04T19:36:09.827Z",
           "updated_at": "2022-02-04T19:36:16.090Z",
+          "private": false
+        },
+        {
+          "id": 211,
+          "url": "https://github.com/ellie/atuin",
+          "description": "magical shell history\n\nAtuin replaces your existing shell history with a SQLite database, and records additional context for your commands. Additionally, it provides optional and fully encrypted synchronization of your history between machines, via an Atuin server.",
+          "publish_on_social": false,
+          "published_at": "2022-04-27T10:34:54.464Z",
+          "created_at": "2022-04-27T10:34:51.369Z",
+          "updated_at": "2022-04-27T10:34:54.487Z",
           "private": false
         },
         {
@@ -11613,6 +11650,16 @@
           "published_at": "2022-03-04T19:54:16.691Z",
           "created_at": "2022-03-04T19:53:43.480Z",
           "updated_at": "2022-03-04T19:54:16.705Z",
+          "private": false
+        },
+        {
+          "id": 211,
+          "url": "https://github.com/ellie/atuin",
+          "description": "magical shell history\n\nAtuin replaces your existing shell history with a SQLite database, and records additional context for your commands. Additionally, it provides optional and fully encrypted synchronization of your history between machines, via an Atuin server.",
+          "publish_on_social": false,
+          "published_at": "2022-04-27T10:34:54.464Z",
+          "created_at": "2022-04-27T10:34:51.369Z",
+          "updated_at": "2022-04-27T10:34:54.487Z",
           "private": false
         },
         {
