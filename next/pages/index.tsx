@@ -18,13 +18,16 @@ const Page: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Freelance Full Stack Developer - kreako</title>
+        <title>Freelance Senior Full Stack Developer - Olivier Meurant</title>
         <meta
           name="description"
-          content="Freelance Senior Full Stack Developer, Saas and web apps, full remote, typescript, javascript, react, vue, python, rust, nodejs, express, postgres, sql, redis"
+          content="Freelance Senior Full Stack Developer, Olivier Meurant, Saas and web apps, full remote, typescript, javascript, react, vue, python, rust, nodejs, express, postgres, sql, redis"
         />
         <meta name="author" content="Olivier Meurant" />
-        <meta property="og:title" content="Freelance Full Stack Developer - kreako" />
+        <meta
+          property="og:title"
+          content="Freelance Senior Full Stack Developer - Olivier Meurant"
+        />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://kreako.fr" />
         <meta property="og:image" content={`https://kreako.fr${imgSite}`} />
