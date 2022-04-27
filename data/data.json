@@ -6370,6 +6370,33 @@
       "kind": "link"
     },
     {
+      "id": "link-212",
+      "url": "https://www.linkedin.com/post-inspector/inspect/",
+      "description": "LinkedIn post-inspector\nUsefull to inspect opengraph metadata as seen on linkedIn",
+      "publish_on_social": false,
+      "published_at": "2022-04-27T15:09:24.433Z",
+      "created_at": "2022-04-27T15:09:22.056Z",
+      "updated_at": "2022-04-27T15:09:24.486Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 6,
+          "title": "saas",
+          "published_at": "2021-09-29T21:38:25.062Z",
+          "created_at": "2021-09-29T21:38:22.908Z",
+          "updated_at": "2021-09-29T21:38:25.084Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
+    },
+    {
       "id": "link-202",
       "url": "https://github.com/remotion-dev/remotion",
       "description": "Remotion is a suite of libraries building a foundation for creating videos programmatically using React.",
@@ -9149,6 +9176,16 @@
           "private": false
         },
         {
+          "id": 212,
+          "url": "https://www.linkedin.com/post-inspector/inspect/",
+          "description": "LinkedIn post-inspector\nUsefull to inspect opengraph metadata as seen on linkedIn",
+          "publish_on_social": false,
+          "published_at": "2022-04-27T15:09:24.433Z",
+          "created_at": "2022-04-27T15:09:22.056Z",
+          "updated_at": "2022-04-27T15:09:24.486Z",
+          "private": false
+        },
+        {
           "id": 83,
           "url": "https://github.com/tonaljs/tonal",
           "description": "tonal is a music theory library. Contains functions to manipulate tonal elements of music (note, intervals, chords, scales, modes, keys). It deals with abstractions (not actual music or sound).\n\ntonal is implemented in Typescript and published as a collection of Javascript npm packages.\n\nIt uses a functional programing style: all functions are pure, there is no data mutation, and entities are represented by data structures instead of objects.",
@@ -10417,6 +10454,16 @@
           "published_at": "2022-02-04T20:47:14.144Z",
           "created_at": "2022-02-04T20:47:08.499Z",
           "updated_at": "2022-02-04T20:47:14.185Z",
+          "private": false
+        },
+        {
+          "id": 212,
+          "url": "https://www.linkedin.com/post-inspector/inspect/",
+          "description": "LinkedIn post-inspector\nUsefull to inspect opengraph metadata as seen on linkedIn",
+          "publish_on_social": false,
+          "published_at": "2022-04-27T15:09:24.433Z",
+          "created_at": "2022-04-27T15:09:22.056Z",
+          "updated_at": "2022-04-27T15:09:24.486Z",
           "private": false
         },
         {
