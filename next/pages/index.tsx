@@ -74,6 +74,11 @@ const Page: NextPage = () => {
             <div className="font-bold">Backend / System</div>
             <ul className="list-disc list-inside">
               <li>
+                <WhiteTag title="typescript" />, <WhiteTag title="javascript" />,{" "}
+                <WhiteTag title="nodejs" />
+                , <WhiteTag title="express" />, <WhiteTag title="prisma" />
+              </li>
+              <li>
                 <WhiteTag title="python" />, <WhiteTag title="django" />, <WhiteTag title="flask" />
                 , <WhiteTag title="fastapi" />
               </li>
