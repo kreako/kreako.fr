@@ -21,8 +21,9 @@ const Page: NextPage = () => {
         <title>Freelance Full Stack Developer - kreako</title>
         <meta
           name="description"
-          content="Freelance Full Stack Developer, Saas, typescript, javascript, react, vue, python, rust"
+          content="Freelance Senior Full Stack Developer, Saas and web apps, full remote, typescript, javascript, react, vue, python, rust, nodejs, express, postgres, sql, redis"
         />
+        <meta name="author" content="Olivier Meurant" />
         <meta property="og:title" content="Freelance Full Stack Developer - kreako" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://kreako.fr" />
