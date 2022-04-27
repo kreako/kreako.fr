@@ -6472,6 +6472,33 @@
       "kind": "link"
     },
     {
+      "id": "link-209",
+      "url": "https://github.com/janestreet/magic-trace",
+      "description": " magic-trace collects and displays high-resolution traces of what a process is doing \n\nYou use it like perf: point it to a process and off it goes. The key difference from perf is that instead of sampling call stacks throughout time, magic-trace uses Intel Processor Trace to snapshot a ring buffer of all control flow leading up to a chosen point in time1. Then, you can explore an interactive timeline of what happened.\n\nYou can point magic-trace at a function such that when your application calls it, magic-trace takes a snapshot. Alternatively, attach it to a running process and detatch it with Ctrl+C, to see a trace of an arbitrary point in your program.",
+      "publish_on_social": false,
+      "published_at": "2022-04-27T10:26:55.815Z",
+      "created_at": "2022-04-27T10:26:53.146Z",
+      "updated_at": "2022-04-27T10:26:55.867Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 10,
+          "title": "cli",
+          "published_at": "2021-10-04T15:00:32.782Z",
+          "created_at": "2021-10-04T15:00:30.614Z",
+          "updated_at": "2021-10-04T15:00:32.804Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
+    },
+    {
       "id": "link-208",
       "url": "https://github.com/dimensionhq/fleet",
       "description": "Fleet is the blazing fast build tool for Rust. Compiling with Fleet is up-to 5x faster than with cargo.\n\nFleet works by optimizing your builds using existing tooling available in the Rust ecosystem, including seamlessly integrating sccache, lld, zld, ramdisks (for those using WSL or HDD's) et al.",
@@ -9871,6 +9898,16 @@
           "private": false
         },
         {
+          "id": 209,
+          "url": "https://github.com/janestreet/magic-trace",
+          "description": " magic-trace collects and displays high-resolution traces of what a process is doing \n\nYou use it like perf: point it to a process and off it goes. The key difference from perf is that instead of sampling call stacks throughout time, magic-trace uses Intel Processor Trace to snapshot a ring buffer of all control flow leading up to a chosen point in time1. Then, you can explore an interactive timeline of what happened.\n\nYou can point magic-trace at a function such that when your application calls it, magic-trace takes a snapshot. Alternatively, attach it to a running process and detatch it with Ctrl+C, to see a trace of an arbitrary point in your program.",
+          "publish_on_social": false,
+          "published_at": "2022-04-27T10:26:55.815Z",
+          "created_at": "2022-04-27T10:26:53.146Z",
+          "updated_at": "2022-04-27T10:26:55.867Z",
+          "private": false
+        },
+        {
           "id": 177,
           "url": "https://github.com/winfsp/hubfs",
           "description": "HUBFS - File System for GitHub\n\nHUBFS is a file system for GitHub and Git. Git repositories and their contents are represented as regular directories and files and are accessible by any application, without the application having any knowledge that it is really accessing a remote Git repository. The repositories are writable and allow editing files and running build operations. ",
@@ -11021,6 +11058,16 @@
           "published_at": "2022-04-01T12:49:30.256Z",
           "created_at": "2022-04-01T12:49:27.684Z",
           "updated_at": "2022-04-01T12:49:30.322Z",
+          "private": false
+        },
+        {
+          "id": 209,
+          "url": "https://github.com/janestreet/magic-trace",
+          "description": " magic-trace collects and displays high-resolution traces of what a process is doing \n\nYou use it like perf: point it to a process and off it goes. The key difference from perf is that instead of sampling call stacks throughout time, magic-trace uses Intel Processor Trace to snapshot a ring buffer of all control flow leading up to a chosen point in time1. Then, you can explore an interactive timeline of what happened.\n\nYou can point magic-trace at a function such that when your application calls it, magic-trace takes a snapshot. Alternatively, attach it to a running process and detatch it with Ctrl+C, to see a trace of an arbitrary point in your program.",
+          "publish_on_social": false,
+          "published_at": "2022-04-27T10:26:55.815Z",
+          "created_at": "2022-04-27T10:26:53.146Z",
+          "updated_at": "2022-04-27T10:26:55.867Z",
           "private": false
         },
         {
