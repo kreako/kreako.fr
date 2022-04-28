@@ -167,6 +167,14 @@ const Page: NextPage = () => {
       <section className="">
         <ContactBlock />
       </section>
+      <section className="">
+        <div className="flex flex-col items-center bg-sky-700 px-2 py-16 space-y-1">
+          <div className="text-white font-mono">
+            <div>SIRET : 840 445 175 00028</div>
+            <div>SIREN : 840 445 175</div>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
