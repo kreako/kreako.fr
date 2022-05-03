@@ -66,7 +66,7 @@ const Page: NextPage = () => {
                 Tech lead, solo and team player
                 <IconUbuntu className="inline ml-2 text-amber-600" />
               </li>
-              <li>Daily rate from 450€</li>
+              <li>Daily rate from 600€</li>
               <li>Full remote</li>
             </ul>
           </div>
