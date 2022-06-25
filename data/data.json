@@ -6957,6 +6957,40 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-224",
+      "url": "https://github.com/ozanyurtsever/verbum",
+      "description": "Verbum is a fully flexible text editor based on lexical framework. \n\nVerbum - Flexible Text Editor for React\n\nVerbum is a fully flexible rich text editor based on lexical-playground and lexical framework.",
+      "publish_on_social": false,
+      "published_at": "2022-06-25T11:27:10.945Z",
+      "created_at": "2022-06-25T11:27:04.280Z",
+      "updated_at": "2022-06-25T11:27:10.993Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 8,
+          "title": "react",
+          "published_at": "2021-10-02T10:15:01.395Z",
+          "created_at": "2021-10-02T10:14:59.290Z",
+          "updated_at": "2021-10-02T10:15:01.410Z"
+        },
+        {
+          "id": 1,
+          "title": "javascript",
+          "published_at": "2021-09-29T21:01:51.147Z",
+          "created_at": "2021-09-29T21:01:48.486Z",
+          "updated_at": "2021-09-29T21:01:51.167Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -7025,6 +7059,16 @@
           "published_at": "2022-01-12T22:15:01.637Z",
           "created_at": "2022-01-12T22:14:58.972Z",
           "updated_at": "2022-01-12T22:15:01.730Z",
+          "private": false
+        },
+        {
+          "id": 224,
+          "url": "https://github.com/ozanyurtsever/verbum",
+          "description": "Verbum is a fully flexible text editor based on lexical framework. \n\nVerbum - Flexible Text Editor for React\n\nVerbum is a fully flexible rich text editor based on lexical-playground and lexical framework.",
+          "publish_on_social": false,
+          "published_at": "2022-06-25T11:27:10.945Z",
+          "created_at": "2022-06-25T11:27:04.280Z",
+          "updated_at": "2022-06-25T11:27:10.993Z",
           "private": false
         },
         {
@@ -8818,6 +8862,16 @@
           "published_at": "2022-05-04T21:21:44.719Z",
           "created_at": "2022-05-04T21:21:39.629Z",
           "updated_at": "2022-05-04T21:21:44.782Z",
+          "private": false
+        },
+        {
+          "id": 224,
+          "url": "https://github.com/ozanyurtsever/verbum",
+          "description": "Verbum is a fully flexible text editor based on lexical framework. \n\nVerbum - Flexible Text Editor for React\n\nVerbum is a fully flexible rich text editor based on lexical-playground and lexical framework.",
+          "publish_on_social": false,
+          "published_at": "2022-06-25T11:27:10.945Z",
+          "created_at": "2022-06-25T11:27:04.280Z",
+          "updated_at": "2022-06-25T11:27:10.993Z",
           "private": false
         },
         {
@@ -11430,6 +11484,16 @@
           "published_at": "2021-11-11T18:53:30.130Z",
           "created_at": "2021-11-11T18:53:27.705Z",
           "updated_at": "2021-11-11T18:53:30.175Z",
+          "private": false
+        },
+        {
+          "id": 224,
+          "url": "https://github.com/ozanyurtsever/verbum",
+          "description": "Verbum is a fully flexible text editor based on lexical framework. \n\nVerbum - Flexible Text Editor for React\n\nVerbum is a fully flexible rich text editor based on lexical-playground and lexical framework.",
+          "publish_on_social": false,
+          "published_at": "2022-06-25T11:27:10.945Z",
+          "created_at": "2022-06-25T11:27:04.280Z",
+          "updated_at": "2022-06-25T11:27:10.993Z",
           "private": false
         },
         {
