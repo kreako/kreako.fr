@@ -6991,6 +6991,33 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-225",
+      "url": "https://github.com/tylertreat/comcast",
+      "description": "Simulating shitty network connections so you can build better systems. ",
+      "publish_on_social": false,
+      "published_at": "2022-07-26T18:11:49.574Z",
+      "created_at": "2022-07-26T18:11:44.981Z",
+      "updated_at": "2022-07-26T18:11:49.622Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 10,
+          "title": "cli",
+          "published_at": "2021-10-04T15:00:32.782Z",
+          "created_at": "2021-10-04T15:00:30.614Z",
+          "updated_at": "2021-10-04T15:00:32.804Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -10505,6 +10532,16 @@
           "private": false
         },
         {
+          "id": 225,
+          "url": "https://github.com/tylertreat/comcast",
+          "description": "Simulating shitty network connections so you can build better systems. ",
+          "publish_on_social": false,
+          "published_at": "2022-07-26T18:11:49.574Z",
+          "created_at": "2022-07-26T18:11:44.981Z",
+          "updated_at": "2022-07-26T18:11:49.622Z",
+          "private": false
+        },
+        {
           "id": 143,
           "url": "https://github.com/Textualize/rich",
           "description": "Rich is a Python library for rich text and beautiful formatting in the terminal.\n\nThe Rich API makes it easy to add color and style to terminal output. Rich can also render pretty tables, progress bars, markdown, syntax highlighted source code, tracebacks, and more \u2014 out of the box.",
@@ -11885,6 +11922,16 @@
           "published_at": "2022-03-31T13:35:02.450Z",
           "created_at": "2022-03-31T13:34:56.435Z",
           "updated_at": "2022-03-31T13:35:02.507Z",
+          "private": false
+        },
+        {
+          "id": 225,
+          "url": "https://github.com/tylertreat/comcast",
+          "description": "Simulating shitty network connections so you can build better systems. ",
+          "publish_on_social": false,
+          "published_at": "2022-07-26T18:11:49.574Z",
+          "created_at": "2022-07-26T18:11:44.981Z",
+          "updated_at": "2022-07-26T18:11:49.622Z",
           "private": false
         },
         {
