@@ -7166,6 +7166,40 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-232",
+      "url": "https://github.com/kellyjonbrazil/jc",
+      "description": "CLI tool and python library that converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts. ",
+      "publish_on_social": false,
+      "published_at": "2022-08-17T17:11:01.110Z",
+      "created_at": "2022-08-17T17:10:59.042Z",
+      "updated_at": "2022-08-17T17:11:01.131Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 10,
+          "title": "cli",
+          "published_at": "2021-10-04T15:00:32.782Z",
+          "created_at": "2021-10-04T15:00:30.614Z",
+          "updated_at": "2021-10-04T15:00:32.804Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 1,
+          "title": "javascript",
+          "published_at": "2021-09-29T21:01:51.147Z",
+          "created_at": "2021-09-29T21:01:48.486Z",
+          "updated_at": "2021-09-29T21:01:51.167Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -7894,6 +7928,16 @@
           "published_at": "2021-10-14T09:13:26.263Z",
           "created_at": "2021-10-14T09:13:23.840Z",
           "updated_at": "2021-10-14T09:13:26.297Z",
+          "private": false
+        },
+        {
+          "id": 232,
+          "url": "https://github.com/kellyjonbrazil/jc",
+          "description": "CLI tool and python library that converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts. ",
+          "publish_on_social": false,
+          "published_at": "2022-08-17T17:11:01.110Z",
+          "created_at": "2022-08-17T17:10:59.042Z",
+          "updated_at": "2022-08-17T17:11:01.131Z",
           "private": false
         },
         {
@@ -10640,6 +10684,16 @@
           "private": null
         },
         {
+          "id": 232,
+          "url": "https://github.com/kellyjonbrazil/jc",
+          "description": "CLI tool and python library that converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts. ",
+          "publish_on_social": false,
+          "published_at": "2022-08-17T17:11:01.110Z",
+          "created_at": "2022-08-17T17:10:59.042Z",
+          "updated_at": "2022-08-17T17:11:01.131Z",
+          "private": false
+        },
+        {
           "id": 202,
           "url": "https://github.com/remotion-dev/remotion",
           "description": "Remotion is a suite of libraries building a foundation for creating videos programmatically using React.",
@@ -12230,6 +12284,16 @@
           "published_at": "2021-12-21T18:40:31.508Z",
           "created_at": "2021-12-21T18:40:28.360Z",
           "updated_at": "2021-12-21T18:40:31.572Z",
+          "private": false
+        },
+        {
+          "id": 232,
+          "url": "https://github.com/kellyjonbrazil/jc",
+          "description": "CLI tool and python library that converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts. ",
+          "publish_on_social": false,
+          "published_at": "2022-08-17T17:11:01.110Z",
+          "created_at": "2022-08-17T17:10:59.042Z",
+          "updated_at": "2022-08-17T17:11:01.131Z",
           "private": false
         },
         {
