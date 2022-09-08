@@ -6905,6 +6905,40 @@
       "kind": "link"
     },
     {
+      "id": "link-235",
+      "url": "https://github.com/Wilfred/difftastic",
+      "description": " a structural diff that understands syntax",
+      "publish_on_social": false,
+      "published_at": "2022-09-08T21:19:29.770Z",
+      "created_at": "2022-09-08T21:19:28.384Z",
+      "updated_at": "2022-09-08T21:19:29.795Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 13,
+          "title": "rust",
+          "published_at": "2021-10-17T12:10:49.151Z",
+          "created_at": "2021-10-17T12:10:46.859Z",
+          "updated_at": "2021-10-17T12:10:49.181Z"
+        },
+        {
+          "id": 10,
+          "title": "cli",
+          "published_at": "2021-10-04T15:00:32.782Z",
+          "created_at": "2021-10-04T15:00:30.614Z",
+          "updated_at": "2021-10-04T15:00:32.804Z"
+        }
+      ],
+      "kind": "link"
+    },
+    {
       "id": "link-221",
       "url": "https://github.com/riquito/tuc",
       "description": "You want to cut on more than just a character, perhaps using negative indexes or format the selected fields as you want... Maybe you want to cut on lines (ever needed to drop first and last line?)... That's where tuc can help.",
@@ -9855,6 +9889,16 @@
           "private": false
         },
         {
+          "id": 235,
+          "url": "https://github.com/Wilfred/difftastic",
+          "description": " a structural diff that understands syntax",
+          "publish_on_social": false,
+          "published_at": "2022-09-08T21:19:29.770Z",
+          "created_at": "2022-09-08T21:19:28.384Z",
+          "updated_at": "2022-09-08T21:19:29.795Z",
+          "private": false
+        },
+        {
           "id": 92,
           "url": "https://github.com/Shopify/react-native-skia",
           "description": "React Native Skia brings the Skia Graphics Library to React Native. Skia serves as the graphics engine for Google Chrome and Chrome OS, Android, Flutter, Mozilla Firefox and, Firefox OS, and many other products.",
@@ -12338,6 +12382,16 @@
           "private": false
         },
         {
+          "id": 235,
+          "url": "https://github.com/Wilfred/difftastic",
+          "description": " a structural diff that understands syntax",
+          "publish_on_social": false,
+          "published_at": "2022-09-08T21:19:29.770Z",
+          "created_at": "2022-09-08T21:19:28.384Z",
+          "updated_at": "2022-09-08T21:19:29.795Z",
+          "private": false
+        },
+        {
           "id": 215,
           "url": "https://github.com/Kira272921/snipli",
           "description": "A command-line interface for quickly sharing code snippets of your local files via github",
@@ -12806,6 +12860,16 @@
           "published_at": "2022-01-05T19:58:12.185Z",
           "created_at": "2022-01-05T19:58:09.394Z",
           "updated_at": "2022-01-05T19:58:12.220Z",
+          "private": false
+        },
+        {
+          "id": 235,
+          "url": "https://github.com/Wilfred/difftastic",
+          "description": " a structural diff that understands syntax",
+          "publish_on_social": false,
+          "published_at": "2022-09-08T21:19:29.770Z",
+          "created_at": "2022-09-08T21:19:28.384Z",
+          "updated_at": "2022-09-08T21:19:29.795Z",
           "private": false
         },
         {
