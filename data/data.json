@@ -7297,6 +7297,33 @@
       "kind": "link"
     },
     {
+      "id": "link-237",
+      "url": "https://github.com/Miksus/rocketry",
+      "description": " Modern scheduling library for Python\ncron, conditions, pipelining...",
+      "publish_on_social": false,
+      "published_at": "2022-09-24T12:15:09.147Z",
+      "created_at": "2022-09-24T12:15:06.985Z",
+      "updated_at": "2022-09-24T12:15:09.193Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 9,
+          "title": "python",
+          "published_at": "2021-10-03T11:53:54.883Z",
+          "created_at": "2021-10-03T11:53:53.267Z",
+          "updated_at": "2021-10-03T11:53:54.919Z"
+        }
+      ],
+      "kind": "link"
+    },
+    {
       "id": "link-234",
       "url": "https://github.com/andreyvit/json-diff",
       "description": " Structural diff for JSON files ",
@@ -10523,6 +10550,16 @@
           "private": false
         },
         {
+          "id": 237,
+          "url": "https://github.com/Miksus/rocketry",
+          "description": " Modern scheduling library for Python\ncron, conditions, pipelining...",
+          "publish_on_social": false,
+          "published_at": "2022-09-24T12:15:09.147Z",
+          "created_at": "2022-09-24T12:15:06.985Z",
+          "updated_at": "2022-09-24T12:15:09.193Z",
+          "private": false
+        },
+        {
           "id": 40,
           "url": "https://github.com/MichaelMure/git-bug",
           "description": " Distributed, offline-first bug tracker embedded in git, with bridges\n\ngit-bug is a bug tracker that:\n\n- is fully embedded in git: you only need your git repository to have a bug tracker\n- is distributed: use your normal git remote to collaborate, push and pull your bugs!\n- works offline: in a plane or under the sea? Keep reading and writing bugs!\n- prevents vendor lock-in: your usual service is down or went bad? You already have a full backup.\n- is fast: listing bugs or opening them is a matter of milliseconds\n- doesn't pollute your project: no files are added in your project\n- integrates with your tooling: use the UI you like (CLI, terminal, web) or integrate with your existing tools through the CLI or the GraphQL API\n- bridges to other bug trackers: use bridges to import and export to other trackers.\n\nThis is now more than a proof of concept, but still not fully stable. Expect dragons and unfinished business.",
@@ -12253,6 +12290,16 @@
           "published_at": "2022-03-22T10:50:03.894Z",
           "created_at": "2022-03-22T10:50:01.186Z",
           "updated_at": "2022-03-22T10:50:03.946Z",
+          "private": false
+        },
+        {
+          "id": 237,
+          "url": "https://github.com/Miksus/rocketry",
+          "description": " Modern scheduling library for Python\ncron, conditions, pipelining...",
+          "publish_on_social": false,
+          "published_at": "2022-09-24T12:15:09.147Z",
+          "created_at": "2022-09-24T12:15:06.985Z",
+          "updated_at": "2022-09-24T12:15:09.193Z",
           "private": false
         }
       ],
