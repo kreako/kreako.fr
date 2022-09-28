@@ -7383,6 +7383,33 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-239",
+      "url": "https://github.com/joaocarvalhoopen/How_to_learn_modern_Rust",
+      "description": " A guide to the adventurer. \nHow to learn modern Rust",
+      "publish_on_social": false,
+      "published_at": "2022-09-28T21:06:09.414Z",
+      "created_at": "2022-09-28T21:06:05.350Z",
+      "updated_at": "2022-09-28T21:06:09.494Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 13,
+          "title": "rust",
+          "published_at": "2021-10-17T12:10:49.151Z",
+          "created_at": "2021-10-17T12:10:46.859Z",
+          "updated_at": "2021-10-17T12:10:49.181Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -11247,6 +11274,16 @@
           "private": false
         },
         {
+          "id": 239,
+          "url": "https://github.com/joaocarvalhoopen/How_to_learn_modern_Rust",
+          "description": " A guide to the adventurer. \nHow to learn modern Rust",
+          "publish_on_social": false,
+          "published_at": "2022-09-28T21:06:09.414Z",
+          "created_at": "2022-09-28T21:06:05.350Z",
+          "updated_at": "2022-09-28T21:06:09.494Z",
+          "private": false
+        },
+        {
           "id": 79,
           "url": "https://github.com/tannerlinsley/react-query",
           "description": "Hooks for fetching, caching and updating asynchronous data in React ",
@@ -13068,6 +13105,16 @@
           "published_at": "2022-09-16T07:28:28.956Z",
           "created_at": "2022-09-16T07:26:40.988Z",
           "updated_at": "2022-09-16T07:28:28.991Z",
+          "private": false
+        },
+        {
+          "id": 239,
+          "url": "https://github.com/joaocarvalhoopen/How_to_learn_modern_Rust",
+          "description": " A guide to the adventurer. \nHow to learn modern Rust",
+          "publish_on_social": false,
+          "published_at": "2022-09-28T21:06:09.414Z",
+          "created_at": "2022-09-28T21:06:05.350Z",
+          "updated_at": "2022-09-28T21:06:09.494Z",
           "private": false
         },
         {
