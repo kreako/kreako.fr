@@ -7356,6 +7356,33 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-238",
+      "url": "https://github.com/jd/tenacity",
+      "description": " Retrying library for Python ",
+      "publish_on_social": false,
+      "published_at": "2022-09-28T21:00:28.804Z",
+      "created_at": "2022-09-28T21:00:26.112Z",
+      "updated_at": "2022-09-28T21:00:28.872Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 9,
+          "title": "python",
+          "published_at": "2021-10-03T11:53:54.883Z",
+          "created_at": "2021-10-03T11:53:53.267Z",
+          "updated_at": "2021-10-03T11:53:54.919Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -10440,6 +10467,16 @@
           "private": false
         },
         {
+          "id": 238,
+          "url": "https://github.com/jd/tenacity",
+          "description": " Retrying library for Python ",
+          "publish_on_social": false,
+          "published_at": "2022-09-28T21:00:28.804Z",
+          "created_at": "2022-09-28T21:00:26.112Z",
+          "updated_at": "2022-09-28T21:00:28.872Z",
+          "private": false
+        },
+        {
           "id": 72,
           "url": "https://github.com/tannerlinsley/react-charts",
           "description": "Simple, immersive and interactive charts for React",
@@ -12300,6 +12337,16 @@
           "published_at": "2022-09-24T12:15:09.147Z",
           "created_at": "2022-09-24T12:15:06.985Z",
           "updated_at": "2022-09-24T12:15:09.193Z",
+          "private": false
+        },
+        {
+          "id": 238,
+          "url": "https://github.com/jd/tenacity",
+          "description": " Retrying library for Python ",
+          "publish_on_social": false,
+          "published_at": "2022-09-28T21:00:28.804Z",
+          "created_at": "2022-09-28T21:00:26.112Z",
+          "updated_at": "2022-09-28T21:00:28.872Z",
           "private": false
         }
       ],
