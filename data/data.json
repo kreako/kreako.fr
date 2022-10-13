@@ -7410,6 +7410,33 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-240",
+      "url": "https://github.com/twitter/pelikan",
+      "description": " Pelikan is Twitter's unified cache backend ",
+      "publish_on_social": false,
+      "published_at": "2022-10-13T20:38:24.702Z",
+      "created_at": "2022-10-13T20:38:19.780Z",
+      "updated_at": "2022-10-13T20:38:24.761Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 13,
+          "title": "rust",
+          "published_at": "2021-10-17T12:10:49.151Z",
+          "created_at": "2021-10-17T12:10:46.859Z",
+          "updated_at": "2021-10-17T12:10:49.181Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -10934,6 +10961,16 @@
           "private": false
         },
         {
+          "id": 240,
+          "url": "https://github.com/twitter/pelikan",
+          "description": " Pelikan is Twitter's unified cache backend ",
+          "publish_on_social": false,
+          "published_at": "2022-10-13T20:38:24.702Z",
+          "created_at": "2022-10-13T20:38:19.780Z",
+          "updated_at": "2022-10-13T20:38:24.761Z",
+          "private": false
+        },
+        {
           "id": 127,
           "url": "https://github.com/89luca89/distrobox",
           "description": "Use any Linux distribution inside your terminal. Distrobox uses podman or docker to create containers using the Linux distribution of your choice. The created container will be tightly integrated with the host, allowing sharing of the HOME directory of the user, external storage, external USB devices and graphical apps (X11/Wayland), and audio.",
@@ -13015,6 +13052,16 @@
           "published_at": "2021-10-31T10:42:01.226Z",
           "created_at": "2021-10-31T10:41:58.641Z",
           "updated_at": "2021-10-31T10:42:01.270Z",
+          "private": false
+        },
+        {
+          "id": 240,
+          "url": "https://github.com/twitter/pelikan",
+          "description": " Pelikan is Twitter's unified cache backend ",
+          "publish_on_social": false,
+          "published_at": "2022-10-13T20:38:24.702Z",
+          "created_at": "2022-10-13T20:38:19.780Z",
+          "updated_at": "2022-10-13T20:38:24.761Z",
           "private": false
         },
         {
