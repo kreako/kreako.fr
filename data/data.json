@@ -7518,6 +7518,33 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-244",
+      "url": "https://github.com/chubin/cheat.sh",
+      "description": " the only cheat sheet you need \n\n",
+      "publish_on_social": false,
+      "published_at": "2022-11-25T19:38:29.059Z",
+      "created_at": "2022-11-25T19:38:22.980Z",
+      "updated_at": "2022-11-25T19:38:29.127Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 10,
+          "title": "cli",
+          "published_at": "2021-10-04T15:00:32.782Z",
+          "created_at": "2021-10-04T15:00:30.614Z",
+          "updated_at": "2021-10-04T15:00:32.804Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -9999,6 +10026,16 @@
           "published_at": "2021-12-21T18:44:18.127Z",
           "created_at": "2021-12-21T18:44:15.636Z",
           "updated_at": "2021-12-21T18:44:18.142Z",
+          "private": false
+        },
+        {
+          "id": 244,
+          "url": "https://github.com/chubin/cheat.sh",
+          "description": " the only cheat sheet you need \n\n",
+          "publish_on_social": false,
+          "published_at": "2022-11-25T19:38:29.059Z",
+          "created_at": "2022-11-25T19:38:22.980Z",
+          "updated_at": "2022-11-25T19:38:29.127Z",
           "private": false
         },
         {
@@ -12582,6 +12619,16 @@
           "published_at": "2022-01-13T17:53:16.772Z",
           "created_at": "2022-01-13T17:53:14.581Z",
           "updated_at": "2022-01-13T17:53:16.793Z",
+          "private": false
+        },
+        {
+          "id": 244,
+          "url": "https://github.com/chubin/cheat.sh",
+          "description": " the only cheat sheet you need \n\n",
+          "publish_on_social": false,
+          "published_at": "2022-11-25T19:38:29.059Z",
+          "created_at": "2022-11-25T19:38:22.980Z",
+          "updated_at": "2022-11-25T19:38:29.127Z",
           "private": false
         },
         {
