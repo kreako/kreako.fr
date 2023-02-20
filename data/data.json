@@ -7599,6 +7599,26 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-247",
+      "url": "https://karpathy.ai/zero-to-hero.html",
+      "description": "Neural Networks: Zero to Hero",
+      "publish_on_social": false,
+      "published_at": "2023-02-20T18:45:34.798Z",
+      "created_at": "2023-02-20T18:45:32.497Z",
+      "updated_at": "2023-02-20T18:45:34.854Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -10010,6 +10030,16 @@
           "published_at": "2022-04-17T14:43:31.111Z",
           "created_at": "2022-04-17T14:43:25.037Z",
           "updated_at": "2022-04-17T14:43:31.170Z",
+          "private": false
+        },
+        {
+          "id": 247,
+          "url": "https://karpathy.ai/zero-to-hero.html",
+          "description": "Neural Networks: Zero to Hero",
+          "publish_on_social": false,
+          "published_at": "2023-02-20T18:45:34.798Z",
+          "created_at": "2023-02-20T18:45:32.497Z",
+          "updated_at": "2023-02-20T18:45:34.854Z",
           "private": false
         },
         {
