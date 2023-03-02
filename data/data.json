@@ -7673,6 +7673,33 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-250",
+      "url": "https://github.com/weihanglo/sfz",
+      "description": " A simple static file serving command-line tool written in Rust. ",
+      "publish_on_social": false,
+      "published_at": "2023-03-02T17:06:06.025Z",
+      "created_at": "2023-03-02T17:06:03.745Z",
+      "updated_at": "2023-03-02T17:06:06.064Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 13,
+          "title": "rust",
+          "published_at": "2021-10-17T12:10:49.151Z",
+          "created_at": "2021-10-17T12:10:46.859Z",
+          "updated_at": "2021-10-17T12:10:49.181Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -11107,6 +11134,16 @@
           "private": false
         },
         {
+          "id": 250,
+          "url": "https://github.com/weihanglo/sfz",
+          "description": " A simple static file serving command-line tool written in Rust. ",
+          "publish_on_social": false,
+          "published_at": "2023-03-02T17:06:06.025Z",
+          "created_at": "2023-03-02T17:06:03.745Z",
+          "updated_at": "2023-03-02T17:06:06.064Z",
+          "private": false
+        },
+        {
           "id": 147,
           "url": "https://github.com/quickwit-oss/quickwit",
           "description": "Quickwit is a fast and cost-efficient distributed search engine for large-scale, immutable data. ",
@@ -13608,6 +13645,16 @@
           "published_at": "2022-04-08T14:39:09.165Z",
           "created_at": "2022-04-08T14:39:06.616Z",
           "updated_at": "2022-04-08T14:39:09.209Z",
+          "private": false
+        },
+        {
+          "id": 250,
+          "url": "https://github.com/weihanglo/sfz",
+          "description": " A simple static file serving command-line tool written in Rust. ",
+          "publish_on_social": false,
+          "published_at": "2023-03-02T17:06:06.025Z",
+          "created_at": "2023-03-02T17:06:03.745Z",
+          "updated_at": "2023-03-02T17:06:06.064Z",
           "private": false
         },
         {
