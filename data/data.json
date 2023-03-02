@@ -7601,6 +7601,33 @@
       "kind": "link"
     },
     {
+      "id": "link-248",
+      "url": "https://github.com/replicate/scribble-diffusion",
+      "description": " Turn your rough sketch into a refined image using AI ",
+      "publish_on_social": false,
+      "published_at": "2023-03-02T15:35:10.278Z",
+      "created_at": "2023-03-02T15:34:51.915Z",
+      "updated_at": "2023-03-02T15:35:10.317Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        },
+        {
+          "id": 23,
+          "title": "ai",
+          "published_at": "2023-03-02T15:34:59.861Z",
+          "created_at": "2023-03-02T15:34:58.149Z",
+          "updated_at": "2023-03-02T15:34:59.906Z"
+        }
+      ],
+      "kind": "link"
+    },
+    {
       "id": "link-247",
       "url": "https://karpathy.ai/zero-to-hero.html",
       "description": "Neural Networks: Zero to Hero",
@@ -9800,6 +9827,16 @@
           "published_at": "2022-02-26T12:06:10.080Z",
           "created_at": "2022-02-26T12:06:08.125Z",
           "updated_at": "2022-02-26T12:06:10.148Z",
+          "private": false
+        },
+        {
+          "id": 248,
+          "url": "https://github.com/replicate/scribble-diffusion",
+          "description": " Turn your rough sketch into a refined image using AI ",
+          "publish_on_social": false,
+          "published_at": "2023-03-02T15:35:10.278Z",
+          "created_at": "2023-03-02T15:34:51.915Z",
+          "updated_at": "2023-03-02T15:35:10.317Z",
           "private": false
         },
         {
@@ -13864,6 +13901,26 @@
           "published_at": "2022-03-04T20:31:53.863Z",
           "created_at": "2022-03-04T20:31:32.583Z",
           "updated_at": "2022-03-04T20:31:53.919Z",
+          "private": false
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 23,
+      "title": "ai",
+      "published_at": "2023-03-02T15:34:59.861Z",
+      "created_at": "2023-03-02T15:34:58.149Z",
+      "updated_at": "2023-03-02T15:34:59.906Z",
+      "links": [
+        {
+          "id": 248,
+          "url": "https://github.com/replicate/scribble-diffusion",
+          "description": " Turn your rough sketch into a refined image using AI ",
+          "publish_on_social": false,
+          "published_at": "2023-03-02T15:35:10.278Z",
+          "created_at": "2023-03-02T15:34:51.915Z",
+          "updated_at": "2023-03-02T15:35:10.317Z",
           "private": false
         }
       ],
