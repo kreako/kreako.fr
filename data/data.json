@@ -7700,6 +7700,33 @@
         }
       ],
       "kind": "link"
+    },
+    {
+      "id": "link-251",
+      "url": "https://github.com/nichtdax/awesome-totally-open-chatgpt",
+      "description": " A list of totally open alternatives to ChatGPT \n\nChatGPT is GPT-3.5 with RLHF (Reinforcement Learning with Human Feedback) for chat system.\n\nBy alternative, I mean projects feature different language model for chat system. Projects are not counted if they are:\n\n    alternative frontend projects because they just call the API from OpenAI.\n    alternative transformer decoder models to GPT 3.5 either because the training data of them are (mostly) not for chat system.\n",
+      "publish_on_social": false,
+      "published_at": "2023-03-22T20:22:04.284Z",
+      "created_at": "2023-03-22T20:22:02.463Z",
+      "updated_at": "2023-03-22T20:22:04.337Z",
+      "private": false,
+      "tags": [
+        {
+          "id": 23,
+          "title": "ai",
+          "published_at": "2023-03-02T15:34:59.861Z",
+          "created_at": "2023-03-02T15:34:58.149Z",
+          "updated_at": "2023-03-02T15:34:59.906Z"
+        },
+        {
+          "id": 5,
+          "title": "english",
+          "published_at": "2021-09-29T21:22:59.595Z",
+          "created_at": "2021-09-29T21:22:41.440Z",
+          "updated_at": "2021-09-29T21:22:59.637Z"
+        }
+      ],
+      "kind": "link"
     }
   ],
   "tags": [
@@ -10171,6 +10198,16 @@
           "published_at": "2022-02-04T19:36:16.059Z",
           "created_at": "2022-02-04T19:36:09.827Z",
           "updated_at": "2022-02-04T19:36:16.090Z",
+          "private": false
+        },
+        {
+          "id": 251,
+          "url": "https://github.com/nichtdax/awesome-totally-open-chatgpt",
+          "description": " A list of totally open alternatives to ChatGPT \n\nChatGPT is GPT-3.5 with RLHF (Reinforcement Learning with Human Feedback) for chat system.\n\nBy alternative, I mean projects feature different language model for chat system. Projects are not counted if they are:\n\n    alternative frontend projects because they just call the API from OpenAI.\n    alternative transformer decoder models to GPT 3.5 either because the training data of them are (mostly) not for chat system.\n",
+          "publish_on_social": false,
+          "published_at": "2023-03-22T20:22:04.284Z",
+          "created_at": "2023-03-22T20:22:02.463Z",
+          "updated_at": "2023-03-22T20:22:04.337Z",
           "private": false
         },
         {
@@ -14007,6 +14044,16 @@
       "created_at": "2023-03-02T15:34:58.149Z",
       "updated_at": "2023-03-02T15:34:59.906Z",
       "links": [
+        {
+          "id": 251,
+          "url": "https://github.com/nichtdax/awesome-totally-open-chatgpt",
+          "description": " A list of totally open alternatives to ChatGPT \n\nChatGPT is GPT-3.5 with RLHF (Reinforcement Learning with Human Feedback) for chat system.\n\nBy alternative, I mean projects feature different language model for chat system. Projects are not counted if they are:\n\n    alternative frontend projects because they just call the API from OpenAI.\n    alternative transformer decoder models to GPT 3.5 either because the training data of them are (mostly) not for chat system.\n",
+          "publish_on_social": false,
+          "published_at": "2023-03-22T20:22:04.284Z",
+          "created_at": "2023-03-22T20:22:02.463Z",
+          "updated_at": "2023-03-22T20:22:04.337Z",
+          "private": false
+        },
         {
           "id": 248,
           "url": "https://github.com/replicate/scribble-diffusion",
